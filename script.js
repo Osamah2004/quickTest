@@ -54,7 +54,7 @@ function shuffle(array){
 
 window.onload = function() {
     let num = localStorage.getItem("lecNum");
-    fetch(`lec${num}.json`)
+    fetch(`lec1.json`)
     .then(response => response.json())
     .then(data => {
         questions = data.questions;
