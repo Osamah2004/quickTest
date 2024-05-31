@@ -3,19 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Question 1</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        h1, h4, p, label, button {
+            color: white;
+        }
+        input[type="radio"] {
+            accent-color: white; /* To style the radio button */
+        }
+        button {
+            background-color: #333; /* Dark background for buttons */
+            border: 1px solid white;
+            color: white;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555; /* Slightly lighter on hover */
+        }
+    </style>
 </head>
 <body>
     <p style="font-size: 10px;" id="correct">correct answers 0/373</p>
     <h1 id="question num">question 1</h1>
     <h4 id="question">what represents a use case</h4>
     <form>
-        <input type="radio" onclick="setAnswer(1)" value="q1" id="radio1" name="question"> <label for="q1" id="q1"></label> <br>
-        <input type="radio" onclick="setAnswer(2)" value="q2" id="radio2" name="question"> <label for="q2" id="q2"></label> <br>
-        <input type="radio" onclick="setAnswer(3)" value="q3" id="radio3" name="question"> <label for="q3" id="q3"></label> <br>
-        <input type="radio" onclick="setAnswer(4)" value="q4" id="radio4" name="question"> <label for="q4" id="q4"></label> <br>
+        <input type="radio" onclick="setAnswer(1)" value="q1" id="radio1" name="question"> <label for="radio1" id="q1"></label> <br>
+        <input type="radio" onclick="setAnswer(2)" value="q2" id="radio2" name="question"> <label for="radio2" id="q2"></label> <br>
+        <input type="radio" onclick="setAnswer(3)" value="q3" id="radio3" name="question"> <label for="radio3" id="q3"></label> <br>
+        <input type="radio" onclick="setAnswer(4)" value="q4" id="radio4" name="question"> <label for="radio4" id="q4"></label> <br>
     </form>
-    <button onclick="next()">Next question.</button>
+    <div>
+        <button onclick="previous()" style="visibility: hidden;" id="prev">Previous.</button>
+        <button onclick="next()">Next.</button>
+    </div>
 
     <script src="script.js"></script>
 </body>
