@@ -6,6 +6,7 @@ let answers;
 var question;
 let index = 0;
 let radioId;
+let blacklist = []; // Add this line at the beginning of your script
 
 function setAnswer(num) {
     radioId = num;
@@ -15,19 +16,40 @@ function setAnswer(num) {
 
 function hide(){
     document.getElementById(`radio3`).style.visibility = 'hidden';
-    document.getElementById(`radio4`).style.visibility = 'hidden';
     document.getElementById(`q3`).style.visibility = 'hidden';
+    document.getElementById(`radio4`).style.visibility = 'hidden';
     document.getElementById(`q4`).style.visibility = 'hidden';
 }
 function display(){
     document.getElementById(`radio3`).style.visibility = '';
-    document.getElementById(`radio4`).style.visibility = '';
     document.getElementById(`q3`).style.visibility = '';
+    document.getElementById(`radio4`).style.visibility = '';
     document.getElementById(`q4`).style.visibility = '';
 }
-let marks = 1;
+let marks = 0;
+let max = 1;
+
+console.log(answer);
+
+
+function validateAnswer(correctAnswer){
+    if (answer === correctAnswer){
+        alert('correct answer');
+        if (!blacklist.includes(index)){
+            marks++;
+        }
+        document.getElementById('correct').textContent = `correct answers ${marks}/${questions.length}`;
+    }
+    else alert(`false answer.\nthe correct is: ${correctAnswer}\n`);
+    blacklist.push(index);
+}
+
 
 function next() {
+    if (max === index + 1 && answer === undefined){
+        alert('Please select an answer');
+        return;
+    }
     let correctAnswer = questions[index].correctAnswer;
     question = document.getElementById('question');
     console.log(correctAnswer);
@@ -35,13 +57,47 @@ function next() {
     question.textContent = questions[index].question;
     document.getElementById('question num').textContent = `question ${index + 1}`
     document.getElementById(`radio${radioId}`).checked = false;
-    if (answer === correctAnswer){
-        alert('correct answer');
-        document.getElementById('correct').textContent = `correct answers ${marks}/${questions.length}`;
-        marks++;
+    if (max === index){
+        validateAnswer(correctAnswer);
+        max++;
     }
-    else alert(`false answer.\nthe correct is: ${correctAnswer}`);
+    else {
+        if (answer != undefined){
+            validateAnswer(correctAnswer,0);
+        }
+    }
+    displayPrev();
+    console.log(`max: ${max}`);
+    console.log(`index: ${index}`);
+    console.log(`answer: ${answer}`);
     setRadios();
+    answer = undefined;
+    document.title = `Question ${index + 1}`;
+}
+
+function hidePrev(){
+    document.getElementById(`prev`).style.visibility = 'hidden';
+}
+
+function displayPrev(){
+    document.getElementById(`prev`).style.visibility = '';
+}
+
+function previous() {
+    let correctAnswer = questions[index].correctAnswer;
+    question = document.getElementById('question');
+    console.log(correctAnswer);
+    index--;
+    if (index === 0){hidePrev()}
+    question.textContent = questions[index].question;
+    document.getElementById('question num').textContent = `question ${index + 1}`
+    document.getElementById(`radio${radioId}`).checked = false;
+    console.log(`max: ${max}`);
+    console.log(`index: ${index}`);
+    console.log(`answer: ${answer}`);
+    answer = undefined;
+    setRadios();
+    document.title = `Question ${index + 1}`;
 }
 
 function shuffle(array){
@@ -67,8 +123,23 @@ window.onload = function() {
 
 function setRadios() {
     answers = questions[index].answers;
+    shuffle(answers);
     let len = answers.length;
-    if (len == 2){hide();}
-    else display();
+
+    switch (len){
+        case 2:
+            hide();
+            break;
+        case 3:
+            document.getElementById(`radio4`).style.visibility = 'hidden';
+            document.getElementById(`q4`).style.visibility = 'hidden';
+            document.getElementById(`radio3`).style.visibility = '';
+            document.getElementById(`q3`).style.visibility = '';
+            break;
+        case 4:
+            display();
+            break;
+    }
+
     for (let i = 0; i < len; i++) {document.getElementById(`q${i+1}`).innerText = answers[i];}
 }
