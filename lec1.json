@@ -1,0 +1,3603 @@
+{
+    "questions": [    
+            {
+            "correctAnswer": "Object-orientation paradigm",
+            "question": "What is the main focus of the course SE2306 Software Design & Construction 1?",
+            "answers": [
+                "Object-orientation paradigm",
+                "Aspect-orientation paradigm",
+                "Pattern-orientation paradigm"
+            ]
+        },
+        {
+            "correctAnswer": "Scalability",
+            "question": "Which of the following is NOT one of the software design principles taught in this course?",
+            "answers": [
+                "Flexibility",
+                "Robustness",
+                "Scalability"
+            ]
+        },
+        {
+            "correctAnswer": "Functional decomposition",
+            "question": "Which design method involves breaking down software into functional modules?",
+            "answers": [
+                "Functional decomposition",
+                "Data Flow",
+                "Object-oriented design"
+            ]
+        },
+        {
+            "correctAnswer": "Elaboration",
+            "question": "In the Unified Software Development Process, which phase involves defining the software architecture?",
+            "answers": [
+                "Elaboration",
+                "Inception",
+                "Construction"
+            ]
+        },
+        {
+            "correctAnswer": "To help ensure requirements are understood",
+            "question": "What is the main purpose of prototyping during the requirements phase?",
+            "answers": [
+                "To help ensure requirements are understood",
+                "To develop the final product",
+                "To finalize the software design"
+            ]
+        },
+        {
+            "correctAnswer": "Class Diagram",
+            "question": "Which type of diagram is used in UML to represent the structure of the system?",
+            "answers": [
+                "Class Diagram",
+                "Sequence Diagram",
+                "Activity Diagram"
+            ]
+        },
+        {
+            "correctAnswer": "Many activities execute in parallel",
+            "question": "What is a key feature of concurrent systems?",
+            "answers": [
+                "Many activities execute in parallel",
+                "All activities happen in sequence",
+                "They only work in single-user environments"
+            ]
+        },
+        {
+            "correctAnswer": "Information Hiding",
+            "question": "Which principle is fundamental to Object-Oriented Design?",
+            "answers": [
+                "Information Hiding",
+                "Scalability",
+                "Flexibility"
+            ]
+        },
+        {
+            "correctAnswer": "To build software to the point of readiness for release",
+            "question": "What is the objective of the Construction phase in the Unified Process?",
+            "answers": [
+                "To build software to the point of readiness for release",
+                "To define the software architecture",
+                "To gather requirements"
+            ]
+        },
+        {
+            "correctAnswer": "Spiral Model",
+            "question": "Which software life cycle model emphasizes risk analysis?",
+            "answers": [
+                "Spiral Model",
+                "Waterfall Model",
+                "Prototyping Model"
+            ]
+        },
+        {
+            "correctAnswer": "To define the internal logic and data structures of each component",
+            "question": "What is the purpose of the detailed design phase?",
+            "answers": [
+                "To define the internal logic and data structures of each component",
+                "To identify user requirements",
+                "To deploy the software"
+            ]
+        },
+        {
+            "correctAnswer": "Class",
+            "question": "Which term describes a collection of objects with the same characteristics?",
+            "answers": [
+                "Class",
+                "Object",
+                "Method"
+            ]
+        },
+        {
+            "correctAnswer": "Interactions over time",
+            "question": "In UML, what does a Sequence Diagram represent?",
+            "answers": [
+                "Interactions over time",
+                "System structure",
+                "Data flow"
+            ]
+        },
+        {
+            "correctAnswer": "It makes the system more maintainable",
+            "question": "What is the primary advantage of information hiding in design?",
+            "answers": [
+                "It makes the system more maintainable",
+                "It increases system performance",
+                "It ensures system security"
+            ]
+        },
+        {
+            "correctAnswer": "Design Based on Data Structure",
+            "question": "Which design method focuses on decomposing a system based on its data structure?",
+            "answers": [
+                "Design Based on Data Structure",
+                "Functional decomposition",
+                "Aspect-oriented design"
+            ]
+        },
+        {
+            "correctAnswer": "Hiding the internal details of an object",
+            "question": "What does the term 'encapsulation' refer to in software design?",
+            "answers": [
+                "Hiding the internal details of an object",
+                "Breaking down software into modules",
+                "Increasing the reusability of code"
+            ]
+        },
+        {
+            "correctAnswer": "Class Diagram",
+            "question": "Which of the following is NOT a UML Behavioral Diagram?",
+            "answers": [
+                "Class Diagram",
+                "Use Case Diagram",
+                "Activity Diagram"
+            ]
+        },
+        {
+            "correctAnswer": "The ability of a subclass to inherit properties from a superclass",
+            "question": "In object-oriented design, what is 'inheritance'?",
+            "answers": [
+                "The ability of a subclass to inherit properties from a superclass",
+                "Encapsulation of data",
+                "Dynamic method binding"
+            ]
+        },
+        {
+            "correctAnswer": "Transition",
+            "question": "Which phase in the Unified Process involves turning the software over to the user community?",
+            "answers": [
+                "Transition",
+                "Elaboration",
+                "Construction"
+            ]
+        },
+        {
+            "correctAnswer": "A problem with no one correctAnswer solution and trade-offs in design",
+            "question": "What is a 'wicked problem' in software design?",
+            "answers": [
+                "A problem with no one correctAnswer solution and trade-offs in design",
+                "A problem that can be solved with a standard algorithm",
+                "A problem that always results in the same solution"
+            ]
+        },
+
+        {
+            "correctAnswer": "Collaborative Object Modelling and architectural design mEThod",
+            "question": "What does the COMET method stand for?",
+            "answers": [
+                "Collaborative Object Modelling and architectural design mEThod",
+                "Component-Oriented Modelling and Engineering Technique",
+                "Comprehensive Object Management and Evaluation Technique",
+                "Concurrent Object Modelling and Engineering Technology"
+            ]
+        },
+        {
+            "correctAnswer": "To develop UML models of software architecture before implementation",
+            "question": "What is the primary purpose of Model Driven Architecture (MDA)?",
+            "answers": [
+                "To develop UML models of software architecture before implementation",
+                "To replace the need for coding entirely",
+                "To create only platform-specific models",
+                "To eliminate the need for software testing"
+            ]
+        },
+        {
+            "correctAnswer": "Data Flow Diagram",
+            "question": "Which of the following is NOT a type of UML diagram?",
+            "answers": [
+                "Sequence Diagram",
+                "Class Diagram",
+                "Data Flow Diagram",
+                "Use Case Diagram"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: In UML, an actor represents an external entity that interacts directly with the system.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Static Modelling and Dynamic Modelling",
+            "question": "What are the two main components of Analysis Modeling in the OO Software Life Cycle?",
+            "answers": [
+                "Static Modelling and Dynamic Modelling",
+                "Class Diagrams and Sequence Diagrams",
+                "Use Case Diagrams and Activity Diagrams",
+                "Component Diagrams and Deployment Diagrams"
+            ]
+        },
+        {
+            "correctAnswer": "Platform Independent Model (PIM)",
+            "question": "Which model specifies a precise software architecture before commitment to a specific platform?",
+            "answers": [
+                "Platform Independent Model (PIM)",
+                "Platform Specific Model (PSM)",
+                "Model Driven Architecture (MDA)",
+                "Unified Modeling Language (UML)"
+            ]
+        },
+        {
+            "correctAnswer": "Requirements Modeling",
+            "question": "Which phase in the COMET method involves defining software functional requirements using use cases and actors?",
+            "answers": [
+                "Requirements Modeling",
+                "Analysis Modeling",
+                "Design Modeling",
+                "System Testing"
+            ]
+        },
+        {
+            "correctAnswer": "Defining state charts for state-dependent control objects and object interactions",
+            "question": "What is the focus of Dynamic Modeling in the Analysis Modeling phase?",
+            "answers": [
+                "Defining state charts for state-dependent control objects and object interactions",
+                "Developing static models of problem domains",
+                "Designing overall software architecture",
+                "Writing detailed design and code"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: Incremental Software Construction in the OO Software Life Cycle involves system testing based on use cases.",
+            "answers": [
+                "False",
+                "True"
+            ]
+        },
+        {
+            "correctAnswer": "Specifying reliability, security, performance, and other attributes",
+            "question": "What is the role of non-functional requirements in Software Requirements Specification?",
+            "answers": [
+                "Specifying reliability, security, performance, and other attributes",
+                "Defining the functional inputs and outputs of the system",
+                "Listing the software's behavioral states",
+                "Detailing the external interfaces of the software"
+            ]
+        },
+        {
+            "correctAnswer": "Information Requirements",
+            "question": "What type of requirements specify the entities, attributes, and relationships in a software system?",
+            "answers": [
+                "Information Requirements",
+                "Functional Requirements",
+                "Behavioral Requirements",
+                "External Interface Requirements"
+            ]
+        },
+        {
+            "correctAnswer": "Include",
+            "question": "Which type of use case relationship is used to show common sequences of interactions in multiple use cases?",
+            "answers": [
+                "Include",
+                "Extend",
+                "Inheritance",
+                "Aggregation"
+            ]
+        },
+        {
+            "correctAnswer": "To define state-dependent control objects and their behavior",
+            "question": "What is the purpose of a state chart in dynamic modeling?",
+            "answers": [
+                "To define state-dependent control objects and their behavior",
+                "To model the structural relationships between classes",
+                "To develop the overall software architecture",
+                "To specify the external interfaces of the software"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: The Platform Specific Model (PSM) is mapped from the Platform Independent Model (PIM).",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Integration Testing Plans",
+            "question": "Which of the following components is NOT part of the Software Requirements Specification?",
+            "answers": [
+                "Design Constraints",
+                "Behavioral Requirements",
+                "Integration Testing Plans",
+                "Non-Functional Requirements"
+            ]
+        },
+        {
+            "correctAnswer": "An actor that starts the use case by providing input to the system",
+            "question": "What is a 'Primary Actor' in use case modeling?",
+            "answers": [
+                "An actor that starts the use case by providing input to the system",
+                "An actor that participates in the use case but does not initiate it",
+                "An internal system component that processes data",
+                "An abstract representation of a system role"
+            ]
+        },
+        {
+            "correctAnswer": "A relationship that identifies common sequences of interactions in several use cases",
+            "question": "Which of the following best describes the 'Include' relationship in use case modeling?",
+            "answers": [
+                "A relationship that identifies common sequences of interactions in several use cases",
+                "A relationship that extends a use case under certain conditions",
+                "A relationship that generalizes common properties of use cases",
+                "A relationship that aggregates multiple use cases"
+            ]
+        },
+        {
+            "correctAnswer": "To define both structural and dynamic aspects of the system",
+            "question": "What is the role of 'Analysis Modeling' in the OO Software Life Cycle?",
+            "answers": [
+                "To define both structural and dynamic aspects of the system",
+                "To develop detailed design and code",
+                "To conduct system testing and validation",
+                "To specify hardware and software interfaces"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: A secondary actor in use case modeling can also be a primary actor in another use case.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "The system shall be available 99.9% of the time.",
+            "question": "Which of the following is an example of a non-functional requirement?",
+            "answers": [
+                "The system shall be available 99.9% of the time.",
+                "The system shall process user login information.",
+                "The system shall provide user account management.",
+                "The system shall validate user input."
+            ]
+        },
+
+        {
+            "correctAnswer": "Represent the static structure of the system",
+            "question": "What is the primary purpose of static modeling in software design?",
+            "answers": [
+                "Represent the static structure of the system",
+                "Define dynamic interactions between objects",
+                "Design user interfaces",
+                "Plan software deployment"
+            ]
+        },
+        {
+            "correctAnswer": "A single instance of a class",
+            "question": "Which of the following best describes an 'object' in static modeling?",
+            "answers": [
+                "A collection of related classes",
+                "A single instance of a class",
+                "A function within a class",
+                "An external entity interacting with the system"
+            ]
+        },
+        {
+            "correctAnswer": "The structural relationships between classes",
+            "question": "What does a class diagram in UML depict?",
+            "answers": [
+                "The dynamic interactions between objects",
+                "The structural relationships between classes",
+                "The user interface layout",
+                "The deployment of software components"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: An attribute in a class represents a data value held by objects of that class.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "A relationship where one instance of a class is associated with many instances of another class",
+            "question": "What is a one-to-many association in UML?",
+            "answers": [
+                "A relationship where one instance of a class is associated with many instances of another class",
+                "A relationship where many instances of a class are associated with one instance of another class",
+                "A relationship where one instance of a class is associated with exactly one instance of another class",
+                "A relationship where many instances of a class are associated with many instances of another class"
+            ]
+        },
+        {
+            "correctAnswer": "Class Diagram",
+            "question": "Which UML diagram would you use to model the static structure of an ATM system?",
+            "answers": [
+                "Class Diagram",
+                "Sequence Diagram",
+                "Activity Diagram",
+                "State Machine Diagram"
+            ]
+        },
+        {
+            "correctAnswer": "A 'whole/part' relationship where parts can exist independently of the whole",
+            "question": "What type of relationship does aggregation represent in UML?",
+            "answers": [
+                "A 'whole/part' relationship where parts can exist independently of the whole",
+                "A 'whole/part' relationship where parts cannot exist independently of the whole",
+                "A generalization/specialization hierarchy",
+                "A one-to-one association"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: In a composition relationship, the part objects can be created and deleted independently of the whole object.",
+            "answers": [
+                "False",
+                "True"
+            ]
+        },
+        {
+            "correctAnswer": "A blueprint for creating objects, defining their attributes and operations",
+            "question": "Which of the following best describes a 'class' in UML?",
+            "answers": [
+                "A blueprint for creating objects, defining their attributes and operations",
+                "A specific instance of an object",
+                "A relationship between two objects",
+                "A function within an object"
+            ]
+        },
+        {
+            "correctAnswer": "To model a relationship between two or more classes and capture attributes of the association",
+            "question": "What is the purpose of an association class in UML?",
+            "answers": [
+                "To model a relationship between two or more classes and capture attributes of the association",
+                "To define a 'whole/part' relationship",
+                "To represent a user interface component",
+                "To describe the dynamic behavior of the system"
+            ]
+        },
+        {
+            "correctAnswer": "Real-world classes in the problem domain",
+            "question": "What does a static model emphasize during analysis modeling?",
+            "answers": [
+                "Real-world classes in the problem domain",
+                "Software-specific classes",
+                "Dynamic interactions between objects",
+                "User interface design"
+            ]
+        },
+        {
+            "correctAnswer": "IS A relationship between a subclass and a superclass",
+            "question": "What type of relationship is depicted in a generalization/specialization hierarchy?",
+            "answers": [
+                "IS A relationship between a subclass and a superclass",
+                "PART OF relationship between a composite and its parts",
+                "HAS A relationship between two classes",
+                "DOES relationship between a class and its operations"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: In UML, a class can have multiple attributes but only one operation.",
+            "answers": [
+                "False",
+                "True"
+            ]
+        },
+        {
+            "correctAnswer": "Aggregation",
+            "question": "Which relationship type in UML indicates that objects of one class can have a lifecycle that is independent of another class?",
+            "answers": [
+                "Aggregation",
+                "Composition",
+                "Association",
+                "Generalization"
+            ]
+        },
+        {
+            "correctAnswer": "How many instances of one class can be associated with instances of another class",
+            "question": "What does multiplicity in UML specify?",
+            "answers": [
+                "How many instances of one class can be associated with instances of another class",
+                "The sequence of operations in a class",
+                "The hierarchical structure of classes",
+                "The visibility of class attributes"
+            ]
+        },
+        {
+            "correctAnswer": "One-to-few",
+            "question": "Which of the following is NOT a type of multiplicity in UML associations?",
+            "answers": [
+                "Zero-to-many",
+                "One-to-one",
+                "One-to-few",
+                "Many-to-many"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: A 'Bank' managing multiple 'Accounts' is an example of a one-to-many association in UML.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Composition is a stronger relationship where parts cannot exist independently",
+            "question": "What is the main difference between aggregation and composition in UML?",
+            "answers": [
+                "Composition is a stronger relationship where parts cannot exist independently",
+                "Aggregation allows parts to be shared across different wholes",
+                "Aggregation implies a stronger lifecycle dependency",
+                "Composition implies a weaker lifecycle dependency"
+            ]
+        },
+        {
+            "correctAnswer": "Composition",
+            "question": "What is an example of a 'whole/part' relationship where parts are created and destroyed with the whole?",
+            "answers": [
+                "Composition",
+                "Aggregation",
+                "Generalization",
+                "Association"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: A class in UML can only have one superclass.",
+            "answers": [
+                "False",
+                "True"
+            ]
+        },
+        {
+            "correctAnswer": "System Context Class Diagram",
+            "question": "Which UML diagram shows the system boundary and its interaction with external entities?",
+            "answers": [
+                "System Context Class Diagram",
+                "Sequence Diagram",
+                "Activity Diagram",
+                "State Machine Diagram"
+            ]
+        },
+        {
+            "correctAnswer": "To abstract common attributes and operations into a superclass",
+            "question": "What is the purpose of a generalization/specialization hierarchy in UML?",
+            "answers": [
+                "To abstract common attributes and operations into a superclass",
+                "To define the dynamic behavior of classes",
+                "To illustrate the interaction between objects",
+                "To model user interfaces"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: In UML, a 'Student' attending multiple 'Courses' represents a many-to-many association.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Association Class",
+            "question": "What type of class in UML is specifically used to model many-to-many associations?",
+            "answers": [
+                "Association Class",
+                "Composite Class",
+                "Aggregate Class",
+                "Singleton Class"
+            ]
+        },
+        {
+            "correctAnswer": "Static Modeling",
+            "question": "Which concept in static modeling involves defining the structural relationships between classes?",
+            "answers": [
+                "Static Modeling",
+                "Dynamic Modeling",
+                "Behavioral Modeling",
+                "User Interface Modeling"
+            ]
+        },
+        {
+            "correctAnswer": "Class Diagram",
+            "question": "Which UML diagram is typically used to depict the physical association between instances in a composition relationship?",
+            "answers": [
+                "Class Diagram",
+                "Sequence Diagram",
+                "Activity Diagram",
+                "State Machine Diagram"
+            ]
+        },
+        {
+            "correctAnswer": "Emphasizing real-world classes in the problem domain",
+            "question": "What is the focus of static modeling during the analysis phase?",
+            "answers": [
+                "Emphasizing real-world classes in the problem domain",
+                "Developing detailed software-specific classes",
+                "Designing user interfaces",
+                "Defining dynamic interactions"
+            ]
+        },
+        {
+            "correctAnswer": "The relationship between a composite class and its parts",
+            "question": "What does a 'whole/part' relationship represent in UML?",
+            "answers": [
+                "The relationship between a composite class and its parts",
+                "The inheritance relationship between a superclass and subclass",
+                "The interaction between different user interfaces",
+                "The sequence of operations in a process"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: In static modeling, physical classes are initially addressed before software-specific classes.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Software System Context Class Diagram",
+            "question": "What type of UML diagram shows the association between software systems and external classes?",
+            "answers": [
+                "Software System Context Class Diagram",
+                "Component Diagram",
+                "Deployment Diagram",
+                "Package Diagram"
+            ]
+        },
+
+        {
+            "correctAnswer": "Interface to and communicate with external environment",
+            "question": "What is the purpose of boundary objects in object structuring?",
+            "answers": [
+                "Interface to and communicate with external environment",
+                "Store long living information",
+                "Provide overall coordination for a group of objects",
+                "Encapsulate an algorithm used in the problem domain"
+            ]
+        },
+        {
+            "correctAnswer": "\u00abentity\u00bb",
+            "question": "Which stereotype represents long-lasting objects that store information?",
+            "answers": [
+                "\u00abentity\u00bb",
+                "\u00abboundary\u00bb",
+                "\u00abcontrol\u00bb",
+                "\u00abapplication logic\u00bb"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Proxy objects hide details of how to communicate with external systems.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Control objects",
+            "question": "Which type of object provides the overall coordination for execution of a group of objects?",
+            "answers": [
+                "Control objects",
+                "Entity objects",
+                "Boundary objects",
+                "Application logic objects"
+            ]
+        },
+        {
+            "correctAnswer": "An object that provides sequencing for a group of objects",
+            "question": "What is a coordinator object?",
+            "answers": [
+                "An object that provides sequencing for a group of objects",
+                "An object that stores persistent data",
+                "An object that interacts with external users",
+                "An object that encapsulates a specific algorithm"
+            ]
+        },
+        {
+            "correctAnswer": "Defines the business-specific application logic for processing a client request",
+            "question": "What is the role of an application logic object?",
+            "answers": [
+                "Defines the business-specific application logic for processing a client request",
+                "Interfaces to external systems",
+                "Stores long-living data",
+                "Coordinates the execution of other objects"
+            ]
+        },
+        {
+            "correctAnswer": "\u00abboundary\u00bb",
+            "question": "Which stereotype is used for objects that interface to I/O devices?",
+            "answers": [
+                "\u00abboundary\u00bb",
+                "\u00abentity\u00bb",
+                "\u00abcontrol\u00bb",
+                "\u00abapplication logic\u00bb"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: A device I/O boundary object can interface with sensors and actuators.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Entity objects",
+            "question": "What type of object is typically mapped to a relational database during design?",
+            "answers": [
+                "Entity objects",
+                "Control objects",
+                "Boundary objects",
+                "Application logic objects"
+            ]
+        },
+        {
+            "correctAnswer": "An object that defines the business-specific application logic for processing a client request",
+            "question": "What is an example of a business logic object?",
+            "answers": [
+                "An object that defines the business-specific application logic for processing a client request",
+                "An object that encapsulates an algorithm",
+                "An object that interfaces with external systems",
+                "An object that provides sequencing for a group of objects"
+            ]
+        },
+        {
+            "correctAnswer": "Proxy object",
+            "question": "Which type of object interaction object hides the details of how to communicate with external systems?",
+            "answers": [
+                "Proxy object",
+                "Control object",
+                "Boundary object",
+                "Entity object"
+            ]
+        },
+        {
+            "correctAnswer": "Device I/O object",
+            "question": "What type of boundary object interfaces to an I/O device?",
+            "answers": [
+                "Device I/O object",
+                "User interaction object",
+                "Proxy object",
+                "Control object"
+            ]
+        },
+        {
+            "correctAnswer": "Storing long-living information",
+            "question": "What are entity objects primarily used for?",
+            "answers": [
+                "Storing long-living information",
+                "Interfacing with external systems",
+                "Providing overall coordination",
+                "Encapsulating algorithms"
+            ]
+        },
+        {
+            "correctAnswer": "State-dependent control object",
+            "question": "Which type of control object is defined by a finite state machine or state transition table?",
+            "answers": [
+                "State-dependent control object",
+                "Coordinator object",
+                "Timer object",
+                "Proxy object"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: An application logic object typically accesses more than one entity object.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "\u00abcontrol\u00bb",
+            "question": "Which stereotype is used for objects that provide overall coordination for other objects?",
+            "answers": [
+                "\u00abcontrol\u00bb",
+                "\u00abentity\u00bb",
+                "\u00abboundary\u00bb",
+                "\u00abapplication logic\u00bb"
+            ]
+        },
+        {
+            "correctAnswer": "Activated periodically to control timing",
+            "question": "What is a timer object used for in control classes?",
+            "answers": [
+                "Activated periodically to control timing",
+                "Interfaces with external systems",
+                "Stores persistent data",
+                "Defines business logic"
+            ]
+        },
+        {
+            "correctAnswer": "Algorithm object",
+            "question": "Which object type in UML is responsible for encapsulating an algorithm used in the problem domain?",
+            "answers": [
+                "Algorithm object",
+                "Control object",
+                "Boundary object",
+                "Entity object"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Entity classes and their relationships are shown on a static model.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "To define the business-specific application logic for processing a client request",
+            "question": "What is the purpose of a business logic object?",
+            "answers": [
+                "To define the business-specific application logic for processing a client request",
+                "To interface with external systems",
+                "To store long-living data",
+                "To provide overall coordination"
+            ]
+        },
+        {
+            "correctAnswer": "Control object",
+            "question": "Which type of object in UML provides the overall coordination for execution?",
+            "answers": [
+                "Control object",
+                "Entity object",
+                "Boundary object",
+                "Application logic object"
+            ]
+        },
+        {
+            "correctAnswer": "Interfaces to an external system and hides communication details",
+            "question": "What does a proxy object do?",
+            "answers": [
+                "Interfaces to an external system and hides communication details",
+                "Provides overall coordination for a group of objects",
+                "Stores long-lasting information",
+                "Encapsulates business logic"
+            ]
+        },
+        {
+            "correctAnswer": "Coordinator object",
+            "question": "Which control object type provides sequencing for a group of objects without being state-dependent?",
+            "answers": [
+                "Coordinator object",
+                "State-dependent control object",
+                "Timer object",
+                "Boundary object"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: Application logic objects usually access only one entity object.",
+            "answers": [
+                "False",
+                "True"
+            ]
+        },
+        {
+            "correctAnswer": "Service object",
+            "question": "What stereotype is used to depict objects that provide a service for other objects?",
+            "answers": [
+                "Service object",
+                "Entity object",
+                "Control object",
+                "Proxy object"
+            ]
+        },
+        {
+            "correctAnswer": "Business logic object",
+            "question": "Which type of object is used to define the business-specific application logic in object modeling?",
+            "answers": [
+                "Business logic object",
+                "Entity object",
+                "Control object",
+                "Proxy object"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: A control object is responsible for making overall decisions and coordinating the execution of other objects.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Device I/O boundary object",
+            "question": "Which type of object in UML is used to interface with I/O devices like sensors and actuators?",
+            "answers": [
+                "Device I/O boundary object",
+                "User interaction object",
+                "Proxy object",
+                "Control object"
+            ]
+        },
+        {
+            "correctAnswer": "Coordinator object",
+            "question": "Which type of object provides sequencing for a group of objects?",
+            "answers": [
+                "Coordinator object",
+                "Entity object",
+                "Boundary object",
+                "Service object"
+            ]
+        },
+
+
+
+        {
+            "correctAnswer": "Determining how objects interact to support a use case",
+            "question": "What is the primary focus of dynamic modeling?",
+            "answers": [
+                "Determining how objects interact to support a use case",
+                "Developing static models of the problem domain",
+                "Creating user interface designs",
+                "Defining the system architecture"
+            ]
+        },
+        {
+            "correctAnswer": "The order of messages between objects",
+            "question": "What does a sequence diagram emphasize in dynamic modeling?",
+            "answers": [
+                "The order of messages between objects",
+                "The structure of the system",
+                "User interface interactions",
+                "Database schema"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: A communication diagram shows objects as boxes and their interactions as arrows.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Starting with the use case",
+            "question": "What is the first step in stateless dynamic modeling?",
+            "answers": [
+                "Starting with the use case",
+                "Defining the database schema",
+                "Designing the user interface",
+                "Writing the system documentation"
+            ]
+        },
+        {
+            "correctAnswer": "To describe the sequence of object interactions",
+            "question": "What is the purpose of a message sequence description?",
+            "answers": [
+                "To describe the sequence of object interactions",
+                "To define the system architecture",
+                "To outline the database schema",
+                "To create user interface designs"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: In state-dependent dynamic modeling, object interaction is controlled by statecharts.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Sequence diagram",
+            "question": "Which type of diagram is used to show the sequence of object interactions in a use case?",
+            "answers": [
+                "Sequence diagram",
+                "Class diagram",
+                "Use case diagram",
+                "Component diagram"
+            ]
+        },
+        {
+            "correctAnswer": "Boundary objects",
+            "question": "What type of objects are determined first in stateless dynamic modeling?",
+            "answers": [
+                "Boundary objects",
+                "Entity objects",
+                "Control objects",
+                "Application logic objects"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: State-dependent dynamic modeling is important for real-time design.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Sequence diagram",
+            "question": "Which type of diagram emphasizes the messages passed between objects?",
+            "answers": [
+                "Sequence diagram",
+                "Communication diagram",
+                "Class diagram",
+                "Statechart"
+            ]
+        },
+        {
+            "correctAnswer": "Modeling the state changes in control objects",
+            "question": "What is the primary focus of state-dependent dynamic modeling?",
+            "answers": [
+                "Modeling the state changes in control objects",
+                "Defining static relationships between classes",
+                "Designing user interfaces",
+                "Developing the database schema"
+            ]
+        },
+        {
+            "correctAnswer": "Receive messages from boundary objects",
+            "question": "What is the role of internal objects in stateless dynamic modeling?",
+            "answers": [
+                "Receive messages from boundary objects",
+                "Initiate external events",
+                "Store persistent data",
+                "Define the system architecture"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: A statechart can include entry, exit, and internal actions.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "To handle error conditions or less frequently occurring situations",
+            "question": "What is the purpose of alternative sequences in stateless dynamic modeling?",
+            "answers": [
+                "To handle error conditions or less frequently occurring situations",
+                "To define the main interaction scenario",
+                "To create user interface designs",
+                "To develop the database schema"
+            ]
+        },
+        {
+            "correctAnswer": "The primary scenario that represents the typical flow of events",
+            "question": "What is the main interaction sequence in dynamic modeling?",
+            "answers": [
+                "The primary scenario that represents the typical flow of events",
+                "An alternative scenario for error handling",
+                "A sequence of static relationships",
+                "A detailed user interface design"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Communication diagrams can depict both synchronous and asynchronous messages.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Control objects",
+            "question": "What type of objects are often modeled using statecharts in state-dependent dynamic modeling?",
+            "answers": [
+                "Control objects",
+                "Boundary objects",
+                "Entity objects",
+                "Application logic objects"
+            ]
+        },
+        {
+            "correctAnswer": "Messages exchanged between objects",
+            "question": "What is depicted by arrows in a communication diagram?",
+            "answers": [
+                "Messages exchanged between objects",
+                "Attributes of objects",
+                "State transitions",
+                "Classes and their relationships"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: A sequence diagram represents objects as vertical lines and messages as horizontal arrows.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Dynamic modeling",
+            "question": "Which modeling approach starts with external events from an actor?",
+            "answers": [
+                "Dynamic modeling",
+                "Static modeling",
+                "User interface modeling",
+                "Database modeling"
+            ]
+        },
+        {
+            "correctAnswer": "They manage complex state transitions efficiently",
+            "question": "What is the primary advantage of hierarchical statecharts in dynamic modeling?",
+            "answers": [
+                "They manage complex state transitions efficiently",
+                "They provide detailed static relationships",
+                "They enhance user interface design",
+                "They simplify database schema creation"
+            ]
+        },
+        {
+            "correctAnswer": "A change from one state to another",
+            "question": "In a statechart, what does the term 'transition' refer to?",
+            "answers": [
+                "A change from one state to another",
+                "The current state of an object",
+                "The interaction between two objects",
+                "The static structure of the system"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: In stateless dynamic modeling, internal objects do not interact with boundary objects.",
+            "answers": [
+                "False",
+                "True"
+            ]
+        },
+        {
+            "correctAnswer": "It executes statecharts and manages state transitions",
+            "question": "What is the role of a control object in state-dependent dynamic modeling?",
+            "answers": [
+                "It executes statecharts and manages state transitions",
+                "It stores long-living information",
+                "It interfaces with external systems",
+                "It defines the user interface"
+            ]
+        },
+        {
+            "correctAnswer": "To model the state changes in an object",
+            "question": "What is the purpose of a statechart in dynamic modeling?",
+            "answers": [
+                "To model the state changes in an object",
+                "To define static relationships",
+                "To outline the user interface",
+                "To create the database schema"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Communication diagrams can show the sequence of messages passed between objects.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "An event and a condition",
+            "question": "What does a state transition in a statechart typically include?",
+            "answers": [
+                "An event and a condition",
+                "An object and a method",
+                "A user interface element",
+                "A database entity"
+            ]
+        },
+        {
+            "correctAnswer": "It involves modeling object interactions controlled by statecharts",
+            "question": "What is a key characteristic of state-dependent dynamic modeling?",
+            "answers": [
+                "It involves modeling object interactions controlled by statecharts",
+                "It focuses solely on static relationships",
+                "It only applies to user interface design",
+                "It does not involve external events"
+            ]
+        },
+        {
+            "correctAnswer": "State-dependent dynamic modeling",
+            "question": "Which type of dynamic modeling is especially important for real-time system design?",
+            "answers": [
+                "State-dependent dynamic modeling",
+                "Stateless dynamic modeling",
+                "Static modeling",
+                "User interface modeling"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: A sequence diagram can represent both synchronous and asynchronous messages.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+
+        {
+            "correctAnswer": "A finite number of states",
+            "question": "What does a finite state machine represent?",
+            "answers": [
+                "A finite number of states",
+                "A finite number of events",
+                "A continuous process",
+                "An infinite number of states"
+            ]
+        },
+        {
+            "correctAnswer": "Statechart",
+            "question": "Which graphical representation is used for finite state machines?",
+            "answers": [
+                "Statechart",
+                "Class diagram",
+                "Sequence diagram",
+                "Activity diagram"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: A state in a statechart represents an interval between successive events.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "A discrete signal that happens at a point in time",
+            "question": "What is an event in the context of state modeling?",
+            "answers": [
+                "A discrete signal that happens at a point in time",
+                "A continuous signal",
+                "A static condition",
+                "A long-duration process"
+            ]
+        },
+        {
+            "correctAnswer": "Event [Condition]",
+            "question": "What does a state transition label typically include?",
+            "answers": [
+                "Event [Condition]",
+                "Class [Attribute]",
+                "Object [Method]",
+                "State [Event]"
+            ]
+        },
+        {
+            "correctAnswer": "Executed as a result of a state transition",
+            "question": "What is the purpose of an action in a statechart?",
+            "answers": [
+                "Executed as a result of a state transition",
+                "Defines the static structure",
+                "Represents a state",
+                "Describes an event"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Entry actions are executed on entry into a state.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Hierarchical statecharts",
+            "question": "Which type of statechart is based on Harel statecharts?",
+            "answers": [
+                "Hierarchical statecharts",
+                "Flat statecharts",
+                "Composite statecharts",
+                "Sequential statecharts"
+            ]
+        },
+        {
+            "correctAnswer": "Substates",
+            "question": "What does a composite state in a statechart contain?",
+            "answers": [
+                "Substates",
+                "Actions",
+                "Events",
+                "Transitions"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: A statechart can only be in one substate at a time in hierarchical statecharts.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "A Boolean function that must be true for the transition to occur",
+            "question": "What does the condition in a state transition label represent?",
+            "answers": [
+                "A Boolean function that must be true for the transition to occur",
+                "The duration of the event",
+                "The initial state",
+                "The final state"
+            ]
+        },
+        {
+            "correctAnswer": "They get very cluttered and have limited capability for managing complexity",
+            "question": "What is a disadvantage of flat statecharts?",
+            "answers": [
+                "They get very cluttered and have limited capability for managing complexity",
+                "They do not support state transitions",
+                "They cannot represent actions",
+                "They are difficult to implement"
+            ]
+        },
+        {
+            "correctAnswer": "Hierarchical statecharts",
+            "question": "Which type of statechart allows for hierarchical decomposition of state transition diagrams?",
+            "answers": [
+                "Hierarchical statecharts",
+                "Flat statecharts",
+                "Sequential statecharts",
+                "Composite statecharts"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: In hierarchical statecharts, a transition into a composite state must be to one and only one of its substates.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "An event",
+            "question": "What is the primary cause of a state transition?",
+            "answers": [
+                "An event",
+                "A condition",
+                "An action",
+                "A state"
+            ]
+        },
+        {
+            "correctAnswer": "A discrete signal that happens at a point in time",
+            "question": "What does the term 'event' signify in state modeling?",
+            "answers": [
+                "A discrete signal that happens at a point in time",
+                "A continuous process",
+                "A static condition",
+                "A prolonged activity"
+            ]
+        },
+        {
+            "correctAnswer": "Statechart",
+            "question": "Which of the following is a graphical representation of a finite state machine?",
+            "answers": [
+                "Statechart",
+                "Sequence diagram",
+                "Class diagram",
+                "Use case diagram"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Actions in a statechart are executed instantaneously at state transition.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Hierarchical statecharts",
+            "question": "Which type of statechart is useful for managing complex state transitions?",
+            "answers": [
+                "Hierarchical statecharts",
+                "Flat statecharts",
+                "Composite statecharts",
+                "Sequential statecharts"
+            ]
+        },
+        {
+            "correctAnswer": "To execute actions upon entry into a state",
+            "question": "What is the purpose of entry actions in a statechart?",
+            "answers": [
+                "To execute actions upon entry into a state",
+                "To define the transition condition",
+                "To represent the state name",
+                "To describe the event"
+            ]
+        },
+        {
+            "correctAnswer": "Hierarchical decomposition of state transition diagrams",
+            "question": "What is the key feature of a hierarchical statechart?",
+            "answers": [
+                "Hierarchical decomposition of state transition diagrams",
+                "Flat representation of states",
+                "Single level of state transitions",
+                "Lack of entry and exit actions"
+            ]
+        },
+        {
+            "correctAnswer": "The occurrence that triggers the state transition",
+            "question": "What does the event in a state transition label indicate?",
+            "answers": [
+                "The occurrence that triggers the state transition",
+                "The action taken after the state transition",
+                "The condition for the state transition",
+                "The final state"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: In state modeling, an action can execute instantaneously or over a period of time.",
+            "answers": [
+                "False",
+                "True"
+            ]
+        },
+        {
+            "correctAnswer": "A Boolean function that must be true for the transition to occur",
+            "question": "What does a condition in a state transition label represent?",
+            "answers": [
+                "A Boolean function that must be true for the transition to occur",
+                "The event that triggers the transition",
+                "The action taken during the transition",
+                "The state name"
+            ]
+        },
+        {
+            "correctAnswer": "Harel statecharts",
+            "question": "Which type of statechart notation is used for hierarchical decomposition?",
+            "answers": [
+                "Harel statecharts",
+                "Flat statecharts",
+                "Sequential statecharts",
+                "Composite statecharts"
+            ]
+        },
+        {
+            "correctAnswer": "Executed on exit from a state",
+            "question": "What is the purpose of an exit action in a statechart?",
+            "answers": [
+                "Executed on exit from a state",
+                "Executed on entry into a state",
+                "Defines the transition condition",
+                "Represents the state name"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: A hierarchical statechart can have multiple entry states.",
+            "answers": [
+                "False",
+                "True"
+            ]
+        },
+        {
+            "correctAnswer": "Hierarchical statecharts",
+            "question": "Which type of statechart is useful for managing complex behaviors in systems?",
+            "answers": [
+                "Hierarchical statecharts",
+                "Flat statecharts",
+                "Sequential statecharts",
+                "Composite statecharts"
+            ]
+        },
+        {
+            "correctAnswer": "An action",
+            "question": "What is the result of a state transition in a statechart?",
+            "answers": [
+                "An action",
+                "A condition",
+                "An event",
+                "A state"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: A composite state in a statechart can be decomposed into multiple substates.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "A state transition label",
+            "question": "What does the label 'Event [Condition] / Action' represent in a statechart?",
+            "answers": [
+                "A state transition label",
+                "An entry action",
+                "A composite state",
+                "A substate"
+            ]
+        },
+
+
+        {
+            "correctAnswer": "Collaborative Object Modeling and architectural design mEThod",
+            "question": "What does COMET stand for in software design?",
+            "answers": [
+                "Collaborative Object Modeling and architectural design mEThod",
+                "Component Oriented Modeling and Engineering Technique",
+                "Combined Object Management and Engineering Task",
+                "Computational Object Modeling and Efficiency Technique"
+            ]
+        },
+        {
+            "correctAnswer": "To standardize software design description",
+            "question": "What is the primary purpose of using UML in COMET?",
+            "answers": [
+                "To standardize software design description",
+                "To develop hardware requirements",
+                "To manage network protocols",
+                "To create financial models"
+            ]
+        },
+        {
+            "correctAnswer": "Develop Network Infrastructure",
+            "question": "Which step is NOT part of the COMET software life cycle model?",
+            "answers": [
+                "Develop Software Requirements Model",
+                "Develop Software Analysis Model",
+                "Develop Network Infrastructure",
+                "Develop Software Design Model"
+            ]
+        },
+        {
+            "correctAnswer": "The structure of the system",
+            "question": "According to Bass, Clements, and Kazman, what is a key component of software architecture?",
+            "answers": [
+                "The structure of the system",
+                "The user interface design",
+                "The color scheme",
+                "The hardware configuration"
+            ]
+        },
+        {
+            "correctAnswer": "A thread of control",
+            "question": "What does a passive object in software architecture lack?",
+            "answers": [
+                "A thread of control",
+                "Any properties",
+                "Interactions with other objects",
+                "Visibility to the user"
+            ]
+        },
+        {
+            "correctAnswer": "Structural view",
+            "question": "Which view in software architecture focuses on subsystem class diagrams?",
+            "answers": [
+                "Structural view",
+                "Dynamic view",
+                "Deployment view",
+                "Functional view"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: A deployment view shows the physical configuration of a system on a deployment diagram.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "To determine overall structure of the system",
+            "question": "What is the purpose of integrating communication diagrams in software design?",
+            "answers": [
+                "To determine overall structure of the system",
+                "To improve user interface design",
+                "To create marketing strategies",
+                "To develop financial reports"
+            ]
+        },
+        {
+            "correctAnswer": "To perform a major service independently",
+            "question": "In software architecture, what is the role of a subsystem?",
+            "answers": [
+                "To perform a major service independently",
+                "To provide financial reports",
+                "To design user interfaces",
+                "To configure network settings"
+            ]
+        },
+        {
+            "correctAnswer": "Objects at different locations are in separate subsystems",
+            "question": "Which criterion is used for structuring subsystems based on their geographical location?",
+            "answers": [
+                "Objects at different locations are in separate subsystems",
+                "Objects with similar functions are grouped together",
+                "Objects that are controlled by the same task",
+                "Objects that interact frequently"
+            ]
+        },
+        {
+            "correctAnswer": "It is structured within the same subsystem",
+            "question": "What is the main characteristic of an aggregate/composite object?",
+            "answers": [
+                "It is structured within the same subsystem",
+                "It has no visible properties",
+                "It cannot be decomposed further",
+                "It only performs input/output operations"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: In a user interaction subsystem, objects are separated into different subsystems.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "To coordinate several control subsystems",
+            "question": "What is the purpose of the coordinator subsystem?",
+            "answers": [
+                "To coordinate several control subsystems",
+                "To manage financial transactions",
+                "To provide user interface design",
+                "To configure network settings"
+            ]
+        },
+        {
+            "correctAnswer": "Integration of communication diagrams",
+            "question": "What does the transition from analysis to design involve in software architecture?",
+            "answers": [
+                "Integration of communication diagrams",
+                "Development of financial models",
+                "User interface testing",
+                "Network setup"
+            ]
+        },
+        {
+            "correctAnswer": "Objects with different functionalities",
+            "question": "Which of the following is NOT a criterion for structuring subsystems?",
+            "answers": [
+                "Control object and objects it controls",
+                "Geographical location",
+                "Objects with different functionalities",
+                "Objects that interface to the same external real-world object"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Each subsystem in a software architecture performs a major service and is relatively independent of other subsystems.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Requester of one or more services",
+            "question": "What is the role of a client in a subsystem structuring criterion?",
+            "answers": [
+                "Requester of one or more services",
+                "Provider of financial support",
+                "Manager of network configurations",
+                "Developer of user interfaces"
+            ]
+        },
+        {
+            "correctAnswer": "Active object",
+            "question": "Which object is defined as having a thread of control?",
+            "answers": [
+                "Active object",
+                "Passive object",
+                "Composite object",
+                "Aggregate object"
+            ]
+        },
+        {
+            "correctAnswer": "Deployment diagram",
+            "question": "What type of diagram is used to show the physical configuration of a system?",
+            "answers": [
+                "Deployment diagram",
+                "Class diagram",
+                "Sequence diagram",
+                "Use case diagram"
+            ]
+        },
+        {
+            "correctAnswer": "Subsystem class diagram",
+            "question": "What does the structural view of software architecture primarily focus on?",
+            "answers": [
+                "Subsystem class diagram",
+                "Communication diagram",
+                "Deployment diagram",
+                "User interface design"
+            ]
+        },
+        {
+            "correctAnswer": "Depict subsystem communication diagrams",
+            "question": "What is the primary function of the dynamic view in software architecture?",
+            "answers": [
+                "Depict subsystem communication diagrams",
+                "Show physical system configuration",
+                "Design user interfaces",
+                "Develop financial models"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: An aggregate/composite object can be further decomposed into smaller subsystems.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Input/Output subsystem",
+            "question": "Which subsystem performs input/output operations for other subsystems?",
+            "answers": [
+                "Input/Output subsystem",
+                "Control subsystem",
+                "User Interaction subsystem",
+                "Coordinator subsystem"
+            ]
+        },
+        {
+            "correctAnswer": "A diagram showing all objects and their interactions",
+            "question": "What is an integrated communication diagram?",
+            "answers": [
+                "A diagram showing all objects and their interactions",
+                "A diagram depicting only active objects",
+                "A financial report",
+                "A network setup diagram"
+            ]
+        },
+        {
+            "correctAnswer": "Deployment view",
+            "question": "Which view in software architecture focuses on physical configuration?",
+            "answers": [
+                "Deployment view",
+                "Structural view",
+                "Dynamic view",
+                "Functional view"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: A passive object can initiate control operations.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Control object and the objects it controls are in the same subsystem",
+            "question": "What does the term 'scope of control' refer to in subsystem structuring?",
+            "answers": [
+                "Control object and the objects it controls are in the same subsystem",
+                "Geographical distribution of objects",
+                "Separation of user interface components",
+                "Grouping of similar functional objects"
+            ]
+        },
+        {
+            "correctAnswer": "Passive object",
+            "question": "Which type of object does NOT have a thread of control?",
+            "answers": [
+                "Passive object",
+                "Active object",
+                "Concurrent object",
+                "Control object"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: The structural view includes subsystem communication diagrams.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "The physical configuration of a system",
+            "question": "What does a deployment diagram represent?",
+            "answers": [
+                "The physical configuration of a system",
+                "Subsystem class relationships",
+                "User interface designs",
+                "Software development lifecycle"
+            ]
+        },
+        {
+            "correctAnswer": "Active object",
+            "question": "Which object is responsible for initiating control operations?",
+            "answers": [
+                "Active object",
+                "Passive object",
+                "Aggregate object",
+                "Composite object"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: The dynamic view of software architecture includes physical system configurations.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Geographical location",
+            "question": "What is an example of a criterion for separating subsystems?",
+            "answers": [
+                "Geographical location",
+                "Color scheme",
+                "Font style",
+                "Financial impact"
+            ]
+        },
+        {
+            "correctAnswer": "Dynamic view",
+            "question": "Which view in software architecture shows the interactions between subsystems?",
+            "answers": [
+                "Dynamic view",
+                "Structural view",
+                "Deployment view",
+                "Functional view"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: A client subsystem is responsible for providing services.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+
+
+
+
+
+
+
+
+        {
+            "correctAnswer": "Collaborative Object Modeling and architectural design mEThod",
+            "question": "What does COMET stand for in software design?",
+            "answers": [
+                "Collaborative Object Modeling and architectural design mEThod",
+                "Component Oriented Modeling and Engineering Technique",
+                "Combined Object Management and Engineering Task",
+                "Computational Object Modeling and Efficiency Technique"
+            ]
+        },
+        {
+            "correctAnswer": "Standalone desktop applications",
+            "question": "Which of the following is NOT a typical application of distributed processing?",
+            "answers": [
+                "Distributed real-time data collection",
+                "Client/server applications",
+                "Standalone desktop applications",
+                "Distributed real-time control"
+            ]
+        },
+        {
+            "correctAnswer": "Information Hiding Object",
+            "question": "What is a passive object also known as?",
+            "answers": [
+                "Information Hiding Object",
+                "Concurrent Task",
+                "Client Object",
+                "Service Object"
+            ]
+        },
+        {
+            "correctAnswer": "Loosely coupled communication",
+            "question": "What is the characteristic of asynchronous message communication?",
+            "answers": [
+                "Loosely coupled communication",
+                "Synchronous communication",
+                "Remote Procedure Call",
+                "Direct message passing"
+            ]
+        },
+        {
+            "correctAnswer": "Broker Forwarding Pattern",
+            "question": "Which design pattern allows the broker to forward client requests and server responses?",
+            "answers": [
+                "Broker Forwarding Pattern",
+                "Observer Pattern",
+                "Singleton Pattern",
+                "Factory Pattern"
+            ]
+        },
+        {
+            "correctAnswer": "Handle (remote reference)",
+            "question": "In the Broker Handle pattern, what does the broker return to the client?",
+            "answers": [
+                "Handle (remote reference)",
+                "Direct message",
+                "Service description",
+                "Service request"
+            ]
+        },
+        {
+            "correctAnswer": "Mediates interactions between clients and servers",
+            "question": "What is the role of the object broker in a distributed system?",
+            "answers": [
+                "Mediates interactions between clients and servers",
+                "Provides graphical user interfaces",
+                "Manages database transactions",
+                "Designs user interfaces"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: In a distributed processing environment, multiple computers communicate over a network.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Each subsystem is designed as a distributed component",
+            "question": "What is a key characteristic of component-based distributed applications?",
+            "answers": [
+                "Each subsystem is designed as a distributed component",
+                "All components must be on a single node",
+                "No communication is allowed between subsystems",
+                "Components cannot be reused"
+            ]
+        },
+        {
+            "correctAnswer": "Decomposing the system into distributed subsystems",
+            "question": "What does system decomposition involve in designing distributed applications?",
+            "answers": [
+                "Decomposing the system into distributed subsystems",
+                "Designing user interfaces",
+                "Creating marketing strategies",
+                "Developing financial models"
+            ]
+        },
+        {
+            "correctAnswer": "Synchronous message communication",
+            "question": "Which type of message communication is tightly coupled?",
+            "answers": [
+                "Synchronous message communication",
+                "Asynchronous message communication",
+                "Multicast message communication",
+                "Broadcast message communication"
+            ]
+        },
+        {
+            "correctAnswer": "Broker Handle Pattern",
+            "question": "Which pattern involves the broker returning a handle (remote reference) to the client?",
+            "answers": [
+                "Broker Handle Pattern",
+                "Observer Pattern",
+                "Singleton Pattern",
+                "Factory Pattern"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: In asynchronous message communication, the producer sends a message and waits for the consumer's response.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Broadcast message communication",
+            "question": "Which of the following is a form of group message communication?",
+            "answers": [
+                "Broadcast message communication",
+                "Remote Procedure Call",
+                "Direct message passing",
+                "Point-to-point communication"
+            ]
+        },
+        {
+            "correctAnswer": "Responds to message requests from several clients",
+            "question": "What is the main function of a service in a distributed system?",
+            "answers": [
+                "Responds to message requests from several clients",
+                "Sends messages to multiple servers",
+                "Designs user interfaces",
+                "Manages database transactions"
+            ]
+        },
+        {
+            "correctAnswer": "Remote Method Invocation",
+            "question": "What does RMI stand for in distributed systems?",
+            "answers": [
+                "Remote Method Invocation",
+                "Remote Message Integration",
+                "Real-time Message Interaction",
+                "Resource Management Interface"
+            ]
+        },
+        {
+            "correctAnswer": "Subscription/Notification communication",
+            "question": "Which type of communication does NOT require the sender to know the recipient?",
+            "answers": [
+                "Subscription/Notification communication",
+                "Direct message passing",
+                "Synchronous communication",
+                "Remote Procedure Call"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Remote Procedure Call (RPC) hides communication details from the client and service.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Object Broker Architecture",
+            "question": "What type of architecture uses an object broker to mediate interactions?",
+            "answers": [
+                "Object Broker Architecture",
+                "Client-Server Architecture",
+                "Peer-to-Peer Architecture",
+                "Monolithic Architecture"
+            ]
+        },
+        {
+            "correctAnswer": "Each subsystem consists of one or more objects",
+            "question": "What is a defining feature of component-based subsystems?",
+            "answers": [
+                "Each subsystem consists of one or more objects",
+                "All subsystems must reside on the same node",
+                "No communication occurs between subsystems",
+                "Subsytems are designed for specific hardware"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: A service registers its information with a broker, including service name and location.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Subscription/Notification communication",
+            "question": "Which type of communication involves a client subscribing to a group and receiving messages sent to all members?",
+            "answers": [
+                "Subscription/Notification communication",
+                "Direct message passing",
+                "Synchronous communication",
+                "Point-to-point communication"
+            ]
+        },
+        {
+            "correctAnswer": "Sends message and continues",
+            "question": "Which is a characteristic of the Producer in asynchronous message communication?",
+            "answers": [
+                "Sends message and continues",
+                "Waits for consumer's response",
+                "Handles synchronous messages",
+                "Manages database transactions"
+            ]
+        },
+        {
+            "correctAnswer": "Component-based distributed application",
+            "question": "Which term describes a system designed to execute on multiple nodes in a distributed configuration?",
+            "answers": [
+                "Component-based distributed application",
+                "Monolithic application",
+                "Standalone application",
+                "Local area network application"
+            ]
+        },
+        {
+            "correctAnswer": "It frees the client from maintaining information about service location",
+            "question": "What is a key feature of the Object Broker Architecture?",
+            "answers": [
+                "It frees the client from maintaining information about service location",
+                "It requires the client to know the exact server location",
+                "It uses direct message passing between clients and servers",
+                "It eliminates the need for service registration"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: In synchronous message communication, the client waits for a response from the service.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Returns a handle (remote reference) to the client",
+            "question": "What is the role of a broker in the Broker Handle pattern?",
+            "answers": [
+                "Returns a handle (remote reference) to the client",
+                "Directly handles all client requests",
+                "Registers clients with services",
+                "Manages user interfaces"
+            ]
+        },
+        {
+            "correctAnswer": "Broadcast message communication",
+            "question": "Which type of message communication involves sending the same message to all recipients?",
+            "answers": [
+                "Broadcast message communication",
+                "Synchronous communication",
+                "Direct message passing",
+                "Point-to-point communication"
+            ]
+        },
+        {
+            "correctAnswer": "Receives messages and processes them",
+            "question": "What is the function of the consumer in asynchronous message communication?",
+            "answers": [
+                "Receives messages and processes them",
+                "Sends messages and waits for responses",
+                "Handles synchronous messages",
+                "Manages database transactions"
+            ]
+        },
+        {
+            "correctAnswer": "Broker Forwarding Pattern",
+            "question": "Which pattern involves a broker forwarding client requests to the service and service responses to the client?",
+            "answers": [
+                "Broker Forwarding Pattern",
+                "Observer Pattern",
+                "Singleton Pattern",
+                "Factory Pattern"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: In group message communication, a sender sends a message to all members of a group.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Responds to message requests from several clients",
+            "question": "What is a defining characteristic of a service in a distributed system?",
+            "answers": [
+                "Responds to message requests from several clients",
+                "Sends messages to multiple servers",
+                "Designs user interfaces",
+                "Manages database transactions"
+            ]
+        },
+        {
+            "correctAnswer": "A thread of control",
+            "question": "What does an active object in a distributed system have?",
+            "answers": [
+                "A thread of control",
+                "No properties",
+                "Interactions with other objects",
+                "Visibility to the user"
+            ]
+        },
+        {
+            "correctAnswer": "Synchronous message communication",
+            "question": "Which type of communication involves a client making a remote procedure call to a service on a different node?",
+            "answers": [
+                "Synchronous message communication",
+                "Asynchronous message communication",
+                "Multicast message communication",
+                "Broadcast message communication"
+            ]
+        },
+        {
+            "correctAnswer": "Component-based distributed application",
+            "question": "Which term describes a system designed to execute on multiple nodes in a distributed configuration?",
+            "answers": [
+                "Component-based distributed application",
+                "Monolithic application",
+                "Standalone application",
+                "Local area network application"
+            ]
+        },
+        {
+            "correctAnswer": "Broker Forwarding Pattern",
+            "question": "Which pattern involves the broker forwarding client requests and server responses?",
+            "answers": [
+                "Broker Forwarding Pattern",
+                "Observer Pattern",
+                "Singleton Pattern",
+                "Factory Pattern"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: A service registers its information with a broker, including service name and location.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+
+        {
+            "correctAnswer": "A concurrent task with a thread of control",
+            "question": "What is an active object in task structuring?",
+            "answers": [
+                "A concurrent task with a thread of control",
+                "A passive object with no thread of control",
+                "An I/O device",
+                "A data storage entity"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: A task in software design terminology refers to a passive object.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Event driven task",
+            "question": "Which type of task is activated by an external event like an interrupt?",
+            "answers": [
+                "Event driven task",
+                "Periodic task",
+                "Demand driven task",
+                "User interaction task"
+            ]
+        },
+        {
+            "correctAnswer": "Reads input, converts it to internal format, and sends messages",
+            "question": "What is the role of a device driver in task structuring?",
+            "answers": [
+                "Reads input, converts it to internal format, and sends messages",
+                "Handles user interactions",
+                "Manages network connections",
+                "Processes financial transactions"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: A periodic task is activated by a timer event.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Executing a statechart",
+            "question": "What is a control task responsible for?",
+            "answers": [
+                "Executing a statechart",
+                "Handling user interactions",
+                "Managing I/O devices",
+                "Converting data formats"
+            ]
+        },
+        {
+            "correctAnswer": "Demand driven task",
+            "question": "Which type of task is activated by the arrival of an internal message?",
+            "answers": [
+                "Demand driven task",
+                "Periodic task",
+                "Event driven task",
+                "Control task"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: Passive objects in task structuring have a thread of control.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Handles sequential user activities",
+            "question": "What is the function of a user interaction task?",
+            "answers": [
+                "Handles sequential user activities",
+                "Manages I/O devices",
+                "Processes financial transactions",
+                "Converts data formats"
+            ]
+        },
+        {
+            "correctAnswer": "Loosely coupled (asynchronous) message communication",
+            "question": "Which of the following is a type of message communication for task interfaces?",
+            "answers": [
+                "Loosely coupled (asynchronous) message communication",
+                "Direct message passing",
+                "File-based communication",
+                "Real-time streaming"
+            ]
+        },
+        {
+            "correctAnswer": "A passive object that encapsulates data and hides its contents",
+            "question": "What is an information hiding object?",
+            "answers": [
+                "A passive object that encapsulates data and hides its contents",
+                "An active object that manages tasks",
+                "A device driver for I/O operations",
+                "A user interface component"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: A control task executes a statechart sequentially.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "To describe concurrent task's inputs, outputs, and event sequencing logic",
+            "question": "What is the main purpose of task interface specifications (TIS)?",
+            "answers": [
+                "To describe concurrent task's inputs, outputs, and event sequencing logic",
+                "To manage network connections",
+                "To design user interfaces",
+                "To process financial transactions"
+            ]
+        },
+        {
+            "correctAnswer": "Periodic I/O task",
+            "question": "Which type of I/O task is activated by a timer?",
+            "answers": [
+                "Periodic I/O task",
+                "Event driven I/O task",
+                "Demand driven I/O task",
+                "User interaction I/O task"
+            ]
+        },
+        {
+            "correctAnswer": "Activated by an external event such as an interrupt",
+            "question": "What is a characteristic of an event driven I/O task?",
+            "answers": [
+                "Activated by an external event such as an interrupt",
+                "Activated by a timer event",
+                "Activated by the arrival of an internal message",
+                "Activated by user interaction"
+            ]
+        },
+        {
+            "correctAnswer": "User interaction task",
+            "question": "Which task type handles sequential activities for each user in a multi-user system?",
+            "answers": [
+                "User interaction task",
+                "Event driven task",
+                "Periodic task",
+                "Demand driven task"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: A demand task is activated periodically by a timer event.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Executes a statechart for state-dependent control objects",
+            "question": "What is the main function of a control task?",
+            "answers": [
+                "Executes a statechart for state-dependent control objects",
+                "Handles user interactions",
+                "Manages I/O devices",
+                "Processes financial transactions"
+            ]
+        },
+        {
+            "correctAnswer": "Periodic I/O task",
+            "question": "Which type of task structuring involves sampling an I/O device at regular intervals?",
+            "answers": [
+                "Periodic I/O task",
+                "Event driven I/O task",
+                "Demand driven I/O task",
+                "User interaction I/O task"
+            ]
+        },
+        {
+            "correctAnswer": "Demand driven task",
+            "question": "Which task type is associated with handling internal messages?",
+            "answers": [
+                "Demand driven task",
+                "Event driven task",
+                "Periodic task",
+                "User interaction task"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Task interface specifications (TIS) are developed during task structuring and expanded during detailed software design.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Reads input and converts it to internal format upon device interrupt",
+            "question": "What is a key function of an event driven I/O task?",
+            "answers": [
+                "Reads input and converts it to internal format upon device interrupt",
+                "Handles user interactions sequentially",
+                "Manages network connections",
+                "Processes financial transactions"
+            ]
+        },
+        {
+            "correctAnswer": "Tightly coupled message communication",
+            "question": "Which type of message communication is synchronous and involves a reply?",
+            "answers": [
+                "Tightly coupled message communication",
+                "Loosely coupled message communication",
+                "Broadcast message communication",
+                "Multicast message communication"
+            ]
+        },
+        {
+            "correctAnswer": "Control task",
+            "question": "Which type of task executes a statechart?",
+            "answers": [
+                "Control task",
+                "Periodic task",
+                "Demand driven task",
+                "User interaction task"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Passive objects encapsulate data and hide the contents of the data structure.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Demand driven I/O task",
+            "question": "What type of I/O task is associated with a device that does not need to be polled?",
+            "answers": [
+                "Demand driven I/O task",
+                "Periodic I/O task",
+                "Event driven I/O task",
+                "User interaction I/O task"
+            ]
+        },
+        {
+            "correctAnswer": "Periodic task",
+            "question": "Which task type is activated by a timer event?",
+            "answers": [
+                "Periodic task",
+                "Demand driven task",
+                "Event driven task",
+                "User interaction task"
+            ]
+        },
+        {
+            "correctAnswer": "Activated by the arrival of an internal message",
+            "question": "What is a characteristic of a demand driven task?",
+            "answers": [
+                "Activated by the arrival of an internal message",
+                "Activated periodically by a timer event",
+                "Activated by an external event such as an interrupt",
+                "Handles sequential user activities"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: In a multi-user system, there is one user interaction task per user.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Encapsulates data and hides the contents of the data structure",
+            "question": "What does an information hiding object do?",
+            "answers": [
+                "Encapsulates data and hides the contents of the data structure",
+                "Manages network connections",
+                "Processes financial transactions",
+                "Handles user interactions"
+            ]
+        },
+        {
+            "correctAnswer": "Asynchronous (loosely coupled) message communication",
+            "question": "Which type of message communication is characterized by the producer sending a message and continuing?",
+            "answers": [
+                "Asynchronous (loosely coupled) message communication",
+                "Synchronous (tightly coupled) message communication",
+                "Broadcast message communication",
+                "Multicast message communication"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Tightly coupled message communication involves the producer task waiting for a reply from the consumer.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "To synchronize access to data accessed by multiple tasks",
+            "question": "What is the purpose of using a semaphore or monitor object with passive objects?",
+            "answers": [
+                "To synchronize access to data accessed by multiple tasks",
+                "To handle user interactions",
+                "To manage network connections",
+                "To process financial transactions"
+            ]
+        },
+        {
+            "correctAnswer": "Periodic I/O task",
+            "question": "Which task type handles I/O operations for a device that needs to be polled periodically?",
+            "answers": [
+                "Periodic I/O task",
+                "Event driven I/O task",
+                "Demand driven I/O task",
+                "User interaction I/O task"
+            ]
+        },
+
+        {
+            "correctAnswer": "Object-oriented analysis and design using UML notation",
+            "question": "What does the COMET method primarily involve?",
+            "answers": [
+                "Object-oriented analysis and design using UML notation",
+                "Structured programming",
+                "Waterfall model",
+                "Agile methodology"
+            ]
+        },
+        {
+            "correctAnswer": "Communication Model",
+            "question": "Which class operation shows the direction of message from sender object to receiver object?",
+            "answers": [
+                "Finite State Machine Model",
+                "Communication Model",
+                "Static Model",
+                "Data Abstraction"
+            ]
+        },
+        {
+            "correctAnswer": "Design Waterfall Model",
+            "question": "Which of the following is NOT a step in using COMET/UML?",
+            "answers": [
+                "Design Overall Software Architecture",
+                "Design Information Hiding Classes",
+                "Develop Detailed Software Design",
+                "Design Waterfall Model"
+            ]
+        },
+        {
+            "correctAnswer": "A concurrent task with its own thread of control",
+            "question": "What is an active object?",
+            "answers": [
+                "An object that has no thread of control",
+                "An object that encapsulates information",
+                "A concurrent task with its own thread of control",
+                "A data structure with hidden internal linkage"
+            ]
+        },
+        {
+            "correctAnswer": "It is accessed via operations executed by a task",
+            "question": "Which of the following is true about a passive object?",
+            "answers": [
+                "It is a concurrent task with its own thread of control",
+                "It executes operations in its own thread of control",
+                "It is accessed via operations executed by a task",
+                "It directly controls its own operations"
+            ]
+        },
+        {
+            "correctAnswer": "The stack data structure and internal linkage",
+            "question": "In the example of the Stack object, what is hidden?",
+            "answers": [
+                "The stack operations",
+                "The stack data structure and internal linkage",
+                "The implementation of the operations",
+                "The client objects interacting with the stack"
+            ]
+        },
+        {
+            "correctAnswer": "A template for creating subclasses",
+            "question": "What does an abstract class provide?",
+            "answers": [
+                "A template for creating subclasses",
+                "A set of concrete implementations",
+                "A collection of identical objects",
+                "A finalized set of operations"
+            ]
+        },
+        {
+            "correctAnswer": "Data structure's internal content",
+            "question": "What is encapsulated by a data abstraction class?",
+            "answers": [
+                "Business rules",
+                "Data structure's internal content",
+                "State transitions",
+                "Concurrent tasks"
+            ]
+        },
+        {
+            "correctAnswer": "Process input event",
+            "question": "Which operation might a state machine class provide?",
+            "answers": [
+                "Add daily interest",
+                "Process input event",
+                "Check balance",
+                "Execute concurrent task"
+            ]
+        },
+        {
+            "correctAnswer": "Database Wrapper Class",
+            "question": "What is an example of an entity class in the Analysis Model?",
+            "answers": [
+                "Business Logic Class",
+                "Data Abstraction Class",
+                "Database Wrapper Class",
+                "State Machine Class"
+            ]
+        },
+        {
+            "correctAnswer": "To show the direction of data flow",
+            "question": "What is the primary purpose of designing class operations from the Communication Model?",
+            "answers": [
+                "To show the direction of data flow",
+                "To illustrate class hierarchy",
+                "To define data abstraction",
+                "To create an abstract class"
+            ]
+        },
+        {
+            "correctAnswer": "Reduction of code duplication",
+            "question": "Which of the following is a benefit of using inheritance in class design?",
+            "answers": [
+                "Encapsulation of data",
+                "Reduction of code duplication",
+                "Improved user interface",
+                "Enhanced concurrency"
+            ]
+        },
+        {
+            "correctAnswer": "Protecting the data structure from external access",
+            "question": "What does the term 'information hiding' refer to in class design?",
+            "answers": [
+                "Concealing the user interface",
+                "Protecting the data structure from external access",
+                "Encapsulating business logic",
+                "Implementing abstract classes"
+            ]
+        },
+        {
+            "correctAnswer": "Business Logic Class",
+            "question": "Which type of class is designed to handle business rules independently of other classes?",
+            "answers": [
+                "State Machine Class",
+                "Data Abstraction Class",
+                "Business Logic Class",
+                "Database Wrapper Class"
+            ]
+        },
+        {
+            "correctAnswer": "Analysis Model",
+            "question": "In COMET, what model is used to develop the software requirements?",
+            "answers": [
+                "Analysis Model",
+                "Design Model",
+                "Communication Model",
+                "Static Model"
+            ]
+        },
+        {
+            "correctAnswer": "To inherit attributes and operations from the superclass",
+            "question": "What is the role of a subclass in inheritance?",
+            "answers": [
+                "To hide implementation details",
+                "To inherit attributes and operations from the superclass",
+                "To manage database interactions",
+                "To define business rules"
+            ]
+        },
+        {
+            "correctAnswer": "Passive object",
+            "question": "Which type of object is referred to as having no thread of control?",
+            "answers": [
+                "Active object",
+                "Passive object",
+                "Concurrent object",
+                "Abstract object"
+            ]
+        },
+        {
+            "correctAnswer": "To add an element to the stack",
+            "question": "What is the purpose of the 'push' operation in the stack object example?",
+            "answers": [
+                "To remove an element from the stack",
+                "To add an element to the stack",
+                "To check if the stack is empty",
+                "To access the top element of the stack"
+            ]
+        },
+        {
+            "correctAnswer": "Service provider classes",
+            "question": "Which of the following is NOT a category of classes in the COMET method?",
+            "answers": [
+                "Data abstraction classes",
+                "Database wrapper classes",
+                "Service provider classes",
+                "State machine classes"
+            ]
+        },
+        {
+            "correctAnswer": "Concurrent Object Modeling and Architectural Design Method",
+            "question": "What does the acronym COMET stand for?",
+            "answers": [
+                "Component Object Model for Embedded Systems",
+                "Common Object Modeling for Efficient Transitions",
+                "Concurrent Object Modeling and Architectural Design Method",
+                "Collaborative Object Modeling for Enterprise Tasks"
+            ]
+        },
+        {
+            "correctAnswer": "From parent class to child class",
+            "question": "How are attributes and operations inherited in a class hierarchy?",
+            "answers": [
+                "From child class to parent class",
+                "From parent class to child class",
+                "Between classes of the same level",
+                "Only within abstract classes"
+            ]
+        },
+        {
+            "correctAnswer": "Database Wrapper Class",
+            "question": "Which class hides the details of accessing a database?",
+            "answers": [
+                "Business Logic Class",
+                "Data Abstraction Class",
+                "Database Wrapper Class",
+                "State Machine Class"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: An abstract class can have instances.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Protects data integrity",
+            "question": "What is the main benefit of information hiding in class design?",
+            "answers": [
+                "Enhances code readability",
+                "Improves performance",
+                "Protects data integrity",
+                "Simplifies user interface design"
+            ]
+        },
+        {
+            "correctAnswer": "Finite State Machine Model",
+            "question": "Which model is used to design class operations from statechart actions?",
+            "answers": [
+                "Communication Model",
+                "Static Model",
+                "Finite State Machine Model",
+                "Data Abstraction"
+            ]
+        },
+        {
+            "correctAnswer": "Business rules and application logic",
+            "question": "What is encapsulated by a business logic class?",
+            "answers": [
+                "User interface logic",
+                "Database access methods",
+                "Business rules and application logic",
+                "System state transitions"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Inheritance allows a subclass to redefine operations inherited from a superclass.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Database Wrapper Class",
+            "question": "What kind of class is designed to provide an interface to the database?",
+            "answers": [
+                "Business Logic Class",
+                "Data Abstraction Class",
+                "Database Wrapper Class",
+                "State Machine Class"
+            ]
+        },
+        {
+            "correctAnswer": "Removes an element from the stack",
+            "question": "What does the 'pop' operation do in the stack object example?",
+            "answers": [
+                "Adds an element to the stack",
+                "Removes an element from the stack",
+                "Checks if the stack is full",
+                "Accesses the bottom element of the stack"
+            ]
+        },
+        {
+            "correctAnswer": "Database Wrapper Class",
+            "question": "Which class hides the interface to a relational database?",
+            "answers": [
+                "Data Abstraction Class",
+                "State Machine Class",
+                "Database Wrapper Class",
+                "Business Logic Class"
+            ]
+        },
+        {
+            "correctAnswer": "To add funds to an account",
+            "question": "What is the primary function of the 'credit' operation in the Account superclass example?",
+            "answers": [
+                "To open a new account",
+                "To add funds to an account",
+                "To close an account",
+                "To read the balance of an account"
+            ]
+        },
+        {
+            "correctAnswer": "cumulativeInterest",
+            "question": "Which attribute is added in the Savings Account subclass example?",
+            "answers": [
+                "lastDepositAmount",
+                "cumulativeInterest",
+                "transactionLog",
+                "creditLimit"
+            ]
+        },
+        {
+            "correctAnswer": "To hide the internal structure and content",
+            "question": "What is the purpose of encapsulating data structures in data abstraction classes?",
+            "answers": [
+                "To enhance performance",
+                "To improve user experience",
+                "To hide the internal structure and content",
+                "To enable concurrent processing"
+            ]
+        },
+        {
+            "correctAnswer": "State Machine Class",
+            "question": "What kind of class processes input events based on current state and conditions?",
+            "answers": [
+                "Business Logic Class",
+                "State Machine Class",
+                "Data Abstraction Class",
+                "Database Wrapper Class"
+            ]
+        },
+        {
+            "correctAnswer": "Checking Account",
+            "question": "Which of the following is an example of a database wrapper class?",
+            "answers": [
+                "ATM Card",
+                "ATM Transaction",
+                "ATM Cash",
+                "Checking Account"
+            ]
+        },
+
+        {
+            "correctAnswer": "Develop Software Requirements Model",
+            "question": "What is the first step in developing software using the COMET/UML method?",
+            "answers": [
+                "Develop Software Requirements Model",
+                "Develop Software Design Model",
+                "Develop Software Analysis Model",
+                "Design Distributed Applications"
+            ]
+        },
+        {
+            "correctAnswer": "Develop Detailed Software Design",
+            "question": "Which of the following is NOT included in the Detailed Software Design step?",
+            "answers": [
+                "Design Overall Software Architecture",
+                "Design Distributed Applications",
+                "Structure Subsystems into Concurrent Tasks",
+                "Develop Detailed Software Design"
+            ]
+        },
+        {
+            "correctAnswer": "Synchronization",
+            "question": "What is required for task interaction via shared data?",
+            "answers": [
+                "Data encapsulation",
+                "Synchronization",
+                "Thread creation",
+                "Data abstraction"
+            ]
+        },
+        {
+            "correctAnswer": "Binary semaphore",
+            "question": "Which type of semaphore is used for mutually exclusive access to a data repository?",
+            "answers": [
+                "Counting semaphore",
+                "Binary semaphore",
+                "Mutex",
+                "Signal semaphore"
+            ]
+        },
+        {
+            "correctAnswer": "Wait for a resource to become available",
+            "question": "What is the function of the 'acquire' operation in a binary semaphore?",
+            "answers": [
+                "Release a resource",
+                "Signal that a resource is available",
+                "Wait for a resource to become available",
+                "Initialize a semaphore"
+            ]
+        },
+        {
+            "correctAnswer": "Signals that a resource is available",
+            "question": "What does the 'release' operation in a binary semaphore do?",
+            "answers": [
+                "Initializes the semaphore",
+                "Waits for a resource",
+                "Signals that a resource is available",
+                "Acquires a resource"
+            ]
+        },
+        {
+            "correctAnswer": "To manage mutual exclusion",
+            "question": "In the example of mutual exclusion, what is the purpose of 'sensorDataStoreSemaphore'?",
+            "answers": [
+                "To store sensor data",
+                "To manage mutual exclusion",
+                "To initialize sensor values",
+                "To release sensor data"
+            ]
+        },
+        {
+            "correctAnswer": "Reader tasks",
+            "question": "Which operation would typically call a read operation in a multiple readers scenario?",
+            "answers": [
+                "Writer tasks",
+                "Reader tasks",
+                "Synchronizer tasks",
+                "Coordinator tasks"
+            ]
+        },
+        {
+            "correctAnswer": "Loosely coupled",
+            "question": "What type of communication does an asynchronous message communication represent?",
+            "answers": [
+                "Loosely coupled",
+                "Tightly coupled without reply",
+                "Tightly coupled with reply",
+                "Synchronized"
+            ]
+        },
+        {
+            "correctAnswer": "Message queue",
+            "question": "Which of the following is NOT a type of synchronous message communication?",
+            "answers": [
+                "Without reply",
+                "With reply",
+                "Message queue",
+                "Message buffer"
+            ]
+        },
+        {
+            "correctAnswer": "To encapsulate a message queue for asynchronous communication",
+            "question": "What is the primary purpose of a message queue monitor class?",
+            "answers": [
+                "To hold messages for synchronous communication",
+                "To manage mutual exclusion",
+                "To encapsulate a message queue for asynchronous communication",
+                "To buffer messages for synchronous communication"
+            ]
+        },
+        {
+            "correctAnswer": "Acquire",
+            "question": "Which operation is executed when a task enters a synchronized operation in Java threads?",
+            "answers": [
+                "Wait",
+                "Signal",
+                "Acquire",
+                "Release"
+            ]
+        },
+        {
+            "correctAnswer": "To suspend a task and release a semaphore",
+            "question": "What is the purpose of the 'wait' synchronization method in Java?",
+            "answers": [
+                "To acquire a semaphore",
+                "To release a semaphore",
+                "To suspend a task and release a semaphore",
+                "To notify a suspended task"
+            ]
+        },
+        {
+            "correctAnswer": "To handle mutual exclusion",
+            "question": "What is the main function of a binary semaphore?",
+            "answers": [
+                "To manage multiple writers",
+                "To handle mutual exclusion",
+                "To manage multiple readers",
+                "To buffer messages"
+            ]
+        },
+        {
+            "correctAnswer": "Loosely coupled",
+            "question": "Which of the following describes an asynchronous message communication?",
+            "answers": [
+                "Loosely coupled",
+                "Tightly coupled with reply",
+                "Synchronized",
+                "Mutually exclusive"
+            ]
+        },
+        {
+            "correctAnswer": "To notify a waiting task",
+            "question": "What is the function of the 'signal' method in Java synchronization?",
+            "answers": [
+                "To wait for a condition",
+                "To notify a waiting task",
+                "To release a resource",
+                "To acquire a semaphore"
+            ]
+        },
+        {
+            "correctAnswer": "MessageBuffer&Response",
+            "question": "Which class encapsulates a message buffer and response in synchronous communication?",
+            "answers": [
+                "MessageQueue",
+                "MessageBuffer",
+                "MessageBuffer&Response",
+                "MessageConnector"
+            ]
+        },
+        {
+            "correctAnswer": "Task response to messages or events",
+            "question": "What does the event sequencing logic describe in task behavior specifications?",
+            "answers": [
+                "Task interaction with the user",
+                "Task response to messages or events",
+                "Task initialization",
+                "Task termination"
+            ]
+        },
+        {
+            "correctAnswer": "Design Model",
+            "question": "Which model is used to develop detailed software design in the COMET/UML method?",
+            "answers": [
+                "Requirements Model",
+                "Analysis Model",
+                "Design Model",
+                "Communication Model"
+            ]
+        },
+        {
+            "correctAnswer": "Message Queue Monitor Class",
+            "question": "What is an example of a connector class?",
+            "answers": [
+                "Data Abstraction Class",
+                "Message Queue Monitor Class",
+                "Database Wrapper Class",
+                "State Machine Class"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Tasks interacting via passive data abstraction objects need synchronization.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Preventing multiple tasks from accessing shared data at the same time",
+            "question": "What is mutual exclusion in the context of concurrent tasks?",
+            "answers": [
+                "Allowing multiple tasks to access shared data simultaneously",
+                "Preventing multiple tasks from accessing shared data at the same time",
+                "Synchronizing tasks using binary semaphores",
+                "Encapsulating data in a single task"
+            ]
+        },
+        {
+            "correctAnswer": "MessageBuffer",
+            "question": "Which class holds at most one message and is used for tightly coupled message communication without reply?",
+            "answers": [
+                "MessageQueue",
+                "MessageBuffer",
+                "MessageBuffer&Response",
+                "MessageConnector"
+            ]
+        },
+        {
+            "correctAnswer": "To outline the task's internal event sequencing logic",
+            "question": "What is the main purpose of a pseudocode description in task behavior specifications?",
+            "answers": [
+                "To define the user interface",
+                "To outline the task's internal event sequencing logic",
+                "To create a high-level design model",
+                "To implement data abstraction"
+            ]
+        },
+        {
+            "correctAnswer": "When only one task needs access at a time",
+            "question": "In which scenario would you use a binary semaphore?",
+            "answers": [
+                "When multiple readers and multiple writers need access",
+                "When only one task needs access at a time",
+                "When initializing data structures",
+                "When synchronizing user inputs"
+            ]
+        },
+        {
+            "correctAnswer": "Task synchronization",
+            "question": "What kind of synchronization is required when tasks interact via passive objects?",
+            "answers": [
+                "Thread synchronization",
+                "Process synchronization",
+                "Data synchronization",
+                "Task synchronization"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: A message queue monitor class is used for synchronous communication.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "It allows tasks to communicate without waiting for a reply",
+            "question": "What is the main benefit of using a message queue in asynchronous communication?",
+            "answers": [
+                "It ensures mutual exclusion",
+                "It allows tasks to communicate without waiting for a reply",
+                "It synchronizes data access",
+                "It buffers messages for synchronous communication"
+            ]
+        },
+        {
+            "correctAnswer": "Suspends a task and releases the semaphore",
+            "question": "What does the 'wait' method do in synchronization within connector objects?",
+            "answers": [
+                "Suspends a task and releases the semaphore",
+                "Acquires a semaphore",
+                "Signals a task",
+                "Initializes the semaphore"
+            ]
+        },
+        {
+            "correctAnswer": "Notify",
+            "question": "Which method is used to notify a suspended task in Java synchronization?",
+            "answers": [
+                "Wait",
+                "Signal",
+                "Notify",
+                "Acquire"
+            ]
+        },
+        {
+            "correctAnswer": "To hold at most one message",
+            "question": "What is the purpose of a message buffer in synchronous communication?",
+            "answers": [
+                "To hold multiple messages",
+                "To hold at most one message",
+                "To manage multiple writers",
+                "To synchronize data access"
+            ]
+        },
+        {
+            "correctAnswer": "MessageBuffer&Response",
+            "question": "Which class encapsulates both a message buffer and a response buffer?",
+            "answers": [
+                "MessageQueue",
+                "MessageBuffer",
+                "MessageBuffer&Response",
+                "MessageConnector"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Connector classes are designed to provide inter-task communication and synchronization.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "To encapsulate a message queue for asynchronous communication",
+            "question": "What is the main role of a message queue monitor class?",
+            "answers": [
+                "To manage synchronous communication",
+                "To encapsulate a message queue for asynchronous communication",
+                "To handle mutual exclusion",
+                "To buffer messages for synchronous communication"
+            ]
+        },
+        {
+            "correctAnswer": "Synchronous communication with reply",
+            "question": "What type of message communication uses a message buffer and response buffer?",
+            "answers": [
+                "Asynchronous communication",
+                "Synchronous communication without reply",
+                "Synchronous communication with reply",
+                "Loosely coupled communication"
+            ]
+        },
+        {
+            "correctAnswer": "Pseudocode description",
+            "question": "Which task behavior specification component defines the internal event sequencing logic?",
+            "answers": [
+                "Requirements model",
+                "Design model",
+                "Pseudocode description",
+                "User interface"
+            ]
+        },
+        {
+            "correctAnswer": "Card reader interface",
+            "question": "Which operation might be included in an event sequencing logic for an ATM Controller task?",
+            "answers": [
+                "Card reader interface",
+                "Update balance",
+                "Handle transaction",
+                "Manage user input"
+            ]
+        },
+
+
+        {
+            "correctAnswer": "A recurring design problem",
+            "question": "What does a design pattern describe?",
+            "answers": [
+                "A recurring design problem",
+                "A unique design problem",
+                "A software development methodology",
+                "A programming language"
+            ]
+        },
+        {
+            "correctAnswer": "Gang of Four",
+            "question": "Which group of individuals is associated with design patterns?",
+            "answers": [
+                "Gang of Four",
+                "Buschmann Group",
+                "Fowler Team",
+                "Microsoft Architects"
+            ]
+        },
+        {
+            "correctAnswer": "Static structure of software architecture",
+            "question": "What is the focus of architectural structure patterns?",
+            "answers": [
+                "Dynamic communication",
+                "Static structure of software architecture",
+                "User interface design",
+                "Database optimization"
+            ]
+        },
+        {
+            "correctAnswer": "Client/Server Architecture",
+            "question": "Which architectural pattern involves a client requesting services from a server?",
+            "answers": [
+                "Client/Server Architecture",
+                "Layers of Abstraction",
+                "Centralized Control",
+                "Broker Forwarding"
+            ]
+        },
+        {
+            "correctAnswer": "Context, Problem, and Solution",
+            "question": "What must a pattern include according to Buschmann?",
+            "answers": [
+                "A detailed implementation guide",
+                "Context, Problem, and Solution",
+                "Source code examples",
+                "User manuals"
+            ]
+        },
+        {
+            "correctAnswer": "Asynchronous communication",
+            "question": "What is another name for the FIFO Queue pattern?",
+            "answers": [
+                "Synchronous communication",
+                "Asynchronous communication",
+                "Buffered communication",
+                "Direct communication"
+            ]
+        },
+        {
+            "correctAnswer": "The consumer is suspended",
+            "question": "In the Asynchronous message communication pattern, what happens if no message is present?",
+            "answers": [
+                "The consumer continues processing",
+                "The producer waits",
+                "The consumer is suspended",
+                "The message is discarded"
+            ]
+        },
+        {
+            "correctAnswer": "Message queue overflow",
+            "question": "What is a weakness of the Asynchronous message communication pattern?",
+            "answers": [
+                "Complex implementation",
+                "Message queue overflow",
+                "High latency",
+                "Low scalability"
+            ]
+        },
+        {
+            "correctAnswer": "To register services and forward requests",
+            "question": "In the Broker Forwarding pattern, what is the role of the Object Broker?",
+            "answers": [
+                "To handle direct communication between clients",
+                "To register services and forward requests",
+                "To store client data",
+                "To manage network connections"
+            ]
+        },
+        {
+            "correctAnswer": "Location transparency",
+            "question": "What is a strength of the Broker Forwarding pattern?",
+            "answers": [
+                "Reduced complexity",
+                "Location transparency",
+                "Increased security",
+                "Improved performance"
+            ]
+        },
+        {
+            "correctAnswer": "A small number of collaborating objects",
+            "question": "What does the term 'Micro-architecture' refer to?",
+            "answers": [
+                "A large number of unrelated objects",
+                "A small number of collaborating objects",
+                "A single object with multiple methods",
+                "A complex system architecture"
+            ]
+        },
+        {
+            "correctAnswer": "Asynchronous message communication",
+            "question": "Which of the following is an example of an architectural communication pattern?",
+            "answers": [
+                "Client/Server Architecture",
+                "Layers of Abstraction",
+                "Asynchronous message communication",
+                "Centralized Control"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: The Layers of Abstraction pattern is a hierarchical architecture.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "To solve recurring design problems",
+            "question": "What is the main purpose of design patterns?",
+            "answers": [
+                "To solve recurring design problems",
+                "To provide new programming languages",
+                "To create user interfaces",
+                "To document software requirements"
+            ]
+        },
+        {
+            "correctAnswer": "Gamma, Helm, Johnson, Vlissides",
+            "question": "Who are the authors commonly referred to as the Gang of Four?",
+            "answers": [
+                "Gamma, Helm, Johnson, Vlissides",
+                "Buschmann, Fowler, Martin, Beck",
+                "Knuth, Wirth, Dijkstra, Hoare",
+                "Richter, Liskov, Codd, Date"
+            ]
+        },
+        {
+            "correctAnswer": "Architectural Communication Pattern",
+            "question": "Which pattern is used to describe the dynamic communication between software components?",
+            "answers": [
+                "Architectural Structure Pattern",
+                "Architectural Communication Pattern",
+                "Analysis Pattern",
+                "Domain Specific Pattern"
+            ]
+        },
+        {
+            "correctAnswer": "Layers of Abstraction",
+            "question": "Which architectural pattern uses layers to organize software components?",
+            "answers": [
+                "Client/Server Architecture",
+                "Layers of Abstraction",
+                "Centralized Control",
+                "Broker Forwarding"
+            ]
+        },
+        {
+            "correctAnswer": "Concurrent tasks needing to communicate without waiting",
+            "question": "What is the problem addressed by the FIFO Queue pattern?",
+            "answers": [
+                "Concurrent tasks needing to communicate without waiting",
+                "Sequential tasks needing to synchronize",
+                "Tasks requiring direct communication",
+                "Synchronous message handling"
+            ]
+        },
+        {
+            "correctAnswer": "Distributed systems",
+            "question": "What is the context for the Broker Forwarding pattern?",
+            "answers": [
+                "Single-user systems",
+                "Distributed systems",
+                "Batch processing systems",
+                "Real-time systems"
+            ]
+        },
+        {
+            "correctAnswer": "Domain Specific Patterns",
+            "question": "Which pattern category is used in a specific application area?",
+            "answers": [
+                "Design Patterns",
+                "Architecture Patterns",
+                "Analysis Patterns",
+                "Domain Specific Patterns"
+            ]
+        },
+        {
+            "correctAnswer": "Client requests services from the server",
+            "question": "What is a key feature of the Client/Server Architecture pattern?",
+            "answers": [
+                "Hierarchical structure",
+                "Peer-to-peer communication",
+                "Centralized control",
+                "Client requests services from the server"
+            ]
+        },
+        {
+            "correctAnswer": "Small number of collaborating objects",
+            "question": "What does the term 'Micro-architecture' refer to in design patterns?",
+            "answers": [
+                "Large systems with many components",
+                "Detailed low-level design",
+                "Small number of collaborating objects",
+                "Hardware design"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: Analysis Patterns are used to describe dynamic communication between software components.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Layers of Abstraction",
+            "question": "What is an example of an architectural structure pattern?",
+            "answers": [
+                "Client/Server Architecture",
+                "Layers of Abstraction",
+                "Asynchronous Message Communication",
+                "Centralized Control"
+            ]
+        },
+        {
+            "correctAnswer": "They help solve recurring design problems",
+            "question": "What is the main benefit of using design patterns?",
+            "answers": [
+                "They provide new programming languages",
+                "They help solve recurring design problems",
+                "They ensure software security",
+                "They simplify user interfaces"
+            ]
+        },
+        {
+            "correctAnswer": "Concurrent systems",
+            "question": "What is the context for the FIFO Queue pattern?",
+            "answers": [
+                "Concurrent systems",
+                "Single-threaded applications",
+                "Batch processing systems",
+                "User interface design"
+            ]
+        },
+        {
+            "correctAnswer": "Additional overhead",
+            "question": "Which of the following is a weakness of the Broker Forwarding pattern?",
+            "answers": [
+                "Increased complexity",
+                "High security risk",
+                "Additional overhead",
+                "Limited scalability"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: The Gang of Four authored the book 'Design Patterns: Elements of Reusable Object-Oriented Software'.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Concurrent tasks needing to communicate without waiting",
+            "question": "What is the main problem addressed by the Asynchronous message communication pattern?",
+            "answers": [
+                "Tasks needing to synchronize before proceeding",
+                "Tasks requiring immediate responses",
+                "Concurrent tasks needing to communicate without waiting",
+                "Tasks requiring direct memory access"
+            ]
+        },
+        {
+            "correctAnswer": "Broker Forwarding",
+            "question": "Which pattern involves using an Object Broker for service requests?",
+            "answers": [
+                "Layers of Abstraction",
+                "Client/Server Architecture",
+                "Centralized Control",
+                "Broker Forwarding"
+            ]
+        },
+        {
+            "correctAnswer": "Analysis Pattern",
+            "question": "What is a recurring pattern found in analysis called?",
+            "answers": [
+                "Design Pattern",
+                "Analysis Pattern",
+                "Architecture Pattern",
+                "Domain Specific Pattern"
+            ]
+        },
+        {
+            "correctAnswer": "Loosely coupled message communication",
+            "question": "Which of the following is an alias for Asynchronous message communication?",
+            "answers": [
+                "Synchronous communication",
+                "Direct communication",
+                "Loosely coupled message communication",
+                "Buffered communication"
+            ]
+        },
+        {
+            "correctAnswer": "Layers of Abstraction",
+            "question": "Which pattern provides services to layers above it in a hierarchical architecture?",
+            "answers": [
+                "Client/Server Architecture",
+                "Centralized Control",
+                "Layers of Abstraction",
+                "Broker Forwarding"
+            ]
+        },
+        {
+            "correctAnswer": "Distributed application with multiple clients and servers",
+            "question": "What is the problem addressed by the Broker Forwarding pattern?",
+            "answers": [
+                "Single-user systems",
+                "Concurrent tasks needing direct communication",
+                "Distributed application with multiple clients and servers",
+                "Sequential tasks needing synchronization"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: Design patterns are solutions to unique design problems.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        }
+    ]
+
+}
