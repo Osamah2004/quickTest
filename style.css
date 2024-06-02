@@ -1,0 +1,94 @@
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6, p, label, button {
+    color: #FFFFFF;
+    font-family: 'Times New Roman', Times, serif;
+}
+a {
+    color: rgb(107, 107, 107);
+}
+
+
+
+table {
+    border-color: #FFFFFF;
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: column; /* Add this to stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin: 0;
+}
+/* Add these styles */
+#mcqOptions > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adjust spacing between options */
+}
+/* Add these styles */
+#tfOptions > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adjust spacing between options */
+}
+
+div {
+    display: flex;
+    justify-content: center; /* Aligns items horizontally in the center */
+    align-items: center; /* Aligns items vertically in the center */
+    height: 10vh; /* This makes the div take up the full height of the viewport */
+}
+
+button {
+    background-color: #333; /* Dark background for buttons */
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block; /* This will make the button a block element */
+    margin: auto; /* This will center the button */
+}
+
+
+
+button:hover {
+    background-color: #555; /* Slightly lighter on hover */
+}
+#tfOptions, #mcqOptions {
+    display: flex;
+    justify-content: center; /* Aligns items horizontally in the center */
+    align-items: center; /* Aligns items vertically in the center */
+    height: 10vh; /* This makes the div take up the full height of the viewport */
+}
+
+table th, table td {
+    border: 1px solid #FFFFFF;
+    border-collapse: collapse;
+}
+
+input[type="radio"] {
+    accent-color: white; /* To style the radio button */
+    }
+
+input[type="radio"]:checked {
+        accent-color: rgb(0, 255, 251); /* Change color to yellow when checked */
+    }
+
+button {
+        background-color: #333; /* Dark background for buttons */
+        border: 1px solid white;
+        color: white;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+button:hover {
+        background-color: #555; /* Slightly lighter on hover */
+    }
