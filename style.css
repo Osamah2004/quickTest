@@ -44,6 +44,15 @@ div {
     justify-content: center; /* Aligns items horizontally in the center */
     align-items: center; /* Aligns items vertically in the center */
     height: 10vh; /* This makes the div take up the full height of the viewport */
+    gap: 0;
+}
+
+.buttonsDiv {
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: center; /* Aligns items vertically in the center */
+    height: 10vh; /* This makes the div take up the full height of the viewport */
+    gap: 0;
 }
 
 button {
@@ -53,14 +62,11 @@ button {
     padding: 10px 20px;
     cursor: pointer;
     display: block; /* This will make the button a block element */
-    margin: auto; /* This will center the button */
+    margin: left; /* This will center the button */
 }
 
 
 
-button:hover {
-    background-color: #555; /* Slightly lighter on hover */
-}
 #tfOptions, #mcqOptions {
     display: flex;
     justify-content: center; /* Aligns items horizontally in the center */
@@ -78,11 +84,11 @@ input[type="radio"] {
     }
 
 input[type="radio"]:checked {
-        accent-color: rgb(0, 255, 251); /* Change color to yellow when checked */
+        accent-color: rgb(0, 255, 255); /* Change color to yellow when checked */
     }
 
 button {
-        background-color: #333; /* Dark background for buttons */
+        background-color: #474747; /* Dark background for buttons */
         border: 1px solid white;
         color: white;
         padding: 10px 20px;
@@ -90,5 +96,5 @@ button {
     }
 
 button:hover {
-        background-color: #555; /* Slightly lighter on hover */
+        background-color: #434242; /* Slightly lighter on hover */
     }
