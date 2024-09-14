@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <a href="index.html" >home page</a>
     <p style="font-size: 10px;" id="correct">correct answers 0</p>
     <h1 id="question num">question 1</h1>
+    <br>
     <h4 id="question">The question</h4>
     <form>
         <input type="radio" onclick="setAnswer(1)" value="q1" id="radio1" name="question"> <label for="radio1" id="q1"></label> <br>
@@ -20,7 +22,11 @@
         <button onclick="previous()" style="visibility: hidden;" id="prev">Previous.</button>
         <button onclick="next()" id="next">Next.</button>
     </div>
-
+    <h3>How would you like to validate the answer?</h3>
+    <input type="radio" name="validation" value="alert" id="alert" checked> <label for="alert">alert box</label>
+    <br>
+    <input type="radio" name="validation" value="snackbar_" id="snackbar_"> <label for="snackbar_">snackbar</label>
+    <script></script>
     <script src="script.js"></script>
 </body>
 </html>

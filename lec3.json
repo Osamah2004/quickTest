@@ -1,0 +1,500 @@
+{
+    "questions": [
+        {
+            "correctAnswer": "A high-level description of how a system is organized and operates",
+            "question": "What is a conceptual model in the context of user interface design?",
+            "answers": [
+                "A low-level implementation of a system",
+                "A graphical representation of user interactions",
+                "A high-level description of how a system is organized and operates"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: A conceptual model helps design teams clarify their thinking before starting to design the interface.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Prevents teams from focusing too narrowly early on",
+            "question": "Which of the following is a benefit of conceptualizing during design?",
+            "answers": [
+                "Helps finalize design details quickly",
+                "Prevents teams from focusing too narrowly early on",
+                "Reduces user testing time"
+            ]
+        },
+        {
+            "correctAnswer": "Metaphors and analogies",
+            "question": "What helps users understand what a product is for and how to use it?",
+            "answers": [
+                "Task domain objects",
+                "Visual design",
+                "Metaphors and analogies"
+            ]
+        },
+        {
+            "correctAnswer": "Saving, revisiting, organizing",
+            "question": "Which of the following is an example of task-domain operations in a conceptual model?",
+            "answers": [
+                "Clicking, dragging, resizing",
+                "Saving, revisiting, organizing",
+                "Zooming, panning, highlighting"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Interface metaphors provide familiar entities to help users understand the underlying conceptual model.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "The desktop metaphor",
+            "question": "Which is an example of an interface metaphor commonly used in operating systems?",
+            "answers": [
+                "The grid layout",
+                "The hamburger menu",
+                "The desktop metaphor"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: The conceptual model only deals with how the interface looks, not how it behaves.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Exploit the user’s familiar knowledge to understand unfamiliar systems",
+            "question": "What is one of the primary goals of using interface metaphors in design?",
+            "answers": [
+                "Create unique experiences for every user",
+                "Reduce the need for usability testing",
+                "Exploit the user’s familiar knowledge to understand unfamiliar systems"
+            ]
+        },
+        {
+            "correctAnswer": "Task–domain objects and their relationships",
+            "question": "What should designers focus on when creating a conceptual model?",
+            "answers": [
+                "Task–domain objects and their relationships",
+                "Color schemes and animations",
+                "Screen size and orientation"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Conceptual models are often based on real-world metaphors like shopping carts and recycle bins.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "A shopping cart for online purchases",
+            "question": "Which of the following is an example of a metaphor used in e-commerce?",
+            "answers": [
+                "A shopping cart for online purchases",
+                "A recycle bin for deleted files",
+                "A search bar for searching within a document"
+            ]
+        },
+        {
+            "correctAnswer": "Helps users understand the underlying conceptual model",
+            "question": "What is one of the key benefits of using interface metaphors?",
+            "answers": [
+                "Speeds up the development process",
+                "Helps users understand the underlying conceptual model",
+                "Reduces system errors"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: Interface metaphors are always beneficial and have no downsides.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Forces users to understand the system in terms of the metaphor",
+            "question": "What is one potential downside of using interface metaphors?",
+            "answers": [
+                "Increases learning time for users",
+                "Forces users to understand the system in terms of the metaphor",
+                "Makes the interface less visually appealing"
+            ]
+        },
+        {
+            "correctAnswer": "Conversing",
+            "question": "Which interaction type involves interacting with a system as if having a conversation?",
+            "answers": [
+                "Instructing",
+                "Manipulating",
+                "Conversing"
+            ]
+        },
+        {
+            "correctAnswer": "Exploring",
+            "question": "Which interaction type involves moving through a virtual or physical environment?",
+            "answers": [
+                "Exploring",
+                "Manipulating",
+                "Instructing"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Instructing is a very common conceptual model, supporting quick and efficient interactions.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Instructing",
+            "question": "Which interaction type is most suitable for repetitive tasks like file management?",
+            "answers": [
+                "Conversing",
+                "Instructing",
+                "Exploring"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: A hybrid conceptual model can support multiple interaction types at the same interface.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "WIMP (Windows, Icons, Menus, Pointer)",
+            "question": "Which of the following is a common interaction style?",
+            "answers": [
+                "WIMP (Windows, Icons, Menus, Pointer)",
+                "WYSIWYG (What You See Is What You Get)",
+                "CRUD (Create, Read, Update, Delete)"
+            ]
+        },
+        {
+            "correctAnswer": "Conversing",
+            "question": "Which interaction type is best suited for users who are computer-phobic or disabled?",
+            "answers": [
+                "Instructing",
+                "Conversing",
+                "Exploring"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: The interaction type defines what the user is doing when interacting with the system.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Menu-based",
+            "question": "Which interface type is typically used to support instructing as an interaction mode?",
+            "answers": [
+                "Menu-based",
+                "Gesture-based",
+                "Natural language processing"
+            ]
+        },
+        {
+            "correctAnswer": "Physical manipulation of objects in a virtual space",
+            "question": "What does manipulating involve in terms of interaction design?",
+            "answers": [
+                "Physical manipulation of objects in a virtual space",
+                "Issuing verbal commands",
+                "Exploring different interface layouts"
+            ]
+        },
+        {
+            "correctAnswer": "Hybrid conceptual models",
+            "question": "Which model allows different ways of carrying out the same actions, though it may take longer to learn?",
+            "answers": [
+                "Conversational models",
+                "Hybrid conceptual models",
+                "Task-based models"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Direct manipulation is good for tasks like designing and resizing windows.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Mapping",
+            "question": "Which principle involves the relationship between a control and its effect in the interface?",
+            "answers": [
+                "Visibility",
+                "Mapping",
+                "Affordances"
+            ]
+        },
+        {
+            "correctAnswer": "Issuing instructions for repetitive actions",
+            "question": "Which method of interaction is best for repetitive actions like saving or printing a file?",
+            "answers": [
+                "Direct manipulation",
+                "Issuing instructions for repetitive actions",
+                "Exploring different interface elements"
+            ]
+        },{
+            "correctAnswer": "A draft version of a design before the final version exists",
+            "question": "What is a prototype in interaction design?",
+            "answers": [
+                "A fully developed product",
+                "A draft version of a design before the final version exists",
+                "A finished, deployable system"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Prototyping allows stakeholders to interact with a future product in realistic settings.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Paper-based mock-up",
+            "question": "Which of the following is an example of a low-fidelity prototype?",
+            "answers": [
+                "Fully developed software",
+                "Paper-based mock-up",
+                "Clickable web-based prototype"
+            ]
+        },
+        {
+            "correctAnswer": "A storyboard",
+            "question": "Which prototyping method involves a series of sketches showing a user's task flow?",
+            "answers": [
+                "A wireframe",
+                "A storyboard",
+                "A card-based prototype"
+            ]
+        },
+        {
+            "correctAnswer": "Low-fidelity prototypes",
+            "question": "Which type of prototypes are easy to modify and support exploring alternative designs?",
+            "answers": [
+                "High-fidelity prototypes",
+                "Low-fidelity prototypes",
+                "Clickthrough prototypes"
+            ]
+        },
+        {
+            "correctAnswer": "Sketching",
+            "question": "What is the primary activity involved in creating low-fidelity prototypes?",
+            "answers": [
+                "Sketching",
+                "Coding",
+                "Conducting user interviews"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Paper prototyping allows designers to change the design on the fly based on feedback.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Wireframes",
+            "question": "Which method is a simple black-and-white layout used to show the structure and placement of elements on a page?",
+            "answers": [
+                "Mockups",
+                "Wireframes",
+                "Clickthrough prototypes"
+            ]
+        },
+        {
+            "correctAnswer": "Cards represent individual screens or screen elements",
+            "question": "In card-based prototyping, what do index cards represent?",
+            "answers": [
+                "User personas",
+                "Cards represent individual screens or screen elements",
+                "Interactive commands"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Wireframes do not focus on visual details but rather on layout and structure.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Mockup",
+            "question": "Which high-fidelity prototyping method is a static, full-color design representation?",
+            "answers": [
+                "Wireframe",
+                "Mockup",
+                "Storyboard"
+            ]
+        },
+        {
+            "correctAnswer": "Clickthrough prototypes",
+            "question": "Which prototyping method allows users to navigate through screens as if using the final product?",
+            "answers": [
+                "Paper prototypes",
+                "Wireframes",
+                "Clickthrough prototypes"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: High-fidelity prototypes are typically computer-based and allow realistic interactions.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "The Wizard of Oz",
+            "question": "Which prototyping technique involves a human simulating system responses, unbeknownst to the user?",
+            "answers": [
+                "Storyboarding",
+                "Wireframing",
+                "The Wizard of Oz"
+            ]
+        },
+        {
+            "correctAnswer": "Mockups",
+            "question": "Which of the following high-fidelity prototypes shows a static design with full color and structure?",
+            "answers": [
+                "Wireframes",
+                "Mockups",
+                "Paper prototypes"
+            ]
+        },
+        {
+            "correctAnswer": "HTML/CSS mockups",
+            "question": "Which tool is often used to create high-fidelity prototypes?",
+            "answers": [
+                "HTML/CSS mockups",
+                "Pen and paper",
+                "Storyboards"
+            ]
+        },
+        {
+            "correctAnswer": "Allows designers to experiment with alternative designs",
+            "question": "Why do we prototype in interaction design?",
+            "answers": [
+                "To create final versions of the system",
+                "Allows designers to experiment with alternative designs",
+                "To reduce system documentation"
+            ]
+        },
+        {
+            "correctAnswer": "Fidelity",
+            "question": "What term describes the level of detail in a prototype?",
+            "answers": [
+                "Granularity",
+                "Fidelity",
+                "Specificity"
+            ]
+        },
+        {
+            "correctAnswer": "Low-fidelity prototypes are easier to modify",
+            "question": "What is one key difference between low-fidelity and high-fidelity prototypes?",
+            "answers": [
+                "Low-fidelity prototypes are more realistic",
+                "Low-fidelity prototypes are easier to modify",
+                "High-fidelity prototypes focus on early ideation"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: The main purpose of storyboarding is to communicate design ideas, not to create visually perfect designs.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Paper-based and does not allow user interaction",
+            "question": "Which of the following describes a low-fidelity prototype?",
+            "answers": [
+                "Interactive and fully functional",
+                "Paper-based and does not allow user interaction",
+                "Close to the final product in terms of appearance and functionality"
+            ]
+        },
+        {
+            "correctAnswer": "Thinking aloud",
+            "question": "Which testing method involves users verbalizing their thoughts as they interact with the prototype?",
+            "answers": [
+                "Heuristic evaluation",
+                "Thinking aloud",
+                "Cognitive walkthrough"
+            ]
+        },
+        {
+            "correctAnswer": "Heuristic evaluation",
+            "question": "Which evaluation method is used to assess the entire system based on best practice usability principles?",
+            "answers": [
+                "Heuristic evaluation",
+                "Wizard of Oz testing",
+                "Storyboarding"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Clickthrough prototypes are very close to the final product and allow user interaction.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Storyboard",
+            "question": "Which prototyping method is based on sequences of sketches representing tasks?",
+            "answers": [
+                "Wireframe",
+                "Storyboard",
+                "Mockup"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Prototyping reduces the cost of fixing problems in the later stages of development.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Both are useful at different stages of development",
+            "question": "Which is better, low-fidelity or high-fidelity prototyping?",
+            "answers": [
+                "Low-fidelity is always better",
+                "High-fidelity is always better",
+                "Both are useful at different stages of development"
+            ]
+        },
+        {
+            "correctAnswer": "Faking the interaction",
+            "question": "What does the 'Wizard of Oz' technique in prototyping involve?",
+            "answers": [
+                "Faking the interaction",
+                "Creating a perfect representation of the final design",
+                "Skipping user testing"
+            ]
+        }
+    ]
+}

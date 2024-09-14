@@ -1,0 +1,263 @@
+{
+    "questions": [
+        {
+            "correctAnswer": "Human-Computer Interaction (HCI)",
+            "question": "Which field focuses on the interaction between humans and computers?",
+            "answers": [
+                "User Experience (UX)",
+                "Human-Computer Interaction (HCI)",
+                "Interaction Design (ID)"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: User interface (UI) design is focused on maximizing usability and user experience.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "The practice of designing interactive products",
+            "question": "What is interaction design (ID)?",
+            "answers": [
+                "The practice of designing static products",
+                "The practice of designing interactive products",
+                "The practice of testing software"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Both digital and non-digital products can involve interaction design.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Smartphone",
+            "question": "Which of the following is an example of an interactive product?",
+            "answers": [
+                "Smartphone",
+                "Bookshelf",
+                "Couch"
+            ]
+        },
+        {
+            "correctAnswer": "To optimize interactions to match user needs",
+            "question": "What is the primary goal of designing user interfaces?",
+            "answers": [
+                "To create visually appealing designs",
+                "To optimize interactions to match user needs",
+                "To minimize the use of colors"
+            ]
+        },
+        {
+            "correctAnswer": "User-centered methods",
+            "question": "Which design methods prioritize listening to what users want?",
+            "answers": [
+                "Developer-centered methods",
+                "User-centered methods",
+                "Market-centered methods"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: Usability only concerns how easy a product is to learn.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Efficiency, effectiveness, satisfaction",
+            "question": "What are the three components of usability as defined by ISO 9241-11?",
+            "answers": [
+                "Efficiency, speed, accuracy",
+                "Effectiveness, ease, clarity",
+                "Efficiency, effectiveness, satisfaction"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: The 'context of use' includes physical, social, and technical environments.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Learnability",
+            "question": "Which usability goal focuses on how easy it is to learn how to use a system?",
+            "answers": [
+                "Efficiency",
+                "Learnability",
+                "Satisfaction"
+            ]
+        },
+        {
+            "correctAnswer": "Making information visible to users",
+            "question": "In usability design, what does the principle of 'visibility' emphasize?",
+            "answers": [
+                "Minimizing user actions",
+                "Making information visible to users",
+                "Creating colorful interfaces"
+            ]
+        },
+        {
+            "correctAnswer": "Feedback",
+            "question": "Which usability design principle involves sending information back to the user after an action?",
+            "answers": [
+                "Feedback",
+                "Mapping",
+                "Consistency"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Mapping refers to the relationship between controls and their effects in an interface.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Restricting user actions to prevent mistakes",
+            "question": "What is the principle of 'constraints' in usability design?",
+            "answers": [
+                "Making information accessible to all users",
+                "Restricting user actions to prevent mistakes",
+                "Increasing the number of available actions"
+            ]
+        },
+        {
+            "correctAnswer": "Consistency",
+            "question": "Which principle ensures that similar actions in a system have consistent outcomes?",
+            "answers": [
+                "Visibility",
+                "Consistency",
+                "Constraints"
+            ]
+        },
+        {
+            "correctAnswer": "External consistency",
+            "question": "Which type of consistency refers to ensuring similar interactions across different applications?",
+            "answers": [
+                "Internal consistency",
+                "External consistency",
+                "Operational consistency"
+            ]
+        },
+        {
+            "correctAnswer": "Affordances",
+            "question": "What design concept refers to the properties of an object that indicate how it can be used?",
+            "answers": [
+                "Feedback",
+                "Affordances",
+                "Mapping"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: A door handle affords pulling based on its design.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Input controls",
+            "question": "Checkboxes, radio buttons, and dropdown lists are examples of which type of UI element?",
+            "answers": [
+                "Informational components",
+                "Input controls",
+                "Navigational components"
+            ]
+        },
+        {
+            "correctAnswer": "Satisfaction",
+            "question": "Which user experience goal refers to the overall enjoyment users feel when interacting with a product?",
+            "answers": [
+                "Satisfaction",
+                "Efficiency",
+                "Effectiveness"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: A product can never be both fun and safe to use.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "The design for user experience",
+            "question": "What can only be designed for, but not fully controlled in interaction design?",
+            "answers": [
+                "The product's performance",
+                "The design for user experience",
+                "The consistency of the interface"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Both usability and user experience goals are central to interaction design.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Iteration is an important aspect of user-centered design processes.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Elevator controls that are hard to differentiate",
+            "question": "Which of the following is an example of a bad design mentioned in the PDF?",
+            "answers": [
+                "A remote control with distinctive buttons",
+                "Elevator controls that are hard to differentiate",
+                "A stove with clear burner labels"
+            ]
+        },
+        {
+            "correctAnswer": "Challenging",
+            "question": "Which of the following is considered a desirable aspect of user experience?",
+            "answers": [
+                "Frustrating",
+                "Challenging",
+                "Confusing"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Mapping can be improved by using descriptive labels on buttons.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Auditory feedback",
+            "question": "Which of the following could improve visibility in an interface where actions are not immediately clear?",
+            "answers": [
+                "Reducing the number of buttons",
+                "Auditory feedback",
+                "Color-coded icons"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: The effectiveness of user interfaces is influenced by cultural differences.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        }
+    ]
+}

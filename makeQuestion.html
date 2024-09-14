@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ضع سؤالك</title>
+    <script>
+        window.onload = function () {
+            document.getElementById('tfOptions').style.display = 'none';
+            document.getElementById('mcqOptions').style.display = 'none';
+        }
+        function showTF() {
+            var tfOptions = document.getElementById('tfOptions');
+            tfOptions.style.display = 'block'; // Changed from 'flex' to 'block'
+            document.getElementById('mcqOptions').style.display = 'none';
+        }
+
+        function showMCQ() {
+            var mcqOptions = document.getElementById('mcqOptions');
+            mcqOptions.style.display = 'block'; // Changed from 'flex' to 'block'
+            document.getElementById('tfOptions').style.display = 'none';
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <input type="text" id="question" class="spaced">
+        <label for="question" class="spaced">:السؤال</label>
+    </div>
+    
+    <div>
+        <label for="tf" class="spaced">صح / خطأ</label>
+        <input type="radio" id="tf" name="questionType" class="spaced" onclick="showTF()">
+        <pre>  </pre>
+        <label for="mcq" class="spaced">إختيار من متعدد</label>
+        <input type="radio" id="mcq" name="questionType" class="spaced" onclick="showMCQ()">
+    </div>
+
+    <div id="tfOptions">
+        <div>
+            <label for="true" class="spaced">صحيح</label>
+            <input type="radio" id="true" name="tfAnswer" class="spaced">
+        </div>
+        <div>
+            <label for="false" class="spaced">خطأ</label>
+            <input type="radio" id="false" name="tfAnswer" class="spaced">
+        </div>
+    </div>
+    
+    <div id="mcqOptions">
+        <div>
+            <input type="text" id="option1" class="spaced">
+            <input type="radio" id="mcqAnswer1" name="mcqAnswer" class="spaced">
+            <label for="mcqAnswer1" class="spaced">اختيار 1</label>
+        </div>
+        <div>
+            <input type="text" id="option2" class="spaced">
+            <input type="radio" id="mcqAnswer2" name="mcqAnswer" class="spaced">
+            <label for="mcqAnswer2" class="spaced">اختيار 2</label>
+        </div>
+        <div>
+            <input type="text" id="option3" class="spaced">
+            <input type="radio" id="mcqAnswer3" name="mcqAnswer" class="spaced">
+            <label for="mcqAnswer3" class="spaced">اختيار 3</label>
+        </div>
+        <div>
+            <input type="text" id="option4" class="spaced">
+            <input type="radio" id="mcqAnswer4" name="mcqAnswer" class="spaced">
+            <label for="mcqAnswer4" class="spaced">اختيار 4</label>
+        </div>
+    </div>
+    
+</body>
+</html>

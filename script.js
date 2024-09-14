@@ -13,6 +13,27 @@ function setAnswer(num) {
     num--;
     answer = answers[num];
 }
+function snackbar(txt) {
+    debugger;
+    console.log('hello');
+    let x = document.createElement('div');
+    x.setAttribute('id', 'snackbar');
+    x.textContent = txt;
+    // Add the "show" class to DIV
+    x.className = "show";
+
+    // Append the div to the body
+    document.body.appendChild(x);
+
+    // After 3 seconds, remove the show class from DIV
+    setTimeout(function () {
+        x.className = x.className.replace("show", "");
+        // Optionally, remove the div from the DOM after the animation
+        setTimeout(function () {
+            document.body.removeChild(x);
+        }, 500); // Adjust the timing as needed
+    }, 3000);
+}
 
 function hide(){
     document.getElementById(`radio3`).style.visibility = 'hidden';
@@ -31,23 +52,30 @@ let max = 1;
 
 console.log(answer);
 
+function informType(text){
+    
+    if (document.getElementById('snackbar_').checked){
+        snackbar(text);
+    }
+    else alert(text)
+}
 
 function validateAnswer(correctAnswer){
     if (answer === correctAnswer){
-        alert('correct answer');
+        informType('correct answer');
         if (!blacklist.includes(index)){
             marks++;
         }
         document.getElementById('correct').textContent = `correct answers ${marks}/${questions.length}`;
     }
-    else alert(`false answer.\nthe correct is: ${correctAnswer}\n`);
+    else informType(`false answer.\nthe correct is: ${correctAnswer}\n`);
     blacklist.push(index);
 }
 
 
 function next() {
     if (max === index + 1 && answer === undefined){
-        alert('Please select an answer');
+        informType('Please select an answer');
         return;
     }
     let correctAnswer = questions[index].correctAnswer;
@@ -124,7 +152,7 @@ window.onload = function() {
         setRadios();
     });
     }
-    else fetch(`lec1.json`)
+    else fetch(localStorage.getItem('test'))
     .then(response => response.json())
     .then(data => {
         questions = data.questions;

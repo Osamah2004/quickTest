@@ -1,0 +1,266 @@
+{
+    "questions": [
+        {
+            "correctAnswer": "Personal responsibility",
+            "question": "What type of responsibility involves accountability for one's own actions and commitments?",
+            "answers": [
+                "Social responsibility",
+                "Personal responsibility",
+                "Professional responsibility"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Personal responsibility can affect the quality of code and project timelines.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Supporting team members during challenges",
+            "question": "Which of the following is a key aspect of shared responsibility in teams?",
+            "answers": [
+                "Supporting team members during challenges",
+                "Owning your individual tasks only",
+                "Ignoring team failures"
+            ]
+        },
+        {
+            "correctAnswer": "The Volkswagen emissions scandal",
+            "question": "Which of the following is an example of a lack of professional responsibility?",
+            "answers": [
+                "The Apple battery life controversy",
+                "The Volkswagen emissions scandal",
+                "The Microsoft antitrust case"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: Ethical behavior in the workplace is only important in client-facing roles.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Protecting user data and privacy",
+            "question": "What is one major ethical concern in software development?",
+            "answers": [
+                "Speed of development",
+                "Protecting user data and privacy",
+                "Reducing costs"
+            ]
+        },
+        {
+            "correctAnswer": "Striving for excellence",
+            "question": "In the IEEE Software Engineering Code of Ethics, what does an aspirational clause focus on?",
+            "answers": [
+                "Striving for excellence",
+                "Meeting minimum requirements",
+                "Avoiding software bugs"
+            ]
+        },
+        {
+            "correctAnswer": "Ensuring thorough testing and debugging",
+            "question": "According to the IEEE Code of Ethics, what is the responsibility of a software engineer regarding product quality?",
+            "answers": [
+                "Ensuring thorough testing and debugging",
+                "Speeding up the development process",
+                "Delegating testing to non-technical staff"
+            ]
+        },
+        {
+            "correctAnswer": "Public interest",
+            "question": "Which core principle of the Software Engineering Code of Ethics emphasizes acting in the public interest?",
+            "answers": [
+                "Client interest",
+                "Public interest",
+                "Product interest"
+            ]
+        },
+        {
+            "correctAnswer": "Independence in judgment",
+            "question": "In the IEEE Code of Ethics, what does the 'Judgment' principle emphasize?",
+            "answers": [
+                "Speed of development",
+                "Independence in judgment",
+                "Client satisfaction"
+            ]
+        },
+        {
+            "correctAnswer": "Cultural differences",
+            "question": "In multi-site development, what is one of the challenges faced by teams working across geographically dispersed locations?",
+            "answers": [
+                "Speed of communication",
+                "Cultural differences",
+                "Project scope differences"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Small, skilled teams often yield higher productivity than larger teams.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Matrix",
+            "question": "Which of the following is a method for organizing development teams?",
+            "answers": [
+                "Waterfall",
+                "Agile",
+                "Matrix"
+            ]
+        },
+        {
+            "correctAnswer": "Tuckman's Model",
+            "question": "Which model describes the stages of team development from 'forming' to 'adjourning'?",
+            "answers": [
+                "Agile Model",
+                "Tuckman's Model",
+                "Waterfall Model"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: The 'performing' stage in Tuckman's Model is when a team operates at peak efficiency.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Active listening",
+            "question": "Which of the following is a key strategy in conflict resolution within teams?",
+            "answers": [
+                "Avoiding conflict",
+                "Active listening",
+                "Delegating tasks to others"
+            ]
+        },
+        {
+            "correctAnswer": "Jira",
+            "question": "Which tool is commonly used to track progress in software development teams?",
+            "answers": [
+                "Slack",
+                "Zoom",
+                "Jira"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Trust and mutual respect are essential characteristics of effective teams.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Honesty and transparency",
+            "question": "What are key aspects of responsibility when working in a team?",
+            "answers": [
+                "Ignoring deadlines",
+                "Over-promising and under-delivering",
+                "Honesty and transparency"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: Only managers are responsible for adhering to ethical practices in a team.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Fit tasks to people",
+            "question": "What principle helps avoid the Peter Principle in team organization?",
+            "answers": [
+                "Assign all tasks to one person",
+                "Fit tasks to people",
+                "Avoid assigning responsibilities"
+            ]
+        },
+        {
+            "correctAnswer": "Chief Programmer",
+            "question": "Which team structure involves a lead developer making key decisions and overseeing the work?",
+            "answers": [
+                "Agile",
+                "Matrix",
+                "Chief Programmer"
+            ]
+        },
+        {
+            "correctAnswer": "Removing non-cohesive team members",
+            "question": "What is a suggested strategy for maintaining team balance according to the document?",
+            "answers": [
+                "Promoting every team member equally",
+                "Removing non-cohesive team members",
+                "Rotating leadership frequently"
+            ]
+        },
+        {
+            "correctAnswer": "Regular feedback loops",
+            "question": "What mechanism is important for measuring team success?",
+            "answers": [
+                "Removing underperforming members",
+                "Regular feedback loops",
+                "Delegating all decisions to a project manager"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Effective communication is a critical factor in team success.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Agile Retrospectives",
+            "question": "Which of the following is referenced as a method for improving team performance?",
+            "answers": [
+                "Daily stand-ups",
+                "Agile Retrospectives",
+                "Waterfall meetings"
+            ]
+        },
+        {
+            "correctAnswer": "Equality",
+            "question": "Which value emphasizes treating all team members fairly regardless of race, religion, or gender?",
+            "answers": [
+                "Excellence",
+                "Efficiency",
+                "Equality"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Supporting and being fair to colleagues is a principle of software engineering ethics.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Commitment to lifelong learning",
+            "question": "Which principle of software engineering ethics encourages continuous professional development?",
+            "answers": [
+                "Commitment to lifelong learning",
+                "Delegating learning to junior members",
+                "Focusing on speed over quality"
+            ]
+        },
+        {
+            "correctAnswer": "Conflict over task assignments",
+            "question": "Which of the following is an example of a common conflict in software development teams?",
+            "answers": [
+                "Conflict over task assignments",
+                "Conflict over team size",
+                "Conflict over office space"
+            ]
+        }
+    ]
+}
