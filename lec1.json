@@ -6,7 +6,8 @@
             "answers": [
                 "Social responsibility",
                 "Personal responsibility",
-                "Professional responsibility"
+                "Professional responsibility",
+                "Team responsibility"
             ]
         },
         {
@@ -23,7 +24,8 @@
             "answers": [
                 "Supporting team members during challenges",
                 "Owning your individual tasks only",
-                "Ignoring team failures"
+                "Ignoring team failures",
+                "Delegating all responsibilities"
             ]
         },
         {
@@ -32,7 +34,8 @@
             "answers": [
                 "The Apple battery life controversy",
                 "The Volkswagen emissions scandal",
-                "The Microsoft antitrust case"
+                "The Microsoft antitrust case",
+                "The Facebook data breach"
             ]
         },
         {
@@ -49,7 +52,8 @@
             "answers": [
                 "Speed of development",
                 "Protecting user data and privacy",
-                "Reducing costs"
+                "Reducing costs",
+                "Team communication"
             ]
         },
         {
@@ -58,7 +62,8 @@
             "answers": [
                 "Striving for excellence",
                 "Meeting minimum requirements",
-                "Avoiding software bugs"
+                "Avoiding software bugs",
+                "Complying with local laws"
             ]
         },
         {
@@ -67,7 +72,8 @@
             "answers": [
                 "Ensuring thorough testing and debugging",
                 "Speeding up the development process",
-                "Delegating testing to non-technical staff"
+                "Delegating testing to non-technical staff",
+                "Improving user interface design"
             ]
         },
         {
@@ -76,7 +82,8 @@
             "answers": [
                 "Client interest",
                 "Public interest",
-                "Product interest"
+                "Product interest",
+                "Professional interest"
             ]
         },
         {
@@ -85,7 +92,8 @@
             "answers": [
                 "Speed of development",
                 "Independence in judgment",
-                "Client satisfaction"
+                "Client satisfaction",
+                "Reducing cost"
             ]
         },
         {
@@ -94,7 +102,8 @@
             "answers": [
                 "Speed of communication",
                 "Cultural differences",
-                "Project scope differences"
+                "Project scope differences",
+                "Budget constraints"
             ]
         },
         {
@@ -110,8 +119,9 @@
             "question": "Which of the following is a method for organizing development teams?",
             "answers": [
                 "Waterfall",
-                "Agile",
-                "Matrix"
+                "Matrix",
+                "Hierarchical",
+                "Scrum"
             ]
         },
         {
@@ -120,7 +130,8 @@
             "answers": [
                 "Agile Model",
                 "Tuckman's Model",
-                "Waterfall Model"
+                "Waterfall Model",
+                "V-Model"
             ]
         },
         {
@@ -137,7 +148,8 @@
             "answers": [
                 "Avoiding conflict",
                 "Active listening",
-                "Delegating tasks to others"
+                "Delegating tasks to others",
+                "Postponing discussion"
             ]
         },
         {
@@ -145,8 +157,9 @@
             "question": "Which tool is commonly used to track progress in software development teams?",
             "answers": [
                 "Slack",
+                "Jira",
                 "Zoom",
-                "Jira"
+                "Figma"
             ]
         },
         {
@@ -163,7 +176,8 @@
             "answers": [
                 "Ignoring deadlines",
                 "Over-promising and under-delivering",
-                "Honesty and transparency"
+                "Honesty and transparency",
+                "Delegating tasks to others"
             ]
         },
         {
@@ -180,7 +194,8 @@
             "answers": [
                 "Assign all tasks to one person",
                 "Fit tasks to people",
-                "Avoid assigning responsibilities"
+                "Avoid assigning responsibilities",
+                "Delegate tasks randomly"
             ]
         },
         {
@@ -189,7 +204,8 @@
             "answers": [
                 "Agile",
                 "Matrix",
-                "Chief Programmer"
+                "Chief Programmer",
+                "Scrum Master"
             ]
         },
         {
@@ -198,7 +214,8 @@
             "answers": [
                 "Promoting every team member equally",
                 "Removing non-cohesive team members",
-                "Rotating leadership frequently"
+                "Rotating leadership frequently",
+                "Implementing a flat hierarchy"
             ]
         },
         {
@@ -207,7 +224,8 @@
             "answers": [
                 "Removing underperforming members",
                 "Regular feedback loops",
-                "Delegating all decisions to a project manager"
+                "Delegating all decisions to a project manager",
+                "Assigning more tasks"
             ]
         },
         {
@@ -224,7 +242,8 @@
             "answers": [
                 "Daily stand-ups",
                 "Agile Retrospectives",
-                "Waterfall meetings"
+                "Waterfall meetings",
+                "Brainstorming sessions"
             ]
         },
         {
@@ -233,7 +252,8 @@
             "answers": [
                 "Excellence",
                 "Efficiency",
-                "Equality"
+                "Equality",
+                "Accountability"
             ]
         },
         {
@@ -250,7 +270,8 @@
             "answers": [
                 "Commitment to lifelong learning",
                 "Delegating learning to junior members",
-                "Focusing on speed over quality"
+                "Focusing on speed over quality",
+                "Maximizing client satisfaction"
             ]
         },
         {
@@ -259,7 +280,8 @@
             "answers": [
                 "Conflict over task assignments",
                 "Conflict over team size",
-                "Conflict over office space"
+                "Conflict over office space",
+                "Conflict over project budgets"
             ]
         }
     ]

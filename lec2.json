@@ -6,7 +6,8 @@
             "answers": [
                 "User Experience (UX)",
                 "Human-Computer Interaction (HCI)",
-                "Interaction Design (ID)"
+                "Interaction Design (ID)",
+                "Graphic Design (GD)"
             ]
         },
         {
@@ -23,7 +24,8 @@
             "answers": [
                 "The practice of designing static products",
                 "The practice of designing interactive products",
-                "The practice of testing software"
+                "The practice of testing software",
+                "The practice of maintaining software"
             ]
         },
         {
@@ -40,7 +42,8 @@
             "answers": [
                 "Smartphone",
                 "Bookshelf",
-                "Couch"
+                "Couch",
+                "Lamp"
             ]
         },
         {
@@ -49,7 +52,8 @@
             "answers": [
                 "To create visually appealing designs",
                 "To optimize interactions to match user needs",
-                "To minimize the use of colors"
+                "To minimize the use of colors",
+                "To increase developer efficiency"
             ]
         },
         {
@@ -58,7 +62,8 @@
             "answers": [
                 "Developer-centered methods",
                 "User-centered methods",
-                "Market-centered methods"
+                "Market-centered methods",
+                "Management-centered methods"
             ]
         },
         {
@@ -75,7 +80,8 @@
             "answers": [
                 "Efficiency, speed, accuracy",
                 "Effectiveness, ease, clarity",
-                "Efficiency, effectiveness, satisfaction"
+                "Efficiency, effectiveness, satisfaction",
+                "Speed, learnability, comfort"
             ]
         },
         {
@@ -92,7 +98,8 @@
             "answers": [
                 "Efficiency",
                 "Learnability",
-                "Satisfaction"
+                "Satisfaction",
+                "Effectiveness"
             ]
         },
         {
@@ -101,7 +108,8 @@
             "answers": [
                 "Minimizing user actions",
                 "Making information visible to users",
-                "Creating colorful interfaces"
+                "Creating colorful interfaces",
+                "Reducing cognitive load"
             ]
         },
         {
@@ -110,7 +118,8 @@
             "answers": [
                 "Feedback",
                 "Mapping",
-                "Consistency"
+                "Consistency",
+                "Visibility"
             ]
         },
         {
@@ -127,7 +136,8 @@
             "answers": [
                 "Making information accessible to all users",
                 "Restricting user actions to prevent mistakes",
-                "Increasing the number of available actions"
+                "Increasing the number of available actions",
+                "Enhancing user experience"
             ]
         },
         {
@@ -136,7 +146,8 @@
             "answers": [
                 "Visibility",
                 "Consistency",
-                "Constraints"
+                "Constraints",
+                "Affordances"
             ]
         },
         {
@@ -145,7 +156,8 @@
             "answers": [
                 "Internal consistency",
                 "External consistency",
-                "Operational consistency"
+                "Operational consistency",
+                "Functional consistency"
             ]
         },
         {
@@ -154,7 +166,8 @@
             "answers": [
                 "Feedback",
                 "Affordances",
-                "Mapping"
+                "Mapping",
+                "Constraints"
             ]
         },
         {
@@ -171,7 +184,8 @@
             "answers": [
                 "Informational components",
                 "Input controls",
-                "Navigational components"
+                "Navigational components",
+                "Container elements"
             ]
         },
         {
@@ -180,7 +194,8 @@
             "answers": [
                 "Satisfaction",
                 "Efficiency",
-                "Effectiveness"
+                "Effectiveness",
+                "Memorability"
             ]
         },
         {
@@ -197,7 +212,8 @@
             "answers": [
                 "The product's performance",
                 "The design for user experience",
-                "The consistency of the interface"
+                "The consistency of the interface",
+                "The usability goals"
             ]
         },
         {
@@ -222,7 +238,8 @@
             "answers": [
                 "A remote control with distinctive buttons",
                 "Elevator controls that are hard to differentiate",
-                "A stove with clear burner labels"
+                "A stove with clear burner labels",
+                "A smartphone with a fingerprint scanner"
             ]
         },
         {
@@ -231,7 +248,8 @@
             "answers": [
                 "Frustrating",
                 "Challenging",
-                "Confusing"
+                "Confusing",
+                "Overwhelming"
             ]
         },
         {
@@ -248,7 +266,8 @@
             "answers": [
                 "Reducing the number of buttons",
                 "Auditory feedback",
-                "Color-coded icons"
+                "Color-coded icons",
+                "Eliminating the menu bar"
             ]
         },
         {

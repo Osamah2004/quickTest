@@ -6,7 +6,8 @@
             "answers": [
                 "A low-level implementation of a system",
                 "A graphical representation of user interactions",
-                "A high-level description of how a system is organized and operates"
+                "A high-level description of how a system is organized and operates",
+                "A detailed step-by-step workflow"
             ]
         },
         {
@@ -23,7 +24,8 @@
             "answers": [
                 "Helps finalize design details quickly",
                 "Prevents teams from focusing too narrowly early on",
-                "Reduces user testing time"
+                "Reduces user testing time",
+                "Increases initial development speed"
             ]
         },
         {
@@ -32,7 +34,8 @@
             "answers": [
                 "Task domain objects",
                 "Visual design",
-                "Metaphors and analogies"
+                "Metaphors and analogies",
+                "User testing"
             ]
         },
         {
@@ -41,7 +44,8 @@
             "answers": [
                 "Clicking, dragging, resizing",
                 "Saving, revisiting, organizing",
-                "Zooming, panning, highlighting"
+                "Zooming, panning, highlighting",
+                "Copying, pasting, deleting"
             ]
         },
         {
@@ -58,7 +62,8 @@
             "answers": [
                 "The grid layout",
                 "The hamburger menu",
-                "The desktop metaphor"
+                "The desktop metaphor",
+                "The ribbon interface"
             ]
         },
         {
@@ -75,7 +80,8 @@
             "answers": [
                 "Create unique experiences for every user",
                 "Reduce the need for usability testing",
-                "Exploit the user’s familiar knowledge to understand unfamiliar systems"
+                "Exploit the user’s familiar knowledge to understand unfamiliar systems",
+                "Increase design complexity"
             ]
         },
         {
@@ -84,7 +90,8 @@
             "answers": [
                 "Task–domain objects and their relationships",
                 "Color schemes and animations",
-                "Screen size and orientation"
+                "Screen size and orientation",
+                "Data storage methods"
             ]
         },
         {
@@ -101,7 +108,8 @@
             "answers": [
                 "A shopping cart for online purchases",
                 "A recycle bin for deleted files",
-                "A search bar for searching within a document"
+                "A search bar for searching within a document",
+                "A folder for organizing documents"
             ]
         },
         {
@@ -110,7 +118,8 @@
             "answers": [
                 "Speeds up the development process",
                 "Helps users understand the underlying conceptual model",
-                "Reduces system errors"
+                "Reduces system errors",
+                "Increases visual complexity"
             ]
         },
         {
@@ -127,7 +136,8 @@
             "answers": [
                 "Increases learning time for users",
                 "Forces users to understand the system in terms of the metaphor",
-                "Makes the interface less visually appealing"
+                "Makes the interface less visually appealing",
+                "Reduces system scalability"
             ]
         },
         {
@@ -136,7 +146,8 @@
             "answers": [
                 "Instructing",
                 "Manipulating",
-                "Conversing"
+                "Conversing",
+                "Exploring"
             ]
         },
         {
@@ -145,7 +156,8 @@
             "answers": [
                 "Exploring",
                 "Manipulating",
-                "Instructing"
+                "Instructing",
+                "Conversing"
             ]
         },
         {
@@ -162,7 +174,8 @@
             "answers": [
                 "Conversing",
                 "Instructing",
-                "Exploring"
+                "Exploring",
+                "Manipulating"
             ]
         },
         {
@@ -179,7 +192,8 @@
             "answers": [
                 "WIMP (Windows, Icons, Menus, Pointer)",
                 "WYSIWYG (What You See Is What You Get)",
-                "CRUD (Create, Read, Update, Delete)"
+                "CRUD (Create, Read, Update, Delete)",
+                "UI (User Interface)"
             ]
         },
         {
@@ -188,7 +202,8 @@
             "answers": [
                 "Instructing",
                 "Conversing",
-                "Exploring"
+                "Exploring",
+                "Manipulating"
             ]
         },
         {
@@ -205,7 +220,8 @@
             "answers": [
                 "Menu-based",
                 "Gesture-based",
-                "Natural language processing"
+                "Natural language processing",
+                "Form-fills"
             ]
         },
         {
@@ -214,7 +230,8 @@
             "answers": [
                 "Physical manipulation of objects in a virtual space",
                 "Issuing verbal commands",
-                "Exploring different interface layouts"
+                "Exploring different interface layouts",
+                "Filling out forms"
             ]
         },
         {
@@ -223,7 +240,8 @@
             "answers": [
                 "Conversational models",
                 "Hybrid conceptual models",
-                "Task-based models"
+                "Task-based models",
+                "Direct manipulation models"
             ]
         },
         {
@@ -240,7 +258,8 @@
             "answers": [
                 "Visibility",
                 "Mapping",
-                "Affordances"
+                "Affordances",
+                "Feedback"
             ]
         },
         {
@@ -249,15 +268,18 @@
             "answers": [
                 "Direct manipulation",
                 "Issuing instructions for repetitive actions",
-                "Exploring different interface elements"
+                "Exploring different interface elements",
+                "Conversing"
             ]
-        },{
+        },
+        {
             "correctAnswer": "A draft version of a design before the final version exists",
             "question": "What is a prototype in interaction design?",
             "answers": [
                 "A fully developed product",
                 "A draft version of a design before the final version exists",
-                "A finished, deployable system"
+                "A finished, deployable system",
+                "A high-fidelity mockup"
             ]
         },
         {
@@ -274,7 +296,8 @@
             "answers": [
                 "Fully developed software",
                 "Paper-based mock-up",
-                "Clickable web-based prototype"
+                "Clickable web-based prototype",
+                "Command line interface"
             ]
         },
         {
@@ -283,7 +306,8 @@
             "answers": [
                 "A wireframe",
                 "A storyboard",
-                "A card-based prototype"
+                "A card-based prototype",
+                "A high-fidelity prototype"
             ]
         },
         {
@@ -292,7 +316,8 @@
             "answers": [
                 "High-fidelity prototypes",
                 "Low-fidelity prototypes",
-                "Clickthrough prototypes"
+                "Clickthrough prototypes",
+                "Interactive prototypes"
             ]
         },
         {
@@ -301,7 +326,8 @@
             "answers": [
                 "Sketching",
                 "Coding",
-                "Conducting user interviews"
+                "Conducting user interviews",
+                "Testing system performance"
             ]
         },
         {
@@ -318,7 +344,8 @@
             "answers": [
                 "Mockups",
                 "Wireframes",
-                "Clickthrough prototypes"
+                "Clickthrough prototypes",
+                "Storyboards"
             ]
         },
         {
@@ -327,7 +354,8 @@
             "answers": [
                 "User personas",
                 "Cards represent individual screens or screen elements",
-                "Interactive commands"
+                "Interactive commands",
+                "Test cases"
             ]
         },
         {
@@ -344,7 +372,8 @@
             "answers": [
                 "Wireframe",
                 "Mockup",
-                "Storyboard"
+                "Storyboard",
+                "Card-based prototype"
             ]
         },
         {
@@ -353,7 +382,8 @@
             "answers": [
                 "Paper prototypes",
                 "Wireframes",
-                "Clickthrough prototypes"
+                "Clickthrough prototypes",
+                "Storyboards"
             ]
         },
         {
@@ -370,7 +400,8 @@
             "answers": [
                 "Storyboarding",
                 "Wireframing",
-                "The Wizard of Oz"
+                "The Wizard of Oz",
+                "Heuristic evaluation"
             ]
         },
         {
@@ -379,7 +410,8 @@
             "answers": [
                 "Wireframes",
                 "Mockups",
-                "Paper prototypes"
+                "Paper prototypes",
+                "Storyboards"
             ]
         },
         {
@@ -388,7 +420,8 @@
             "answers": [
                 "HTML/CSS mockups",
                 "Pen and paper",
-                "Storyboards"
+                "Storyboards",
+                "Python"
             ]
         },
         {
@@ -397,7 +430,8 @@
             "answers": [
                 "To create final versions of the system",
                 "Allows designers to experiment with alternative designs",
-                "To reduce system documentation"
+                "To reduce system documentation",
+                "To increase project cost"
             ]
         },
         {
@@ -406,7 +440,8 @@
             "answers": [
                 "Granularity",
                 "Fidelity",
-                "Specificity"
+                "Specificity",
+                "Clarity"
             ]
         },
         {
@@ -415,7 +450,8 @@
             "answers": [
                 "Low-fidelity prototypes are more realistic",
                 "Low-fidelity prototypes are easier to modify",
-                "High-fidelity prototypes focus on early ideation"
+                "High-fidelity prototypes focus on early ideation",
+                "High-fidelity prototypes are faster to create"
             ]
         },
         {
@@ -432,7 +468,8 @@
             "answers": [
                 "Interactive and fully functional",
                 "Paper-based and does not allow user interaction",
-                "Close to the final product in terms of appearance and functionality"
+                "Close to the final product in terms of appearance and functionality",
+                "Ready for deployment"
             ]
         },
         {
@@ -441,7 +478,8 @@
             "answers": [
                 "Heuristic evaluation",
                 "Thinking aloud",
-                "Cognitive walkthrough"
+                "Cognitive walkthrough",
+                "Wizard of Oz testing"
             ]
         },
         {
@@ -450,7 +488,8 @@
             "answers": [
                 "Heuristic evaluation",
                 "Wizard of Oz testing",
-                "Storyboarding"
+                "Storyboarding",
+                "Thinking aloud"
             ]
         },
         {
@@ -467,7 +506,8 @@
             "answers": [
                 "Wireframe",
                 "Storyboard",
-                "Mockup"
+                "Mockup",
+                "Paper prototype"
             ]
         },
         {
@@ -484,7 +524,8 @@
             "answers": [
                 "Low-fidelity is always better",
                 "High-fidelity is always better",
-                "Both are useful at different stages of development"
+                "Both are useful at different stages of development",
+                "Neither is useful in modern design"
             ]
         },
         {
@@ -493,7 +534,8 @@
             "answers": [
                 "Faking the interaction",
                 "Creating a perfect representation of the final design",
-                "Skipping user testing"
+                "Skipping user testing",
+                "Automating the system response"
             ]
         }
     ]
