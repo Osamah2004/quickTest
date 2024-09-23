@@ -16,7 +16,6 @@ function setAnswer(num) {
     validateAnswer(correctAnswer);
 }
 function snackbar(txt) {
-    debugger;
     let x = document.createElement('div');
     x.setAttribute('id', 'snackbar');
     x.textContent = txt;
@@ -93,6 +92,7 @@ function validateAnswer(correctAnswer) {
 
 
 function next() {
+    debugger;
     if (max === index + 1 && answer === undefined){
         informType('Please select an answer');
         return;
