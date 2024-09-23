@@ -62,17 +62,30 @@ function informType(text){
     else alert(text)
 }
 
-function validateAnswer(correctAnswer){
-    if (answer === correctAnswer){
+function validateAnswer(correctAnswer) {
+    let correctRadioId = `radio${answers.indexOf(correctAnswer) + 1}`;
+    let correctLabel = document.querySelector(`label[for="${correctRadioId}"]`);
+
+    if (answer === correctAnswer) {
         informType('correct answer');
-        if (!blacklist.includes(index)){
+        if (!blacklist.includes(index)) {
             marks++;
         }
         document.getElementById('correct').textContent = `correct answers ${marks}/${questions.length}`;
+    } else {
+        informType(`false answer.\nthe correct is: ${correctAnswer}\n`);
+        if (correctLabel) {
+            correctLabel.classList.add('correct-answer');
+            // Remove the blinking class after 3 seconds
+            setTimeout(() => {
+                correctLabel.classList.remove('correct-answer');
+            }, 1000);
+        }
     }
-    else informType(`false answer.\nthe correct is: ${correctAnswer}\n`);
+
     blacklist.push(index);
 }
+
 
 
 function next() {

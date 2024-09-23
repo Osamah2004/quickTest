@@ -28,7 +28,20 @@ input[type="radio"].custom-radio {
     font-weight: bold;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
+/* Blinking animation */
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
 
+/* Style for the correct answer when wrong answer is selected */
+.correct-answer {
+    background-color: cyan;
+    animation: blink 0.25s step-start 2;
+    color: black;
+    border-color: cyan;
+}
 /* Hover effect with transition */
 .custom-radio+label:hover {
     background-color: black;
