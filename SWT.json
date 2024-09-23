@@ -1,0 +1,1243 @@
+{
+    "questions": [
+        {
+            "correctAnswer": "Verifying and validating that the software meets specified requirements",
+            "question": "What is the primary goal of software testing?",
+            "answers": [
+                "Finding bugs",
+                "Verifying and validating that the software meets specified requirements",
+                "Testing only the user interface",
+                "Developing the code"
+            ]
+        },
+        {
+            "correctAnswer": "HSBC suffered a two-day online banking outage due to a software bug.",
+            "question": "What was the major issue with HSBC's online banking in 2016?",
+            "answers": [
+                "A cyber attack",
+                "Incorrect user input",
+                "HSBC suffered a two-day online banking outage due to a software bug.",
+                "Database failure"
+            ]
+        },
+        {
+            "correctAnswer": "Identifies bugs, validates performance, and ensures security",
+            "question": "Why is testing crucial in software development?",
+            "answers": [
+                "To reduce costs",
+                "Identifies bugs, validates performance, and ensures security",
+                "It is an optional process",
+                "To make the application look better"
+            ]
+        },
+        {
+            "correctAnswer": "Throughout the SDLC, from requirements to maintenance",
+            "question": "When does testing take place in the software development lifecycle (SDLC)?",
+            "answers": [
+                "At the end of the project",
+                "During the design phase",
+                "Throughout the SDLC, from requirements to maintenance",
+                "Only before deployment"
+            ]
+        },
+        {
+            "correctAnswer": "Unit, system, regression, performance, and security",
+            "question": "What are the main types of testing conducted during the testing stage?",
+            "answers": [
+                "Unit, system, regression, performance, and security",
+                "Functional, design, and cost analysis",
+                "Marketing and sales analysis",
+                "User and developer interaction"
+            ]
+        },
+        {
+            "correctAnswer": "The user is successfully logged in and redirected to the dashboard.",
+            "question": "What is the expected result of the user registration and login flow test case?",
+            "answers": [
+                "The application crashes.",
+                "The user is denied access.",
+                "The user is successfully logged in and redirected to the dashboard.",
+                "The user's data is deleted."
+            ]
+        },
+        {
+            "correctAnswer": "Requirement analysis",
+            "question": "What is the first phase in the Software Testing Life-Cycle (STLC)?",
+            "answers": [
+                "Test planning",
+                "Test case design",
+                "Requirement analysis",
+                "Test execution"
+            ]
+        },
+        {
+            "correctAnswer": "Requirement Traceability Matrix (RTM)",
+            "question": "Which document is delivered after the Requirement Analysis phase?",
+            "answers": [
+                "Test Summary Report",
+                "Test Automation Feasibility Report",
+                "Requirement Traceability Matrix (RTM)",
+                "Defect log"
+            ]
+        },
+        {
+            "correctAnswer": "Boundary values are at the edge of valid input ranges.",
+            "question": "What is the purpose of Boundary Value Analysis (BVA) in edge case testing?",
+            "answers": [
+                "To ensure software works with extreme values",
+                "To test invalid inputs only",
+                "Boundary values are at the edge of valid input ranges.",
+                "To verify user interface design"
+            ]
+        },
+        {
+            "correctAnswer": "Maximum and minimum input lengths",
+            "question": "What is an example of a common edge case scenario?",
+            "answers": [
+                "User input validation",
+                "Maximum and minimum input lengths",
+                "Testing multiple browsers",
+                "Testing with real users"
+            ]
+        },
+        {
+            "correctAnswer": "Pairwise testing",
+            "question": "Which testing approach is used to minimize the number of test cases while covering all pairwise combinations of input parameters?",
+            "answers": [
+                "Regression testing",
+                "Pairwise testing",
+                "Integration testing",
+                "Functional testing"
+            ]
+        },
+        {
+            "correctAnswer": "Unit testing focuses on individual components.",
+            "question": "What is the main focus of unit testing?",
+            "answers": [
+                "Testing the entire system",
+                "Testing user interfaces",
+                "Unit testing focuses on individual components.",
+                "Validating requirements"
+            ]
+        },
+        {
+            "correctAnswer": "JUnit",
+            "question": "Which framework is commonly used for unit testing in Java?",
+            "answers": [
+                "JUnit",
+                "Selenium",
+                "Apache JMeter",
+                "TestNG"
+            ]
+        },
+        {
+            "correctAnswer": "assertEquals(expected, actual)",
+            "question": "Which JUnit assertion is used to compare expected and actual values?",
+            "answers": [
+                "assertNull()",
+                "assertTrue()",
+                "assertEquals(expected, actual)",
+                "assertNotSame()"
+            ]
+        },
+        {
+            "correctAnswer": "Mock objects simulate the behavior of real objects.",
+            "question": "What is the purpose of mocking in unit tests?",
+            "answers": [
+                "Mock objects simulate the behavior of real objects.",
+                "Mocks replace the system under test.",
+                "Mocks are used for manual testing only.",
+                "Mocks cannot be automated."
+            ]
+        },
+        {
+            "correctAnswer": "Integration testing ensures that components work together.",
+            "question": "What does integration testing focus on?",
+            "answers": [
+                "Unit testing individual components",
+                "Validating user requirements",
+                "Integration testing ensures that components work together.",
+                "Ensuring application design"
+            ]
+        },
+        {
+            "correctAnswer": "RealPaymentGateway is a proper implementation of the payment gateway.",
+            "question": "What is the purpose of the RealPaymentGateway in the example provided?",
+            "answers": [
+                "It simulates a failed payment.",
+                "It returns incorrect values.",
+                "RealPaymentGateway is a proper implementation of the payment gateway.",
+                "It handles user authentication."
+            ]
+        },
+        {
+            "correctAnswer": "Big Bang, Incremental, and Continuous",
+            "question": "What are common integration testing approaches?",
+            "answers": [
+                "Unit, System, and Regression",
+                "Top-Down, Bottom-Up, and Mixed",
+                "Big Bang, Incremental, and Continuous",
+                "Black-box, White-box, and Grey-box"
+            ]
+        },
+        {
+            "correctAnswer": "Ensuring that data is stored, updated, and retrieved correctly",
+            "question": "What is the purpose of database testing?",
+            "answers": [
+                "Optimizing database performance",
+                "Ensuring data consistency across multiple databases",
+                "Ensuring that data is stored, updated, and retrieved correctly",
+                "Testing the graphical user interface (GUI)"
+            ]
+        },
+        {
+            "correctAnswer": "Data Integrity",
+            "question": "Which of the following is a key aspect of database testing?",
+            "answers": [
+                "System performance",
+                "User acceptance",
+                "Data Integrity",
+                "Frontend validation"
+            ]
+        },
+        {
+            "correctAnswer": "API testing focuses on requests and responses between systems.",
+            "question": "What does API integration testing focus on?",
+            "answers": [
+                "Testing the user interface",
+                "API testing focuses on requests and responses between systems.",
+                "Testing the database",
+                "Validating security protocols"
+            ]
+        },
+        {
+            "correctAnswer": "To detect business risks early in the development cycle",
+            "question": "What is the purpose of continuous testing in CI/CD pipelines?",
+            "answers": [
+                "To reduce software costs",
+                "To detect business risks early in the development cycle",
+                "To eliminate the need for testers",
+                "To deploy software automatically"
+            ]
+        },
+        {
+            "correctAnswer": "Load, stress, and scalability testing",
+            "question": "Which tests are considered part of performance testing?",
+            "answers": [
+                "Load, stress, and scalability testing",
+                "Unit and integration testing",
+                "System testing and regression testing",
+                "Security testing and exploratory testing"
+            ]
+        },
+        {
+            "correctAnswer": "Automated tests provide consistent results and can be repeated.",
+            "question": "Why are automated tests preferred over manual tests?",
+            "answers": [
+                "Manual tests are more reliable.",
+                "Automated tests are cheaper.",
+                "Automated tests provide consistent results and can be repeated.",
+                "Manual tests are faster."
+            ]
+        },
+        {
+            "correctAnswer": "Selenium is a tool for automating web browser actions.",
+            "question": "What is Selenium primarily used for?",
+            "answers": [
+                "Automating database queries",
+                "Testing mobile applications",
+                "Selenium is a tool for automating web browser actions.",
+                "Managing software projects"
+            ]
+        },
+        {
+            "correctAnswer": "Test case execution",
+            "question": "Which phase in STLC involves running test cases and logging defects?",
+            "answers": [
+                "Test Planning",
+                "Test Environment Setup",
+                "Test case execution",
+                "Test Closure"
+            ]
+        },
+        {
+            "correctAnswer": "Ensures compliance with requirements",
+            "question": "Which of the following is one of the key goals of testing?",
+            "answers": [
+                "Developing software",
+                "Ensures compliance with requirements",
+                "Increasing production speed",
+                "Designing the user interface"
+            ]
+        },
+        {"correctAnswer": "White-box testing involves testing internal structures.",
+            "question": "What does white-box testing focus on?",
+            "answers": [
+                "Testing user interface only",
+                "White-box testing involves testing internal structures.",
+                "Testing business requirements",
+                "Testing external system components"
+            ]
+        },
+        {
+            "correctAnswer": "Black-box testing focuses on functionality without looking at the internal code structure.",
+            "question": "What is black-box testing?",
+            "answers": [
+                "Testing only UI elements",
+                "Black-box testing focuses on functionality without looking at the internal code structure.",
+                "Testing the software architecture",
+                "Validating design documents"
+            ]
+        },
+        {
+            "correctAnswer": "Exploratory testing involves testers actively looking for potential issues in an unstructured way.",
+            "question": "What is exploratory testing?",
+            "answers": [
+                "Testing according to a pre-defined plan",
+                "Exploratory testing involves testers actively looking for potential issues in an unstructured way.",
+                "Using automated tools for testing",
+                "Writing test cases before testing"
+            ]
+        },
+        {
+            "correctAnswer": "Test automation",
+            "question": "What can reduce human error and increase efficiency during repetitive testing tasks?",
+            "answers": [
+                "Manual testing",
+                "Regression testing",
+                "Test automation",
+                "Integration testing"
+            ]
+        },
+        {
+            "correctAnswer": "Smoke testing ensures that the most crucial functions of an application work.",
+            "question": "What is the purpose of smoke testing?",
+            "answers": [
+                "To ensure system security",
+                "To check for performance bottlenecks",
+                "Smoke testing ensures that the most crucial functions of an application work.",
+                "To validate the database"
+            ]
+        },
+        {
+            "correctAnswer": "Regression testing verifies that recent code changes have not adversely affected existing functionality.",
+            "question": "What is regression testing?",
+            "answers": [
+                "Testing new features only",
+                "Testing for system security",
+                "Testing performance under stress",
+                "Regression testing verifies that recent code changes have not adversely affected existing functionality."
+            ]
+        },
+        {
+            "correctAnswer": "User Acceptance Testing (UAT) validates that the software meets business requirements and user needs.",
+            "question": "What is User Acceptance Testing (UAT)?",
+            "answers": [
+                "Testing user interface design",
+                "Testing for security vulnerabilities",
+                "User Acceptance Testing (UAT) validates that the software meets business requirements and user needs.",
+                "Testing system performance"
+            ]
+        },
+        {
+            "correctAnswer": "To evaluate how a system performs under heavy load or stress",
+            "question": "What is the goal of performance testing?",
+            "answers": [
+                "To find bugs in the user interface",
+                "To evaluate how a system performs under heavy load or stress",
+                "To check code coverage",
+                "To ensure compliance with business requirements"
+            ]
+        },
+        {
+            "correctAnswer": "Stress testing involves pushing the system beyond normal operational limits to observe its behavior.",
+            "question": "What is stress testing?",
+            "answers": [
+                "Testing the system with minimal data",
+                "Stress testing involves pushing the system beyond normal operational limits to observe its behavior.",
+                "Testing for UI design flaws",
+                "Ensuring data security"
+            ]
+        },
+        {
+            "correctAnswer": "Security testing is conducted to identify and fix vulnerabilities.",
+            "question": "What is the goal of security testing?",
+            "answers": [
+                "To ensure data consistency",
+                "To verify system performance",
+                "To validate UI functionality",
+                "Security testing is conducted to identify and fix vulnerabilities."
+            ]
+        },
+        {
+            "correctAnswer": "End-to-end testing",
+            "question": "Which type of testing evaluates the complete user workflow in a system?",
+            "answers": [
+                "Unit testing",
+                "Smoke testing",
+                "End-to-end testing",
+                "White-box testing"
+            ]
+        },
+        {
+            "correctAnswer": "Test case design and development",
+            "question": "In which phase of STLC are detailed test cases, test scripts, and test data created?",
+            "answers": [
+                "Test closure",
+                "Requirement analysis",
+                "Test case design and development",
+                "Test execution"
+            ]
+        },
+        {
+            "correctAnswer": "Data consistency and integrity",
+            "question": "What does database testing primarily focus on?",
+            "answers": [
+                "Graphical user interface",
+                "Data consistency and integrity",
+                "System performance",
+                "Network testing"
+            ]
+        },
+        {
+            "correctAnswer": "Test-driven development (TDD) is a development approach where tests are written before the code.",
+            "question": "What is test-driven development (TDD)?",
+            "answers": [
+                "Writing tests after code is complete",
+                "Test-driven development (TDD) is a development approach where tests are written before the code.",
+                "Focusing only on user requirements",
+                "Testing the system with multiple users"
+            ]
+        },
+        {
+            "correctAnswer": "Behavior-Driven Development (BDD) involves writing tests in a natural language to describe the system's behavior.",
+            "question": "What is Behavior-Driven Development (BDD)?",
+            "answers": [
+                "Testing only for performance",
+                "Writing tests after deployment",
+                "Behavior-Driven Development (BDD) involves writing tests in a natural language to describe the system's behavior.",
+                "Testing the software from a user's perspective"
+            ]
+        },
+        {
+            "correctAnswer": "Boundary Value Analysis",
+            "question": "Which technique is used to test input values at the boundaries of valid input ranges?",
+            "answers": [
+                "Exploratory testing",
+                "Pairwise testing",
+                "Boundary Value Analysis",
+                "Stress testing"
+            ]
+        },
+        {
+            "correctAnswer": "Equivalence partitioning groups inputs into equivalent classes for efficient test case coverage.",
+            "question": "What is equivalence partitioning?",
+            "answers": [
+                "Testing only invalid inputs",
+                "Testing with real users",
+                "Equivalence partitioning groups inputs into equivalent classes for efficient test case coverage.",
+                "Performing tests on all possible input values"
+            ]
+        },
+        {
+            "correctAnswer": "JUnit",
+            "question": "Which tool is commonly used for unit testing in Java?",
+            "answers": [
+                "Selenium",
+                "JUnit",
+                "Postman",
+                "JIRA"
+            ]
+        },
+        {
+            "correctAnswer": "Postman is a tool used for API testing.",
+            "question": "What is Postman used for?",
+            "answers": [
+                "Automating browser actions",
+                "Writing unit tests",
+                "Tracking defects",
+                "Postman is a tool used for API testing."
+            ]
+        },
+        {
+            "correctAnswer": "Test planning involves defining the scope, strategy, resources, and schedule for testing.",
+            "question": "What is involved in the test planning phase?",
+            "answers": [
+                "Executing test cases",
+                "Writing test scripts",
+                "Test planning involves defining the scope, strategy, resources, and schedule for testing.",
+                "Reporting defects"
+            ]
+        },
+        {
+            "correctAnswer": "Test closure",
+            "question": "Which phase of STLC focuses on summarizing and reporting the results of testing?",
+            "answers": [
+                "Test execution",
+                "Requirement analysis",
+                "Test environment setup",
+                "Test closure"
+            ]
+        },
+        {
+            "correctAnswer": "Performance testing checks how a system behaves under heavy workloads.",
+            "question": "What does performance testing aim to evaluate?",
+            "answers": [
+                "System's performance under light conditions",
+                "Functionality of the user interface",
+                "Performance testing checks how a system behaves under heavy workloads.",
+                "System's security features"
+            ]
+        },
+        {
+            "correctAnswer": "SQL injection",
+            "question": "Which of the following is a common vulnerability targeted during security testing?",
+            "answers": [
+                "SQL injection",
+                "Memory leak",
+                "Graphical issues",
+                "High CPU usage"
+            ]
+        },
+        {
+            "correctAnswer": "Load testing evaluates how the system behaves under expected user loads.",
+            "question": "What does load testing focus on?",
+            "answers": [
+                "Load testing evaluates how the system behaves under expected user loads.",
+                "Testing for security vulnerabilities",
+                "Checking system usability",
+                "Validating database queries"
+            ]
+        },
+        {
+            "correctAnswer": "Pairwise testing",
+            "question": "Which testing technique reduces the number of test cases by focusing on pairwise combinations of inputs?",
+            "answers": [
+                "Boundary Value Analysis",
+                "Equivalence Partitioning",
+                "Pairwise testing",
+                "Exploratory testing"
+            ]
+        },
+        {
+            "correctAnswer": "Ensures that software functions properly when integrated with other systems",
+            "question": "What does integration testing ensure?",
+            "answers": [
+                "Unit tests are functioning correctly",
+                "Software is secure",
+                "Ensures that software functions properly when integrated with other systems",
+                "Performance is optimized"
+            ]
+        },
+        {
+            "correctAnswer": "Test case prioritization",
+            "question": "Which process involves ordering test cases based on their importance?",
+            "answers": [
+                "Test case prioritization",
+                "Defect management",
+                "Test execution",
+                "Test automation"
+            ]
+        },
+        {
+            "correctAnswer": "Test cases should cover as much functionality as possible.",
+            "question": "What is an important consideration when designing test cases?",
+            "answers": [
+                "Test only minor features",
+                "Test cases should cover as much functionality as possible.",
+                "Focus on UI elements",
+                "Avoid testing backend features"
+            ]
+        },
+        {
+            "correctAnswer": "Equivalence partitioning",
+            "question": "Which technique allows testers to group inputs into 'equivalence classes'?",
+            "answers": [
+                "Boundary value analysis",
+                "Regression testing",
+                "Equivalence partitioning",
+                "Stress testing"
+            ]
+        },
+        {
+            "correctAnswer": "Stub",
+            "question": "Which term refers to a minimal implementation used to simulate the behavior of a component in testing?",
+            "answers": [
+                "Mock",
+                "Stub",
+                "Spy",
+                "Driver"
+            ]
+        },
+        {
+            "correctAnswer": "System testing validates the complete integrated system.",
+            "question": "What does system testing validate?",
+            "answers": [
+                "Individual units",
+                "User interface design",
+                "System testing validates the complete integrated system.",
+                "Database queries"
+            ]
+        },
+        {
+            "correctAnswer": "Unit testing focuses on testing individual components or functions.",
+            "question": "What does unit testing focus on?",
+            "answers": [
+                "Testing the entire system",
+                "Testing business logic",
+                "Unit testing focuses on testing individual components or functions.",
+                "Testing only the UI"
+            ]
+        },
+        {
+            "correctAnswer": "Automation reduces human error and improves efficiency.",
+            "question": "Why is automation important in software testing?",
+            "answers": [
+                "Automation increases the number of bugs.",
+                "Automation reduces human error and improves efficiency.",
+                "Automation replaces developers.",
+                "Automation removes the need for test cases."
+            ]
+        },
+        {
+            "correctAnswer": "Mock objects simulate real object behavior in controlled tests.",
+            "question": "What is the purpose of mock objects in unit testing?",
+            "answers": [
+                "Mock objects simulate real object behavior in controlled tests.",
+                "Mocks are real objects used in production.",
+                "Mocks are used only for manual testing.",
+                "Mocks execute the same code as the actual objects."
+            ]
+        },
+        {
+            "correctAnswer": "Boundary Value Analysis focuses on the edges of valid input ranges.",
+            "question": "What is the focus of Boundary Value Analysis?",
+            "answers": [
+                "Testing only negative inputs",
+                "Boundary Value Analysis focuses on the edges of valid input ranges.",
+                "Testing every possible input",
+                "Ignoring invalid inputs"
+            ]
+        },
+        {
+            "correctAnswer": "Regression testing ensures new code doesn't break existing functionality.",
+            "question": "What does regression testing ensure?",
+            "answers": [
+                "Testing newly developed features",
+                "Validating performance metrics",
+                "Ensuring the design is consistent",
+                "Regression testing ensures new code doesn't break existing functionality."
+            ]
+        },
+        {
+            "correctAnswer": "A bug is an error in software that leads to unexpected results or behavior.",
+            "question": "What is a bug in software?",
+            "answers": [
+                "A feature that enhances functionality",
+                "A component of the software design",
+                "A bug is an error in software that leads to unexpected results or behavior.",
+                "A type of testing"
+            ]
+        },
+        {
+            "correctAnswer": "Stress testing pushes the system beyond its normal limits.",
+            "question": "What is the purpose of stress testing?",
+            "answers": [
+                "Testing minimal inputs",
+                "Stress testing pushes the system beyond its normal limits.",
+                "Checking for UI design flaws",
+                "Validating security protocols"
+            ]
+        },
+        {
+            "correctAnswer": "Smoke testing checks basic functionality to ensure the system is stable.",
+            "question": "What does smoke testing check?",
+            "answers": [
+                "System performance",
+                "Security protocols",
+                "Database consistency",
+                "Smoke testing checks basic functionality to ensure the system is stable."
+            ]
+        },
+        {
+            "correctAnswer": "Integration testing verifies that different modules work together as expected.",
+            "question": "What does integration testing verify?",
+            "answers": [
+                "Unit tests are functioning",
+                "Software runs on different platforms",
+                "Integration testing verifies that different modules work together as expected.",
+                "Software adheres to the design"
+            ]
+        },
+        {
+            "correctAnswer": "Defect tracking is crucial for identifying, managing, and resolving issues in the software.",
+            "question": "Why is defect tracking important?",
+            "answers": [
+                "Defect tracking is only useful for performance issues.",
+                "Defect tracking is optional in testing.",
+                "Defect tracking is crucial for identifying, managing, and resolving issues in the software.",
+                "Defect tracking is only needed for regression testing."
+            ]
+        },
+        {
+            "correctAnswer": "JUnit allows automation of unit testing in Java.",
+            "question": "What is JUnit used for?",
+            "answers": [
+                "Testing web applications",
+                "Tracking defects",
+                "Automating browser tests",
+                "JUnit allows automation of unit testing in Java."
+            ]
+        },
+        {
+            "correctAnswer": "Selenium automates web browsers for testing web applications.",
+            "question": "What is Selenium used for?",
+            "answers": [
+                "Running unit tests",
+                "Tracking bugs",
+                "Selenium automates web browsers for testing web applications.",
+                "Testing APIs"
+            ]
+        },
+        {
+            "correctAnswer": "Unit testing ensures individual components function correctly in isolation.",
+            "question": "What does unit testing ensure?",
+            "answers": [
+                "System-wide performance",
+                "User interface design is consistent",
+                "Unit testing ensures individual components function correctly in isolation.",
+                "Database consistency"
+            ]
+        },
+        {
+            "correctAnswer": "JUnit assertions are used to validate that code behaves as expected.",
+            "question": "What are JUnit assertions used for?",
+            "answers": [
+                "Documenting test cases",
+                "JUnit assertions are used to validate that code behaves as expected.",
+                "Simulating user inputs",
+                "Writing test cases for UI"
+            ]
+        },
+        {
+            "correctAnswer": "Test case execution",
+            "question": "Which phase of the Software Testing Life Cycle (STLC) involves executing test cases?",
+            "answers": [
+                "Requirement analysis",
+                "Test environment setup",
+                "Test case execution",
+                "Test closure"
+            ]
+        },
+        {
+            "correctAnswer": "Mocks simulate dependencies during testing.",
+            "question": "What is the purpose of using mocks in unit testing?",
+            "answers": [
+                "Mocks simulate dependencies during testing.",
+                "Mocks are used for manual testing only.",
+                "Mocks are actual objects used in production.",
+                "Mocks replace automated tests"
+            ]
+        },
+        {
+            "correctAnswer": "Test-driven development involves writing tests before the actual code.",
+            "question": "What is the concept of test-driven development (TDD)?",
+            "answers": [
+                "Writing code before testing",
+                "Test-driven development involves writing tests before the actual code.",
+                "Testing without writing any test cases",
+                "Skipping testing until deployment"
+            ]
+        },
+        {
+            "correctAnswer": "Performance testing evaluates system performance under specific conditions.",
+            "question": "What does performance testing evaluate?",
+            "answers": [
+                "System usability",
+                "Code quality",
+                "User interface design",
+                "Performance testing evaluates system performance under specific conditions."
+            ]
+        },
+        {
+            "correctAnswer": "Boundary Value Analysis focuses on testing values at the boundary of input ranges.",
+            "question": "What does Boundary Value Analysis focus on?",
+            "answers": [
+                "Testing only middle values",
+                "Boundary Value Analysis focuses on testing values at the boundary of input ranges.",
+                "Testing invalid inputs",
+                "Testing design elements"
+            ]
+        },
+        {
+            "correctAnswer": "A test case outlines the conditions, inputs, and expected outcomes for a test.",
+            "question": "What is a test case?",
+            "answers": [
+                "A tool used for debugging",
+                "A part of system design",
+                "A test case outlines the conditions, inputs, and expected outcomes for a test.",
+                "A program that runs automated scripts"
+            ]
+        },
+        {
+            "correctAnswer": "Pairwise testing reduces the number of test cases by focusing on combinations of inputs.",
+            "question": "What is the benefit of pairwise testing?",
+            "answers": [
+                "It increases the number of test cases.",
+                "Pairwise testing reduces the number of test cases by focusing on combinations of inputs.",
+                "It eliminates the need for manual tests.",
+                "It focuses on invalid inputs only."
+            ]
+        },
+        {
+            "correctAnswer": "Test automation",
+            "question": "Which method is used to increase testing efficiency and consistency?",
+            "answers": [
+                "Exploratory testing",
+                "Test automation",
+                "Manual testing",
+                "User acceptance testing"
+            ]
+        },
+        {
+            "correctAnswer": "Test coverage refers to how much of the code or application has been tested.",
+            "question": "What does test coverage refer to?",
+            "answers": [
+                "The number of bugs found",
+                "The total time spent testing",
+                "Test coverage refers to how much of the code or application has been tested.",
+                "The performance of the system"
+            ]
+        },
+        {
+            "correctAnswer": "Equivalence partitioning groups input values into equivalent classes for testing.",
+            "question": "What does equivalence partitioning involve?",
+            "answers": [
+                "Testing boundary values only",
+                "Equivalence partitioning groups input values into equivalent classes for testing.",
+                "Testing invalid inputs only",
+                "Writing test scripts manually"
+            ]
+        },
+        {
+            "correctAnswer": "Regression testing",
+            "question": "Which testing ensures that recent changes have not negatively impacted existing functionality?",
+            "answers": [
+                "Regression testing",
+                "Unit testing",
+                "Exploratory testing",
+                "System testing"
+            ]
+        },
+        {
+            "correctAnswer": "Security testing identifies vulnerabilities in the software.",
+            "question": "What is the goal of security testing?",
+            "answers": [
+                "Testing system performance",
+                "Checking the user interface design",
+                "Security testing identifies vulnerabilities in the software.",
+                "Testing software compatibility"
+            ]
+        },
+        {
+            "correctAnswer": "To prepare the environment in which the testing will be conducted.",
+            "question": "What is the purpose of the Test Environment Setup phase in the STLC?",
+            "answers": [
+                "To prepare the environment in which the testing will be conducted.",
+                "To develop new software features.",
+                "To finalize the software design.",
+                "To analyze customer requirements."
+            ]
+        },
+        {
+            "correctAnswer": "Selenium WebDriver",
+            "question": "Which tool is commonly used for automating browser actions during web application testing?",
+            "answers": [
+                "Apache JMeter",
+                "Postman",
+                "Selenium WebDriver",
+                "JIRA"
+            ]
+        },
+        {
+            "correctAnswer": "Before writing the actual code",
+            "question": "In test-driven development (TDD), when are tests typically written?",
+            "answers": [
+                "Before writing the actual code",
+                "After writing the code",
+                "During the deployment phase",
+                "During the requirement analysis"
+            ]
+        },
+        {
+            "correctAnswer": "Decision tree testing",
+            "question": "Which testing technique visualizes and analyzes different decision paths based on specific inputs or conditions?",
+            "answers": [
+                "Boundary Value Analysis",
+                "Decision tree testing",
+                "Equivalence Partitioning",
+                "Regression testing"
+            ]
+        },
+        {
+            "correctAnswer": "To handle extreme scenarios where the software might fail or behave unpredictably.",
+            "question": "What is the purpose of validating edge cases in software testing?",
+            "answers": [
+                "To handle extreme scenarios where the software might fail or behave unpredictably.",
+                "To test only normal cases.",
+                "To simplify the testing process.",
+                "To reduce the number of test cases."
+            ]
+        },
+        {
+            "correctAnswer": "JUnit",
+            "question": "Which testing framework is widely used for unit testing in Java?",
+            "answers": [
+                "JUnit",
+                "Selenium",
+                "Apache JMeter",
+                "Cucumber"
+            ]
+        },
+        {
+            "correctAnswer": "To visualize the different paths of a decision-making process.",
+            "question": "What is the purpose of a decision tree in software testing?",
+            "answers": [
+                "To visualize the different paths of a decision-making process.",
+                "To map out the entire system architecture.",
+                "To generate test cases for performance testing.",
+                "To automate test case execution."
+            ]
+        },
+        {
+            "correctAnswer": "Test planning involves defining the scope, strategy, resources, and schedule for testing.",
+            "question": "What activities are involved in the test planning phase of the STLC?",
+            "answers": [
+                "Designing the software architecture",
+                "Writing the source code",
+                "Test planning involves defining the scope, strategy, resources, and schedule for testing.",
+                "Deploying the software to production"
+            ]
+        },
+        {
+            "correctAnswer": "Equivalence Partitioning",
+            "question": "Which black-box testing technique involves grouping input values into equivalent classes?",
+            "answers": [
+                "Boundary Value Analysis",
+                "Equivalence Partitioning",
+                "Decision tree testing",
+                "Exploratory testing"
+            ]
+        },
+        {
+            "correctAnswer": "To evaluate how the system behaves under extreme conditions.",
+            "question": "What is the goal of stress testing?",
+            "answers": [
+                "To evaluate how the system behaves under extreme conditions.",
+                "To check the system's performance under normal conditions.",
+                "To simplify the system's user interface.",
+                "To automate the testing process."
+            ]
+        },
+        {
+            "correctAnswer": "Testing the system with unexpected or unusual inputs.",
+            "question": "What is an example of exploratory testing?",
+            "answers": [
+                "Testing the system with unexpected or unusual inputs.",
+                "Writing test cases based on requirements.",
+                "Automating the test case execution.",
+                "Developing new software features."
+            ]
+        },
+        {
+            "correctAnswer": "Smoke testing ensures that the most crucial functions of an application work.",
+            "question": "What is the purpose of smoke testing?",
+            "answers": [
+                "To ensure system security.",
+                "To check for performance bottlenecks.",
+                "Smoke testing ensures that the most crucial functions of an application work.",
+                "To validate the database."
+            ]
+        },
+        {
+            "correctAnswer": "Test closure",
+            "question": "Which phase of STLC focuses on summarizing and reporting the results of testing?",
+            "answers": [
+                "Test execution",
+                "Requirement analysis",
+                "Test environment setup",
+                "Test closure"
+            ]
+        },
+        {
+            "correctAnswer": "SQL injection",
+            "question": "Which of the following is a common vulnerability targeted during security testing?",
+            "answers": [
+                "SQL injection",
+                "Memory leak",
+                "Graphical issues",
+                "High CPU usage"
+            ]
+        },
+        {
+            "correctAnswer": "To identify and address potential security risks in the software.",
+            "question": "What is the goal of security testing?",
+            "answers": [
+                "To identify and address potential security risks in the software.",
+                "To improve the software's user interface.",
+                "To reduce the software's development cost.",
+                "To simplify the software's architecture."
+            ]
+        },
+        {
+            "correctAnswer": "Test-driven development (TDD)",
+            "question": "Which development approach involves writing tests before writing the actual code?",
+            "answers": [
+                "Behavior-Driven Development (BDD)",
+                "Test-driven development (TDD)",
+                "Exploratory testing",
+                "Regression testing"
+            ]
+        },
+        {
+            "correctAnswer": "Behavior-Driven Development (BDD) involves writing tests in a natural language to describe the system's behavior.",
+            "question": "What is Behavior-Driven Development (BDD)?",
+            "answers": [
+                "Testing only for performance",
+                "Writing tests after deployment",
+                "Behavior-Driven Development (BDD) involves writing tests in a natural language to describe the system's behavior.",
+                "Testing the software from a user's perspective"
+            ]
+        },
+        {
+            "correctAnswer": "Using boundary values to test the edge cases.",
+            "question": "How does Boundary Value Analysis (BVA) improve the robustness of software?",
+            "answers": [
+                "By ignoring invalid inputs",
+                "Using boundary values to test the edge cases.",
+                "By testing only normal inputs",
+                "By reducing the number of test cases."
+            ]
+        },
+        {
+            "correctAnswer": "To ensure that different combinations of inputs are tested effectively.",
+            "question": "What is the purpose of pairwise testing?",
+            "answers": [
+                "To reduce the number of test cases.",
+                "To ensure that different combinations of inputs are tested effectively.",
+                "To automate the testing process.",
+                "To test the software under normal conditions."
+            ]
+        },
+        {
+            "correctAnswer": "Decision tree testing",
+            "question": "Which testing technique helps visualize complex decision logic for testing?",
+            "answers": [
+                "Boundary Value Analysis",
+                "Decision tree testing",
+                "Regression testing",
+                "Exploratory testing"
+            ]
+        },
+        {
+            "correctAnswer": "A test case outlines the conditions, inputs, and expected outcomes for a test.",
+            "question": "What is a test case?",
+            "answers": [
+                "A tool used for debugging",
+                "A part of system design",
+                "A test case outlines the conditions, inputs, and expected outcomes for a test.",
+                "A program that runs automated scripts"
+            ]
+        },
+        {
+            "correctAnswer": "Test automation",
+            "question": "Which method is used to increase testing efficiency and consistency?",
+            "answers": [
+                "Exploratory testing",
+                "Test automation",
+                "Manual testing",
+                "User acceptance testing"
+            ]
+        },
+        {
+            "correctAnswer": "Test coverage refers to how much of the code or application has been tested.",
+            "question": "What does test coverage refer to?",
+            "answers": [
+                "The number of bugs found",
+                "The total time spent testing",
+                "Test coverage refers to how much of the code or application has been tested.",
+                "The performance of the system"
+            ]
+        },
+        {
+            "correctAnswer": "To evaluate how a system performs under heavy load or stress.",
+            "question": "What is the goal of performance testing?",
+            "answers": [
+                "To find bugs in the user interface",
+                "To evaluate how a system performs under heavy load or stress.",
+                "To check code coverage",
+                "To ensure compliance with business requirements"
+            ]
+        },
+        {
+            "correctAnswer": "Stress testing involves pushing the system beyond normal operational limits to observe its behavior.",
+            "question": "What is stress testing?",
+            "answers": [
+                "Testing the system with minimal data",
+                "Stress testing involves pushing the system beyond normal operational limits to observe its behavior.",
+                "Testing for UI design flaws",
+                "Ensuring data security"
+            ]
+        },
+        {
+            "correctAnswer": "RealPaymentGateway is a proper implementation of the payment gateway.",
+            "question": "What is the purpose of the RealPaymentGateway in the example provided?",
+            "answers": [
+                "It simulates a failed payment.",
+                "It returns incorrect values.",
+                "RealPaymentGateway is a proper implementation of the payment gateway.",
+                "It handles user authentication."
+            ]
+        },
+        {
+            "correctAnswer": "Ensuring that data is stored, updated, and retrieved correctly.",
+            "question": "What is the purpose of database testing?",
+            "answers": [
+                "Optimizing database performance",
+                "Ensuring data consistency across multiple databases",
+                "Ensuring that data is stored, updated, and retrieved correctly.",
+                "Testing the graphical user interface (GUI)."
+            ]
+        },
+        {
+            "correctAnswer": "Boundary Value Analysis",
+            "question": "Which technique is used to test input values at the boundaries of valid input ranges?",
+            "answers": [
+                "Exploratory testing",
+                "Pairwise testing",
+                "Boundary Value Analysis",
+                "Stress testing"
+            ]
+        },
+        {
+            "correctAnswer": "Equivalence Partitioning groups inputs into equivalent classes for efficient test case coverage.",
+            "question": "What is equivalence partitioning?",
+            "answers": [
+                "Testing only invalid inputs",
+                "Testing with real users",
+                "Equivalence Partitioning groups inputs into equivalent classes for efficient test case coverage.",
+                "Performing tests on all possible input values"
+            ]
+        },
+        {
+            "correctAnswer": "User Acceptance Testing (UAT) validates that the software meets business requirements and user needs.",
+            "question": "What is User Acceptance Testing (UAT)?",
+            "answers": [
+                "Testing user interface design",
+                "Testing for security vulnerabilities",
+                "User Acceptance Testing (UAT) validates that the software meets business requirements and user needs.",
+                "Testing system performance"
+            ]
+        },
+        {
+            "correctAnswer": "JUnit allows automation of unit testing in Java.",
+            "question": "What is JUnit used for?",
+            "answers": [
+                "Testing web applications",
+                "Tracking defects",
+                "Automating browser tests",
+                "JUnit allows automation of unit testing in Java."
+            ]
+        },
+        {
+            "correctAnswer": "API testing focuses on requests and responses between systems.",
+            "question": "What does API integration testing focus on?",
+            "answers": [
+                "Testing the user interface",
+                "API testing focuses on requests and responses between systems.",
+                "Testing the database",
+                "Validating security protocols"
+            ]
+        },
+        {
+            "correctAnswer": "Pairwise testing reduces the number of test cases by focusing on combinations of inputs.",
+            "question": "What is the benefit of pairwise testing?",
+            "answers": [
+                "It increases the number of test cases.",
+                "Pairwise testing reduces the number of test cases by focusing on combinations of inputs.",
+                "It eliminates the need for manual tests.",
+                "It focuses on invalid inputs only."
+            ]
+        },
+        {
+            "correctAnswer": "Test case design and development",
+            "question": "In which phase of STLC are detailed test cases, test scripts, and test data created?",
+            "answers": [
+                "Test closure",
+                "Requirement analysis",
+                "Test case design and development",
+                "Test execution"
+            ]
+        },
+        {
+            "correctAnswer": "Ensures that software functions properly when integrated with other systems",
+            "question": "What does integration testing ensure?",
+            "answers": [
+                "Unit tests are functioning correctly",
+                "Software is secure",
+                "Ensures that software functions properly when integrated with other systems",
+                "Performance is optimized"
+            ]
+        },
+        {
+            "correctAnswer": "Test automation",
+            "question": "What can reduce human error and increase efficiency during repetitive testing tasks?",
+            "answers": [
+                "Manual testing",
+                "Regression testing",
+                "Test automation",
+                "Integration testing"
+            ]
+        },
+        {
+            "correctAnswer": "Mocks simulate dependencies during testing.",
+            "question": "What is the purpose of using mocks in unit testing?",
+            "answers": [
+                "Mocks simulate dependencies during testing.",
+                "Mocks are used for manual testing only.",
+                "Mocks are actual objects used in production.",
+                "Mocks replace automated tests"
+            ]
+        },
+        {
+            "correctAnswer": "Unit testing ensures individual components function correctly in isolation.",
+            "question": "What does unit testing ensure?",
+            "answers": [
+                "System-wide performance",
+                "User interface design is consistent",
+                "Unit testing ensures individual components function correctly in isolation.",
+                "Database consistency"
+            ]
+        },
+        {
+            "correctAnswer": "System testing validates the complete integrated system.",
+            "question": "What does system testing validate?",
+            "answers": [
+                "Individual units",
+                "User interface design",
+                "System testing validates the complete integrated system.",
+                "Database queries"
+            ]
+        },
+        {
+            "correctAnswer": "Defect tracking is crucial for identifying, managing, and resolving issues in the software.",
+            "question": "Why is defect tracking important?",
+            "answers": [
+                "Defect tracking is only useful for performance issues.",
+                "Defect tracking is optional in testing.",
+                "Defect tracking is crucial for identifying, managing, and resolving issues in the software.",
+                "Defect tracking is only needed for regression testing."
+            ]
+        }
+    ]
+}
