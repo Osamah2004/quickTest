@@ -12,6 +12,8 @@ function setAnswer(num) {
     radioId = num;
     num--;
     answer = answers[num];
+    let correctAnswer = questions[index].correctAnswer;
+    validateAnswer(correctAnswer);
 }
 function snackbar(txt) {
     debugger;
@@ -80,20 +82,10 @@ function next() {
     }
     let correctAnswer = questions[index].correctAnswer;
     question = document.getElementById('question');
-    console.log(correctAnswer);
     index++;
     question.textContent = questions[index].question;
     document.getElementById('question num').textContent = `question ${index + 1}`
     document.getElementById(`radio${radioId}`).checked = false;
-    if (max === index){
-        validateAnswer(correctAnswer);
-        max++;
-    }
-    else {
-        if (answer != undefined){
-            validateAnswer(correctAnswer,0);
-        }
-    }
     displayButton('prev');
     console.log(`max: ${max}`);
     console.log(`index: ${index}`);

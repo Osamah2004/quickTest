@@ -10,6 +10,51 @@ h1, h2, h3, h4, h5, h6, p, label, button {
     color: #FFFFFF;
     font-family: 'Times New Roman', Times, serif;
 }
+/* Hide the default radio button */
+input[type="radio"].custom-radio {
+    display: none;
+}
+
+/* Style the label as a button */
+.custom-radio+label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+/* Hover effect with transition */
+.custom-radio+label:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+/* Checked state */
+input[type="radio"].custom-radio:checked+label {
+    background-color: black;
+    color: white;
+    border-color: black;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Hover on checked state */
+input[type="radio"].custom-radio:checked+label:hover {
+    background-color: cyan;
+    color: black;
+    border-color: cyan;
+}
+
+/* onChecked style */
+input[type="radio"].custom-radio:checked+label:before {
+    content: '✓ ';
+}
 
 table {
     border-color: #FFFFFF;
