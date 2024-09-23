@@ -17,7 +17,6 @@ function setAnswer(num) {
 }
 function snackbar(txt) {
     debugger;
-    console.log('hello');
     let x = document.createElement('div');
     x.setAttribute('id', 'snackbar');
     x.textContent = txt;
@@ -26,6 +25,9 @@ function snackbar(txt) {
 
     // Append the div to the body
     document.body.appendChild(x);
+    if (txt == "false answer."){
+        x.style.backgroundColor = 'red';
+    } else x.style.backgroundColor = 'green';
 
     // After 3 seconds, remove the show class from DIV
     setTimeout(function () {
@@ -67,13 +69,14 @@ function validateAnswer(correctAnswer) {
     let correctLabel = document.querySelector(`label[for="${correctRadioId}"]`);
 
     if (answer === correctAnswer) {
-        informType('correct answer');
+        informType('correct answer.');
         if (!blacklist.includes(index)) {
             marks++;
         }
         document.getElementById('correct').textContent = `correct answers ${marks}/${questions.length}`;
     } else {
-        informType(`false answer.\nthe correct is: ${correctAnswer}\n`);
+        informType(`false answer.`);
+        
         if (correctLabel) {
             correctLabel.classList.add('correct-answer');
             // Remove the blinking class after 3 seconds
@@ -84,6 +87,7 @@ function validateAnswer(correctAnswer) {
     }
 
     blacklist.push(index);
+    return answer === correctAnswer;
 }
 
 

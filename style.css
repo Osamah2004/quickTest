@@ -64,11 +64,6 @@ input[type="radio"].custom-radio:checked+label:hover {
     border-color: cyan;
 }
 
-/* onChecked style */
-input[type="radio"].custom-radio:checked+label:before {
-    content: '✓ ';
-}
-
 table {
     border-color: #FFFFFF;
     border-collapse: collapse;
