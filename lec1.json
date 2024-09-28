@@ -1,287 +1,285 @@
 {
     "questions": [
         {
-            "correctAnswer": "Personal responsibility",
-            "question": "What type of responsibility involves accountability for one's own actions and commitments?",
-            "answers": [
-                "Social responsibility",
-                "Personal responsibility",
-                "Professional responsibility",
-                "Team responsibility"
-            ]
-        },
-        {
             "correctAnswer": "True",
-            "question": "True or False: Personal responsibility can affect the quality of code and project timelines.",
+            "question": "True or False: The role of a software architect includes making key technical decisions.",
             "answers": [
                 "True",
                 "False"
             ]
         },
         {
-            "correctAnswer": "Supporting team members during challenges",
-            "question": "Which of the following is a key aspect of shared responsibility in teams?",
+            "correctAnswer": "Architect",
+            "question": "Which of the following stakeholders is primarily responsible for creating and assessing the architecture?",
             "answers": [
-                "Supporting team members during challenges",
-                "Owning your individual tasks only",
-                "Ignoring team failures",
-                "Delegating all responsibilities"
-            ]
-        },
-        {
-            "correctAnswer": "The Volkswagen emissions scandal",
-            "question": "Which of the following is an example of a lack of professional responsibility?",
-            "answers": [
-                "The Apple battery life controversy",
-                "The Volkswagen emissions scandal",
-                "The Microsoft antitrust case",
-                "The Facebook data breach"
+                "Developer",
+                "Tester",
+                "Architect",
+                "Client"
             ]
         },
         {
             "correctAnswer": "False",
-            "question": "True or False: Ethical behavior in the workplace is only important in client-facing roles.",
+            "question": "True or False: Software architecture is primarily concerned with low-level code implementation.",
             "answers": [
                 "True",
                 "False"
             ]
         },
         {
-            "correctAnswer": "Protecting user data and privacy",
-            "question": "What is one major ethical concern in software development?",
+            "correctAnswer": "Many stakeholders involved",
+            "question": "Which characteristic of software architecture highlights that it balances both functional and quality requirements?",
             "answers": [
-                "Speed of development",
-                "Protecting user data and privacy",
-                "Reducing costs",
-                "Team communication"
+                "Many stakeholders involved",
+                "Inhibits quality attributes",
+                "Only developers are involved",
+                "Emphasizes coding standards"
             ]
         },
         {
-            "correctAnswer": "Striving for excellence",
-            "question": "In the IEEE Software Engineering Code of Ethics, what does an aspirational clause focus on?",
+            "correctAnswer": "Communication with stakeholders",
+            "question": "Why is architecture important in the software development lifecycle?",
             "answers": [
-                "Striving for excellence",
-                "Meeting minimum requirements",
-                "Avoiding software bugs",
-                "Complying with local laws"
-            ]
-        },
-        {
-            "correctAnswer": "Ensuring thorough testing and debugging",
-            "question": "According to the IEEE Code of Ethics, what is the responsibility of a software engineer regarding product quality?",
-            "answers": [
-                "Ensuring thorough testing and debugging",
-                "Speeding up the development process",
-                "Delegating testing to non-technical staff",
-                "Improving user interface design"
-            ]
-        },
-        {
-            "correctAnswer": "Public interest",
-            "question": "Which core principle of the Software Engineering Code of Ethics emphasizes acting in the public interest?",
-            "answers": [
-                "Client interest",
-                "Public interest",
-                "Product interest",
-                "Professional interest"
-            ]
-        },
-        {
-            "correctAnswer": "Independence in judgment",
-            "question": "In the IEEE Code of Ethics, what does the 'Judgment' principle emphasize?",
-            "answers": [
-                "Speed of development",
-                "Independence in judgment",
-                "Client satisfaction",
-                "Reducing cost"
-            ]
-        },
-        {
-            "correctAnswer": "Cultural differences",
-            "question": "In multi-site development, what is one of the challenges faced by teams working across geographically dispersed locations?",
-            "answers": [
-                "Speed of communication",
-                "Cultural differences",
-                "Project scope differences",
-                "Budget constraints"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "True or False: Small, skilled teams often yield higher productivity than larger teams.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Matrix",
-            "question": "Which of the following is a method for organizing development teams?",
-            "answers": [
-                "Waterfall",
-                "Matrix",
-                "Hierarchical",
-                "Scrum"
-            ]
-        },
-        {
-            "correctAnswer": "Tuckman's Model",
-            "question": "Which model describes the stages of team development from 'forming' to 'adjourning'?",
-            "answers": [
-                "Agile Model",
-                "Tuckman's Model",
-                "Waterfall Model",
-                "V-Model"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "True or False: The 'performing' stage in Tuckman's Model is when a team operates at peak efficiency.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Active listening",
-            "question": "Which of the following is a key strategy in conflict resolution within teams?",
-            "answers": [
-                "Avoiding conflict",
-                "Active listening",
-                "Delegating tasks to others",
-                "Postponing discussion"
-            ]
-        },
-        {
-            "correctAnswer": "Jira",
-            "question": "Which tool is commonly used to track progress in software development teams?",
-            "answers": [
-                "Slack",
-                "Jira",
-                "Zoom",
-                "Figma"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "True or False: Trust and mutual respect are essential characteristics of effective teams.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Honesty and transparency",
-            "question": "What are key aspects of responsibility when working in a team?",
-            "answers": [
-                "Ignoring deadlines",
-                "Over-promising and under-delivering",
-                "Honesty and transparency",
-                "Delegating tasks to others"
+                "It helps in coding faster",
+                "It establishes communication with stakeholders",
+                "It is unnecessary",
+                "It reduces testing time"
             ]
         },
         {
             "correctAnswer": "False",
-            "question": "True or False: Only managers are responsible for adhering to ethical practices in a team.",
+            "question": "True or False: Software architecture is not concerned with communication between sub-systems.",
             "answers": [
                 "True",
                 "False"
             ]
         },
         {
-            "correctAnswer": "Fit tasks to people",
-            "question": "What principle helps avoid the Peter Principle in team organization?",
+            "correctAnswer": "Quality attributes",
+            "question": "In software architecture, which of the following can be either enabled or inhibited by the design decisions?",
             "answers": [
-                "Assign all tasks to one person",
-                "Fit tasks to people",
-                "Avoid assigning responsibilities",
-                "Delegate tasks randomly"
-            ]
-        },
-        {
-            "correctAnswer": "Chief Programmer",
-            "question": "Which team structure involves a lead developer making key decisions and overseeing the work?",
-            "answers": [
-                "Agile",
-                "Matrix",
-                "Chief Programmer",
-                "Scrum Master"
-            ]
-        },
-        {
-            "correctAnswer": "Removing non-cohesive team members",
-            "question": "What is a suggested strategy for maintaining team balance according to the document?",
-            "answers": [
-                "Promoting every team member equally",
-                "Removing non-cohesive team members",
-                "Rotating leadership frequently",
-                "Implementing a flat hierarchy"
-            ]
-        },
-        {
-            "correctAnswer": "Regular feedback loops",
-            "question": "What mechanism is important for measuring team success?",
-            "answers": [
-                "Removing underperforming members",
-                "Regular feedback loops",
-                "Delegating all decisions to a project manager",
-                "Assigning more tasks"
+                "Testing efficiency",
+                "Deployment processes",
+                "Quality attributes",
+                "System speed"
             ]
         },
         {
             "correctAnswer": "True",
-            "question": "True or False: Effective communication is a critical factor in team success.",
+            "question": "True or False: The design of a system's architecture can influence its maintainability.",
             "answers": [
                 "True",
                 "False"
             ]
         },
         {
-            "correctAnswer": "Agile Retrospectives",
-            "question": "Which of the following is referenced as a method for improving team performance?",
+            "correctAnswer": "Functional and quality requirements",
+            "question": "In software architecture, what must be balanced during the design process?",
             "answers": [
-                "Daily stand-ups",
-                "Agile Retrospectives",
-                "Waterfall meetings",
-                "Brainstorming sessions"
+                "Functional and quality requirements",
+                "Speed and coding style",
+                "Testing and development timelines",
+                "Team size and project scope"
             ]
         },
         {
-            "correctAnswer": "Equality",
-            "question": "Which value emphasizes treating all team members fairly regardless of race, religion, or gender?",
+            "correctAnswer": "Architectural design",
+            "question": "What is the design process for identifying sub-systems and their communication frameworks called?",
             "answers": [
-                "Excellence",
-                "Efficiency",
-                "Equality",
-                "Accountability"
+                "Coding guidelines",
+                "Architectural design",
+                "Testing strategy",
+                "System integration"
             ]
         },
         {
             "correctAnswer": "True",
-            "question": "True or False: Supporting and being fair to colleagues is a principle of software engineering ethics.",
+            "question": "True or False: The role of the architect includes visualizing solutions and evaluating requirements.",
             "answers": [
                 "True",
                 "False"
             ]
         },
         {
-            "correctAnswer": "Commitment to lifelong learning",
-            "question": "Which principle of software engineering ethics encourages continuous professional development?",
+            "correctAnswer": "Module views",
+            "question": "Which type of view is primarily concerned with decomposition and the relationships between modules?",
             "answers": [
-                "Commitment to lifelong learning",
-                "Delegating learning to junior members",
-                "Focusing on speed over quality",
-                "Maximizing client satisfaction"
+                "Deployment views",
+                "Module views",
+                "Process views",
+                "Logical views"
             ]
         },
         {
-            "correctAnswer": "Conflict over task assignments",
-            "question": "Which of the following is an example of a common conflict in software development teams?",
+            "correctAnswer": "False",
+            "question": "True or False: Architecture assessment occurs after the system has been fully implemented.",
             "answers": [
-                "Conflict over task assignments",
-                "Conflict over team size",
-                "Conflict over office space",
-                "Conflict over project budgets"
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Viewpoint",
+            "question": "What term refers to the perspective or technique used to construct a view?",
+            "answers": [
+                "Scenario",
+                "Module",
+                "Viewpoint",
+                "Connector"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: The deployment viewpoint focuses on the organization of software modules in the development environment.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Logical viewpoint",
+            "question": "Which viewpoint is concerned with the system's functional requirements and key abstractions?",
+            "answers": [
+                "Logical viewpoint",
+                "Process viewpoint",
+                "Deployment viewpoint",
+                "Scenario viewpoint"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: The process viewpoint addresses concurrent aspects of the system at runtime.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Client-server pattern",
+            "question": "Which architectural pattern divides the system into clients that request services and servers that provide them?",
+            "answers": [
+                "Pipe-and-filter pattern",
+                "Client-server pattern",
+                "Layered architecture",
+                "Main-program-with-subroutines"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: The business viewpoint addresses concerns such as profitability and market trends.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Scenario viewpoint",
+            "question": "Which viewpoint shows how different system elements work together using important use cases?",
+            "answers": [
+                "Logical viewpoint",
+                "Process viewpoint",
+                "Scenario viewpoint",
+                "Deployment viewpoint"
+            ]
+        },
+        {
+            "correctAnswer": "Scalability and performance",
+            "question": "What nonfunctional requirements are considered in the process viewpoint?",
+            "answers": [
+                "Scalability and performance",
+                "Security and flexibility",
+                "Usability and accessibility",
+                "Cost and time"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: The allocation view in software architecture includes work assignment and deployment considerations.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Main-program-with-subroutines",
+            "question": "Which architectural style uses a hierarchical structure with a single thread of control?",
+            "answers": [
+                "Client-server",
+                "Layered architecture",
+                "Main-program-with-subroutines",
+                "Abstract-data-type"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Architectural styles define the components and connectors used in the system and their interactions.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Pipes-and-filters",
+            "question": "Which architectural style involves transforming data through a series of sequential steps?",
+            "answers": [
+                "Pipes-and-filters",
+                "Client-server",
+                "Repository",
+                "Layered architecture"
+            ]
+        },
+        {
+            "correctAnswer": "Implicit invocation",
+            "question": "In which architectural style are components loosely coupled and invoked based on events?",
+            "answers": [
+                "Main-program-with-subroutines",
+                "Repository",
+                "Implicit invocation",
+                "Client-server"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: The repository architectural style centralizes information to be accessed and manipulated by multiple clients.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Layered architecture",
+            "question": "Which architectural style uses a hierarchy of layers with limited visibility between them?",
+            "answers": [
+                "Layered architecture",
+                "Pipes-and-filters",
+                "Abstract-data-type",
+                "Client-server"
+            ]
+        },
+        {
+            "correctAnswer": "Model-View-Controller (MVC)",
+            "question": "Which architectural style separates the user interface from the business logic?",
+            "answers": [
+                "Repository",
+                "Model-View-Controller (MVC)",
+                "Pipes-and-filters",
+                "Main-program-with-subroutines"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: The business logic in the MVC architectural style is separated from the user interface for flexibility.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: The repository architectural style is designed for systems where data is only stored temporarily.",
+            "answers": [
+                "True",
+                "False"
             ]
         }
     ]
