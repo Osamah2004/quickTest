@@ -281,6 +281,368 @@
                 "True",
                 "False"
             ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Software architecture plays a crucial role in stakeholder communication.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Constraints on implementation",
+            "question": "Which of the following is an effect of software architecture on the system design?",
+            "answers": [
+                "Simplifies testing",
+                "Constraints on implementation",
+                "Only impacts documentation",
+                "No impact on quality attributes"
+            ]
+        },
+        {
+            "correctAnswer": "Architectural drivers",
+            "question": "What should be chosen in the Attribute-Driven Design (ADD) process to decompose a module?",
+            "answers": [
+                "Architectural drivers",
+                "Team size",
+                "Stakeholder opinions",
+                "Available tools"
+            ]
+        },
+        {
+            "correctAnswer": "Choose a pattern that satisfies drivers",
+            "question": "In ADD, after selecting architectural drivers, what is the next step?",
+            "answers": [
+                "Select a team",
+                "Review the architecture",
+                "Choose a pattern that satisfies drivers",
+                "Create a test plan"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Attribute-Driven Design (ADD) is an iterative process.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "System decomposition",
+            "question": "What is a primary activity of architectural design?",
+            "answers": [
+                "System decomposition",
+                "User interface design",
+                "System testing",
+                "Deployment planning"
+            ]
+        },
+        {
+            "correctAnswer": "Context, problem, solution",
+            "question": "What are the three core aspects of a design pattern?",
+            "answers": [
+                "Context, problem, solution",
+                "Module, context, data flow",
+                "Problem, testing, release",
+                "Driver, connector, process"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: In a layered architecture, components in upper layers can use components from lower layers.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: The system's functional requirements are irrelevant to the architectural design.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Layers of abstraction",
+            "question": "Which of the following is an example of an architectural style?",
+            "answers": [
+                "Design patterns",
+                "Layers of abstraction",
+                "UML modeling",
+                "Agile methodology"
+            ]
+        },
+        {
+            "correctAnswer": "Main-program-with-subroutines",
+            "question": "Which architectural style is based on functional decomposition and a single thread of control?",
+            "answers": [
+                "Main-program-with-subroutines",
+                "Client-server",
+                "Layered architecture",
+                "Model-View-Controller"
+            ]
+        },
+        {
+            "correctAnswer": "Shared data repository",
+            "question": "Which architectural style uses a centralized body of information accessed by different clients?",
+            "answers": [
+                "Pipes-and-filters",
+                "Shared data repository",
+                "Client-server",
+                "Main-program-with-subroutines"
+            ]
+        },
+        {
+            "correctAnswer": "Client-server",
+            "question": "Which architectural style involves clients requesting services from a centralized server?",
+            "answers": [
+                "Client-server",
+                "Layered architecture",
+                "Pipes-and-filters",
+                "Implicit invocation"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: The architecture of a system can dictate the organization of the development team.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: In the repository style, clients need to know how data is stored in the repository.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Implicit invocation",
+            "question": "Which architectural style is best for systems that need to be reconfigurable and based on events?",
+            "answers": [
+                "Main-program-with-subroutines",
+                "Implicit invocation",
+                "Client-server",
+                "Layered architecture"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: The client-server architectural style separates service provision from service use.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Performance, security, and modifiability",
+            "question": "Which are examples of quality attributes in software architecture?",
+            "answers": [
+                "Performance, security, and modifiability",
+                "Speed, design, and scalability",
+                "Modularity, reusability, and debugging",
+                "Interfaces, memory, and threads"
+            ]
+        },
+        {
+            "correctAnswer": "Security",
+            "question": "Which architectural quality is most affected by using a layered architecture with critical components in the inner layers?",
+            "answers": [
+                "Usability",
+                "Security",
+                "Performance",
+                "Modifiability"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: Architectural views and architectural styles refer to the same concept.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Viewpoint",
+            "question": "Which of the following determines the perspective and method employed in constructing a view in architecture?",
+            "answers": [
+                "Scenario",
+                "Module",
+                "Viewpoint",
+                "Connector"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: The process viewpoint in architecture addresses nonfunctional requirements such as system availability and fault-tolerance.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Logical viewpoint",
+            "question": "Which architectural viewpoint is most concerned with the functional requirements and key abstractions of the system?",
+            "answers": [
+                "Logical viewpoint",
+                "Deployment viewpoint",
+                "Scenario viewpoint",
+                "Process viewpoint"
+            ]
+        },
+        {
+            "correctAnswer": "Use of scenarios",
+            "question": "Which technique is often used to question how a system will react to various situations in architecture analysis?",
+            "answers": [
+                "Use of metrics",
+                "Use of diagrams",
+                "Use of scenarios",
+                "Use of simulations"
+            ]
+        },
+        {
+            "correctAnswer": "Modifiability, testability, and performance",
+            "question": "Which of the following quality attributes can be assessed through the system architecture?",
+            "answers": [
+                "Modifiability, testability, and performance",
+                "Maintainability, deployment, and testing",
+                "Scalability, project planning, and cost",
+                "Quality, coding, and testing"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: The deployment viewpoint defines how system elements such as processes and tasks map onto physical nodes.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Rationale",
+            "question": "In design decisions, what explains why a particular decision was made?",
+            "answers": [
+                "Rationale",
+                "Assumptions",
+                "Alternatives",
+                "Implications"
+            ]
+        },
+        {
+            "correctAnswer": "Architectural reuse",
+            "question": "What concept refers to systems in the same domain sharing common architectural patterns?",
+            "answers": [
+                "Architectural reuse",
+                "Architectural evaluation",
+                "Architectural flexibility",
+                "Architectural modifiability"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: The structure and components of a system can influence the scalability and performance of a software architecture.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Data flow between components",
+            "question": "In the pipes-and-filters style, what is the primary means of communication between components?",
+            "answers": [
+                "Data flow between components",
+                "Procedure calls",
+                "Shared database",
+                "User interface events"
+            ]
+        },
+        {
+            "correctAnswer": "Generalized model of architecture design",
+            "question": "Understanding the problem, solving it, and evaluating the solution are steps in which architectural process?",
+            "answers": [
+                "Software testing lifecycle",
+                "Waterfall model",
+                "Generalized model of architecture design",
+                "Scrum framework"
+            ]
+        },
+        {
+            "correctAnswer": "View",
+            "question": "What term refers to a representation of a system from the perspective of a related set of concerns?",
+            "answers": [
+                "Scenario",
+                "View",
+                "Connector",
+                "Component"
+            ]
+        },
+        {
+            "correctAnswer": "Testability and performance",
+            "question": "Which qualities are typically observable via the execution of a system?",
+            "answers": [
+                "Modifiability and portability",
+                "Reusability and integrability",
+                "Testability and performance",
+                "Maintainability and availability"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "True or False: In software architecture, all quality attributes are observable via system execution.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: The design decisions taken in architecture can constrain how a system is implemented.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Architectural patterns",
+            "question": "What concept refers to recurring solutions that address common problems in system design?",
+            "answers": [
+                "Architectural patterns",
+                "Modules",
+                "Testing strategies",
+                "Quality attributes"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "True or False: Software architecture can enable or inhibit certain quality attributes based on its design decisions.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Security, performance, and usability",
+            "question": "Which of the following are examples of observable system qualities via execution?",
+            "answers": [
+                "Security, performance, and usability",
+                "Portability, testability, and integrability",
+                "Maintainability, modifiability, and reusability",
+                "Scalability, context-switching, and cost-effectiveness"
+            ]
+        },
+        {
+            "correctAnswer": "IEEE Standard on Architectural Descriptions",
+            "question": "Which standard defines software architecture as the fundamental organization of a system embodied in its components and their relationships?",
+            "answers": [
+                "IEEE Standard on Architectural Descriptions",
+                "ISO Quality Standard",
+                "IEEE Software Engineering Guide",
+                "SEI Software Model"
+            ]
         }
     ]
 }
