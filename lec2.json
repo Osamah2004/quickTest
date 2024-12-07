@@ -2,25 +2,69 @@
     "questions": [
         {
             "correctAnswer": "True",
-            "question": "Software maintenance typically has a shorter time frame than initial development.",
+            "question": "Software maintenance typically occurs within the constraints of an existing system.",
             "answers": [
                 "True",
                 "False"
             ]
         },
         {
-            "correctAnswer": "Evolution",
-            "question": "Which stage in the Staged Model involves significant architectural or functional changes?",
+            "correctAnswer": "Quick fix model",
+            "question": "Which reuse-oriented model is characterized by changes to source code with minimal analysis?",
+            "answers": [
+                "Full reuse model",
+                "Iterative enhancement model",
+                "Quick fix model",
+                "Incremental development model"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "In iterative enhancement, changes flow directly from code to high-level documents.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Initial development",
+            "question": "What is the first stage in the staged model of CSS lifecycle?",
             "answers": [
                 "Servicing",
+                "Initial development",
                 "Evolution",
-                "Initial Development",
-                "Phase Out"
+                "Phase out"
             ]
         },
         {
             "correctAnswer": "True",
-            "question": "Configuration management helps in managing changes to large systems effectively.",
+            "question": "Servicing in the staged model is primarily focused on maintenance rather than architectural change.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Configuration management",
+            "question": "Which process manages changes to all product items including source code and documents?",
+            "answers": [
+                "Configuration management",
+                "System testing",
+                "Regression testing",
+                "Risk analysis"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "A key goal of SCM is to maintain traceability and integrity of system changes throughout its lifecycle.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "The terms 'incremental development' and 'iterative development' are interchangeable in software engineering.",
             "answers": [
                 "True",
                 "False"
@@ -28,43 +72,89 @@
         },
         {
             "correctAnswer": "Assessing overall system quality",
-            "question": "What is the main objective of acceptance testing?",
+            "question": "What is the primary goal of acceptance testing?",
             "answers": [
+                "Identifying defects",
+                "Reducing complexity",
                 "Assessing overall system quality",
-                "Identifying software defects",
-                "Reducing system complexity",
                 "Improving performance"
             ]
         },
         {
-            "correctAnswer": "False",
-            "question": "Incremental development and iterative development are synonyms in software engineering.",
+            "correctAnswer": "Lock-modify-unlock",
+            "question": "Which version control strategy resolves conflicts by restricting file editing to one developer at a time?",
             "answers": [
-                "True",
-                "False"
+                "Copy-modify-merge",
+                "Lock-modify-unlock",
+                "Branch-merge-trunk",
+                "Baseline control"
             ]
         },
         {
             "correctAnswer": "True",
-            "question": "Software maintenance typically has a shorter time frame than initial development.",
+            "question": "Software maintenance typically occurs within the constraints of an existing system.",
             "answers": [
                 "True",
                 "False"
             ]
         },
         {
-            "correctAnswer": "Evolution",
-            "question": "Which stage in the Staged Model involves significant architectural or functional changes?",
+            "correctAnswer": "Quick fix model",
+            "question": "Which reuse-oriented model is characterized by changes to source code with minimal analysis?",
+            "answers": [
+                "Full reuse model",
+                "Iterative enhancement model",
+                "Quick fix model",
+                "Incremental development model"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "In iterative enhancement, changes flow directly from code to high-level documents.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Initial development",
+            "question": "What is the first stage in the staged model of CSS lifecycle?",
             "answers": [
                 "Servicing",
+                "Initial development",
                 "Evolution",
-                "Initial Development",
-                "Phase Out"
+                "Phase out"
             ]
         },
         {
             "correctAnswer": "True",
-            "question": "Configuration management helps in managing changes to large systems effectively.",
+            "question": "Servicing in the staged model is primarily focused on maintenance rather than architectural change.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Configuration management",
+            "question": "Which process manages changes to all product items including source code and documents?",
+            "answers": [
+                "Configuration management",
+                "System testing",
+                "Regression testing",
+                "Risk analysis"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "A key goal of SCM is to maintain traceability and integrity of system changes throughout its lifecycle.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "The terms 'incremental development' and 'iterative development' are interchangeable in software engineering.",
             "answers": [
                 "True",
                 "False"
@@ -72,372 +162,22 @@
         },
         {
             "correctAnswer": "Assessing overall system quality",
-            "question": "What is the main objective of acceptance testing?",
+            "question": "What is the primary goal of acceptance testing?",
             "answers": [
+                "Identifying defects",
+                "Reducing complexity",
                 "Assessing overall system quality",
-                "Identifying software defects",
-                "Reducing system complexity",
                 "Improving performance"
             ]
         },
         {
-            "correctAnswer": "False",
-            "question": "Incremental development and iterative development are synonyms in software engineering.",
+            "correctAnswer": "Lock-modify-unlock",
+            "question": "Which version control strategy resolves conflicts by restricting file editing to one developer at a time?",
             "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Software maintenance typically has a shorter time frame than initial development.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Evolution",
-            "question": "Which stage in the Staged Model involves significant architectural or functional changes?",
-            "answers": [
-                "Servicing",
-                "Evolution",
-                "Initial Development",
-                "Phase Out"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Configuration management helps in managing changes to large systems effectively.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Assessing overall system quality",
-            "question": "What is the main objective of acceptance testing?",
-            "answers": [
-                "Assessing overall system quality",
-                "Identifying software defects",
-                "Reducing system complexity",
-                "Improving performance"
-            ]
-        },
-        {
-            "correctAnswer": "False",
-            "question": "Incremental development and iterative development are synonyms in software engineering.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Software maintenance typically has a shorter time frame than initial development.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Evolution",
-            "question": "Which stage in the Staged Model involves significant architectural or functional changes?",
-            "answers": [
-                "Servicing",
-                "Evolution",
-                "Initial Development",
-                "Phase Out"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Configuration management helps in managing changes to large systems effectively.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Assessing overall system quality",
-            "question": "What is the main objective of acceptance testing?",
-            "answers": [
-                "Assessing overall system quality",
-                "Identifying software defects",
-                "Reducing system complexity",
-                "Improving performance"
-            ]
-        },
-        {
-            "correctAnswer": "False",
-            "question": "Incremental development and iterative development are synonyms in software engineering.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Software maintenance typically has a shorter time frame than initial development.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Evolution",
-            "question": "Which stage in the Staged Model involves significant architectural or functional changes?",
-            "answers": [
-                "Servicing",
-                "Evolution",
-                "Initial Development",
-                "Phase Out"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Configuration management helps in managing changes to large systems effectively.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Assessing overall system quality",
-            "question": "What is the main objective of acceptance testing?",
-            "answers": [
-                "Assessing overall system quality",
-                "Identifying software defects",
-                "Reducing system complexity",
-                "Improving performance"
-            ]
-        },
-        {
-            "correctAnswer": "False",
-            "question": "Incremental development and iterative development are synonyms in software engineering.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Software maintenance typically has a shorter time frame than initial development.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Evolution",
-            "question": "Which stage in the Staged Model involves significant architectural or functional changes?",
-            "answers": [
-                "Servicing",
-                "Evolution",
-                "Initial Development",
-                "Phase Out"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Configuration management helps in managing changes to large systems effectively.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Assessing overall system quality",
-            "question": "What is the main objective of acceptance testing?",
-            "answers": [
-                "Assessing overall system quality",
-                "Identifying software defects",
-                "Reducing system complexity",
-                "Improving performance"
-            ]
-        },
-        {
-            "correctAnswer": "False",
-            "question": "Incremental development and iterative development are synonyms in software engineering.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Software maintenance typically has a shorter time frame than initial development.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Evolution",
-            "question": "Which stage in the Staged Model involves significant architectural or functional changes?",
-            "answers": [
-                "Servicing",
-                "Evolution",
-                "Initial Development",
-                "Phase Out"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Configuration management helps in managing changes to large systems effectively.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Assessing overall system quality",
-            "question": "What is the main objective of acceptance testing?",
-            "answers": [
-                "Assessing overall system quality",
-                "Identifying software defects",
-                "Reducing system complexity",
-                "Improving performance"
-            ]
-        },
-        {
-            "correctAnswer": "False",
-            "question": "Incremental development and iterative development are synonyms in software engineering.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Software maintenance typically has a shorter time frame than initial development.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Evolution",
-            "question": "Which stage in the Staged Model involves significant architectural or functional changes?",
-            "answers": [
-                "Servicing",
-                "Evolution",
-                "Initial Development",
-                "Phase Out"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Configuration management helps in managing changes to large systems effectively.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Assessing overall system quality",
-            "question": "What is the main objective of acceptance testing?",
-            "answers": [
-                "Assessing overall system quality",
-                "Identifying software defects",
-                "Reducing system complexity",
-                "Improving performance"
-            ]
-        },
-        {
-            "correctAnswer": "False",
-            "question": "Incremental development and iterative development are synonyms in software engineering.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Software maintenance typically has a shorter time frame than initial development.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Evolution",
-            "question": "Which stage in the Staged Model involves significant architectural or functional changes?",
-            "answers": [
-                "Servicing",
-                "Evolution",
-                "Initial Development",
-                "Phase Out"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Configuration management helps in managing changes to large systems effectively.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Assessing overall system quality",
-            "question": "What is the main objective of acceptance testing?",
-            "answers": [
-                "Assessing overall system quality",
-                "Identifying software defects",
-                "Reducing system complexity",
-                "Improving performance"
-            ]
-        },
-        {
-            "correctAnswer": "False",
-            "question": "Incremental development and iterative development are synonyms in software engineering.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Software maintenance typically has a shorter time frame than initial development.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Evolution",
-            "question": "Which stage in the Staged Model involves significant architectural or functional changes?",
-            "answers": [
-                "Servicing",
-                "Evolution",
-                "Initial Development",
-                "Phase Out"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Configuration management helps in managing changes to large systems effectively.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Assessing overall system quality",
-            "question": "What is the main objective of acceptance testing?",
-            "answers": [
-                "Assessing overall system quality",
-                "Identifying software defects",
-                "Reducing system complexity",
-                "Improving performance"
-            ]
-        },
-        {
-            "correctAnswer": "False",
-            "question": "Incremental development and iterative development are synonyms in software engineering.",
-            "answers": [
-                "True",
-                "False"
+                "Copy-modify-merge",
+                "Lock-modify-unlock",
+                "Branch-merge-trunk",
+                "Baseline control"
             ]
         }
     ]
