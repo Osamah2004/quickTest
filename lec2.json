@@ -1,224 +1,88 @@
 {
     "questions": [
         {
-            "correctAnswer": "Human-Computer Interaction (HCI)",
-            "question": "Which field focuses on the interaction between humans and computers?",
-            "answers": [
-                "User Experience (UX)",
-                "Human-Computer Interaction (HCI)",
-                "Interaction Design (ID)",
-                "Graphic Design (GD)"
-            ]
-        },
-        {
             "correctAnswer": "True",
-            "question": "True or False: User interface (UI) design is focused on maximizing usability and user experience.",
+            "question": "Software maintenance typically has a shorter time frame than initial development.",
             "answers": [
                 "True",
                 "False"
             ]
         },
         {
-            "correctAnswer": "The practice of designing interactive products",
-            "question": "What is interaction design (ID)?",
+            "correctAnswer": "Evolution",
+            "question": "Which stage in the Staged Model involves significant architectural or functional changes?",
             "answers": [
-                "The practice of designing static products",
-                "The practice of designing interactive products",
-                "The practice of testing software",
-                "The practice of maintaining software"
+                "Servicing",
+                "Evolution",
+                "Initial Development",
+                "Phase Out"
             ]
         },
         {
             "correctAnswer": "True",
-            "question": "True or False: Both digital and non-digital products can involve interaction design.",
+            "question": "Configuration management helps in managing changes to large systems effectively.",
             "answers": [
                 "True",
                 "False"
             ]
         },
         {
-            "correctAnswer": "Smartphone",
-            "question": "Which of the following is an example of an interactive product?",
+            "correctAnswer": "Assessing overall system quality",
+            "question": "What is the main objective of acceptance testing?",
             "answers": [
-                "Smartphone",
-                "Bookshelf",
-                "Couch",
-                "Lamp"
-            ]
-        },
-        {
-            "correctAnswer": "To optimize interactions to match user needs",
-            "question": "What is the primary goal of designing user interfaces?",
-            "answers": [
-                "To create visually appealing designs",
-                "To optimize interactions to match user needs",
-                "To minimize the use of colors",
-                "To increase developer efficiency"
-            ]
-        },
-        {
-            "correctAnswer": "User-centered methods",
-            "question": "Which design methods prioritize listening to what users want?",
-            "answers": [
-                "Developer-centered methods",
-                "User-centered methods",
-                "Market-centered methods",
-                "Management-centered methods"
+                "Assessing overall system quality",
+                "Identifying software defects",
+                "Reducing system complexity",
+                "Improving performance"
             ]
         },
         {
             "correctAnswer": "False",
-            "question": "True or False: Usability only concerns how easy a product is to learn.",
+            "question": "Incremental development and iterative development are synonyms in software engineering.",
             "answers": [
                 "True",
                 "False"
-            ]
-        },
-        {
-            "correctAnswer": "Efficiency, effectiveness, satisfaction",
-            "question": "What are the three components of usability as defined by ISO 9241-11?",
-            "answers": [
-                "Efficiency, speed, accuracy",
-                "Effectiveness, ease, clarity",
-                "Efficiency, effectiveness, satisfaction",
-                "Speed, learnability, comfort"
             ]
         },
         {
             "correctAnswer": "True",
-            "question": "True or False: The 'context of use' includes physical, social, and technical environments.",
+            "question": "Software maintenance typically has a shorter time frame than initial development.",
             "answers": [
                 "True",
                 "False"
             ]
         },
         {
-            "correctAnswer": "Learnability",
-            "question": "Which usability goal focuses on how easy it is to learn how to use a system?",
+            "correctAnswer": "Evolution",
+            "question": "Which stage in the Staged Model involves significant architectural or functional changes?",
             "answers": [
-                "Efficiency",
-                "Learnability",
-                "Satisfaction",
-                "Effectiveness"
-            ]
-        },
-        {
-            "correctAnswer": "Making information visible to users",
-            "question": "In usability design, what does the principle of 'visibility' emphasize?",
-            "answers": [
-                "Minimizing user actions",
-                "Making information visible to users",
-                "Creating colorful interfaces",
-                "Reducing cognitive load"
-            ]
-        },
-        {
-            "correctAnswer": "Feedback",
-            "question": "Which usability design principle involves sending information back to the user after an action?",
-            "answers": [
-                "Feedback",
-                "Mapping",
-                "Consistency",
-                "Visibility"
+                "Servicing",
+                "Evolution",
+                "Initial Development",
+                "Phase Out"
             ]
         },
         {
             "correctAnswer": "True",
-            "question": "True or False: Mapping refers to the relationship between controls and their effects in an interface.",
+            "question": "Configuration management helps in managing changes to large systems effectively.",
             "answers": [
                 "True",
                 "False"
             ]
         },
         {
-            "correctAnswer": "Restricting user actions to prevent mistakes",
-            "question": "What is the principle of 'constraints' in usability design?",
+            "correctAnswer": "Assessing overall system quality",
+            "question": "What is the main objective of acceptance testing?",
             "answers": [
-                "Making information accessible to all users",
-                "Restricting user actions to prevent mistakes",
-                "Increasing the number of available actions",
-                "Enhancing user experience"
-            ]
-        },
-        {
-            "correctAnswer": "Consistency",
-            "question": "Which principle ensures that similar actions in a system have consistent outcomes?",
-            "answers": [
-                "Visibility",
-                "Consistency",
-                "Constraints",
-                "Affordances"
-            ]
-        },
-        {
-            "correctAnswer": "External consistency",
-            "question": "Which type of consistency refers to ensuring similar interactions across different applications?",
-            "answers": [
-                "Internal consistency",
-                "External consistency",
-                "Operational consistency",
-                "Functional consistency"
-            ]
-        },
-        {
-            "correctAnswer": "Affordances",
-            "question": "What design concept refers to the properties of an object that indicate how it can be used?",
-            "answers": [
-                "Feedback",
-                "Affordances",
-                "Mapping",
-                "Constraints"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "True or False: A door handle affords pulling based on its design.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Input controls",
-            "question": "Checkboxes, radio buttons, and dropdown lists are examples of which type of UI element?",
-            "answers": [
-                "Informational components",
-                "Input controls",
-                "Navigational components",
-                "Container elements"
-            ]
-        },
-        {
-            "correctAnswer": "Satisfaction",
-            "question": "Which user experience goal refers to the overall enjoyment users feel when interacting with a product?",
-            "answers": [
-                "Satisfaction",
-                "Efficiency",
-                "Effectiveness",
-                "Memorability"
+                "Assessing overall system quality",
+                "Identifying software defects",
+                "Reducing system complexity",
+                "Improving performance"
             ]
         },
         {
             "correctAnswer": "False",
-            "question": "True or False: A product can never be both fun and safe to use.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "The design for user experience",
-            "question": "What can only be designed for, but not fully controlled in interaction design?",
-            "answers": [
-                "The product's performance",
-                "The design for user experience",
-                "The consistency of the interface",
-                "The usability goals"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "True or False: Both usability and user experience goals are central to interaction design.",
+            "question": "Incremental development and iterative development are synonyms in software engineering.",
             "answers": [
                 "True",
                 "False"
@@ -226,53 +90,351 @@
         },
         {
             "correctAnswer": "True",
-            "question": "True or False: Iteration is an important aspect of user-centered design processes.",
+            "question": "Software maintenance typically has a shorter time frame than initial development.",
             "answers": [
                 "True",
                 "False"
             ]
         },
         {
-            "correctAnswer": "Elevator controls that are hard to differentiate",
-            "question": "Which of the following is an example of a bad design mentioned in the PDF?",
+            "correctAnswer": "Evolution",
+            "question": "Which stage in the Staged Model involves significant architectural or functional changes?",
             "answers": [
-                "A remote control with distinctive buttons",
-                "Elevator controls that are hard to differentiate",
-                "A stove with clear burner labels",
-                "A smartphone with a fingerprint scanner"
-            ]
-        },
-        {
-            "correctAnswer": "Challenging",
-            "question": "Which of the following is considered a desirable aspect of user experience?",
-            "answers": [
-                "Frustrating",
-                "Challenging",
-                "Confusing",
-                "Overwhelming"
+                "Servicing",
+                "Evolution",
+                "Initial Development",
+                "Phase Out"
             ]
         },
         {
             "correctAnswer": "True",
-            "question": "True or False: Mapping can be improved by using descriptive labels on buttons.",
+            "question": "Configuration management helps in managing changes to large systems effectively.",
             "answers": [
                 "True",
                 "False"
             ]
         },
         {
-            "correctAnswer": "Auditory feedback",
-            "question": "Which of the following could improve visibility in an interface where actions are not immediately clear?",
+            "correctAnswer": "Assessing overall system quality",
+            "question": "What is the main objective of acceptance testing?",
             "answers": [
-                "Reducing the number of buttons",
-                "Auditory feedback",
-                "Color-coded icons",
-                "Eliminating the menu bar"
+                "Assessing overall system quality",
+                "Identifying software defects",
+                "Reducing system complexity",
+                "Improving performance"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "Incremental development and iterative development are synonyms in software engineering.",
+            "answers": [
+                "True",
+                "False"
             ]
         },
         {
             "correctAnswer": "True",
-            "question": "True or False: The effectiveness of user interfaces is influenced by cultural differences.",
+            "question": "Software maintenance typically has a shorter time frame than initial development.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Evolution",
+            "question": "Which stage in the Staged Model involves significant architectural or functional changes?",
+            "answers": [
+                "Servicing",
+                "Evolution",
+                "Initial Development",
+                "Phase Out"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Configuration management helps in managing changes to large systems effectively.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Assessing overall system quality",
+            "question": "What is the main objective of acceptance testing?",
+            "answers": [
+                "Assessing overall system quality",
+                "Identifying software defects",
+                "Reducing system complexity",
+                "Improving performance"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "Incremental development and iterative development are synonyms in software engineering.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Software maintenance typically has a shorter time frame than initial development.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Evolution",
+            "question": "Which stage in the Staged Model involves significant architectural or functional changes?",
+            "answers": [
+                "Servicing",
+                "Evolution",
+                "Initial Development",
+                "Phase Out"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Configuration management helps in managing changes to large systems effectively.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Assessing overall system quality",
+            "question": "What is the main objective of acceptance testing?",
+            "answers": [
+                "Assessing overall system quality",
+                "Identifying software defects",
+                "Reducing system complexity",
+                "Improving performance"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "Incremental development and iterative development are synonyms in software engineering.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Software maintenance typically has a shorter time frame than initial development.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Evolution",
+            "question": "Which stage in the Staged Model involves significant architectural or functional changes?",
+            "answers": [
+                "Servicing",
+                "Evolution",
+                "Initial Development",
+                "Phase Out"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Configuration management helps in managing changes to large systems effectively.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Assessing overall system quality",
+            "question": "What is the main objective of acceptance testing?",
+            "answers": [
+                "Assessing overall system quality",
+                "Identifying software defects",
+                "Reducing system complexity",
+                "Improving performance"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "Incremental development and iterative development are synonyms in software engineering.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Software maintenance typically has a shorter time frame than initial development.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Evolution",
+            "question": "Which stage in the Staged Model involves significant architectural or functional changes?",
+            "answers": [
+                "Servicing",
+                "Evolution",
+                "Initial Development",
+                "Phase Out"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Configuration management helps in managing changes to large systems effectively.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Assessing overall system quality",
+            "question": "What is the main objective of acceptance testing?",
+            "answers": [
+                "Assessing overall system quality",
+                "Identifying software defects",
+                "Reducing system complexity",
+                "Improving performance"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "Incremental development and iterative development are synonyms in software engineering.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Software maintenance typically has a shorter time frame than initial development.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Evolution",
+            "question": "Which stage in the Staged Model involves significant architectural or functional changes?",
+            "answers": [
+                "Servicing",
+                "Evolution",
+                "Initial Development",
+                "Phase Out"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Configuration management helps in managing changes to large systems effectively.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Assessing overall system quality",
+            "question": "What is the main objective of acceptance testing?",
+            "answers": [
+                "Assessing overall system quality",
+                "Identifying software defects",
+                "Reducing system complexity",
+                "Improving performance"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "Incremental development and iterative development are synonyms in software engineering.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Software maintenance typically has a shorter time frame than initial development.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Evolution",
+            "question": "Which stage in the Staged Model involves significant architectural or functional changes?",
+            "answers": [
+                "Servicing",
+                "Evolution",
+                "Initial Development",
+                "Phase Out"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Configuration management helps in managing changes to large systems effectively.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Assessing overall system quality",
+            "question": "What is the main objective of acceptance testing?",
+            "answers": [
+                "Assessing overall system quality",
+                "Identifying software defects",
+                "Reducing system complexity",
+                "Improving performance"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "Incremental development and iterative development are synonyms in software engineering.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Software maintenance typically has a shorter time frame than initial development.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Evolution",
+            "question": "Which stage in the Staged Model involves significant architectural or functional changes?",
+            "answers": [
+                "Servicing",
+                "Evolution",
+                "Initial Development",
+                "Phase Out"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Configuration management helps in managing changes to large systems effectively.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Assessing overall system quality",
+            "question": "What is the main objective of acceptance testing?",
+            "answers": [
+                "Assessing overall system quality",
+                "Identifying software defects",
+                "Reducing system complexity",
+                "Improving performance"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "Incremental development and iterative development are synonyms in software engineering.",
             "answers": [
                 "True",
                 "False"
