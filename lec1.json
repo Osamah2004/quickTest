@@ -1,184 +1,54 @@
 {
     "questions": [
-        {
-            "correctAnswer": "True",
-            "question": "Corrective maintenance is performed after detecting defects with the system.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Adaptive",
-            "question": "Which type of maintenance involves modifying the software to meet evolving environmental needs?",
-            "answers": [
-                "Corrective",
-                "Adaptive",
-                "Preventive",
-                "Perfective"
-            ]
-        },
-        {
-            "correctAnswer": "False",
-            "question": "Perfective maintenance only focuses on fixing critical software bugs.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Rejuvenation",
-            "question": "What is the preventive maintenance technique called that involves cleaning the internal state of a system to prevent failures?",
-            "answers": [
-                "Reengineering",
-                "Rejuvenation",
-                "Optimization",
-                "Upgradation"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Kitchenham et al. categorize maintenance activities into corrections and enhancements.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "False",
-            "question": "Empirical studies are a part of intention-based classification of software maintenance.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Evaluative",
-            "question": "Reviewing program code and analyzing the ripple effect of changes are examples of which maintenance category?",
-            "answers": [
-                "Evaluative",
-                "Consultive",
-                "Preventive",
-                "Groomative"
-            ]
-        },
-        {
-            "correctAnswer": "Investigative",
-            "question": "What type of activity evaluates the impact of a proposed change on the system?",
-            "answers": [
-                "Investigative",
-                "Modificative",
-                "Preventive",
-                "Enhancive"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Service Level Agreements (SLAs) define performance targets for maintenance services.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Perfective",
-            "question": "Improving processing efficiency by restructuring code falls under which type of maintenance?",
-            "answers": [
-                "Adaptive",
-                "Preventive",
-                "Perfective",
-                "Corrective"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Corrective maintenance is performed after detecting defects with the system.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Adaptive",
-            "question": "Which type of maintenance involves modifying the software to meet evolving environmental needs?",
-            "answers": [
-                "Corrective",
-                "Adaptive",
-                "Preventive",
-                "Perfective"
-            ]
-        },
-        {
-            "correctAnswer": "False",
-            "question": "Perfective maintenance only focuses on fixing critical software bugs.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Rejuvenation",
-            "question": "What is the preventive maintenance technique called that involves cleaning the internal state of a system to prevent failures?",
-            "answers": [
-                "Reengineering",
-                "Rejuvenation",
-                "Optimization",
-                "Upgradation"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Kitchenham et al. categorize maintenance activities into corrections and enhancements.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "False",
-            "question": "Empirical studies are a part of intention-based classification of software maintenance.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Evaluative",
-            "question": "Reviewing program code and analyzing the ripple effect of changes are examples of which maintenance category?",
-            "answers": [
-                "Evaluative",
-                "Consultive",
-                "Preventive",
-                "Groomative"
-            ]
-        },
-        {
-            "correctAnswer": "Investigative",
-            "question": "What type of activity evaluates the impact of a proposed change on the system?",
-            "answers": [
-                "Investigative",
-                "Modificative",
-                "Preventive",
-                "Enhancive"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Service Level Agreements (SLAs) define performance targets for maintenance services.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Perfective",
-            "question": "Improving processing efficiency by restructuring code falls under which type of maintenance?",
-            "answers": [
-                "Adaptive",
-                "Preventive",
-                "Perfective",
-                "Corrective"
-            ]
-        }
+        {"correctAnswer": "True", "question": "The ISO/IEC 14764 standard includes both pre-delivery and post-delivery maintenance activities.", "answers": ["True", "False"]},
+        {"correctAnswer": "Corrective", "question": "Which type of maintenance is performed to fix defects in a system?", "answers": ["Adaptive", "Perfective", "Corrective", "Preventive"]},
+        {"correctAnswer": "False", "question": "Preventive maintenance only addresses known software defects.", "answers": ["True", "False"]},
+        {"correctAnswer": "Adaptive", "question": "Modifying a system to support a new hardware platform is an example of which type of maintenance?", "answers": ["Corrective", "Adaptive", "Perfective", "Preventive"]},
+        {"correctAnswer": "Rejuvenation", "question": "What preventive maintenance process involves restarting software to clean its internal state?", "answers": ["Optimization", "Rejuvenation", "Refactoring", "Rebuilding"]},
+        {"correctAnswer": "True", "question": "Empirical studies provide evidence-based insights into maintenance activities.", "answers": ["True", "False"]},
+        {"correctAnswer": "Perfective", "question": "Improving processing efficiency and maintainability are goals of which type of maintenance?", "answers": ["Preventive", "Adaptive", "Perfective", "Corrective"]},
+        {"correctAnswer": "False", "question": "Corrective maintenance is proactive and focuses on preventing future defects.", "answers": ["True", "False"]},
+        {"correctAnswer": "True", "question": "Service Level Agreements (SLAs) define performance targets for maintenance services.", "answers": ["True", "False"]},
+        {"correctAnswer": "Evaluative", "question": "Reviewing code and analyzing the impact of changes falls under which maintenance activity?", "answers": ["Evaluative", "Consultive", "Preventive", "Groomative"]},
+        {"correctAnswer": "Artifacts", "question": "Textual documents, diagrams, and source code are examples of what?", "answers": ["Artifacts", "Baselines", "Modules", "Components"]},
+        {"correctAnswer": "Peopleware", "question": "What term refers to the human aspect of software maintenance, such as the team and stakeholders?", "answers": ["Peopleware", "Softwareware", "Clientware", "Teamware"]},
+        {"correctAnswer": "True", "question": "Software evolution encompasses both perfective modifications and changes driven by new requirements.", "answers": ["True", "False"]},
+        {"correctAnswer": "Continuing change", "question": "According to Lehman's first law, E-type software must undergo which process to remain satisfactory?", "answers": ["Increasing complexity", "Continuing change", "Self-regulation", "Conservation of familiarity"]},
+        {"correctAnswer": "True", "question": "Lehman's laws are primarily applicable to E-type software systems.", "answers": ["True", "False"]},
+        {"correctAnswer": "False", "question": "Perfective maintenance exclusively focuses on defect corrections.", "answers": ["True", "False"]},
+        {"correctAnswer": "Corrective", "question": "Fixing a bug that causes a system crash falls under which maintenance category?", "answers": ["Preventive", "Perfective", "Adaptive", "Corrective"]},
+        {"correctAnswer": "Groomative", "question": "Replacing inefficient components in a system aligns with which maintenance activity?", "answers": ["Evaluative", "Groomative", "Preventive", "Corrective"]},
+        {"correctAnswer": "True", "question": "Preventive maintenance is often performed in safety-critical systems.", "answers": ["True", "False"]},
+        {"correctAnswer": "SLAs", "question": "Performance agreements between maintenance teams and clients are called what?", "answers": ["SLAs", "Contracts", "MoUs", "Performance Agreements"]},
+        {"correctAnswer": "True", "question": "Changes in customer requirements can influence maintenance scope.", "answers": ["True", "False"]},
+        {"correctAnswer": "Reductive", "question": "Which maintenance type involves removing unnecessary data or functionality from a system?", "answers": ["Reductive", "Preventive", "Adaptive", "Perfective"]},
+        {"correctAnswer": "Phase-out", "question": "In software evolution, which stage focuses on retiring or replacing the system?", "answers": ["Phase-out", "Servicing", "Initial development", "Evolution"]},
+        {"correctAnswer": "True", "question": "Lehman's laws of software evolution were originally proposed in 1974.", "answers": ["True", "False"]},
+        {"correctAnswer": "Configuration management", "question": "Which process ensures the integrity of product versions during maintenance?", "answers": ["Testing", "Configuration management", "Integration", "Deployment"]},
+        {"correctAnswer": "True", "question": "Maintenance organizations often divide tasks into three levels of support.", "answers": ["True", "False"]},
+        {"correctAnswer": "Adaptive", "question": "Updating software to support a new database format is an example of what type of maintenance?", "answers": ["Corrective", "Preventive", "Perfective", "Adaptive"]},
+        {"correctAnswer": "False", "question": "Rejuvenation involves fixing existing software defects.", "answers": ["True", "False"]},
+        {"correctAnswer": "Modificative", "question": "Making code-level changes to implement approved change requests is called what?", "answers": ["Investigative", "Preventive", "Modificative", "Evaluative"]},
+        {"correctAnswer": "True", "question": "Lehman's law of increasing complexity states that software becomes harder to modify unless efforts are made to reduce complexity.", "answers": ["True", "False"]},
+        {"correctAnswer": "True", "question": "The concept of 'software rejuvenation' is related to preventive maintenance.", "answers": ["True", "False"]},
+        {"correctAnswer": "Investigative", "question": "What type of activity evaluates the impact of proposed changes to the system?", "answers": ["Investigative", "Modificative", "Evaluative", "Corrective"]},
+        {"correctAnswer": "False", "question": "Adaptive maintenance focuses exclusively on user experience improvements.", "answers": ["True", "False"]},
+        {"correctAnswer": "True", "question": "The 'law of continuing growth' states that functional content must increase to maintain user satisfaction.", "answers": ["True", "False"]},
+        {"correctAnswer": "Configuration management", "question": "Which process ensures consistency and control over the evolution of a software system?", "answers": ["Integration testing", "Configuration management", "Version control", "Defect tracking"]},
+        {"correctAnswer": "True", "question": "Empirical studies play an important role in validating Lehman's laws of software evolution.", "answers": ["True", "False"]},
+        {"correctAnswer": "Phase-out", "question": "In software evolution, which stage involves planning for system retirement?", "answers": ["Initial development", "Servicing", "Phase-out", "Evolution"]},
+        {"correctAnswer": "Artifacts", "question": "What term refers to documentation, models, and other outputs used in software maintenance?", "answers": ["Artifacts", "Configurations", "Modules", "Baselines"]},
+        {"correctAnswer": "Corrective", "question": "Which type of maintenance addresses issues like performance failures?", "answers": ["Corrective", "Preventive", "Adaptive", "Perfective"]},
+        {"correctAnswer": "True", "question": "Adaptive maintenance includes modifications to make a system compatible with new software environments.", "answers": ["True", "False"]},
+        {"correctAnswer": "True", "question": "The staged model for software lifecycle outlines phases like initial development, evolution, and phase-out.", "answers": ["True", "False"]},
+        {"correctAnswer": "True", "question": "Service Level Agreements (SLAs) are contracts between customers and maintenance providers.", "answers": ["True", "False"]},
+        {"correctAnswer": "Reductive", "question": "Removing unnecessary system components is an example of which maintenance type?", "answers": ["Reductive", "Corrective", "Perfective", "Preventive"]},
+        {"correctAnswer": "True", "question": "Preventive maintenance helps avoid issues before they occur.", "answers": ["True", "False"]},
+        {"correctAnswer": "True", "question": "Software evolution includes perfective changes and modifications driven by new requirements.", "answers": ["True", "False"]},
+        {"correctAnswer": "Baseline", "question": "Which term refers to a defined version of a software product?", "answers": ["Baseline", "Snapshot", "Module", "Component"]},
+        {"correctAnswer": "Conservation of familiarity", "question": "Which of Lehman's laws states that maintenance engineers should understand new releases at a similar level as old ones?", "answers": ["Increasing complexity", "Conservation of familiarity", "Continuing change", "Declining quality"]},
+        {"correctAnswer": "True", "question": "A component's tailorability impacts the maintainability of COTS-based systems.", "answers": ["True", "False"]},
+        {"correctAnswer": "Encapsulation", "question": "What design attribute of maintainable systems minimizes the dependency between components?", "answers": ["Encapsulation", "Reengineering", "Refactoring", "Configuration"]},
+        {"correctAnswer": "True", "question": "The quality of external documentation affects software maintainability.", "answers": ["True", "False"]}
     ]
 }
