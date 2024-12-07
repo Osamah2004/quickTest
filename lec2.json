@@ -1,184 +1,53 @@
 {
     "questions": [
-        {
-            "correctAnswer": "True",
-            "question": "Software maintenance typically occurs within the constraints of an existing system.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Quick fix model",
-            "question": "Which reuse-oriented model is characterized by changes to source code with minimal analysis?",
-            "answers": [
-                "Full reuse model",
-                "Iterative enhancement model",
-                "Quick fix model",
-                "Incremental development model"
-            ]
-        },
-        {
-            "correctAnswer": "False",
-            "question": "In iterative enhancement, changes flow directly from code to high-level documents.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Initial development",
-            "question": "What is the first stage in the staged model of CSS lifecycle?",
-            "answers": [
-                "Servicing",
-                "Initial development",
-                "Evolution",
-                "Phase out"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Servicing in the staged model is primarily focused on maintenance rather than architectural change.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Configuration management",
-            "question": "Which process manages changes to all product items including source code and documents?",
-            "answers": [
-                "Configuration management",
-                "System testing",
-                "Regression testing",
-                "Risk analysis"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "A key goal of SCM is to maintain traceability and integrity of system changes throughout its lifecycle.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "False",
-            "question": "The terms 'incremental development' and 'iterative development' are interchangeable in software engineering.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Assessing overall system quality",
-            "question": "What is the primary goal of acceptance testing?",
-            "answers": [
-                "Identifying defects",
-                "Reducing complexity",
-                "Assessing overall system quality",
-                "Improving performance"
-            ]
-        },
-        {
-            "correctAnswer": "Lock-modify-unlock",
-            "question": "Which version control strategy resolves conflicts by restricting file editing to one developer at a time?",
-            "answers": [
-                "Copy-modify-merge",
-                "Lock-modify-unlock",
-                "Branch-merge-trunk",
-                "Baseline control"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Software maintenance typically occurs within the constraints of an existing system.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Quick fix model",
-            "question": "Which reuse-oriented model is characterized by changes to source code with minimal analysis?",
-            "answers": [
-                "Full reuse model",
-                "Iterative enhancement model",
-                "Quick fix model",
-                "Incremental development model"
-            ]
-        },
-        {
-            "correctAnswer": "False",
-            "question": "In iterative enhancement, changes flow directly from code to high-level documents.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Initial development",
-            "question": "What is the first stage in the staged model of CSS lifecycle?",
-            "answers": [
-                "Servicing",
-                "Initial development",
-                "Evolution",
-                "Phase out"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Servicing in the staged model is primarily focused on maintenance rather than architectural change.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Configuration management",
-            "question": "Which process manages changes to all product items including source code and documents?",
-            "answers": [
-                "Configuration management",
-                "System testing",
-                "Regression testing",
-                "Risk analysis"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "A key goal of SCM is to maintain traceability and integrity of system changes throughout its lifecycle.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "False",
-            "question": "The terms 'incremental development' and 'iterative development' are interchangeable in software engineering.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Assessing overall system quality",
-            "question": "What is the primary goal of acceptance testing?",
-            "answers": [
-                "Identifying defects",
-                "Reducing complexity",
-                "Assessing overall system quality",
-                "Improving performance"
-            ]
-        },
-        {
-            "correctAnswer": "Lock-modify-unlock",
-            "question": "Which version control strategy resolves conflicts by restricting file editing to one developer at a time?",
-            "answers": [
-                "Copy-modify-merge",
-                "Lock-modify-unlock",
-                "Branch-merge-trunk",
-                "Baseline control"
-            ]
-        }
+        {"correctAnswer": "True", "question": "Maintenance activities are constrained by the existing architecture and code.", "answers": ["True", "False"]},
+        {"correctAnswer": "Quick fix model", "question": "Which maintenance model applies changes directly to the code with minimal analysis?", "answers": ["Quick fix model", "Iterative enhancement model", "Reuse model", "Incremental model"]},
+        {"correctAnswer": "False", "question": "Iterative development and incremental development are interchangeable terms in software engineering.", "answers": ["True", "False"]},
+        {"correctAnswer": "Evolution", "question": "What is the second stage in the Staged Model for CSS lifecycle?", "answers": ["Initial development", "Evolution", "Servicing", "Phase-out"]},
+        {"correctAnswer": "True", "question": "The reuse-oriented model emphasizes reusing components from older systems.", "answers": ["True", "False"]},
+        {"correctAnswer": "Version control", "question": "What mechanism allows tracking multiple versions of software components?", "answers": ["Baseline control", "Version control", "Change management", "Iteration control"]},
+        {"correctAnswer": "Lock-modify-unlock", "question": "Which version control strategy prevents conflicts by locking files during modification?", "answers": ["Copy-modify-merge", "Lock-modify-unlock", "Branching", "Snapshot"]},
+        {"correctAnswer": "False", "question": "Acceptance testing is performed during the initial development phase.", "answers": ["True", "False"]},
+        {"correctAnswer": "Configuration management", "question": "Which process ensures the traceability and integrity of software system changes?", "answers": ["Configuration management", "Risk management", "Version control", "System testing"]},
+        {"correctAnswer": "True", "question": "The iterative enhancement model propagates changes from high-level documents down to the code.", "answers": ["True", "False"]},
+        {"correctAnswer": "True", "question": "The full reuse model builds new systems by modifying and integrating existing components.", "answers": ["True", "False"]},
+        {"correctAnswer": "Acceptance testing", "question": "Which testing phase involves customer representatives to validate the system?", "answers": ["Regression testing", "Unit testing", "Acceptance testing", "Load testing"]},
+        {"correctAnswer": "False", "question": "The initial development stage in the Staged Model involves frequent architectural changes.", "answers": ["True", "False"]},
+        {"correctAnswer": "True", "question": "Servicing primarily focuses on maintaining the system with minimal architectural changes.", "answers": ["True", "False"]},
+        {"correctAnswer": "Branching", "question": "Which version control technique allows parallel development of features?", "answers": ["Locking", "Branching", "Snapshotting", "Baseline management"]},
+        {"correctAnswer": "System testing", "question": "Which phase validates the modified system against the original requirements?", "answers": ["Unit testing", "System testing", "Integration testing", "Regression testing"]},
+        {"correctAnswer": "True", "question": "In the Staged Model, the 'phase-out' stage involves preparing for system retirement.", "answers": ["True", "False"]},
+        {"correctAnswer": "Iterative enhancement model", "question": "Which reuse-oriented model emphasizes propagating changes from high-level documents to code?", "answers": ["Quick fix model", "Iterative enhancement model", "Full reuse model", "Incremental model"]},
+        {"correctAnswer": "False", "question": "The full reuse model requires the creation of entirely new components.", "answers": ["True", "False"]},
+        {"correctAnswer": "SCM", "question": "What acronym refers to managing software configurations effectively?", "answers": ["SCM", "SDLC", "SMLC", "CRM"]},
+        {"correctAnswer": "True", "question": "Configuration management reduces confusion and establishes order in large projects.", "answers": ["True", "False"]},
+        {"correctAnswer": "Sandboxing", "question": "In SCM, what term refers to isolating files in a workspace for modification?", "answers": ["Branching", "Sandboxing", "Locking", "Snapshotting"]},
+        {"correctAnswer": "Copy-modify-merge", "question": "What version control strategy allows simultaneous file editing by multiple developers?", "answers": ["Lock-modify-unlock", "Copy-modify-merge", "Branch-based merging", "Sequential editing"]},
+        {"correctAnswer": "True", "question": "System testing ensures that both original and modified requirements are met.", "answers": ["True", "False"]},
+        {"correctAnswer": "Reuse-oriented", "question": "Which maintenance model identifies and modifies components for new system requirements?", "answers": ["Incremental", "Reuse-oriented", "Waterfall", "Agile"]},
+        {"correctAnswer": "Migration", "question": "What ISO maintenance process activity involves transferring a system to a new environment?", "answers": ["Migration", "Retirement", "Implementation", "Integration"]},
+        {"correctAnswer": "True", "question": "ISO/IEC 14764 describes maintenance as an iterative process for managing modifications.", "answers": ["True", "False"]},
+        {"correctAnswer": "Baseline", "question": "What configuration item snapshot represents a stable version of a product?", "answers": ["Repository", "Baseline", "Version", "Milestone"]},
+        {"correctAnswer": "False", "question": "SCM only focuses on managing source code.", "answers": ["True", "False"]},
+        {"correctAnswer": "Integration testing", "question": "Which type of testing ensures that all system components work together?", "answers": ["Unit testing", "Regression testing", "Integration testing", "System testing"]},
+        {"correctAnswer": "True", "question": "SCM ensures traceability and control over software artifacts during maintenance.", "answers": ["True", "False"]},
+        {"correctAnswer": "False", "question": "The Staged Model for CSS does not include a servicing phase.", "answers": ["True", "False"]},
+        {"correctAnswer": "Acceptance testing", "question": "Which phase involves end-users verifying the system before final release?", "answers": ["Unit testing", "Acceptance testing", "Regression testing", "Performance testing"]},
+        {"correctAnswer": "True", "question": "Branching in version control enables parallel development paths.", "answers": ["True", "False"]},
+        {"correctAnswer": "Workspace control", "question": "Which SCM feature isolates files for editing and testing without affecting others?", "answers": ["Branching", "Locking", "Workspace control", "Baseline management"]},
+        {"correctAnswer": "True", "question": "Configuration management is a critical part of the ISO maintenance process.", "answers": ["True", "False"]},
+        {"correctAnswer": "Migration", "question": "Which activity in the ISO maintenance process involves transferring a system to a new operational environment?", "answers": ["Migration", "Integration", "Retirement", "Implementation"]},
+        {"correctAnswer": "True", "question": "Changes made during the servicing phase typically do not alter the software architecture.", "answers": ["True", "False"]},
+        {"correctAnswer": "Copy-modify-merge", "question": "What version control strategy allows multiple users to modify files simultaneously?", "answers": ["Lock-modify-unlock", "Copy-modify-merge", "Branching", "Baseline merging"]},
+        {"correctAnswer": "System test phase", "question": "Which phase validates the entire system's functionality and performance?", "answers": ["System test phase", "Unit testing", "Regression testing", "Integration testing"]},
+        {"correctAnswer": "Baseline", "question": "Which term refers to a stable reference point for configuration items?", "answers": ["Baseline", "Snapshot", "Branch", "Version"]},
+        {"correctAnswer": "Migration", "question": "What ISO maintenance activity focuses on adapting a system to a new platform?", "answers": ["Migration", "Retirement", "Implementation", "Testing"]},
+        {"correctAnswer": "Version control", "question": "Which SCM feature manages changes to source code and other artifacts?", "answers": ["Version control", "Workspace control", "Configuration testing", "Audit control"]},
+        {"correctAnswer": "True", "question": "Configuration audits verify that the documented configuration matches the actual product.", "answers": ["True", "False"]},
+        {"correctAnswer": "SCM", "question": "What process tracks changes and ensures consistency in large-scale software maintenance?", "answers": ["SCM", "SDLC", "CRM", "Integration"]},
+        {"correctAnswer": "True", "question": "ISO/IEC 14764 describes maintenance activities as iterative.", "answers": ["True", "False"]},
+        {"correctAnswer": "Implementation", "question": "Which IEEE phase focuses on coding and unit testing modified software?", "answers": ["Analysis", "Implementation", "System testing", "Acceptance testing"]},
+        {"correctAnswer": "True", "question": "Releasing a system update includes creating an archival version for backup.", "answers": ["True", "False"]}
+
     ]
 }
