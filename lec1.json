@@ -2,281 +2,43 @@
     "questions": [
         {
             "correctAnswer": "True",
-            "question": "True or False: The role of a software architect includes making key technical decisions.",
+            "question": "The ISO/IEC 14764 standard defines software maintenance as activities required to support a software system effectively.",
             "answers": [
                 "True",
                 "False"
             ]
         },
         {
-            "correctAnswer": "Architect",
-            "question": "Which of the following stakeholders is primarily responsible for creating and assessing the architecture?",
+            "correctAnswer": "Destructive",
+            "question": "Which of the following is NOT a type of maintenance activity?",
             "answers": [
-                "Developer",
-                "Tester",
-                "Architect",
-                "Client"
-            ]
-        },
-        {
-            "correctAnswer": "False",
-            "question": "True or False: Software architecture is primarily concerned with low-level code implementation.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Many stakeholders involved",
-            "question": "Which characteristic of software architecture highlights that it balances both functional and quality requirements?",
-            "answers": [
-                "Many stakeholders involved",
-                "Inhibits quality attributes",
-                "Only developers are involved",
-                "Emphasizes coding standards"
-            ]
-        },
-        {
-            "correctAnswer": "Communication with stakeholders",
-            "question": "Why is architecture important in the software development lifecycle?",
-            "answers": [
-                "It helps in coding faster",
-                "It establishes communication with stakeholders",
-                "It is unnecessary",
-                "It reduces testing time"
-            ]
-        },
-        {
-            "correctAnswer": "False",
-            "question": "True or False: Software architecture is not concerned with communication between sub-systems.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Quality attributes",
-            "question": "In software architecture, which of the following can be either enabled or inhibited by the design decisions?",
-            "answers": [
-                "Testing efficiency",
-                "Deployment processes",
-                "Quality attributes",
-                "System speed"
+                "Corrective",
+                "Adaptive",
+                "Destructive",
+                "Perfective"
             ]
         },
         {
             "correctAnswer": "True",
-            "question": "True or False: The design of a system's architecture can influence its maintainability.",
+            "question": "Preventive maintenance is often performed on safety-critical systems to prevent future failures.",
             "answers": [
                 "True",
                 "False"
             ]
         },
         {
-            "correctAnswer": "Functional and quality requirements",
-            "question": "In software architecture, what must be balanced during the design process?",
+            "correctAnswer": "Perfective",
+            "question": "The four types of maintenance activities are Corrective, Adaptive, Preventive, and ______.",
             "answers": [
-                "Functional and quality requirements",
-                "Speed and coding style",
-                "Testing and development timelines",
-                "Team size and project scope"
-            ]
-        },
-        {
-            "correctAnswer": "Architectural design",
-            "question": "What is the design process for identifying sub-systems and their communication frameworks called?",
-            "answers": [
-                "Coding guidelines",
-                "Architectural design",
-                "Testing strategy",
-                "System integration"
+                "Reengineering",
+                "Optimizing",
+                "Corrective",
+                "Perfective"
             ]
         },
         {
             "correctAnswer": "True",
-            "question": "True or False: The role of the architect includes visualizing solutions and evaluating requirements.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Module views",
-            "question": "Which type of view is primarily concerned with decomposition and the relationships between modules?",
-            "answers": [
-                "Deployment views",
-                "Module views",
-                "Process views",
-                "Logical views"
-            ]
-        },
-        {
-            "correctAnswer": "False",
-            "question": "True or False: Architecture assessment occurs after the system has been fully implemented.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Viewpoint",
-            "question": "What term refers to the perspective or technique used to construct a view?",
-            "answers": [
-                "Scenario",
-                "Module",
-                "Viewpoint",
-                "Connector"
-            ]
-        },
-        {
-            "correctAnswer": "False",
-            "question": "True or False: The deployment viewpoint focuses on the organization of software modules in the development environment.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Logical viewpoint",
-            "question": "Which viewpoint is concerned with the system's functional requirements and key abstractions?",
-            "answers": [
-                "Logical viewpoint",
-                "Process viewpoint",
-                "Deployment viewpoint",
-                "Scenario viewpoint"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "True or False: The process viewpoint addresses concurrent aspects of the system at runtime.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Client-server pattern",
-            "question": "Which architectural pattern divides the system into clients that request services and servers that provide them?",
-            "answers": [
-                "Pipe-and-filter pattern",
-                "Client-server pattern",
-                "Layered architecture",
-                "Main-program-with-subroutines"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "True or False: The business viewpoint addresses concerns such as profitability and market trends.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Scenario viewpoint",
-            "question": "Which viewpoint shows how different system elements work together using important use cases?",
-            "answers": [
-                "Logical viewpoint",
-                "Process viewpoint",
-                "Scenario viewpoint",
-                "Deployment viewpoint"
-            ]
-        },
-        {
-            "correctAnswer": "Scalability and performance",
-            "question": "What nonfunctional requirements are considered in the process viewpoint?",
-            "answers": [
-                "Scalability and performance",
-                "Security and flexibility",
-                "Usability and accessibility",
-                "Cost and time"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "True or False: The allocation view in software architecture includes work assignment and deployment considerations.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Main-program-with-subroutines",
-            "question": "Which architectural style uses a hierarchical structure with a single thread of control?",
-            "answers": [
-                "Client-server",
-                "Layered architecture",
-                "Main-program-with-subroutines",
-                "Abstract-data-type"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "True or False: Architectural styles define the components and connectors used in the system and their interactions.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Pipes-and-filters",
-            "question": "Which architectural style involves transforming data through a series of sequential steps?",
-            "answers": [
-                "Pipes-and-filters",
-                "Client-server",
-                "Repository",
-                "Layered architecture"
-            ]
-        },
-        {
-            "correctAnswer": "Implicit invocation",
-            "question": "In which architectural style are components loosely coupled and invoked based on events?",
-            "answers": [
-                "Main-program-with-subroutines",
-                "Repository",
-                "Implicit invocation",
-                "Client-server"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "True or False: The repository architectural style centralizes information to be accessed and manipulated by multiple clients.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Layered architecture",
-            "question": "Which architectural style uses a hierarchy of layers with limited visibility between them?",
-            "answers": [
-                "Layered architecture",
-                "Pipes-and-filters",
-                "Abstract-data-type",
-                "Client-server"
-            ]
-        },
-        {
-            "correctAnswer": "Model-View-Controller (MVC)",
-            "question": "Which architectural style separates the user interface from the business logic?",
-            "answers": [
-                "Repository",
-                "Model-View-Controller (MVC)",
-                "Pipes-and-filters",
-                "Main-program-with-subroutines"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "True or False: The business logic in the MVC architectural style is separated from the user interface for flexibility.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "False",
-            "question": "True or False: The repository architectural style is designed for systems where data is only stored temporarily.",
+            "question": "Adaptive maintenance modifies the software to interface with a changing environment.",
             "answers": [
                 "True",
                 "False"
@@ -284,315 +46,43 @@
         },
         {
             "correctAnswer": "True",
-            "question": "True or False: Software architecture plays a crucial role in stakeholder communication.",
+            "question": "The ISO/IEC 14764 standard defines software maintenance as activities required to support a software system effectively.",
             "answers": [
                 "True",
                 "False"
             ]
         },
         {
-            "correctAnswer": "Constraints on implementation",
-            "question": "Which of the following is an effect of software architecture on the system design?",
+            "correctAnswer": "Destructive",
+            "question": "Which of the following is NOT a type of maintenance activity?",
             "answers": [
-                "Simplifies testing",
-                "Constraints on implementation",
-                "Only impacts documentation",
-                "No impact on quality attributes"
-            ]
-        },
-        {
-            "correctAnswer": "Architectural drivers",
-            "question": "What should be chosen in the Attribute-Driven Design (ADD) process to decompose a module?",
-            "answers": [
-                "Architectural drivers",
-                "Team size",
-                "Stakeholder opinions",
-                "Available tools"
-            ]
-        },
-        {
-            "correctAnswer": "Choose a pattern that satisfies drivers",
-            "question": "In ADD, after selecting architectural drivers, what is the next step?",
-            "answers": [
-                "Select a team",
-                "Review the architecture",
-                "Choose a pattern that satisfies drivers",
-                "Create a test plan"
+                "Corrective",
+                "Adaptive",
+                "Destructive",
+                "Perfective"
             ]
         },
         {
             "correctAnswer": "True",
-            "question": "True or False: Attribute-Driven Design (ADD) is an iterative process.",
+            "question": "Preventive maintenance is often performed on safety-critical systems to prevent future failures.",
             "answers": [
                 "True",
                 "False"
             ]
         },
         {
-            "correctAnswer": "System decomposition",
-            "question": "What is a primary activity of architectural design?",
+            "correctAnswer": "Perfective",
+            "question": "The four types of maintenance activities are Corrective, Adaptive, Preventive, and ______.",
             "answers": [
-                "System decomposition",
-                "User interface design",
-                "System testing",
-                "Deployment planning"
-            ]
-        },
-        {
-            "correctAnswer": "Context, problem, solution",
-            "question": "What are the three core aspects of a design pattern?",
-            "answers": [
-                "Context, problem, solution",
-                "Module, context, data flow",
-                "Problem, testing, release",
-                "Driver, connector, process"
+                "Reengineering",
+                "Optimizing",
+                "Corrective",
+                "Perfective"
             ]
         },
         {
             "correctAnswer": "True",
-            "question": "True or False: In a layered architecture, components in upper layers can use components from lower layers.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "False",
-            "question": "True or False: The system's functional requirements are irrelevant to the architectural design.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Layers of abstraction",
-            "question": "Which of the following is an example of an architectural style?",
-            "answers": [
-                "Design patterns",
-                "Layers of abstraction",
-                "UML modeling",
-                "Agile methodology"
-            ]
-        },
-        {
-            "correctAnswer": "Main-program-with-subroutines",
-            "question": "Which architectural style is based on functional decomposition and a single thread of control?",
-            "answers": [
-                "Main-program-with-subroutines",
-                "Client-server",
-                "Layered architecture",
-                "Model-View-Controller"
-            ]
-        },
-        {
-            "correctAnswer": "Shared data repository",
-            "question": "Which architectural style uses a centralized body of information accessed by different clients?",
-            "answers": [
-                "Pipes-and-filters",
-                "Shared data repository",
-                "Client-server",
-                "Main-program-with-subroutines"
-            ]
-        },
-        {
-            "correctAnswer": "Client-server",
-            "question": "Which architectural style involves clients requesting services from a centralized server?",
-            "answers": [
-                "Client-server",
-                "Layered architecture",
-                "Pipes-and-filters",
-                "Implicit invocation"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "True or False: The architecture of a system can dictate the organization of the development team.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "False",
-            "question": "True or False: In the repository style, clients need to know how data is stored in the repository.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Implicit invocation",
-            "question": "Which architectural style is best for systems that need to be reconfigurable and based on events?",
-            "answers": [
-                "Main-program-with-subroutines",
-                "Implicit invocation",
-                "Client-server",
-                "Layered architecture"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "True or False: The client-server architectural style separates service provision from service use.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Performance, security, and modifiability",
-            "question": "Which are examples of quality attributes in software architecture?",
-            "answers": [
-                "Performance, security, and modifiability",
-                "Speed, design, and scalability",
-                "Modularity, reusability, and debugging",
-                "Interfaces, memory, and threads"
-            ]
-        },
-        {
-            "correctAnswer": "Security",
-            "question": "Which architectural quality is most affected by using a layered architecture with critical components in the inner layers?",
-            "answers": [
-                "Usability",
-                "Security",
-                "Performance",
-                "Modifiability"
-            ]
-        },
-        {
-            "correctAnswer": "False",
-            "question": "True or False: Architectural views and architectural styles refer to the same concept.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Viewpoint",
-            "question": "Which of the following determines the perspective and method employed in constructing a view in architecture?",
-            "answers": [
-                "Scenario",
-                "Module",
-                "Viewpoint",
-                "Connector"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "True or False: The process viewpoint in architecture addresses nonfunctional requirements such as system availability and fault-tolerance.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Logical viewpoint",
-            "question": "Which architectural viewpoint is most concerned with the functional requirements and key abstractions of the system?",
-            "answers": [
-                "Logical viewpoint",
-                "Deployment viewpoint",
-                "Scenario viewpoint",
-                "Process viewpoint"
-            ]
-        },
-        {
-            "correctAnswer": "Use of scenarios",
-            "question": "Which technique is often used to question how a system will react to various situations in architecture analysis?",
-            "answers": [
-                "Use of metrics",
-                "Use of diagrams",
-                "Use of scenarios",
-                "Use of simulations"
-            ]
-        },
-        {
-            "correctAnswer": "Modifiability, testability, and performance",
-            "question": "Which of the following quality attributes can be assessed through the system architecture?",
-            "answers": [
-                "Modifiability, testability, and performance",
-                "Maintainability, deployment, and testing",
-                "Scalability, project planning, and cost",
-                "Quality, coding, and testing"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "True or False: The deployment viewpoint defines how system elements such as processes and tasks map onto physical nodes.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Rationale",
-            "question": "In design decisions, what explains why a particular decision was made?",
-            "answers": [
-                "Rationale",
-                "Assumptions",
-                "Alternatives",
-                "Implications"
-            ]
-        },
-        {
-            "correctAnswer": "Architectural reuse",
-            "question": "What concept refers to systems in the same domain sharing common architectural patterns?",
-            "answers": [
-                "Architectural reuse",
-                "Architectural evaluation",
-                "Architectural flexibility",
-                "Architectural modifiability"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "True or False: The structure and components of a system can influence the scalability and performance of a software architecture.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Data flow between components",
-            "question": "In the pipes-and-filters style, what is the primary means of communication between components?",
-            "answers": [
-                "Data flow between components",
-                "Procedure calls",
-                "Shared database",
-                "User interface events"
-            ]
-        },
-        {
-            "correctAnswer": "Generalized model of architecture design",
-            "question": "Understanding the problem, solving it, and evaluating the solution are steps in which architectural process?",
-            "answers": [
-                "Software testing lifecycle",
-                "Waterfall model",
-                "Generalized model of architecture design",
-                "Scrum framework"
-            ]
-        },
-        {
-            "correctAnswer": "View",
-            "question": "What term refers to a representation of a system from the perspective of a related set of concerns?",
-            "answers": [
-                "Scenario",
-                "View",
-                "Connector",
-                "Component"
-            ]
-        },
-        {
-            "correctAnswer": "Testability and performance",
-            "question": "Which qualities are typically observable via the execution of a system?",
-            "answers": [
-                "Modifiability and portability",
-                "Reusability and integrability",
-                "Testability and performance",
-                "Maintainability and availability"
-            ]
-        },
-        {
-            "correctAnswer": "False",
-            "question": "True or False: In software architecture, all quality attributes are observable via system execution.",
+            "question": "Adaptive maintenance modifies the software to interface with a changing environment.",
             "answers": [
                 "True",
                 "False"
@@ -600,48 +90,354 @@
         },
         {
             "correctAnswer": "True",
-            "question": "True or False: The design decisions taken in architecture can constrain how a system is implemented.",
+            "question": "The ISO/IEC 14764 standard defines software maintenance as activities required to support a software system effectively.",
             "answers": [
                 "True",
                 "False"
             ]
         },
         {
-            "correctAnswer": "Architectural patterns",
-            "question": "What concept refers to recurring solutions that address common problems in system design?",
+            "correctAnswer": "Destructive",
+            "question": "Which of the following is NOT a type of maintenance activity?",
             "answers": [
-                "Architectural patterns",
-                "Modules",
-                "Testing strategies",
-                "Quality attributes"
+                "Corrective",
+                "Adaptive",
+                "Destructive",
+                "Perfective"
             ]
         },
         {
             "correctAnswer": "True",
-            "question": "True or False: Software architecture can enable or inhibit certain quality attributes based on its design decisions.",
+            "question": "Preventive maintenance is often performed on safety-critical systems to prevent future failures.",
             "answers": [
                 "True",
                 "False"
             ]
         },
         {
-            "correctAnswer": "Security, performance, and usability",
-            "question": "Which of the following are examples of observable system qualities via execution?",
+            "correctAnswer": "Perfective",
+            "question": "The four types of maintenance activities are Corrective, Adaptive, Preventive, and ______.",
             "answers": [
-                "Security, performance, and usability",
-                "Portability, testability, and integrability",
-                "Maintainability, modifiability, and reusability",
-                "Scalability, context-switching, and cost-effectiveness"
+                "Reengineering",
+                "Optimizing",
+                "Corrective",
+                "Perfective"
             ]
         },
         {
-            "correctAnswer": "IEEE Standard on Architectural Descriptions",
-            "question": "Which standard defines software architecture as the fundamental organization of a system embodied in its components and their relationships?",
+            "correctAnswer": "True",
+            "question": "Adaptive maintenance modifies the software to interface with a changing environment.",
             "answers": [
-                "IEEE Standard on Architectural Descriptions",
-                "ISO Quality Standard",
-                "IEEE Software Engineering Guide",
-                "SEI Software Model"
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "The ISO/IEC 14764 standard defines software maintenance as activities required to support a software system effectively.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Destructive",
+            "question": "Which of the following is NOT a type of maintenance activity?",
+            "answers": [
+                "Corrective",
+                "Adaptive",
+                "Destructive",
+                "Perfective"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Preventive maintenance is often performed on safety-critical systems to prevent future failures.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Perfective",
+            "question": "The four types of maintenance activities are Corrective, Adaptive, Preventive, and ______.",
+            "answers": [
+                "Reengineering",
+                "Optimizing",
+                "Corrective",
+                "Perfective"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Adaptive maintenance modifies the software to interface with a changing environment.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "The ISO/IEC 14764 standard defines software maintenance as activities required to support a software system effectively.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Destructive",
+            "question": "Which of the following is NOT a type of maintenance activity?",
+            "answers": [
+                "Corrective",
+                "Adaptive",
+                "Destructive",
+                "Perfective"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Preventive maintenance is often performed on safety-critical systems to prevent future failures.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Perfective",
+            "question": "The four types of maintenance activities are Corrective, Adaptive, Preventive, and ______.",
+            "answers": [
+                "Reengineering",
+                "Optimizing",
+                "Corrective",
+                "Perfective"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Adaptive maintenance modifies the software to interface with a changing environment.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "The ISO/IEC 14764 standard defines software maintenance as activities required to support a software system effectively.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Destructive",
+            "question": "Which of the following is NOT a type of maintenance activity?",
+            "answers": [
+                "Corrective",
+                "Adaptive",
+                "Destructive",
+                "Perfective"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Preventive maintenance is often performed on safety-critical systems to prevent future failures.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Perfective",
+            "question": "The four types of maintenance activities are Corrective, Adaptive, Preventive, and ______.",
+            "answers": [
+                "Reengineering",
+                "Optimizing",
+                "Corrective",
+                "Perfective"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Adaptive maintenance modifies the software to interface with a changing environment.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "The ISO/IEC 14764 standard defines software maintenance as activities required to support a software system effectively.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Destructive",
+            "question": "Which of the following is NOT a type of maintenance activity?",
+            "answers": [
+                "Corrective",
+                "Adaptive",
+                "Destructive",
+                "Perfective"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Preventive maintenance is often performed on safety-critical systems to prevent future failures.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Perfective",
+            "question": "The four types of maintenance activities are Corrective, Adaptive, Preventive, and ______.",
+            "answers": [
+                "Reengineering",
+                "Optimizing",
+                "Corrective",
+                "Perfective"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Adaptive maintenance modifies the software to interface with a changing environment.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "The ISO/IEC 14764 standard defines software maintenance as activities required to support a software system effectively.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Destructive",
+            "question": "Which of the following is NOT a type of maintenance activity?",
+            "answers": [
+                "Corrective",
+                "Adaptive",
+                "Destructive",
+                "Perfective"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Preventive maintenance is often performed on safety-critical systems to prevent future failures.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Perfective",
+            "question": "The four types of maintenance activities are Corrective, Adaptive, Preventive, and ______.",
+            "answers": [
+                "Reengineering",
+                "Optimizing",
+                "Corrective",
+                "Perfective"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Adaptive maintenance modifies the software to interface with a changing environment.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "The ISO/IEC 14764 standard defines software maintenance as activities required to support a software system effectively.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Destructive",
+            "question": "Which of the following is NOT a type of maintenance activity?",
+            "answers": [
+                "Corrective",
+                "Adaptive",
+                "Destructive",
+                "Perfective"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Preventive maintenance is often performed on safety-critical systems to prevent future failures.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Perfective",
+            "question": "The four types of maintenance activities are Corrective, Adaptive, Preventive, and ______.",
+            "answers": [
+                "Reengineering",
+                "Optimizing",
+                "Corrective",
+                "Perfective"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Adaptive maintenance modifies the software to interface with a changing environment.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "The ISO/IEC 14764 standard defines software maintenance as activities required to support a software system effectively.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Destructive",
+            "question": "Which of the following is NOT a type of maintenance activity?",
+            "answers": [
+                "Corrective",
+                "Adaptive",
+                "Destructive",
+                "Perfective"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Preventive maintenance is often performed on safety-critical systems to prevent future failures.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Perfective",
+            "question": "The four types of maintenance activities are Corrective, Adaptive, Preventive, and ______.",
+            "answers": [
+                "Reengineering",
+                "Optimizing",
+                "Corrective",
+                "Perfective"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Adaptive maintenance modifies the software to interface with a changing environment.",
+            "answers": [
+                "True",
+                "False"
             ]
         }
     ]
