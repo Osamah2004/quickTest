@@ -43,14 +43,17 @@
             <label for="fileUpload" class="custom-button">Choose File</label>
             <span id="fileLabel"> No file selected</span>
          </div>
+      </form>
          <br>
          <input type="submit" value="Test Now">
+         <br>
+         <a href="test.html" onclick="localStorage.setItem('test','lec3.json')">Intro</a>
          <br>
          <a href="test.html" onclick="localStorage.setItem('test','lec1.json')">Ch2 taxonomy</a>
          <br>
          <a href="test.html" onclick="localStorage.setItem('test','lec2.json')">Ch3 models</a>
          <br>
-      </form>
+      
       <script>
          let form = document.querySelector('#uploadForm');
          let input = document.querySelector('#fileUpload');
