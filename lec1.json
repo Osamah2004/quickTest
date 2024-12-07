@@ -2,25 +2,79 @@
     "questions": [
         {
             "correctAnswer": "True",
-            "question": "The ISO/IEC 14764 standard defines software maintenance as activities required to support a software system effectively.",
+            "question": "Corrective maintenance is performed after detecting defects with the system.",
             "answers": [
                 "True",
                 "False"
             ]
         },
         {
-            "correctAnswer": "Destructive",
-            "question": "Which of the following is NOT a type of maintenance activity?",
+            "correctAnswer": "Adaptive",
+            "question": "Which type of maintenance involves modifying the software to meet evolving environmental needs?",
             "answers": [
                 "Corrective",
                 "Adaptive",
-                "Destructive",
+                "Preventive",
                 "Perfective"
             ]
         },
         {
+            "correctAnswer": "False",
+            "question": "Perfective maintenance only focuses on fixing critical software bugs.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Rejuvenation",
+            "question": "What is the preventive maintenance technique called that involves cleaning the internal state of a system to prevent failures?",
+            "answers": [
+                "Reengineering",
+                "Rejuvenation",
+                "Optimization",
+                "Upgradation"
+            ]
+        },
+        {
             "correctAnswer": "True",
-            "question": "Preventive maintenance is often performed on safety-critical systems to prevent future failures.",
+            "question": "Kitchenham et al. categorize maintenance activities into corrections and enhancements.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "Empirical studies are a part of intention-based classification of software maintenance.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Evaluative",
+            "question": "Reviewing program code and analyzing the ripple effect of changes are examples of which maintenance category?",
+            "answers": [
+                "Evaluative",
+                "Consultive",
+                "Preventive",
+                "Groomative"
+            ]
+        },
+        {
+            "correctAnswer": "Investigative",
+            "question": "What type of activity evaluates the impact of a proposed change on the system?",
+            "answers": [
+                "Investigative",
+                "Modificative",
+                "Preventive",
+                "Enhancive"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Service Level Agreements (SLAs) define performance targets for maintenance services.",
             "answers": [
                 "True",
                 "False"
@@ -28,43 +82,89 @@
         },
         {
             "correctAnswer": "Perfective",
-            "question": "The four types of maintenance activities are Corrective, Adaptive, Preventive, and ______.",
+            "question": "Improving processing efficiency by restructuring code falls under which type of maintenance?",
             "answers": [
-                "Reengineering",
-                "Optimizing",
-                "Corrective",
-                "Perfective"
+                "Adaptive",
+                "Preventive",
+                "Perfective",
+                "Corrective"
             ]
         },
         {
             "correctAnswer": "True",
-            "question": "Adaptive maintenance modifies the software to interface with a changing environment.",
+            "question": "Corrective maintenance is performed after detecting defects with the system.",
             "answers": [
                 "True",
                 "False"
             ]
         },
         {
-            "correctAnswer": "True",
-            "question": "The ISO/IEC 14764 standard defines software maintenance as activities required to support a software system effectively.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Destructive",
-            "question": "Which of the following is NOT a type of maintenance activity?",
+            "correctAnswer": "Adaptive",
+            "question": "Which type of maintenance involves modifying the software to meet evolving environmental needs?",
             "answers": [
                 "Corrective",
                 "Adaptive",
-                "Destructive",
+                "Preventive",
                 "Perfective"
             ]
         },
         {
+            "correctAnswer": "False",
+            "question": "Perfective maintenance only focuses on fixing critical software bugs.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Rejuvenation",
+            "question": "What is the preventive maintenance technique called that involves cleaning the internal state of a system to prevent failures?",
+            "answers": [
+                "Reengineering",
+                "Rejuvenation",
+                "Optimization",
+                "Upgradation"
+            ]
+        },
+        {
             "correctAnswer": "True",
-            "question": "Preventive maintenance is often performed on safety-critical systems to prevent future failures.",
+            "question": "Kitchenham et al. categorize maintenance activities into corrections and enhancements.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "False",
+            "question": "Empirical studies are a part of intention-based classification of software maintenance.",
+            "answers": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "correctAnswer": "Evaluative",
+            "question": "Reviewing program code and analyzing the ripple effect of changes are examples of which maintenance category?",
+            "answers": [
+                "Evaluative",
+                "Consultive",
+                "Preventive",
+                "Groomative"
+            ]
+        },
+        {
+            "correctAnswer": "Investigative",
+            "question": "What type of activity evaluates the impact of a proposed change on the system?",
+            "answers": [
+                "Investigative",
+                "Modificative",
+                "Preventive",
+                "Enhancive"
+            ]
+        },
+        {
+            "correctAnswer": "True",
+            "question": "Service Level Agreements (SLAs) define performance targets for maintenance services.",
             "answers": [
                 "True",
                 "False"
@@ -72,372 +172,12 @@
         },
         {
             "correctAnswer": "Perfective",
-            "question": "The four types of maintenance activities are Corrective, Adaptive, Preventive, and ______.",
+            "question": "Improving processing efficiency by restructuring code falls under which type of maintenance?",
             "answers": [
-                "Reengineering",
-                "Optimizing",
-                "Corrective",
-                "Perfective"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Adaptive maintenance modifies the software to interface with a changing environment.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "The ISO/IEC 14764 standard defines software maintenance as activities required to support a software system effectively.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Destructive",
-            "question": "Which of the following is NOT a type of maintenance activity?",
-            "answers": [
-                "Corrective",
                 "Adaptive",
-                "Destructive",
-                "Perfective"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Preventive maintenance is often performed on safety-critical systems to prevent future failures.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Perfective",
-            "question": "The four types of maintenance activities are Corrective, Adaptive, Preventive, and ______.",
-            "answers": [
-                "Reengineering",
-                "Optimizing",
-                "Corrective",
-                "Perfective"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Adaptive maintenance modifies the software to interface with a changing environment.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "The ISO/IEC 14764 standard defines software maintenance as activities required to support a software system effectively.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Destructive",
-            "question": "Which of the following is NOT a type of maintenance activity?",
-            "answers": [
-                "Corrective",
-                "Adaptive",
-                "Destructive",
-                "Perfective"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Preventive maintenance is often performed on safety-critical systems to prevent future failures.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Perfective",
-            "question": "The four types of maintenance activities are Corrective, Adaptive, Preventive, and ______.",
-            "answers": [
-                "Reengineering",
-                "Optimizing",
-                "Corrective",
-                "Perfective"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Adaptive maintenance modifies the software to interface with a changing environment.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "The ISO/IEC 14764 standard defines software maintenance as activities required to support a software system effectively.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Destructive",
-            "question": "Which of the following is NOT a type of maintenance activity?",
-            "answers": [
-                "Corrective",
-                "Adaptive",
-                "Destructive",
-                "Perfective"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Preventive maintenance is often performed on safety-critical systems to prevent future failures.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Perfective",
-            "question": "The four types of maintenance activities are Corrective, Adaptive, Preventive, and ______.",
-            "answers": [
-                "Reengineering",
-                "Optimizing",
-                "Corrective",
-                "Perfective"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Adaptive maintenance modifies the software to interface with a changing environment.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "The ISO/IEC 14764 standard defines software maintenance as activities required to support a software system effectively.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Destructive",
-            "question": "Which of the following is NOT a type of maintenance activity?",
-            "answers": [
-                "Corrective",
-                "Adaptive",
-                "Destructive",
-                "Perfective"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Preventive maintenance is often performed on safety-critical systems to prevent future failures.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Perfective",
-            "question": "The four types of maintenance activities are Corrective, Adaptive, Preventive, and ______.",
-            "answers": [
-                "Reengineering",
-                "Optimizing",
-                "Corrective",
-                "Perfective"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Adaptive maintenance modifies the software to interface with a changing environment.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "The ISO/IEC 14764 standard defines software maintenance as activities required to support a software system effectively.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Destructive",
-            "question": "Which of the following is NOT a type of maintenance activity?",
-            "answers": [
-                "Corrective",
-                "Adaptive",
-                "Destructive",
-                "Perfective"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Preventive maintenance is often performed on safety-critical systems to prevent future failures.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Perfective",
-            "question": "The four types of maintenance activities are Corrective, Adaptive, Preventive, and ______.",
-            "answers": [
-                "Reengineering",
-                "Optimizing",
-                "Corrective",
-                "Perfective"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Adaptive maintenance modifies the software to interface with a changing environment.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "The ISO/IEC 14764 standard defines software maintenance as activities required to support a software system effectively.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Destructive",
-            "question": "Which of the following is NOT a type of maintenance activity?",
-            "answers": [
-                "Corrective",
-                "Adaptive",
-                "Destructive",
-                "Perfective"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Preventive maintenance is often performed on safety-critical systems to prevent future failures.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Perfective",
-            "question": "The four types of maintenance activities are Corrective, Adaptive, Preventive, and ______.",
-            "answers": [
-                "Reengineering",
-                "Optimizing",
-                "Corrective",
-                "Perfective"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Adaptive maintenance modifies the software to interface with a changing environment.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "The ISO/IEC 14764 standard defines software maintenance as activities required to support a software system effectively.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Destructive",
-            "question": "Which of the following is NOT a type of maintenance activity?",
-            "answers": [
-                "Corrective",
-                "Adaptive",
-                "Destructive",
-                "Perfective"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Preventive maintenance is often performed on safety-critical systems to prevent future failures.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Perfective",
-            "question": "The four types of maintenance activities are Corrective, Adaptive, Preventive, and ______.",
-            "answers": [
-                "Reengineering",
-                "Optimizing",
-                "Corrective",
-                "Perfective"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Adaptive maintenance modifies the software to interface with a changing environment.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "The ISO/IEC 14764 standard defines software maintenance as activities required to support a software system effectively.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Destructive",
-            "question": "Which of the following is NOT a type of maintenance activity?",
-            "answers": [
-                "Corrective",
-                "Adaptive",
-                "Destructive",
-                "Perfective"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Preventive maintenance is often performed on safety-critical systems to prevent future failures.",
-            "answers": [
-                "True",
-                "False"
-            ]
-        },
-        {
-            "correctAnswer": "Perfective",
-            "question": "The four types of maintenance activities are Corrective, Adaptive, Preventive, and ______.",
-            "answers": [
-                "Reengineering",
-                "Optimizing",
-                "Corrective",
-                "Perfective"
-            ]
-        },
-        {
-            "correctAnswer": "True",
-            "question": "Adaptive maintenance modifies the software to interface with a changing environment.",
-            "answers": [
-                "True",
-                "False"
+                "Preventive",
+                "Perfective",
+                "Corrective"
             ]
         }
     ]
