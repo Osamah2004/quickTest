@@ -148,20 +148,9 @@ function shuffle(array){
 }
 
 window.onload = function() {
-    let num = localStorage.getItem("fileObject");
-    console.log(num);
-    if (num !== null){
-    fetch(num)
-    .then(response => response.json())
-    .then(data => {
-        questions = data.questions;
-        shuffle(questions);
-        question = document.getElementById('question');
-        question.textContent = questions[index].question;
-        setRadios();
-    });
-    }
-    else fetch(localStorage.getItem('test'))
+    const urlParams = new URLSearchParams(window.location.search);
+    
+    fetch(urlParams.get('file'))
     .then(response => response.json())
     .then(data => {
         questions = data.questions;
