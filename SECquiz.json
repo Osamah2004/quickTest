@@ -1,7 +1,5 @@
 {
   "questions": [
-    {"correctAnswer": "True", "question": "Clickjacking is a malicious technique where an attacker tricks a user into clicking on something different from what the user perceives.", "answers": ["True", "False"]},
-    {"correctAnswer": "Frame Busting", "question": "Which technique can be used to prevent a site from being embedded in iframes to protect against clickjacking?", "answers": ["Frame Busting", "Content Security Policy", "User Vigilance", "Anti-Malware Tools"]},
     {"correctAnswer": "Drive-By Download", "question": "What is the term for code that is downloaded, installed, and executed on a computer without the user's knowledge?", "answers": ["Drive-By Download", "Clickjacking", "SQL Injection", "Phishing"]},
     {"correctAnswer": "Software Updates", "question": "What is one of the recommended ways to prevent drive-by downloads?", "answers": ["Software Updates", "Email Filters", "PGP Encryption", "User Education"]},
     {"correctAnswer": "Cross-Site Scripting", "question": "Which attack involves forcing the server to execute commands (a script) in a normal data fetch request?", "answers": ["Cross-Site Scripting", "SQL Injection", "Dot-Dot-Slash", "Phishing"]},
@@ -14,11 +12,28 @@
     {"correctAnswer": "PGP", "question": "Which cryptographic solution is used for secure email communication and involves encrypting messages with a session key?", "answers": ["PGP", "S/MIME", "SSL", "TLS"]},
     {"correctAnswer": "S/MIME", "question": "Which Internet standard is used for securing email attachments and is integrated into many commercial email packages?", "answers": ["S/MIME", "PGP", "SSL", "TLS"]},
     {"correctAnswer": "User Awareness", "question": "What is one of the key factors in reducing the risk of internet threats, as mentioned in the conclusion?", "answers": ["User Awareness", "Market Priorities", "Role of IT Professionals", "Multiple Vulnerabilities"]},
-    {"correctAnswer": "False", "question": "Clickjacking requires the user to actively engage with the download.", "answers": ["True", "False"]},
     {"correctAnswer": "True", "question": "Drive-by downloads can occur without the user's knowledge or interaction.", "answers": ["True", "False"]},
     {"correctAnswer": "True", "question": "Cross-Site Scripting (XSS) involves injecting scripts into web pages to execute malicious code.", "answers": ["True", "False"]},
     {"correctAnswer": "False", "question": "SQL Injection attacks are only possible if the user clicks on a malicious link.", "answers": ["True", "False"]},
-    {"correctAnswer": "True", "question": "Email filters have become very effective in blocking most spam emails.", "answers": ["True", "False"]},
-    {"correctAnswer": "False", "question": "PGP and S/MIME are widely adopted cryptographic solutions for secure email communication.", "answers": ["True", "False"]}
+    {"correctAnswer": "Operating System", "question": "What is the program that acts as an intermediary between a user and computer hardware?", "answers": ["Operating System", "Compiler", "Database", "Web Browser"]},
+    {"correctAnswer": "Protection", "question": "What is the term for preventing mischievous or intentional violations of access restrictions in an OS?", "answers": ["Protection", "Encryption", "Authentication", "Virtualization"]},
+    {"correctAnswer": "Memory protection", "question": "Which of the following is a key aspect of OS protection?", "answers": ["Memory protection", "Network security", "Data compression", "User interface design"]},
+    {"correctAnswer": "User authentication", "question": "What is the process of verifying the identity of a user in an OS?", "answers": ["User authentication", "Data encryption", "File compression", "Network routing"]},
+    {"correctAnswer": "Physical separation", "question": "Which type of separation involves using different physical objects for different processes?", "answers": ["Physical separation", "Temporal separation", "Logical separation", "Cryptographic separation"]},
+    {"correctAnswer": "Temporal separation", "question": "Which type of separation involves executing processes with different security requirements at different times?", "answers": ["Temporal separation", "Physical separation", "Logical separation", "Cryptographic separation"]},
+    {"correctAnswer": "Logical separation", "question": "Which type of separation ensures that programs cannot access data outside their permitted domain?", "answers": ["Logical separation", "Physical separation", "Temporal separation", "Cryptographic separation"]},
+    {"correctAnswer": "Cryptographic separation", "question": "Which type of separation involves concealing data and computations to make them unintelligible to outside processes?", "answers": ["Cryptographic separation", "Physical separation", "Temporal separation", "Logical separation"]},
+    {"correctAnswer": "Controlled sharing", "question": "What is the term for allowing users and objects to share algorithms and functions without compromising security?", "answers": ["Controlled sharing", "Isolation", "Encryption", "Virtualization"]},
+    {"correctAnswer": "Isolate", "question": "What is the term for running different processes concurrently without them being aware of each other?", "answers": ["Isolate", "Share all", "Share nothing", "Share via access limitation"]},
+    {"correctAnswer": "Share via access limitation", "question": "What is the term for ensuring that only authorized access to resources occurs in an OS?", "answers": ["Share via access limitation", "Isolate", "Share all", "Share nothing"]},
+    {"correctAnswer": "Capabilities", "question": "What is the term for dynamically creating sharing rights based on the owner or context of computation?", "answers": ["Capabilities", "Encryption", "Authentication", "Virtualization"]},
+    {"correctAnswer": "Fence", "question": "What is the term for a hardware mechanism that prevents users from accessing the OS resident portion of memory?", "answers": ["Fence", "Relocation", "Base/bounds registers", "Tagged architecture"]},
+    {"correctAnswer": "Fixed fence", "question": "What is the term for a memory protection mechanism where the amount of space is predefined and cannot be changed?", "answers": ["Fixed fence", "Variable fence", "Relocation", "Segmentation"]},
+    {"correctAnswer": "Fence register", "question": "What is the term for a memory protection mechanism where the fence can be changed dynamically?", "answers": ["Fence register", "Fixed fence", "Relocation", "Segmentation"]},
+    {"correctAnswer": "Base/bounds registers", "question": "Which memory protection mechanism uses registers to define the address range a program can access?", "answers": ["Base/bounds registers", "Fence", "Tagged architecture", "Segmentation"]},
+    {"correctAnswer": "Segmentation", "question": "Which memory protection mechanism divides memory into segments of varying sizes?", "answers": ["Segmentation", "Fence", "Relocation", "Paging"]},
+    {"correctAnswer": "Paging", "question": "Which memory protection mechanism divides memory into fixed-size blocks called pages?", "answers": ["Paging", "Segmentation", "Fence", "Relocation"]},
+    {"correctAnswer": "Combined paging with segmentation", "question": "Which memory protection mechanism combines the benefits of paging and segmentation?", "answers": ["Combined paging with segmentation", "Fence", "Relocation", "Tagged architecture"]},
+    {"correctAnswer": "Tagged architecture", "question": "Which memory protection mechanism uses tags to identify and control access to memory locations?", "answers": ["Tagged architecture", "Fence", "Relocation", "Segmentation"]}
   ]
 }
