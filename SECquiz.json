@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {"correctAnswer": "True", "question": "Clickjacking is a malicious technique where an attacker tricks a user into clicking on something different from what the user perceives.", "answers": ["True", "False"]},
+    {"correctAnswer": "Frame Busting", "question": "Which technique can be used to prevent a site from being embedded in iframes to protect against clickjacking?", "answers": ["Frame Busting", "Content Security Policy", "User Vigilance", "Anti-Malware Tools"]},
+    {"correctAnswer": "Drive-By Download", "question": "What is the term for code that is downloaded, installed, and executed on a computer without the user's knowledge?", "answers": ["Drive-By Download", "Clickjacking", "SQL Injection", "Phishing"]},
+    {"correctAnswer": "Software Updates", "question": "What is one of the recommended ways to prevent drive-by downloads?", "answers": ["Software Updates", "Email Filters", "PGP Encryption", "User Education"]},
+    {"correctAnswer": "Cross-Site Scripting", "question": "Which attack involves forcing the server to execute commands (a script) in a normal data fetch request?", "answers": ["Cross-Site Scripting", "SQL Injection", "Dot-Dot-Slash", "Phishing"]},
+    {"correctAnswer": "SQL Injection", "question": "Which attack involves injecting SQL code into an exchange between an application and its database server?", "answers": ["SQL Injection", "Cross-Site Scripting", "Dot-Dot-Slash", "Phishing"]},
+    {"correctAnswer": "Dot-Dot-Slash", "question": "What is another name for the directory traversal attack where attackers use '...' to access files on a web server?", "answers": ["Dot-Dot-Slash", "Cross-Site Scripting", "SQL Injection", "Phishing"]},
+    {"correctAnswer": "Filter and sanitize all user input", "question": "What is a key countermeasure to prevent injection attacks?", "answers": ["Filter and sanitize all user input", "Use PGP encryption", "Enable browser pop-ups", "Install anti-malware tools"]},
+    {"correctAnswer": "Email Spam", "question": "What is the term for unsolicited emails, often containing advertisements or malicious content?", "answers": ["Email Spam", "Phishing", "Clickjacking", "Drive-By Download"]},
+    {"correctAnswer": "Phishing", "question": "What is the term for a message that tries to trick a victim into providing private information or taking unsafe actions?", "answers": ["Phishing", "Email Spam", "Clickjacking", "SQL Injection"]},
+    {"correctAnswer": "Spear Phishing", "question": "What is the term for a targeted phishing attack that is personalized to a particular recipient or set of recipients?", "answers": ["Spear Phishing", "Email Spam", "Clickjacking", "Drive-By Download"]},
+    {"correctAnswer": "PGP", "question": "Which cryptographic solution is used for secure email communication and involves encrypting messages with a session key?", "answers": ["PGP", "S/MIME", "SSL", "TLS"]},
+    {"correctAnswer": "S/MIME", "question": "Which Internet standard is used for securing email attachments and is integrated into many commercial email packages?", "answers": ["S/MIME", "PGP", "SSL", "TLS"]},
+    {"correctAnswer": "User Awareness", "question": "What is one of the key factors in reducing the risk of internet threats, as mentioned in the conclusion?", "answers": ["User Awareness", "Market Priorities", "Role of IT Professionals", "Multiple Vulnerabilities"]},
+    {"correctAnswer": "False", "question": "Clickjacking requires the user to actively engage with the download.", "answers": ["True", "False"]},
+    {"correctAnswer": "True", "question": "Drive-by downloads can occur without the user's knowledge or interaction.", "answers": ["True", "False"]},
+    {"correctAnswer": "True", "question": "Cross-Site Scripting (XSS) involves injecting scripts into web pages to execute malicious code.", "answers": ["True", "False"]},
+    {"correctAnswer": "False", "question": "SQL Injection attacks are only possible if the user clicks on a malicious link.", "answers": ["True", "False"]},
+    {"correctAnswer": "True", "question": "Email filters have become very effective in blocking most spam emails.", "answers": ["True", "False"]},
+    {"correctAnswer": "False", "question": "PGP and S/MIME are widely adopted cryptographic solutions for secure email communication.", "answers": ["True", "False"]}
+  ]
+}
