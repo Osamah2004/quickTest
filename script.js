@@ -15,6 +15,7 @@ function setAnswer(num) {
     let correctAnswer = questions[index].correctAnswer;
     validateAnswer(correctAnswer);
 }
+
 function snackbar(txt) {
     let x = document.createElement('div');
     x.setAttribute('id', 'snackbar');
@@ -44,19 +45,20 @@ function hide(){
     document.getElementById(`radio4`).style.visibility = 'hidden';
     document.getElementById(`q4`).style.visibility = 'hidden';
 }
+
 function display(){
     document.getElementById(`radio3`).style.visibility = '';
     document.getElementById(`q3`).style.visibility = '';
     document.getElementById(`radio4`).style.visibility = '';
     document.getElementById(`q4`).style.visibility = '';
 }
+
 let marks = 0;
 let max = 1;
 
 console.log(answer);
 
 function informType(text){
-    
     if (document.getElementById('snackbar_').checked){
         snackbar(text);
     }
@@ -88,8 +90,6 @@ function validateAnswer(correctAnswer) {
     blacklist.push(index);
     return answer === correctAnswer;
 }
-
-
 
 function next() {
     debugger;
@@ -183,8 +183,9 @@ function setRadios() {
 
     for (let i = 0; i < len; i++) {
         document.getElementById(`q${i+1}`).innerText = answers[i];
-        if (index === questions.length - 1){
-            document.getElementById(`q${i+1}`).onclick = () => validateAnswer(questions[index].correctAnswer);
-        }
+        document.getElementById(`radio${i+1}`).onclick = () => {
+            answer = answers[i]; // Set the answer variable correctly
+            validateAnswer(questions[index].correctAnswer);
+        };
     }
 }
