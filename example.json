@@ -1,0 +1,6 @@
+{
+  "questions": [
+    {"correctAnswer": "Drive-By Download", "question": "What is the term for code that is downloaded, installed, and executed on a computer without the user's knowledge?", "answers": ["Drive-By Download", "Clickjacking", "SQL Injection", "Phishing"]},
+    {"correctAnswer": "True", "question": "Cross-Site Scripting (XSS) involves injecting scripts into web pages to execute malicious code.", "answers": ["True", "False"]}
+  ]
+}
