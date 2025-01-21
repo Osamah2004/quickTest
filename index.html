@@ -1,86 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Home Page</title>
-      <link rel="stylesheet" href="style.css">
-      <style>
-         body {
-         text-align: left; /* Changed to left alignment */
-         font-family: Arial, sans-serif; /* Add a font for better appearance */
-         }
-         #fileUpload {
-         display: none; /* Hide the default file input element */
-         }
-         .custom-button {
-         padding: 10px 20px;
-         background-color: #4CAF50;
-         color: white;
-         border: none;
-         border-radius: 5px;
-         cursor: pointer;
-         font-size: 14px;
-         transition: background-color 0.3s ease;
-         }
-         .custom-button:hover {
-         background-color: #45a049;
-         }
-         #fileLabelContainer {
-         display: flex;
-         align-items: center;
-         justify-content: flex-start; /* Changed to align items to the left */
-         }
-         #fileLabel {
-         margin-right: 10px; /* Add space between the label and button */
-         }
-      </style>
-   </head>
-   <body>
-      <form id="uploadForm" action="/submit" method="post" enctype="multipart/form-data">
-         <input type="file" id="fileUpload" name="fileUpload">
-         <div id="fileLabelContainer">
-            <label for="fileUpload" class="custom-button">Choose File</label>
-            <span id="fileLabel"> No file selected</span>
-         </div>
-      </form>
-         <br>
-         <input type="submit" value="Test Now">
-         <br>
-         <a href="test.html" onclick="localStorage.setItem('test','lec3.json')">Intro</a>
-         <br>
-         <a href="test.html" onclick="localStorage.setItem('test','lec1.json')">Ch2 taxonomy</a>
-         <br>
-         <a href="test.html" onclick="localStorage.setItem('test','lec2.json')">Ch3 models</a>
-         <br>
-      
-      <script>
-         let form = document.querySelector('#uploadForm');
-         let input = document.querySelector('#fileUpload');
-         let label = document.querySelector('#fileLabel');
-         
-         input.addEventListener('change', function() {
-             if (input.files.length > 0) {
-                 label.textContent = ` Selected file is: ${input.files[0].name}`;
-             }
-         });
-         
-         form.addEventListener('submit', function(event) {
-             event.preventDefault(); // Prevent the form from submitting normally
-         
-             let file = input.files[0];
-             let reader = new FileReader();
-         
-             reader.onload = function() {
-                 let fileObject = reader.result;
-                 localStorage.setItem('fileObject', fileObject);
-         
-                 // Redirect to test.html
-                 window.location.href = 'test.html';
-             };
-         
-             reader.readAsDataURL(file); // This will read the file as a Data URL
-         });
-      </script>
-   </body>
+<html lang="en" class="dark">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Quick test</title>
+   <script src="https://cdn.tailwindcss.com"></script>
+   <script>
+      // Enable dark mode by default
+      document.documentElement.classList.add('dark');
+   </script>
+</head>
+<body class="bg-gray-900 text-white min-h-screen flex flex-col items-center justify-center">
+   <header class="bg-gray-800 w-full py-6 shadow-lg">
+      <h1 class="text-3xl font-bold text-center text-white">Introduction to Cyber Security</h1>
+   </header>
+   <br>
+   <a href="test.html?file=SECch1.json" class="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-900 transform transition-all duration-300 ease-in-out">
+      Chapter 1
+   </a>
+   <br>
+   <a href="test.html?file=SECch2.json" class="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-900 transform transition-all duration-300 ease-in-out">
+      Chapter 2
+   </a>
+   <br>
+   <a href="test.html?file=SECch3.json" class="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-900 transform transition-all duration-300 ease-in-out">
+      Chapter 3
+   </a>
+   <br>
+   <a href="test.html?file=all.json" class="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-900 transform transition-all duration-300 ease-in-out">
+      Chapters 1+2+3
+   </a>
+</body>
 </html>
