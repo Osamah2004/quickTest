@@ -1,0 +1,104 @@
+{
+  "questions": [
+    {
+      "correctAnswer": "Identify decision variables",
+      "question": "What is the first step in building a mathematical model in OR?",
+      "answers": [
+        "Solve the model",
+        "Validation of the model",
+        "Identify decision variables",
+        "Run a simulation"
+      ]
+    },
+    {
+      "correctAnswer": "Linear equations and inequalities",
+      "question": "What does LP require to represent the system’s requirements?",
+      "answers": [
+        "Linear and Nonlinear charts",
+        "Verbal descriptions",
+        "Linear equations and inequalities",
+        "Simulations"
+      ]
+    },
+    {
+      "correctAnswer": "Decision variables determine the value of the objective function",
+      "question": "What is the relationship between decision variables and the objective function?",
+      "answers": [
+        "The objective function is used to create decision variables",
+        "Decision variables determine the value of the objective function",
+        "They are unrelated components",
+        "None of the above"
+      ]
+    },
+    {
+      "correctAnswer": "(n-m) basic variables",
+      "question": "In a given system of m simultaneous linear equations in n variables (m<n) there will be ____________",
+      "answers": [
+        "n basic variables",
+        "m basic variables",
+        "(n-m) basic variables",
+        "(n+m) basic variables"
+      ]
+    },
+    {
+      "correctAnswer": "All points that satisfy the system of constraints",
+      "question": "What does the feasible solution space represent in graphical linear programming?",
+      "answers": [
+        "The boundary where the objective function is minimized",
+        "All points that satisfy the system of constraints",
+        "The points that give the maximum objective function value",
+        "The points that do not satisfy any constraint"
+      ]
+    },
+    {
+      "correctAnswer": "A nonnegative slack variable is added to the left-hand side",
+      "question": "Which of the following is true when converting a (≤) inequality into an equation?",
+      "answers": [
+        "A nonnegative slack variable is added to the right-hand side",
+        "A nonnegative slack variable is added to the left-hand side",
+        "A nonnegative slack variable is subtracted from the left-hand side",
+        "None of the above"
+      ]
+    },
+    {
+      "correctAnswer": "Corner points of feasible solution space",
+      "question": "Graphical optimal value for Z can be obtained from",
+      "answers": [
+        "Corner points of feasible solution space",
+        "Any points inside the feasible solution space",
+        "Any points outside the feasible solution space",
+        "none of the above"
+      ]
+    },
+    {
+      "correctAnswer": "Can be more than one constraint",
+      "question": "The number of constraints in the graphical method",
+      "answers": [
+        "Should be one or two",
+        "Must be exactly two",
+        "Can be more than one constraint",
+        "None of the above"
+      ]
+    },
+    {
+      "correctAnswer": "The resource is abundant and not fully utilized",
+      "question": "What does it mean if a resource has a positive slack variable?",
+      "answers": [
+        "The resource is fully utilized",
+        "The resource is not used at all",
+        "The resource is abundant and not fully utilized",
+        "The resource is overused"
+      ]
+    },
+    {
+      "correctAnswer": "The variable with the largest positive coefficient in the objective function row",
+      "question": "The entering variable in the simplex method is",
+      "answers": [
+        "The variable that leaves the solution",
+        "The variable that decreases the objective function’s value for the maximisation problem",
+        "The variable with the largest positive coefficient in the objective function row",
+        "All of the above"
+      ]
+    }
+  ]
+}
