@@ -1,32 +1,32 @@
 {
   "questions": [
     {
-      "correctAnswer": "The data engineering lifecycle (DEL) includes the stages of data generation, storage, ingestion, transformation, and serving, with each stage playing a crucial role in delivering high-quality data for downstream use.",
+      "correctAnswer": "True",
       "question": "The data engineering lifecycle (DEL) includes the stages of data generation, storage, ingestion, transformation, and serving, with each stage playing a crucial role in delivering high-quality data for downstream use.",
       "answers": ["True", "False"]
     },
     {
-      "correctAnswer": "Data engineers consider the DEL to build the automated systems and scalable infrastructure that enhance the efficiency of data science processes.",
+      "correctAnswer": "True",
       "question": "Data engineers consider the DEL to build the automated systems and scalable infrastructure that enhance the efficiency of data science processes.",
       "answers": ["True", "False"]
     },
     {
-      "correctAnswer": "Data architecture focuses solely on the technical design and performance of systems that serve the enterprise's current needs, assuming that the enterprise's needs are fixed.",
+      "correctAnswer": "False",
       "question": "Data architecture focuses solely on the technical design and performance of systems that serve the enterprise's current needs, assuming that the enterprise's needs are fixed.",
       "answers": ["True", "False"]
     },
     {
-      "correctAnswer": "OLTP systems are optimized for handling large, complex analytical queries.",
+      "correctAnswer": "False",
       "question": "OLTP systems are optimized for handling large, complex analytical queries.",
       "answers": ["True", "False"]
     },
     {
-      "correctAnswer": "A Relational Database Management System (RDBMS) organizes data in a hierarchical structure and uses procedural programming instead of SQL for data manipulation.",
+      "correctAnswer": "False",
       "question": "A Relational Database Management System (RDBMS) organizes data in a hierarchical structure and uses procedural programming instead of SQL for data manipulation.",
       "answers": ["True", "False"]
     },
     {
-      "correctAnswer": "All databases are designed to only store structured data that is arranged in a predefined schema such as tables with rows and columns.",
+      "correctAnswer": "False",
       "question": "All databases are designed to only store structured data that is arranged in a predefined schema such as tables with rows and columns.",
       "answers": ["True", "False"]
     },
