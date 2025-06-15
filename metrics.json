@@ -1,0 +1,194 @@
+{
+  "questions": [
+    {
+      "correctAnswer": "Software Quality Assurance",
+      "question": "What does SQA stand for?",
+      "answers": [
+        "Software Quality Assurance",
+        "System Quality Assessment",
+        "Standard Quality Analysis",
+        "Software Query Application"
+      ]
+    },
+    {
+      "correctAnswer": "Thousands of Lines of Code",
+      "question": "What does KLOC stand for?",
+      "answers": [
+        "Key Lines of Code",
+        "Thousands of Lines of Code",
+        "Kernel Lines of Code",
+        "Knowledge Lines of Code"
+      ]
+    },
+    {
+      "correctAnswer": "Number of Function Points",
+      "question": "What does NFP stand for?",
+      "answers": [
+        "New Function Protocol",
+        "Number of Function Points",
+        "Network Function Parameter",
+        "Nested Function Process"
+      ]
+    },
+    {
+      "correctAnswer": "Code Error Density",
+      "question": "What does CED stand for?",
+      "answers": [
+        "Code Execution Density",
+        "Compilation Error Detection",
+        "Code Error Density",
+        "Critical Error Diagnosis"
+      ]
+    },
+    {
+      "correctAnswer": "Development Error Density",
+      "question": "What does DED stand for?",
+      "answers": [
+        "Development Error Density",
+        "Debugging Error Detection",
+        "Data Error Diagnosis",
+        "Design Error Density"
+      ]
+    },
+    {
+      "correctAnswer": "Weighted Code Error Density",
+      "question": "What does WCED stand for?",
+      "answers": [
+        "Weighted Code Execution Data",
+        "Weighted Code Error Density",
+        "Warning Code Error Detection",
+        "Weighted Compilation Error Detection"
+      ]
+    },
+    {
+      "correctAnswer": "Weighted Development Errors per Function Point",
+      "question": "What does WDEF stand for?",
+      "answers": [
+        "Weighted Development Efficiency Factor",
+        "Weighted Debugging Error Frequency",
+        "Weighted Development Errors per Function Point",
+        "Weighted Data Error Frequency"
+      ]
+    },
+    {
+      "correctAnswer": "Average Severity of Development Errors",
+      "question": "What does ASDE stand for?",
+      "answers": [
+        "Application Security Development Environment",
+        "Average System Development Efficiency",
+        "Average Severity of Development Errors",
+        "Application Software Debugging Environment"
+      ]
+    },
+    {
+      "correctAnswer": "Time Table Observance",
+      "question": "What does TTO stand for?",
+      "answers": [
+        "Technical Task Overview",
+        "Time Table Observance",
+        "Test Time Optimization",
+        "Total Task Organization"
+      ]
+    },
+    {
+      "correctAnswer": "Development Errors Removal Effectiveness",
+      "question": "What does DERE stand for?",
+      "answers": [
+        "Data Error Recovery Efficiency",
+        "Development Errors Removal Effectiveness",
+        "Debugging Error Resolution Environment",
+        "Design Error Reduction Evaluation"
+      ]
+    },
+    {
+      "correctAnswer": "Function-point Development Productivity",
+      "question": "What does FDevP stand for?",
+      "answers": [
+        "Function-point Development Productivity",
+        "Fast Development Process",
+        "Framework Development Protocol",
+        "Feature Development Planning"
+      ]
+    },
+    {
+      "correctAnswer": "Documentation Reuse",
+      "question": "What does DocRe stand for?",
+      "answers": [
+        "Documentation Review",
+        "Documentation Reuse",
+        "Document Retrieval",
+        "Document Reference"
+      ]
+    },
+    {
+      "correctAnswer": "HD Calls Density",
+      "question": "What does HDD stand for?",
+      "answers": [
+        "Hard Drive Density",
+        "Help Desk Documentation",
+        "HD Calls Density",
+        "High Definition Data"
+      ]
+    },
+    {
+      "correctAnswer": "Weighted HD Calls per Function Point",
+      "question": "What does WHDF stand for?",
+      "answers": [
+        "Weighted Help Desk Frequency",
+        "Weighted HD Calls per Function Point",
+        "Weighted Hardware Diagnostic Function",
+        "Weighted HD Data Flow"
+      ]
+    },
+    {
+      "correctAnswer": "HD Service Success",
+      "question": "What does HDS stand for?",
+      "answers": [
+        "Hardware Diagnostic System",
+        "HD Service Success",
+        "High Definition Service",
+        "Help Desk Support"
+      ]
+    },
+    {
+      "correctAnswer": "Software System Failure Density",
+      "question": "What does SSFD stand for?",
+      "answers": [
+        "Software System Function Design",
+        "System Security Failure Detection",
+        "Software System Failure Density",
+        "Server System Fault Diagnosis"
+      ]
+    },
+    {
+      "correctAnswer": "Maintenance Repeated-Repair Failure Metric",
+      "question": "What does MRepF stand for?",
+      "answers": [
+        "Memory Repair Function",
+        "Maintenance Repeated-Repair Failure Metric",
+        "Module Replacement Frequency",
+        "Maintenance Report File"
+      ]
+    },
+    {
+      "correctAnswer": "Vital Availability",
+      "question": "What does VitA stand for?",
+      "answers": [
+        "Virtual Task Automation",
+        "Vital Availability",
+        "Version Tracking Application",
+        "Visual Testing Algorithm"
+      ]
+    },
+    {
+      "correctAnswer": "Total Unavailability",
+      "question": "What does TUA stand for?",
+      "answers": [
+        "Technical Usage Analysis",
+        "Total Unavailability",
+        "Task Urgency Assessment",
+        "Test Unit Availability"
+      ]
+    }
+  ]
+}
