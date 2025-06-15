@@ -61,6 +61,26 @@
       ]
     },
     {
+      "correctAnswer": "Weighted Development Error Density",
+      "question": "What does WDED stand for?",
+      "answers": [
+        "Weighted Data Error Detection",
+        "Weighted Development Error Density",
+        "Web Development Error Diagnosis",
+        "Weighted Debugging Error Density"
+      ]
+    },
+    {
+      "correctAnswer": "Weighted Code Errors per Function Point",
+      "question": "What does WCEF stand for?",
+      "answers": [
+        "Weighted Code Errors per Function Point",
+        "Web Component Error Frequency",
+        "Weighted Compilation Error Frequency",
+        "Warning Code Error Factor"
+      ]
+    },
+    {
       "correctAnswer": "Weighted Development Errors per Function Point",
       "question": "What does WDEF stand for?",
       "answers": [
@@ -68,6 +88,16 @@
         "Weighted Debugging Error Frequency",
         "Weighted Development Errors per Function Point",
         "Weighted Data Error Frequency"
+      ]
+    },
+    {
+      "correctAnswer": "Average Severity of Code Errors",
+      "question": "What does ASCE stand for?",
+      "answers": [
+        "Application Security Code Environment",
+        "Average Severity of Code Errors",
+        "Automated System Code Evaluation",
+        "Advanced Software Code Examination"
       ]
     },
     {
@@ -91,6 +121,16 @@
       ]
     },
     {
+      "correctAnswer": "Average Delay of Milestone Completion",
+      "question": "What does ADMC stand for?",
+      "answers": [
+        "Application Development Management Cycle",
+        "Average Delay of Milestone Completion",
+        "Automated Deployment Monitoring Console",
+        "Agile Development Methodology Check"
+      ]
+    },
+    {
       "correctAnswer": "Development Errors Removal Effectiveness",
       "question": "What does DERE stand for?",
       "answers": [
@@ -101,6 +141,26 @@
       ]
     },
     {
+      "correctAnswer": "Development Weighted Errors Removal Effectiveness",
+      "question": "What does DWERE stand for?",
+      "answers": [
+        "Development Weighted Errors Removal Effectiveness",
+        "Data Warehouse Error Recovery Efficiency",
+        "Debugging Weighted Error Resolution Environment",
+        "Documentation Weighted Error Review Evaluation"
+      ]
+    },
+    {
+      "correctAnswer": "Development Productivity",
+      "question": "What does DevP stand for?",
+      "answers": [
+        "Device Protocol",
+        "Development Productivity",
+        "Debugging Process",
+        "Design Verification"
+      ]
+    },
+    {
       "correctAnswer": "Function-point Development Productivity",
       "question": "What does FDevP stand for?",
       "answers": [
@@ -108,6 +168,16 @@
         "Fast Development Process",
         "Framework Development Protocol",
         "Feature Development Planning"
+      ]
+    },
+    {
+      "correctAnswer": "Code Reuse",
+      "question": "What does CRe stand for?",
+      "answers": [
+        "Code Review",
+        "Code Reuse",
+        "Compilation Report",
+        "Component Reference"
       ]
     },
     {
@@ -131,6 +201,16 @@
       ]
     },
     {
+      "correctAnswer": "Weighted HD Calls Density",
+      "question": "What does WHDD stand for?",
+      "answers": [
+        "Weighted Hard Drive Data",
+        "Weighted HD Calls Density",
+        "Web Help Desk Documentation",
+        "Weighted Hardware Diagnostic Data"
+      ]
+    },
+    {
       "correctAnswer": "Weighted HD Calls per Function Point",
       "question": "What does WHDF stand for?",
       "answers": [
@@ -138,6 +218,16 @@
         "Weighted HD Calls per Function Point",
         "Weighted Hardware Diagnostic Function",
         "Weighted HD Data Flow"
+      ]
+    },
+    {
+      "correctAnswer": "Average Severity of HD Calls",
+      "question": "What does ASHC stand for?",
+      "answers": [
+        "Application Security Help Console",
+        "Average Severity of HD Calls",
+        "Automated System Help Center",
+        "Advanced Software Help Configuration"
       ]
     },
     {
@@ -151,6 +241,36 @@
       ]
     },
     {
+      "correctAnswer": "HD Productivity",
+      "question": "What does HDP stand for?",
+      "answers": [
+        "High Definition Protocol",
+        "HD Productivity",
+        "Hardware Diagnostic Process",
+        "Help Desk Procedure"
+      ]
+    },
+    {
+      "correctAnswer": "Function-Point HD Productivity",
+      "question": "What does FHDP stand for?",
+      "answers": [
+        "Function-Point HD Productivity",
+        "Fast HD Processing",
+        "Framework HD Protocol",
+        "Feature HD Planning"
+      ]
+    },
+    {
+      "correctAnswer": "HD Effectiveness",
+      "question": "What does HDE stand for?",
+      "answers": [
+        "High Definition Environment",
+        "HD Effectiveness",
+        "Hardware Diagnostic Evaluation",
+        "Help Desk Efficiency"
+      ]
+    },
+    {
       "correctAnswer": "Software System Failure Density",
       "question": "What does SSFD stand for?",
       "answers": [
@@ -161,6 +281,26 @@
       ]
     },
     {
+      "correctAnswer": "Weighted Software System Failure Density",
+      "question": "What does WSSFD stand for?",
+      "answers": [
+        "Web System Security Fault Detection",
+        "Weighted Software System Failure Density",
+        "Workstation System Failure Diagnosis",
+        "Weighted Server System Fault Data"
+      ]
+    },
+    {
+      "correctAnswer": "Weighted Software System Failures per Function Point",
+      "question": "What does WSSFF stand for?",
+      "answers": [
+        "Weighted Software System Failures per Function Point",
+        "Web Service Security Fault Frequency",
+        "Workstation System Failure Frequency",
+        "Weighted Server System Fault Factor"
+      ]
+    },
+    {
       "correctAnswer": "Maintenance Repeated-Repair Failure Metric",
       "question": "What does MRepF stand for?",
       "answers": [
@@ -168,6 +308,16 @@
         "Maintenance Repeated-Repair Failure Metric",
         "Module Replacement Frequency",
         "Maintenance Report File"
+      ]
+    },
+    {
+      "correctAnswer": "Full Availability",
+      "question": "What does FA stand for?",
+      "answers": [
+        "Functional Analysis",
+        "Full Availability",
+        "Failure Assessment",
+        "Framework Architecture"
       ]
     },
     {
