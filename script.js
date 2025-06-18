@@ -58,6 +58,13 @@ function validateAnswer(correctAnswer) {
             // Blink the correct answer twice
             blinkCorrectAnswer(correctLabel);
         }
+        // Add to wrong answers in localStorage
+        let wrongAnswers = JSON.parse(localStorage.getItem('wrongAnswers') || '[]');
+        // Avoid duplicates by checking question text
+        if (!wrongAnswers.some(q => q.question === questions[index].question)) {
+            wrongAnswers.push(questions[index]);
+            localStorage.setItem('wrongAnswers', JSON.stringify(wrongAnswers));
+        }
     }
     blacklist.push(index);
     return answer === correctAnswer;
@@ -143,6 +150,29 @@ function shuffle(array) {
     }
 }
 
+function shuffleAnswersForMCQ(questionsArr) {
+    return questionsArr.map(q => {
+        if (q.answers.length > 2) {
+            // Shuffle answers and update correctAnswer
+            let answersCopy = [...q.answers];
+            let correctIdx = answersCopy.indexOf(q.correctAnswer);
+            // Fisher-Yates shuffle
+            for (let i = answersCopy.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [answersCopy[i], answersCopy[j]] = [answersCopy[j], answersCopy[i]];
+            }
+            // Update correctAnswer to new value
+            return {
+                ...q,
+                answers: answersCopy,
+                correctAnswer: q.correctAnswer // correctAnswer stays the same value
+            };
+        } else {
+            return q;
+        }
+    });
+}
+
 // Toggle shuffle functionality
 function toggleShuffle() {
     if (isShuffled) {
@@ -151,7 +181,10 @@ function toggleShuffle() {
         snackbar('Questions reverted to original order.', false);
     } else {
         originalQuestions = [...questions]; // Store original order
+        // Shuffle questions
         shuffle(questions);
+        // Shuffle answers for MCQs only
+        questions = shuffleAnswersForMCQ(questions);
         isShuffled = true;
         snackbar('Questions shuffled.', false);
     }
@@ -178,7 +211,10 @@ window.onload = function () {
         return;
     }
 
-    fetch(file)
+    // Always fetch from jsons folder
+    const filePath = `jsons/${file}`;
+
+    fetch(filePath)
         .then((response) => {
             if (!response.ok) {
                 throw new Error('Failed to fetch questions.');
