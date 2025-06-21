@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "correctAnswer": "Singleton pattern",
+      "question": "Which design pattern is demonstrated by this code?",
+      "code": "public class DatabaseConnection {\n  private static DatabaseConnection instance;\n  private DatabaseConnection() {}\n  public static DatabaseConnection getInstance() {\n    if (instance == null) {\n      instance = new DatabaseConnection();\n    }\n    return instance;\n  }\n}",
+      "answers": ["Factory Method", "Singleton pattern", "Builder", "Prototype"]
+    },
+    {
+      "correctAnswer": "Singleton pattern",
+      "question": "Which design pattern is shown in this implementation?",
+      "code": "public class Logger {\n  private static Logger logger;\n  private Logger() {}\n  public static synchronized Logger getLogger() {\n    if (logger == null) {\n      logger = new Logger();\n    }\n    return logger;\n  }\n}",
+      "answers": ["Adapter", "Singleton pattern", "Decorator", "Observer"]
+    },
+    {
+      "correctAnswer": "Singleton pattern",
+      "question": "Which design pattern does this code example represent?",
+      "code": "public class AppConfig {\n  private static AppConfig config = new AppConfig();\n  private AppConfig() {}\n  public static AppConfig getConfig() {\n    return config;\n  }\n}",
+      "answers": ["Strategy", "Facade", "Singleton pattern", "Composite"]
+    },
+    {
+      "correctAnswer": "Strategy pattern",
+      "question": "Which design pattern is illustrated by this code?",
+      "code": "interface CompressionStrategy {\n  void compress(String file);\n}\nclass ZipCompression implements CompressionStrategy {\n  public void compress(String file) { /*...*/ }\n}\nclass RarCompression implements CompressionStrategy {\n  public void compress(String file) { /*...*/ }\n}",
+      "answers": ["Strategy pattern", "Template Method", "Visitor", "Chain of Responsibility"]
+    },
+    {
+      "correctAnswer": "Strategy pattern",
+      "question": "Which design pattern is being used in this example?",
+      "code": "interface PaymentStrategy {\n  void pay(int amount);\n}\nclass CreditCardPayment implements PaymentStrategy {\n  public void pay(int amount) { /*...*/ }\n}\nclass PayPalPayment implements PaymentStrategy {\n  public void pay(int amount) { /*...*/ }\n}",
+      "answers": ["Decorator", "Strategy pattern", "Proxy", "Bridge"]
+    },
+    {
+      "correctAnswer": "Strategy pattern",
+      "question": "Which design pattern does this code demonstrate?",
+      "code": "interface SortAlgorithm {\n  void sort(int[] data);\n}\nclass QuickSort implements SortAlgorithm {\n  public void sort(int[] data) { /*...*/ }\n}\nclass MergeSort implements SortAlgorithm {\n  public void sort(int[] data) { /*...*/ }\n}",
+      "answers": ["Observer", "Strategy pattern", "State", "Command"]
+    },
+    {
+      "correctAnswer": "Facade pattern",
+      "question": "Which design pattern is shown in this implementation?",
+      "code": "class HomeTheaterFacade {\n  private Amplifier amp;\n  private DvdPlayer dvd;\n  public HomeTheaterFacade(Amplifier a, DvdPlayer d) {\n    this.amp = a;\n    this.dvd = d;\n  }\n  public void watchMovie() {\n    amp.on();\n    dvd.on();\n    dvd.play();\n  }\n}",
+      "answers": ["Mediator", "Proxy", "Facade pattern", "Flyweight"]
+    },
+    {
+      "correctAnswer": "Facade pattern",
+      "question": "Which design pattern does this code represent?",
+      "code": "class Computer {\n  private CPU cpu;\n  private Memory memory;\n  public Computer() {\n    this.cpu = new CPU();\n    this.memory = new Memory();\n  }\n  public void start() {\n    cpu.initialize();\n    memory.load();\n  }\n}",
+      "answers": ["Composite", "Facade pattern", "Adapter", "Bridge"]
+    },
+    {
+      "correctAnswer": "Facade pattern",
+      "question": "Which design pattern is demonstrated by this code?",
+      "code": "class BankAccountFacade {\n  private AccountNumberCheck acctChecker;\n  private SecurityCodeCheck codeChecker;\n  public BankAccountFacade() {\n    this.acctChecker = new AccountNumberCheck();\n    this.codeChecker = new SecurityCodeCheck();\n  }\n  public void withdrawCash(double amount) {\n    if (acctChecker.validate() && codeChecker.validate()) {\n      // Process withdrawal\n    }\n  }\n}",
+      "answers": ["Decorator", "Facade pattern", "Chain of Responsibility", "Visitor"]
+    },
+    {
+      "correctAnswer": "Facade pattern",
+      "question": "Which design pattern is being used in this example?",
+      "code": "class OrderProcessingFacade {\n  private InventorySystem inventory;\n  private PaymentSystem payment;\n  private ShippingSystem shipping;\n  public OrderProcessingFacade() {\n    this.inventory = new InventorySystem();\n    this.payment = new PaymentSystem();\n    this.shipping = new ShippingSystem();\n  }\n  public void placeOrder(Order order) {\n    inventory.checkStock();\n    payment.processPayment();\n    shipping.shipOrder();\n  }\n}",
+      "answers": ["Observer", "Strategy", "Facade pattern", "Proxy"]
+    }
+  ]
+}

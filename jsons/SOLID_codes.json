@@ -142,6 +142,39 @@
         "Liskov Substitution Principle",
         "Interface Segregation Principle"
       ]
+    },
+    {
+      "correctAnswer": "Violates Law of Demeter",
+      "question": "What's special about this code?",
+      "code": "class ReportGenerator {\n  void generate() {\n    String data = database.getConnection().getQuery().execute();\n  }\n}",
+      "answers": [
+        "Follows Law of Demeter",
+        "Violates Law of Demeter",
+        "Demonstrates Dependency Injection",
+        "Shows High Cohesion"
+      ]
+    },
+    {
+      "correctAnswer": "Follows Law of Demeter",
+      "question": "What's special about this code?",
+      "code": "class ReportGenerator {\n  void generate() {\n    String data = database.executeQuery();\n  }\n}",
+      "answers": [
+        "Violates Law of Demeter",
+        "Follows Law of Demeter",
+        "Shows Tight Coupling",
+        "Breaks Single Responsibility"
+      ]
+    },
+    {
+      "correctAnswer": "Violates Law of Demeter",
+      "question": "What's special about this code?",
+      "code": "class Car {\n  Engine getEngine() { /*...*/ }\n}\nclass Mechanic {\n  void checkOil(Car car) {\n    int level = car.getEngine().getOil().getLevel();\n  }\n}",
+      "answers": [
+        "Follows Law of Demeter",
+        "Violates Law of Demeter",
+        "Demonstrates High Cohesion",
+        "Shows Loose Coupling"
+      ]
     }
   ]
 }

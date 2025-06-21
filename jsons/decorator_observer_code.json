@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "correctAnswer": "Decorator pattern",
+      "question": "Which design pattern is demonstrated by this code?",
+      "code": "public interface Coffee {\n    double getCost();\n    String getDescription();\n}\n\npublic class SimpleCoffee implements Coffee {\n    public double getCost() { return 1.0; }\n    public String getDescription() { return \"Simple coffee\"; }\n}\n\npublic abstract class CoffeeDecorator implements Coffee {\n    protected Coffee decoratedCoffee;\n    public CoffeeDecorator(Coffee coffee) { this.decoratedCoffee = coffee; }\n    public double getCost() { return decoratedCoffee.getCost(); }\n    public String getDescription() { return decoratedCoffee.getDescription(); }\n}",
+      "answers": ["Strategy pattern", "Decorator pattern", "Adapter pattern", "Proxy pattern"]
+    },
+    {
+      "correctAnswer": "Decorator pattern",
+      "question": "Which pattern is shown in this implementation?",
+      "code": "public class MilkDecorator extends CoffeeDecorator {\n    public MilkDecorator(Coffee coffee) { super(coffee); }\n    public double getCost() { return super.getCost() + 0.5; }\n    public String getDescription() { return super.getDescription() + \", milk\"; }\n}",
+      "answers": ["Factory Method", "Decorator pattern", "Composite", "Bridge"]
+    },
+    {
+      "correctAnswer": "Decorator pattern",
+      "question": "Which pattern does this code example represent?",
+      "code": "public class WhipDecorator extends CoffeeDecorator {\n    public WhipDecorator(Coffee coffee) { super(coffee); }\n    public double getCost() { return super.getCost() + 0.7; }\n    public String getDescription() { return super.getDescription() + \", whip\"; }\n}",
+      "answers": ["Observer", "Decorator pattern", "Visitor", "Template Method"]
+    },
+    {
+      "correctAnswer": "Decorator pattern",
+      "question": "Which pattern is illustrated by this code?",
+      "code": "Coffee myCoffee = new SimpleCoffee();\nmyCoffee = new MilkDecorator(myCoffee);\nmyCoffee = new WhipDecorator(myCoffee);",
+      "answers": ["Chain of Responsibility", "Decorator pattern", "Flyweight", "Memento"]
+    },
+    {
+      "correctAnswer": "Decorator pattern",
+      "question": "Which pattern is being used in this example?",
+      "code": "public class VanillaDecorator extends CoffeeDecorator {\n    public VanillaDecorator(Coffee coffee) { super(coffee); }\n    public double getCost() { return super.getCost() + 0.3; }\n    public String getDescription() { return super.getDescription() + \", vanilla\"; }\n}",
+      "answers": ["Singleton", "Decorator pattern", "Prototype", "Builder"]
+    },
+    {
+      "correctAnswer": "Observer pattern",
+      "question": "Which design pattern is demonstrated by this code?",
+      "code": "public interface Subject {\n    void registerObserver(Observer o);\n    void removeObserver(Observer o);\n    void notifyObservers();\n}\n\npublic interface Observer {\n    void update(float temp, float humidity, float pressure);\n}",
+      "answers": ["Mediator pattern", "Observer pattern", "Command pattern", "State pattern"]
+    },
+    {
+      "correctAnswer": "Observer pattern",
+      "question": "Which pattern is shown in this implementation?",
+      "code": "public class WeatherData implements Subject {\n    private List<Observer> observers;\n    private float temperature;\n    private float humidity;\n    private float pressure;\n    \n    public void registerObserver(Observer o) { observers.add(o); }\n    public void removeObserver(Observer o) { observers.remove(o); }\n    public void notifyObservers() {\n        for (Observer o : observers) {\n            o.update(temperature, humidity, pressure);\n        }\n    }\n}",
+      "answers": ["Visitor pattern", "Observer pattern", "Strategy pattern", "Proxy pattern"]
+    },
+    {
+      "correctAnswer": "Observer pattern",
+      "question": "Which pattern does this code example represent?",
+      "code": "public class CurrentConditionsDisplay implements Observer {\n    private float temperature;\n    private float humidity;\n    private Subject weatherData;\n    \n    public CurrentConditionsDisplay(Subject weatherData) {\n        this.weatherData = weatherData;\n        weatherData.registerObserver(this);\n    }\n    \n    public void update(float temp, float humidity, float pressure) {\n        this.temperature = temp;\n        this.humidity = humidity;\n        display();\n    }\n}",
+      "answers": ["Decorator pattern", "Observer pattern", "Adapter pattern", "Facade pattern"]
+    },
+    {
+      "correctAnswer": "Observer pattern",
+      "question": "Which pattern is illustrated by this code?",
+      "code": "WeatherData weatherData = new WeatherData();\nCurrentConditionsDisplay currentDisplay = new CurrentConditionsDisplay(weatherData);\nStatisticsDisplay statsDisplay = new StatisticsDisplay(weatherData);\nweatherData.setMeasurements(80, 65, 30.4f);",
+      "answers": ["Chain of Responsibility", "Observer pattern", "Composite", "Bridge"]
+    },
+    {
+      "correctAnswer": "Observer pattern",
+      "question": "Which pattern is being used in this example?",
+      "code": "public class WeatherStation {\n    public static void main(String[] args) {\n        WeatherData weatherData = new WeatherData();\n        \n        CurrentConditionsDisplay currentDisplay = \n            new CurrentConditionsDisplay(weatherData);\n        \n        weatherData.setMeasurements(78, 90, 29.2f);\n    }\n}",
+      "answers": ["Singleton", "Observer pattern", "Prototype", "Builder"]
+    }
+  ]
+}

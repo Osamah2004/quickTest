@@ -1,0 +1,19 @@
+{
+  "questions": [
+    {"correctAnswer": "Structural", "question": "The Decorator pattern belongs to which category of design patterns?", "answers": ["Creational", "Structural", "Behavioral", "Concurrency"]},
+    {"correctAnswer": "Add responsibilities dynamically", "question": "What is the primary purpose of the Decorator pattern?", "answers": ["Create singleton instances", "Add responsibilities dynamically", "Implement multiple inheritance", "Encapsulate object creation"]},
+    {"correctAnswer": "Wrapper", "question": "What alternative name is sometimes used for the Decorator pattern?", "answers": ["Adapter", "Wrapper", "Proxy", "Facade"]},
+    {"correctAnswer": "Open-closed principle", "question": "Which design principle does the Decorator pattern primarily support?", "answers": ["Single responsibility principle", "Open-closed principle", "Liskov substitution principle", "Interface segregation principle"]},
+    {"correctAnswer": "Runtime", "question": "When does the Decorator pattern add functionality to objects?", "answers": ["Compile time", "Runtime", "Design time", "Load time"]},
+    {"correctAnswer": "Avoid subclass explosion", "question": "What problem does the Decorator pattern help solve regarding class hierarchies?", "answers": ["Avoid subclass explosion", "Reduce method parameters", "Simplify inheritance", "Minimize interfaces"]},
+    {"correctAnswer": "Same interface", "question": "What must decorators maintain with the components they decorate?", "answers": ["Same interface", "Same implementation", "Same state", "Same constructor"]},
+    {"correctAnswer": "java.io package", "question": "Where is the Decorator pattern commonly used in Java's standard library?", "answers": ["java.util package", "java.io package", "java.lang package", "java.net package"]},
+    {"correctAnswer": "Multiple decorators", "question": "What can be applied to a single component in the Decorator pattern?", "answers": ["Only one decorator", "Multiple decorators", "Exactly two decorators", "No decorators"]},
+    {"correctAnswer": "Component", "question": "What is the name of the base interface/class in the Decorator pattern?", "answers": ["Decorator", "Component", "Wrapper", "ConcreteComponent"]},
+    {"correctAnswer": "Transparent", "question": "How should decorators appear to clients using the decorated object?", "answers": ["Opaque", "Transparent", "Visible", "Hidden"]},
+    {"correctAnswer": "Order matters", "question": "What is true about the order in which decorators are applied?", "answers": ["Order doesn't matter", "Order matters", "Reverse order matters", "Only alphabetical order matters"]},
+    {"correctAnswer": "Flexibility", "question": "What is a key advantage of the Decorator pattern over inheritance?", "answers": ["Performance", "Flexibility", "Simplicity", "Type safety"]},
+    {"correctAnswer": "Increased number of objects", "question": "What is a potential drawback of the Decorator pattern?", "answers": ["Increased number of objects", "Reduced type safety", "Slower compilation", "Harder to debug"]},
+    {"correctAnswer": "Ice cream toppings", "question": "What is a classic example used to explain the Decorator pattern?", "answers": ["Coffee additives", "Ice cream toppings", "Pizza ingredients", "Sandwich layers"]}
+  ]
+}

@@ -290,6 +290,12 @@
         "Interface Segregation Principle"
       ]
     },
+    {"correctAnswer": "Law of Demeter", "question": "Which principle states that a method should only call methods of its own class, its parameters, or objects it creates?", "answers": ["Single Responsibility Principle", "Law of Demeter", "Liskov Substitution Principle", "Interface Segregation Principle"]},
+    {"correctAnswer": "Reduces coupling between classes", "question": "What is the primary benefit of following the Law of Demeter?", "answers": ["Improves performance", "Reduces coupling between classes", "Increases code reuse", "Simplifies inheritance"]},
+    {"correctAnswer": "Train wreck", "question": "What is the term for a chain of method calls that violates the Law of Demeter?", "answers": ["Method chaining", "Train wreck", "Call stack", "Dependency chain"]},
+    {"correctAnswer": "Only direct friends", "question": "According to the Law of Demeter, which objects can a method directly access?", "answers": ["Any object in the system", "Only static objects", "Only direct friends", "Only superclass objects"]},
+    {"correctAnswer": "Delegation", "question": "What technique helps comply with the Law of Demeter by having intermediate objects handle requests?", "answers": ["Inheritance", "Polymorphism", "Delegation", "Encapsulation"]},
+    {"correctAnswer": "Maintainability", "question": "Which software quality is most improved by following the Law of Demeter?", "answers": ["Performance", "Maintainability", "Memory efficiency", "Thread safety"]},
     {
       "correctAnswer": "Dependency Inversion Principle",
       "question": "Which principle is demonstrated by injecting NotificationService into Notifier instead of directly using EmailService?",

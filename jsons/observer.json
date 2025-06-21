@@ -1,0 +1,17 @@
+{
+  "questions": [
+    {"correctAnswer": "Behavioral", "question": "The Observer pattern belongs to which category of design patterns?", "answers": ["Creational", "Structural", "Behavioral", "Concurrency"]},
+    {"correctAnswer": "One-to-many dependency", "question": "What relationship does the Observer pattern establish between objects?", "answers": ["One-to-one dependency", "One-to-many dependency", "Many-to-many dependency", "No dependency"]},
+    {"correctAnswer": "Subject", "question": "What is the name of the object being observed in the Observer pattern?", "answers": ["Observer", "Subject", "Publisher", "Notifier"]},
+    {"correctAnswer": "Update", "question": "What is the key method in the Observer interface?", "answers": ["Notify", "Update", "Observe", "Watch"]},
+    {"correctAnswer": "Loose coupling", "question": "What is the primary benefit of using the Observer pattern?", "answers": ["Improved performance", "Loose coupling", "Reduced memory usage", "Faster compilation"]},
+    {"correctAnswer": "Push and pull", "question": "What are the two models for data transfer in the Observer pattern?", "answers": ["Send and receive", "Push and pull", "Request and response", "Publish and subscribe"]},
+    {"correctAnswer": "Event handling systems", "question": "Where is the Observer pattern commonly used?", "answers": ["Database systems", "Event handling systems", "Mathematical computations", "File operations"]},
+    {"correctAnswer": "Deprecated", "question": "What is the status of Java's built-in Observer/Observable classes?", "answers": ["Recommended", "Deprecated", "Experimental", "Internal use only"]},
+    {"correctAnswer": "Multiple observers", "question": "How many observers can a subject typically have in this pattern?", "answers": ["Only one", "Exactly two", "Multiple observers", "None"]},
+    {"correctAnswer": "State change", "question": "When does the subject notify its observers?", "answers": ["Periodically", "State change", "On request", "Randomly"]},
+    {"correctAnswer": "Cascading updates", "question": "What is a potential drawback of the Observer pattern?", "answers": ["Cascading updates", "Memory leaks", "Thread deadlocks", "Compiler errors"]},
+    {"correctAnswer": "Weather station", "question": "What is a classic example used to explain the Observer pattern?", "answers": ["Bank account", "Weather station", "Shopping cart", "File system"]},
+    {"correctAnswer": "Mediator", "question": "Which pattern is closely related to Observer but focuses on centralized communication?", "answers": ["Decorator", "Mediator", "Facade", "Proxy"]}
+  ]
+}

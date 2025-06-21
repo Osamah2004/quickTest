@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {"correctAnswer": "Architectural", "question": "MVC is primarily what type of pattern?", "answers": ["Creational", "Structural", "Behavioral", "Architectural"]},
+    {"correctAnswer": "Model", "question": "Which MVC component contains the application data and business logic?", "answers": ["Model", "View", "Controller", "Presenter"]},
+    {"correctAnswer": "View", "question": "Which MVC component is responsible for displaying data to the user?", "answers": ["Model", "View", "Controller", "Adapter"]},
+    {"correctAnswer": "Controller", "question": "Which MVC component handles user input and updates the model?", "answers": ["Model", "View", "Controller", "Decorator"]},
+    {"correctAnswer": "Separation of concerns", "question": "What is the primary benefit of using MVC?", "answers": ["Faster execution", "Separation of concerns", "Smaller code size", "Better type safety"]},
+    {"correctAnswer": "Observer", "question": "Which design pattern is commonly used between Model and View in MVC?", "answers": ["Singleton", "Observer", "Decorator", "Factory"]},
+    {"correctAnswer": "Multiple views", "question": "What can a single model have in MVC?", "answers": ["Only one view", "Multiple views", "No views", "Exactly two views"]},
+    {"correctAnswer": "Web applications", "question": "Where is MVC particularly popular?", "answers": ["Device drivers", "Web applications", "Mathematical libraries", "Operating systems"]},
+    {"correctAnswer": "User mental model", "question": "What does the Model in MVC ideally represent?", "answers": ["Database schema", "User mental model", "Network protocol", "File system structure"]},
+    {"correctAnswer": "1970s", "question": "When was MVC first introduced?", "answers": ["1950s", "1970s", "1990s", "2000s"]},
+    {"correctAnswer": "Smalltalk", "question": "In which programming environment was MVC originally developed?", "answers": ["Java", "Smalltalk", "C++", "Lisp"]},
+    {"correctAnswer": "Composite", "question": "Which pattern is used for nested views in MVC?", "answers": ["Decorator", "Composite", "Adapter", "Bridge"]},
+    {"correctAnswer": "Business rules", "question": "What does the Controller typically contain besides input handling?", "answers": ["Database connections", "Business rules", "UI elements", "Network protocols"]},
+    {"correctAnswer": "Maintainability", "question": "What quality does MVC particularly improve in applications?", "answers": ["Performance", "Maintainability", "Memory usage", "Compilation speed"]},
+    {"correctAnswer": "Novice programmers", "question": "Who might find MVC confusing according to the slides?", "answers": ["Novice programmers", "Database administrators", "System architects", "QA testers"]},
+    {"correctAnswer": "Subscribe/notify", "question": "What protocol does MVC establish between Model and View?", "answers": ["Request/response", "Subscribe/notify", "Publish/subscribe", "Command/query"]},
+    {"correctAnswer": "Game development", "question": "Where was MVC used in the course examples?", "answers": ["Game development", "Web servers", "Mobile apps", "Data analysis"]},
+    {"correctAnswer": "Sky class", "question": "Which class in the lab example mixed model and view concerns?", "answers": ["Crab class", "Sky class", "BeachController", "IslandObject"]},
+    {"correctAnswer": "Decorator", "question": "What pattern was suggested to fix the view mixing in the lab example?", "answers": ["Observer", "Decorator", "Strategy", "Singleton"]},
+    {"correctAnswer": "Undo/redo", "question": "What functionality demonstrates the importance of separating model and view?", "answers": ["Database access", "Undo/redo", "File saving", "Network communication"]}
+  ]
+}

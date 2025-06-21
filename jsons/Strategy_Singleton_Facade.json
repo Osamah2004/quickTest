@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {"correctAnswer": "Creational", "question": "The Singleton pattern belongs to which category of design patterns?", "answers": ["Creational", "Structural", "Behavioral", "Concurrency"]},
+    {"correctAnswer": "Ensure only one instance exists", "question": "What is the primary purpose of the Singleton pattern?", "answers": ["Enable multiple instances", "Ensure only one instance exists", "Improve performance", "Simplify inheritance"]},
+    {"correctAnswer": "Global access point", "question": "What does the Singleton pattern provide for its single instance?", "answers": ["Thread safety by default", "Global access point", "Automatic serialization", "Dynamic reloading"]},
+    {"correctAnswer": "Behavioral", "question": "The Strategy pattern belongs to which category of design patterns?", "answers": ["Creational", "Structural", "Behavioral", "Architectural"]},
+    {"correctAnswer": "Interchangeable algorithms", "question": "What does the Strategy pattern enable for algorithms?", "answers": ["Automatic optimization", "Interchangeable algorithms", "Static binding", "Global access"]},
+    {"correctAnswer": "Family of algorithms", "question": "What does the Strategy pattern help organize into separate classes?", "answers": ["Database connections", "User interfaces", "Family of algorithms", "Network protocols"]},
+    {"correctAnswer": "Structural", "question": "The Facade pattern belongs to which category of design patterns?", "answers": ["Creational", "Structural", "Behavioral", "Functional"]},
+    {"correctAnswer": "Simplified interface", "question": "What does the Facade pattern provide for complex subsystems?", "answers": ["Simplified interface", "Direct access", "Automatic caching", "Dynamic loading"]},
+    {"correctAnswer": "Subsystem complexity", "question": "What does the Facade pattern primarily hide from clients?", "answers": ["Performance issues", "Subsystem complexity", "Memory usage", "Thread safety"]},
+    {"correctAnswer": "Single entry point", "question": "What architectural role does a Facade typically serve?", "answers": ["Single entry point", "Multiple endpoints", "Data storage", "Network gateway"]}
+  ]
+}
