@@ -1,0 +1,3749 @@
+{
+  "questions": [
+    {
+      "correctAnswer": "How good or bad something is",
+      "question": "Merriam-Webster's primary quality definition?",
+      "answers": [
+        "Development speed",
+        "How good or bad something is",
+        "Feature count",
+        "Production cost"
+      ]
+    },
+    {
+      "correctAnswer": "Quality of design and quality of conformance",
+      "question": "Software quality measures what two aspects?",
+      "answers": [
+        "Code length/complexity",
+        "Quality of design and quality of conformance",
+        "Developer productivity",
+        "User satisfaction"
+      ]
+    },
+    {
+      "correctAnswer": "Process quality, Product quality, Quality in use",
+      "question": "ISO/IEC 9126 quality divisions?",
+      "answers": [
+        "Frontend/backend quality",
+        "Process quality, Product quality, Quality in use",
+        "Code/test quality",
+        "Development/maintenance quality"
+      ]
+    },
+    {
+      "correctAnswer": "Functional Suitability, Performance efficiency, Compatibility, Usability, Reliability, Security, Maintainability, Portability",
+      "question": "ISO 25010 system quality characteristics?",
+      "answers": [
+        "Speed/cost/scalability",
+        "Functional Suitability, Performance efficiency, Compatibility, Usability, Reliability, Security, Maintainability, Portability",
+        "Bugs/features/tests",
+        "Code style/comments"
+      ]
+    },
+    {
+      "correctAnswer": "Anti-patterns",
+      "question": "What are poor design solutions to recurring problems called?",
+      "answers": [
+        "Design patterns",
+        "Anti-patterns",
+        "Best practices",
+        "Code standards"
+      ]
+    },
+    {
+      "correctAnswer": "Code Smells",
+      "question": "Term for poor local coding decisions?",
+      "answers": [
+        "Anti-patterns",
+        "Code Smells",
+        "Lexical smells",
+        "Architecture smells"
+      ]
+    },
+    {
+      "correctAnswer": "Lexical smells",
+      "question": "Category for poor naming/documentation?",
+      "answers": [
+        "Anti-patterns",
+        "Code Smells",
+        "Lexical smells",
+        "Design flaws"
+      ]
+    },
+    {
+      "correctAnswer": "The Blob",
+      "question": "Which anti-pattern features a large low-cohesion controller class?",
+      "answers": [
+        "Golden Hammer",
+        "The Blob",
+        "Spaghetti Code",
+        "Lava Flow"
+      ]
+    },
+    {
+      "correctAnswer": "Spaghetti Code",
+      "question": "Anti-pattern with unpredictable change impacts?",
+      "answers": [
+        "The Blob",
+        "Dead End",
+        "Spaghetti Code",
+        "Input Kludge"
+      ]
+    },
+    {
+      "correctAnswer": "Large class, Long method, Data Clumps, Primitive Obsession, Long Parameter List",
+      "question": "Which are Bloater code smells?",
+      "answers": [
+        "Large class, Long method, Data Clumps, Primitive Obsession, Long Parameter List",
+        "Comments, Dead code",
+        "Switch statements",
+        "Feature envy"
+      ]
+    },
+    {
+      "correctAnswer": "Switch Statements, Alternative Classes, Refused Bequest",
+      "question": "Object orientation abuser smells?",
+      "answers": [
+        "Data Clumps",
+        "Switch Statements, Alternative Classes, Refused Bequest",
+        "Long Method",
+        "Duplicate Code"
+      ]
+    },
+    {
+      "correctAnswer": "Comments, Duplicate Code, Dead Code, Speculative Generality, Lazy Class",
+      "question": "Dispensable code smells?",
+      "answers": [
+        "Large Class",
+        "Comments, Duplicate Code, Dead Code, Speculative Generality, Lazy Class",
+        "Data Clumps",
+        "Feature Envy"
+      ]
+    },
+    {
+      "correctAnswer": "Feature Envy, Inappropriate Intimacy, Middle Man, Message Chains",
+      "question": "Coupler code smells?",
+      "answers": [
+        "Primitive Obsession",
+        "Feature Envy, Inappropriate Intimacy, Middle Man, Message Chains",
+        "Long Parameter List",
+        "Switch Statements"
+      ]
+    },
+    {
+      "correctAnswer": "Divergent change, Shotgun surgery, Parallel Inheritance",
+      "question": "Change preventer smells?",
+      "answers": [
+        "Data Clumps",
+        "Divergent change, Shotgun surgery, Parallel Inheritance",
+        "Long Method",
+        "Duplicate Code"
+      ]
+    },
+    {
+      "correctAnswer": "Lost OO advantage, Hard to reuse/test, Expensive to load",
+      "question": "Consequences of The Blob?",
+      "answers": [
+        "Improved performance",
+        "Lost OO advantage, Hard to reuse/test, Expensive to load",
+        "Better encapsulation",
+        "Easier maintenance"
+      ]
+    },
+    {
+      "correctAnswer": "Unpredictable object use, Difficult to reuse, Lost OO benefits",
+      "question": "Spaghetti Code consequences?",
+      "answers": [
+        "Better performance",
+        "Unpredictable object use, Difficult to reuse, Lost OO benefits",
+        "Improved readability",
+        "Easier testing"
+      ]
+    },
+    {
+      "correctAnswer": "Break Single Responsibility Principle",
+      "question": "What principle do Bloaters violate?",
+      "answers": [
+        "Open/Closed Principle",
+        "Break Single Responsibility Principle",
+        "Liskov Substitution",
+        "Interface Segregation"
+      ]
+    },
+    {
+      "correctAnswer": "Incomplete/incorrect OOP use",
+      "question": "What characterizes Object Orientation Abusers?",
+      "answers": [
+        "Excessive documentation",
+        "Incomplete/incorrect OOP use",
+        "Too many comments",
+        "Overuse of inheritance"
+      ]
+    },
+    {
+      "correctAnswer": "Pointless/unneeded code",
+      "question": "Dispensables definition?",
+      "answers": [
+        "Complex algorithms",
+        "Pointless/unneeded code",
+        "Performance optimizations",
+        "Essential utilities"
+      ]
+    },
+    {
+      "correctAnswer": "Excessive coupling/delegation",
+      "question": "Couplers characteristic?",
+      "answers": [
+        "Low cohesion",
+        "Excessive coupling/delegation",
+        "Too many interfaces",
+        "Inheritance abuse"
+      ]
+    },
+    {
+      "correctAnswer": "Changes require many modifications",
+      "question": "Change Preventers issue?",
+      "answers": [
+        "Hard to document",
+        "Changes require many modifications",
+        "Complex logic",
+        "Performance overhead"
+      ]
+    },
+    {
+      "correctAnswer": "Low cohesion",
+      "question": "Primary symptom of The Blob?",
+      "answers": [
+        "High cohesion",
+        "Low cohesion",
+        "Proper encapsulation",
+        "Good abstraction"
+      ]
+    },
+    {
+      "correctAnswer": "Procedural style in OO code",
+      "question": "Spaghetti Code symptom?",
+      "answers": [
+        "Excessive OO",
+        "Procedural style in OO code",
+        "Too many interfaces",
+        "Over-abstraction"
+      ]
+    },
+    {
+      "correctAnswer": "Many parameters often used together",
+      "question": "Data Clumps identification?",
+      "answers": [
+        "Global variables",
+        "Many parameters often used together",
+        "Too many classes",
+        "Complex inheritance"
+      ]
+    },
+    {
+      "correctAnswer": "Overuse of primitives instead of objects",
+      "question": "Primitive Obsession meaning?",
+      "answers": [
+        "Using only objects",
+        "Overuse of primitives instead of objects",
+        "Avoiding primitives",
+        "Too many wrappers"
+      ]
+    },
+    {
+      "correctAnswer": "Method with too many parameters",
+      "question": "Long Parameter List definition?",
+      "answers": [
+        "Short methods",
+        "Method with too many parameters",
+        "Global access",
+        "Static methods"
+      ]
+    },
+    {
+      "correctAnswer": "Using switch instead of polymorphism",
+      "question": "Switch Statements smell?",
+      "answers": [
+        "Using enums",
+        "Using switch instead of polymorphism",
+        "Proper polymorphism",
+        "Interface overuse"
+      ]
+    },
+    {
+      "correctAnswer": "Subclass doesn't use inherited features",
+      "question": "Refused Bequest meaning?",
+      "answers": [
+        "Proper inheritance",
+        "Subclass doesn't use inherited features",
+        "Interface implementation",
+        "Method overriding"
+      ]
+    },
+    {
+      "correctAnswer": "Unnecessary explanatory comments",
+      "question": "Comments smell refers to what?",
+      "answers": [
+        "No comments",
+        "Unnecessary explanatory comments",
+        "Good documentation",
+        "Code removal"
+      ]
+    },
+    {
+      "correctAnswer": "Identical/similar code in multiple places",
+      "question": "Duplicate Code definition?",
+      "answers": [
+        "Unique code",
+        "Identical/similar code in multiple places",
+        "Generated code",
+        "Template code"
+      ]
+    },
+    {
+      "correctAnswer": "Unused code that's never executed",
+      "question": "Dead Code meaning?",
+      "answers": [
+        "Critical code",
+        "Unused code that's never executed",
+        "Legacy code",
+        "Deprecated code"
+      ]
+    },
+    {
+      "correctAnswer": "Future-proofing that's never used",
+      "question": "Speculative Generality issue?",
+      "answers": [
+        "Needed features",
+        "Future-proofing that's never used",
+        "Proper planning",
+        "Essential abstraction"
+      ]
+    },
+    {
+      "correctAnswer": "Class doing almost nothing",
+      "question": "Lazy Class definition?",
+      "answers": [
+        "Overworked class",
+        "Class doing almost nothing",
+        "Utility class",
+        "Singleton"
+      ]
+    },
+    {
+      "correctAnswer": "Method uses another class's features more",
+      "question": "Feature Envy characteristic?",
+      "answers": [
+        "Method uses another class's features more",
+        "Static methods",
+        "Private access",
+        "Inheritance"
+      ]
+    },
+    {
+      "correctAnswer": "Chained method calls (a.b.c.d())",
+      "question": "Message Chains identification?",
+      "answers": [
+        "Short methods",
+        "Chained method calls (a.b.c.d())",
+        "Static calls",
+        "Simple returns"
+      ]
+    },
+    {
+      "correctAnswer": "Class changed for different reasons",
+      "question": "Divergent Change symptom?",
+      "answers": [
+        "Stable class",
+        "Class changed for different reasons",
+        "Private methods",
+        "Final class"
+      ]
+    },
+    {
+      "correctAnswer": "Change requires many class modifications",
+      "question": "Shotgun Surgery issue?",
+      "answers": [
+        "Localized change",
+        "Change requires many class modifications",
+        "Single responsibility",
+        "Cohesive classes"
+      ]
+    },
+    {
+      "correctAnswer": "Parallel class hierarchies",
+      "question": "Parallel Inheritance meaning?",
+      "answers": [
+        "Single hierarchy",
+        "Parallel class hierarchies",
+        "Interface segregation",
+        "Dependency inversion"
+      ]
+    },
+    {
+      "correctAnswer": "Poor naming/documentation choices",
+      "question": "Linguistic Anti-Patterns definition?",
+      "answers": [
+        "Good naming",
+        "Poor naming/documentation choices",
+        "Proper comments",
+        "Clear interfaces"
+      ]
+    },
+    {
+      "correctAnswer": "Method does more than name suggests",
+      "question": "LA Type A characteristics?",
+      "answers": [
+        "Method does exactly what name says",
+        "Method does more than name suggests",
+        "Proper implementation",
+        "Clear purpose"
+      ]
+    },
+    {
+      "correctAnswer": "Method does less than name suggests",
+      "question": "LA Type B characteristics?",
+      "answers": [
+        "Complete implementation",
+        "Method does less than name suggests",
+        "Proper functionality",
+        "Clear naming"
+      ]
+    },
+    {
+      "correctAnswer": "Method contradicts its name",
+      "question": "LA Type C characteristics?",
+      "answers": [
+        "Consistent behavior",
+        "Method contradicts its name",
+        "Proper documentation",
+        "Good design"
+      ]
+    },
+    {
+      "correctAnswer": "Increase maintenance costs",
+      "question": "Primary impact of code smells?",
+      "answers": [
+        "Improve performance",
+        "Increase maintenance costs",
+        "Reduce bugs",
+        "Speed development"
+      ]
+    },
+    {
+      "correctAnswer": "Make systems harder to maintain",
+      "question": "Anti-patterns primary effect?",
+      "answers": [
+        "Improve quality",
+        "Make systems harder to maintain",
+        "Reduce costs",
+        "Speed delivery"
+      ]
+    },
+    {
+      "correctAnswer": "Hinder code understanding",
+      "question": "Bad smells impact on comprehension?",
+      "answers": [
+        "Improve readability",
+        "Hinder code understanding",
+        "Clarify purpose",
+        "Document behavior"
+      ]
+    },
+    {
+      "correctAnswer": "Increase change- and fault-proneness",
+      "question": "Khomh et al. finding about smells?",
+      "answers": [
+        "Reduce bugs",
+        "Increase change- and fault-proneness",
+        "Improve stability",
+        "Speed development"
+      ]
+    },
+    {
+      "correctAnswer": "Program comprehension, Refactoring, Refining",
+      "question": "Steps to address smells?",
+      "answers": [
+        "Rewrite, Test, Deploy",
+        "Program comprehension, Refactoring, Refining",
+        "Document, Review, Approve",
+        "Plan, Code, Debug"
+      ]
+    },
+    {
+      "correctAnswer": "Ensure tests pass before refactoring",
+      "question": "First refactoring step?",
+      "answers": [
+        "Delete old code",
+        "Ensure tests pass before refactoring",
+        "Write documentation",
+        "Profile performance"
+      ]
+    },
+    {
+      "correctAnswer": "Find code that smells",
+      "question": "Second refactoring step?",
+      "answers": [
+        "Rewrite everything",
+        "Find code that smells",
+        "Add new features",
+        "Change architecture"
+      ]
+    },
+    {
+      "correctAnswer": "Determine simplifications",
+      "question": "Third refactoring step?",
+      "answers": [
+        "Increase complexity",
+        "Determine simplifications",
+        "Postpone changes",
+        "Write more code"
+      ]
+    },
+    {
+      "correctAnswer": "Make simplifications",
+      "question": "Final refactoring step?",
+      "answers": [
+        "Revert changes",
+        "Make simplifications",
+        "Document only",
+        "Delay indefinitely"
+      ]
+    },
+    {
+      "correctAnswer": "Large controller class with low cohesion",
+      "question": "The Blob symptoms?",
+      "answers": [
+        "Small focused classes",
+        "Large controller class with low cohesion",
+        "Proper encapsulation",
+        "Good abstraction"
+      ]
+    },
+    {
+      "correctAnswer": "Tangled code relationships",
+      "question": "Spaghetti Code symptoms?",
+      "answers": [
+        "Clear dependencies",
+        "Tangled code relationships",
+        "Proper modularity",
+        "Good structure"
+      ]
+    },
+    {
+      "correctAnswer": "Many parameters used together",
+      "question": "Data Clumps symptoms?",
+      "answers": [
+        "Few parameters",
+        "Many parameters used together",
+        "Good encapsulation",
+        "Proper abstraction"
+      ]
+    },
+    {
+      "correctAnswer": "Primitives instead of objects",
+      "question": "Primitive Obsession symptoms?",
+      "answers": [
+        "Objects for everything",
+        "Primitives instead of objects",
+        "Proper typing",
+        "Good modeling"
+      ]
+    },
+    {
+      "correctAnswer": "Excessive method parameters",
+      "question": "Long Parameter List symptoms?",
+      "answers": [
+        "Few parameters",
+        "Excessive method parameters",
+        "Good encapsulation",
+        "Proper abstraction"
+      ]
+    },
+    {
+      "correctAnswer": "Switch instead of polymorphism",
+      "question": "Switch Statements symptoms?",
+      "answers": [
+        "Proper polymorphism",
+        "Switch instead of polymorphism",
+        "Good inheritance",
+        "Clear conditions"
+      ]
+    },
+    {
+      "correctAnswer": "Unused inherited features",
+      "question": "Refused Bequest symptoms?",
+      "answers": [
+        "Proper inheritance",
+        "Unused inherited features",
+        "Good abstraction",
+        "Clear hierarchy"
+      ]
+    },
+    {
+      "correctAnswer": "Unnecessary explanations",
+      "question": "Comments symptoms?",
+      "answers": [
+        "No comments needed",
+        "Unnecessary explanations",
+        "Good documentation",
+        "Clear code"
+      ]
+    },
+    {
+      "correctAnswer": "Code duplication",
+      "question": "Duplicate Code symptoms?",
+      "answers": [
+        "Unique implementations",
+        "Code duplication",
+        "Proper reuse",
+        "Good factoring"
+      ]
+    },
+    {
+      "correctAnswer": "Unused code segments",
+      "question": "Dead Code symptoms?",
+      "answers": [
+        "All code used",
+        "Unused code segments",
+        "Proper cleanup",
+        "Good maintenance"
+      ]
+    },
+    {
+      "correctAnswer": "Unused future-proofing",
+      "question": "Speculative Generality symptoms?",
+      "answers": [
+        "Needed features",
+        "Unused future-proofing",
+        "Proper planning",
+        "Good foresight"
+      ]
+    },
+    {
+      "correctAnswer": "Trivial classes",
+      "question": "Lazy Class symptoms?",
+      "answers": [
+        "Essential classes",
+        "Trivial classes",
+        "Proper decomposition",
+        "Good design"
+      ]
+    },
+    {
+      "correctAnswer": "Excessive foreign class access",
+      "question": "Feature Envy symptoms?",
+      "answers": [
+        "Self-contained",
+        "Excessive foreign class access",
+        "Proper encapsulation",
+        "Good cohesion"
+      ]
+    },
+    {
+      "correctAnswer": "Deep method call chains",
+      "question": "Message Chains symptoms?",
+      "answers": [
+        "Shallow calls",
+        "Deep method call chains",
+        "Proper delegation",
+        "Good encapsulation"
+      ]
+    },
+    {
+      "correctAnswer": "Multiple change reasons",
+      "question": "Divergent Change symptoms?",
+      "answers": [
+        "Single purpose",
+        "Multiple change reasons",
+        "Good cohesion",
+        "Proper focus"
+      ]
+    },
+    {
+      "correctAnswer": "Widespread modifications needed",
+      "question": "Shotgun Surgery symptoms?",
+      "answers": [
+        "Localized changes",
+        "Widespread modifications needed",
+        "Proper modularity",
+        "Good separation"
+      ]
+    },
+    {
+      "correctAnswer": "Mirrored hierarchies",
+      "question": "Parallel Inheritance symptoms?",
+      "answers": [
+        "Single hierarchy",
+        "Mirrored hierarchies",
+        "Proper abstraction",
+        "Good design"
+      ]
+    },
+    {
+      "correctAnswer": "Misleading names",
+      "question": "Linguistic Anti-Patterns symptoms?",
+      "answers": [
+        "Clear names",
+        "Misleading names",
+        "Proper terminology",
+        "Good vocabulary"
+      ]
+    },
+    {
+      "correctAnswer": "Method does extra work",
+      "question": "LA Type A symptoms?",
+      "answers": [
+        "Single purpose",
+        "Method does extra work",
+        "Proper focus",
+        "Good design"
+      ]
+    },
+    {
+      "correctAnswer": "Method lacks functionality",
+      "question": "LA Type B symptoms?",
+      "answers": [
+        "Complete implementation",
+        "Method lacks functionality",
+        "Proper features",
+        "Good behavior"
+      ]
+    },
+    {
+      "correctAnswer": "Method contradicts name",
+      "question": "LA Type C symptoms?",
+      "answers": [
+        "Consistent behavior",
+        "Method contradicts name",
+        "Proper naming",
+        "Good logic"
+      ]
+    },
+    {
+      "correctAnswer": "Increased maintenance effort",
+      "question": "Smells impact on maintenance?",
+      "answers": [
+        "Reduced effort",
+        "Increased maintenance effort",
+        "No effect",
+        "Improved quality"
+      ]
+    },
+    {
+      "correctAnswer": "Higher likelihood of faults",
+      "question": "Smells impact on reliability?",
+      "answers": [
+        "Fewer bugs",
+        "Higher likelihood of faults",
+        "No impact",
+        "Better stability"
+      ]
+    },
+    {
+      "correctAnswer": "More difficult modifications",
+      "question": "Smells impact on evolution?",
+      "answers": [
+        "Easier changes",
+        "More difficult modifications",
+        "No difference",
+        "Faster development"
+      ]
+    },
+    {
+      "correctAnswer": "Reduced comprehension",
+      "question": "Smells impact on understanding?",
+      "answers": [
+        "Improved clarity",
+        "Reduced comprehension",
+        "No effect",
+        "Better documentation"
+      ]
+    },
+    {
+      "correctAnswer": "Early detection reduces costs",
+      "question": "Why detect smells early?",
+      "answers": [
+        "No benefit",
+        "Early detection reduces costs",
+        "Increases work",
+        "Slows development"
+      ]
+    },
+    {
+      "correctAnswer": "Refactoring",
+      "question": "Primary solution for smells?",
+      "answers": [
+        "Rewriting",
+        "Refactoring",
+        "Documentation",
+        "Testing"
+      ]
+    },
+    {
+      "correctAnswer": "Behavior-preserving transformations",
+      "question": "Refactoring definition?",
+      "answers": [
+        "New features",
+        "Behavior-preserving transformations",
+        "Bug fixes",
+        "Performance optimizations"
+      ]
+    },
+    {
+      "correctAnswer": "The Blob",
+      "question": "Which anti-pattern is shown in this class?",
+      "code": "class MainController {\n  void processOrder() {...}\n  void generateReport() {...}\n  void validateData() {...}\n  void updateUI() {...}\n  // 50+ more methods\n}",
+      "answers": [
+        "The Blob",
+        "Spaghetti Code",
+        "Lava Flow",
+        "Golden Hammer"
+      ]
+    },
+    {
+      "correctAnswer": "Primitive Obsession",
+      "question": "Which code smell is shown here?",
+      "code": "void scheduleMeeting(int y, int m, int d, int hr, int min)",
+      "answers": [
+        "Primitive Obsession",
+        "Long Method",
+        "Data Clumps",
+        "Feature Envy"
+      ]
+    },
+    {
+      "correctAnswer": "Data Clumps",
+      "question": "Which code smell is present in these parameters?",
+      "code": "void registerUser(string firstName, string lastName, string street, string city, string zip)",
+      "answers": [
+        "Data Clumps",
+        "Primitive Obsession",
+        "Duplicate Code",
+        "Shotgun Surgery"
+      ]
+    },
+    {
+      "correctAnswer": "Switch Statements",
+      "question": "Which code smell is shown in this method?",
+      "code": "string getSound(Animal a) {\n  switch(a.getType()) {\n    case DOG: return \"Bark\";\n    case CAT: return \"Meow\";\n  }\n}",
+      "answers": [
+        "Switch Statements",
+        "Feature Envy",
+        "Message Chains",
+        "Middle Man"
+      ]
+    },
+    {
+      "correctAnswer": "Feature Envy",
+      "question": "Which smell exists in this Order class method?",
+      "code": "class Order {\n  decimal calculatePrice(Customer c) {\n    return c.getBasePrice() * c.getDiscount();\n  }\n}",
+      "answers": [
+        "Data Clumps",
+        "Feature Envy",
+        "Divergent Change",
+        "Inappropriate Intimacy"
+      ]
+    },
+    {
+      "correctAnswer": "Duplicate Code",
+      "question": "Which code smell exists between these methods?",
+      "code": "void printInvoice() { /* 20 lines */ }\nvoid printReceipt() { /* Same 20 lines with minor changes */ }",
+      "answers": [
+        "Long Method",
+        "Duplicate Code",
+        "Speculative Generality",
+        "Lazy Class"
+      ]
+    },
+    {
+      "correctAnswer": "Long Method",
+      "question": "Which code smell is shown here?",
+      "code": "void processOrder() {\n  // 150+ lines of code\n  // mixing validation, calculation,\n  // database access, and logging\n}",
+      "answers": [
+        "Long Method",
+        "Duplicate Code",
+        "Primitive Obsession",
+        "Data Clumps"
+      ]
+    },
+    {
+      "correctAnswer": "Speculative Generality",
+      "question": "Which anti-pattern is shown in this unused abstraction?",
+      "code": "interface FutureFeature {\n  void mightNeedThis();\n  void possiblyRequired();\n} // Never implemented",
+      "answers": [
+        "Speculative Generality",
+        "Lazy Class",
+        "Data Class",
+        "Middle Man"
+      ]
+    },
+    {
+      "correctAnswer": "Refused Bequest",
+      "question": "Which inheritance problem exists here?",
+      "code": "class Bird {\n  void fly() {...}\n}\nclass Penguin extends Bird {\n  void fly() { throw new UnsupportedOperation(); }\n}",
+      "answers": [
+        "Switch Statements",
+        "Refused Bequest",
+        "Feature Envy",
+        "Data Clumps"
+      ]
+    },
+    {
+      "correctAnswer": "Lazy Class",
+      "question": "Which code smell is shown in this trivial class?",
+      "code": "class ReportFormatter {\n  string format(Report r) {\n    return r.toString();\n  }\n}",
+      "answers": [
+        "Lazy Class",
+        "Middle Man",
+        "Data Class",
+        "Duplicate Code"
+      ]
+    },
+    {
+      "correctAnswer": "Middle Man",
+      "question": "Which code smell exists in this delegation?",
+      "code": "class Order {\n  Customer getCustomer() {\n    return customerManager.getCustomer();\n  }\n}",
+      "answers": [
+        "Feature Envy",
+        "Middle Man",
+        "Message Chains",
+        "Inappropriate Intimacy"
+      ]
+    },
+    {
+      "correctAnswer": "Comments",
+      "question": "Which code smell is indicated by this comment?",
+      "code": "// Check if employee is eligible for bonus\nif (employee.years > 2 && employee.rating > 3)",
+      "answers": [
+        "Comments",
+        "Duplicate Code",
+        "Long Method",
+        "Primitive Obsession"
+      ]
+    },
+    {
+      "correctAnswer": "Shotgun Surgery",
+      "question": "Which change problem is shown here?",
+      "code": "// Tax calculation spread across:\n// Order.java, Invoice.java, ReportGenerator.java",
+      "answers": [
+        "Divergent Change",
+        "Shotgun Surgery",
+        "Parallel Inheritance",
+        "Data Clumps"
+      ]
+    },
+    {
+      "correctAnswer": "Divergent Change",
+      "question": "Which maintenance issue exists here?",
+      "code": "class ReportGenerator {\n  // Changed for both formatting AND data source reasons\n}",
+      "answers": [
+        "Divergent Change",
+        "Shotgun Surgery",
+        "Feature Envy",
+        "Data Clumps"
+      ]
+    },
+    {
+      "correctAnswer": "A.1 - 'Get' more than accessor",
+      "question": "Which linguistic anti-pattern exists?",
+      "code": "List<Item> getCartItems() {\n  loadInventory();\n  applyDiscounts();\n  return items;\n}",
+      "answers": [
+        "A.1 - 'Get' more than accessor",
+        "B.3 - 'Get' doesn't return",
+        "C.1 - Name/type oppose",
+        "D.1 - Says one but many"
+      ]
+    },
+    {
+      "correctAnswer": "A.2 - 'Is' returns more than Boolean",
+      "question": "Which naming issue exists here?",
+      "code": "int isValid() { // Returns validation codes 0-4\n  return checkRules() ? 1 : 0;\n}",
+      "answers": [
+        "A.2 - 'Is' returns more than Boolean",
+        "B.4 - Not answered question",
+        "C.2 - Signature/comment oppose",
+        "E.1 - Says many but one"
+      ]
+    },
+    {
+      "correctAnswer": "A.3 - 'Set' method returns",
+      "question": "Which convention violation exists?",
+      "code": "Customer setName(string n) {\n  this.name = n;\n  return this;\n}",
+      "answers": [
+        "A.3 - 'Set' method returns",
+        "B.5 - Transform doesn't return",
+        "D.2 - Name suggests Boolean",
+        "F.1 - Name/type oppose"
+      ]
+    },
+    {
+      "correctAnswer": "B.3 - 'Get' method does not return",
+      "question": "Which implementation issue exists?",
+      "code": "void getConfiguration() {\n  loadConfig();\n  validateConfig();\n}",
+      "answers": [
+        "A.1 - 'Get' does more",
+        "B.3 - 'Get' method does not return",
+        "C.1 - Name/type oppose",
+        "E.1 - Says many but one"
+      ]
+    },
+    {
+      "correctAnswer": "B.4 - Not answered question",
+      "question": "Which boolean method issue exists?",
+      "code": "void isValid() {\n  return checks > 0;\n}",
+      "answers": [
+        "A.2 - 'Is' returns more",
+        "B.4 - Not answered question",
+        "D.2 - Name suggests Boolean",
+        "F.2 - Signature/comment oppose"
+      ]
+    },
+    {
+      "correctAnswer": "C.1 - Name and return type oppose",
+      "question": "Which contradiction exists here?",
+      "code": "EnabledState disable() {\n  return new EnabledState(false);\n}",
+      "answers": [
+        "B.5 - Transform doesn't return",
+        "C.1 - Name and return type oppose",
+        "E.1 - Says many but one",
+        "F.1 - Name/type oppose"
+      ]
+    },
+    {
+      "correctAnswer": "D.1 - Says one but contains many",
+      "question": "Which naming issue exists?",
+      "code": "List<Employee> employee = new ArrayList<>();",
+      "answers": [
+        "D.1 - Says one but contains many",
+        "E.1 - Says many but one",
+        "F.1 - Name/type oppose",
+        "F.2 - Signature/comment oppose"
+      ]
+    },
+    {
+      "correctAnswer": "D.2 - Name suggests Boolean but type does not",
+      "question": "Which type mismatch exists?",
+      "code": "int isActive = 0; // 0=false, 1=true",
+      "answers": [
+        "D.2 - Name suggests Boolean but type does not",
+        "E.1 - Says many but one",
+        "F.1 - Name/type oppose",
+        "F.2 - Signature/comment oppose"
+      ]
+    },
+    {
+      "correctAnswer": "E.1 - Says many but contains one",
+      "question": "Which naming issue exists?",
+      "code": "boolean statistics = false; // Toggle for stats",
+      "answers": [
+        "D.1 - Says one but many",
+        "E.1 - Says many but contains one",
+        "F.1 - Name/type oppose",
+        "F.2 - Signature/comment oppose"
+      ]
+    },
+    {
+      "correctAnswer": "F.1 - Attribute name and type oppose",
+      "question": "Which contradiction exists?",
+      "code": "Endpoint startPoint; // Actually stores connection",
+      "answers": [
+        "D.1 - Says one but many",
+        "E.1 - Says many but one",
+        "F.1 - Attribute name and type oppose",
+        "F.2 - Signature/comment oppose"
+      ]
+    },
+    {
+      "correctAnswer": "F.2 - Signature and comment oppose",
+      "question": "Which documentation issue exists?",
+      "code": "/* Excluded patterns */\nconst string INCLUDED_PATTERNS = ...",
+      "answers": [
+        "D.2 - Name suggests Boolean",
+        "E.1 - Says many but one",
+        "F.1 - Name/type oppose",
+        "F.2 - Signature and comment oppose"
+      ]
+    },
+    {
+      "correctAnswer": "Spaghetti Code",
+      "question": "Which anti-pattern is shown?",
+      "code": "void process() {\n  if (a) { x(); goto y; }\n  else if (b) { z(); goto x; }\n  // Many tangled gotos\n}",
+      "answers": [
+        "The Blob",
+        "Spaghetti Code",
+        "Input Kludge",
+        "Ambiguous Viewpoint"
+      ]
+    },
+    {
+      "correctAnswer": "Lava Flow",
+      "question": "Which anti-pattern is leftover code?",
+      "code": "// Old credit calc, don't know if safe to remove\nvoid LegacyCreditCalc() {...}",
+      "answers": [
+        "Dead End",
+        "Lava Flow",
+        "Poltergeists",
+        "Boat Anchor"
+      ]
+    },
+    {
+      "correctAnswer": "Golden Hammer",
+      "question": "Which anti-pattern overuses XML?",
+      "code": "// Using XML for everything\nclass Config, class Logger, class DataStore...",
+      "answers": [
+        "Golden Hammer",
+        "The Blob",
+        "Cut-and-Paste",
+        "Mushroom Management"
+      ]
+    },
+    {
+      "correctAnswer": "Dead End",
+      "question": "Which anti-pattern is unsupported?",
+      "code": "// Vendor SDK discontinued in 2020\nvoid UseOldSDK() {...}",
+      "answers": [
+        "Dead End",
+        "Lava Flow",
+        "Boat Anchor",
+        "Input Kludge"
+      ]
+    },
+    {
+      "correctAnswer": "Input Kludge",
+      "question": "Which anti-pattern ignores errors?",
+      "code": "void ProcessInput() {\n  try {...} catch { /* ignore */ }\n}",
+      "answers": [
+        "Input Kludge",
+        "Ambiguous Viewpoint",
+        "Walking through Minefield",
+        "Functional Decomposition"
+      ]
+    },
+    {
+      "correctAnswer": "Ambiguous Viewpoint",
+      "question": "Which anti-pattern mixes concerns?",
+      "code": "class Report {\n  // Mixes UI, business logic, and DB code\n}",
+      "answers": [
+        "Ambiguous Viewpoint",
+        "The Blob",
+        "Cut-and-Paste",
+        "Poltergeists"
+      ]
+    },
+    {
+      "correctAnswer": "Functional Decomposition",
+      "question": "Which anti-pattern is procedural in OO?",
+      "code": "class Order {\n  void Step1() {...}\n  void Step2() {...}\n  // No real objects\n}",
+      "answers": [
+        "Functional Decomposition",
+        "The Blob",
+        "Spaghetti Code",
+        "Golden Hammer"
+      ]
+    },
+    {
+      "correctAnswer": "Cut-and-Paste Programming",
+      "question": "Which anti-pattern duplicates code?",
+      "code": "// Same validation copied in 10 places\nbool Validate() {...}",
+      "answers": [
+        "Cut-and-Paste Programming",
+        "Spaghetti Code",
+        "Lava Flow",
+        "Boat Anchor"
+      ]
+    },
+    {
+      "correctAnswer": "Poltergeists",
+      "question": "Which anti-pattern has trivial classes?",
+      "code": "class ManagerFactoryCreator {...} // Just instantiates",
+      "answers": [
+        "Poltergeists",
+        "The Blob",
+        "Lazy Class",
+        "Middle Man"
+      ]
+    },
+    {
+      "correctAnswer": "Boat Anchor",
+      "question": "Which anti-pattern retains unneeded code?",
+      "code": "// JPEG support from 1990s\nclass JpegHandler {...} // Never used",
+      "answers": [
+        "Boat Anchor",
+        "Lava Flow",
+        "Dead End",
+        "Golden Hammer"
+      ]
+    },
+    {
+      "correctAnswer": "Mushroom Management",
+      "question": "Which anti-pattern keeps devs uninformed?",
+      "code": "// No specs, just fix bugs as they come in",
+      "answers": [
+        "Mushroom Management",
+        "Golden Hammer",
+        "Input Kludge",
+        "Ambiguous Viewpoint"
+      ]
+    },
+    {
+      "correctAnswer": "Creational Patterns",
+      "question": "Abstract Factory belongs to which pattern classification?",
+      "answers": [
+        "Structural Patterns",
+        "Creational Patterns",
+        "Behavioural Patterns"
+      ]
+    },
+    {
+      "correctAnswer": "Creational Patterns",
+      "question": "Builder belongs to which pattern classification?",
+      "answers": [
+        "Structural Patterns",
+        "Creational Patterns",
+        "Behavioural Patterns"
+      ]
+    },
+    {
+      "correctAnswer": "Creational Patterns",
+      "question": "Factory Method belongs to which pattern classification?",
+      "answers": [
+        "Structural Patterns",
+        "Creational Patterns",
+        "Behavioural Patterns"
+      ]
+    },
+    {
+      "correctAnswer": "Creational Patterns",
+      "question": "Prototype belongs to which pattern classification?",
+      "answers": [
+        "Structural Patterns",
+        "Creational Patterns",
+        "Behavioural Patterns"
+      ]
+    },
+    {
+      "correctAnswer": "Creational Patterns",
+      "question": "Singleton belongs to which pattern classification?",
+      "answers": [
+        "Structural Patterns",
+        "Creational Patterns",
+        "Behavioural Patterns"
+      ]
+    },
+    {
+      "correctAnswer": "Structural Patterns",
+      "question": "Adapter belongs to which pattern classification?",
+      "answers": [
+        "Structural Patterns",
+        "Creational Patterns",
+        "Behavioural Patterns"
+      ]
+    },
+    {
+      "correctAnswer": "Structural Patterns",
+      "question": "Bridge belongs to which pattern classification?",
+      "answers": [
+        "Structural Patterns",
+        "Creational Patterns",
+        "Behavioural Patterns"
+      ]
+    },
+    {
+      "correctAnswer": "Structural Patterns",
+      "question": "Composite belongs to which pattern classification?",
+      "answers": [
+        "Structural Patterns",
+        "Creational Patterns",
+        "Behavioural Patterns"
+      ]
+    },
+    {
+      "correctAnswer": "Structural Patterns",
+      "question": "Decorator belongs to which pattern classification?",
+      "answers": [
+        "Structural Patterns",
+        "Creational Patterns",
+        "Behavioural Patterns"
+      ]
+    },
+    {
+      "correctAnswer": "Structural Patterns",
+      "question": "Facade belongs to which pattern classification?",
+      "answers": [
+        "Structural Patterns",
+        "Creational Patterns",
+        "Behavioural Patterns"
+      ]
+    },
+    {
+      "correctAnswer": "Structural Patterns",
+      "question": "Flyweight belongs to which pattern classification?",
+      "answers": [
+        "Structural Patterns",
+        "Creational Patterns",
+        "Behavioural Patterns"
+      ]
+    },
+    {
+      "correctAnswer": "Structural Patterns",
+      "question": "Proxy belongs to which pattern classification?",
+      "answers": [
+        "Structural Patterns",
+        "Creational Patterns",
+        "Behavioural Patterns"
+      ]
+    },
+    {
+      "correctAnswer": "Behavioural Patterns",
+      "question": "Chain of Responsibility belongs to which pattern classification?",
+      "answers": [
+        "Structural Patterns",
+        "Creational Patterns",
+        "Behavioural Patterns"
+      ]
+    },
+    {
+      "correctAnswer": "Behavioural Patterns",
+      "question": "Command belongs to which pattern classification?",
+      "answers": [
+        "Structural Patterns",
+        "Creational Patterns",
+        "Behavioural Patterns"
+      ]
+    },
+    {
+      "correctAnswer": "Behavioural Patterns",
+      "question": "Interpreter belongs to which pattern classification?",
+      "answers": [
+        "Structural Patterns",
+        "Creational Patterns",
+        "Behavioural Patterns"
+      ]
+    },
+    {
+      "correctAnswer": "Behavioural Patterns",
+      "question": "Iterator belongs to which pattern classification?",
+      "answers": [
+        "Structural Patterns",
+        "Creational Patterns",
+        "Behavioural Patterns"
+      ]
+    },
+    {
+      "correctAnswer": "Behavioural Patterns",
+      "question": "Mediator belongs to which pattern classification?",
+      "answers": [
+        "Structural Patterns",
+        "Creational Patterns",
+        "Behavioural Patterns"
+      ]
+    },
+    {
+      "correctAnswer": "Behavioural Patterns",
+      "question": "Memento belongs to which pattern classification?",
+      "answers": [
+        "Structural Patterns",
+        "Creational Patterns",
+        "Behavioural Patterns"
+      ]
+    },
+    {
+      "correctAnswer": "Behavioural Patterns",
+      "question": "Observer belongs to which pattern classification?",
+      "answers": [
+        "Structural Patterns",
+        "Creational Patterns",
+        "Behavioural Patterns"
+      ]
+    },
+    {
+      "correctAnswer": "Behavioural Patterns",
+      "question": "State belongs to which pattern classification?",
+      "answers": [
+        "Structural Patterns",
+        "Creational Patterns",
+        "Behavioural Patterns"
+      ]
+    },
+    {
+      "correctAnswer": "Behavioural Patterns",
+      "question": "Strategy belongs to which pattern classification?",
+      "answers": [
+        "Structural Patterns",
+        "Creational Patterns",
+        "Behavioural Patterns"
+      ]
+    },
+    {
+      "correctAnswer": "Behavioural Patterns",
+      "question": "Template Method belongs to which pattern classification?",
+      "answers": [
+        "Structural Patterns",
+        "Creational Patterns",
+        "Behavioural Patterns"
+      ]
+    },
+    {
+      "correctAnswer": "Behavioural Patterns",
+      "question": "Visitor belongs to which pattern classification?",
+      "answers": [
+        "Structural Patterns",
+        "Creational Patterns",
+        "Behavioural Patterns"
+      ]
+    },
+    {
+      "correctAnswer": "Structural",
+      "question": "The Decorator pattern belongs to which category of design patterns?",
+      "answers": [
+        "Creational",
+        "Structural",
+        "Behavioral",
+        "Concurrency"
+      ]
+    },
+    {
+      "correctAnswer": "Add responsibilities dynamically",
+      "question": "What is the primary purpose of the Decorator pattern?",
+      "answers": [
+        "Create singleton instances",
+        "Add responsibilities dynamically",
+        "Implement multiple inheritance",
+        "Encapsulate object creation"
+      ]
+    },
+    {
+      "correctAnswer": "Wrapper",
+      "question": "What alternative name is sometimes used for the Decorator pattern?",
+      "answers": [
+        "Adapter",
+        "Wrapper",
+        "Proxy",
+        "Facade"
+      ]
+    },
+    {
+      "correctAnswer": "Open-closed principle",
+      "question": "Which design principle does the Decorator pattern primarily support?",
+      "answers": [
+        "Single responsibility principle",
+        "Open-closed principle",
+        "Liskov substitution principle",
+        "Interface segregation principle"
+      ]
+    },
+    {
+      "correctAnswer": "Runtime",
+      "question": "When does the Decorator pattern add functionality to objects?",
+      "answers": [
+        "Compile time",
+        "Runtime",
+        "Design time",
+        "Load time"
+      ]
+    },
+    {
+      "correctAnswer": "Avoid subclass explosion",
+      "question": "What problem does the Decorator pattern help solve regarding class hierarchies?",
+      "answers": [
+        "Avoid subclass explosion",
+        "Reduce method parameters",
+        "Simplify inheritance",
+        "Minimize interfaces"
+      ]
+    },
+    {
+      "correctAnswer": "Same interface",
+      "question": "What must decorators maintain with the components they decorate?",
+      "answers": [
+        "Same interface",
+        "Same implementation",
+        "Same state",
+        "Same constructor"
+      ]
+    },
+    {
+      "correctAnswer": "java.io package",
+      "question": "Where is the Decorator pattern commonly used in Java's standard library?",
+      "answers": [
+        "java.util package",
+        "java.io package",
+        "java.lang package",
+        "java.net package"
+      ]
+    },
+    {
+      "correctAnswer": "Multiple decorators",
+      "question": "What can be applied to a single component in the Decorator pattern?",
+      "answers": [
+        "Only one decorator",
+        "Multiple decorators",
+        "Exactly two decorators",
+        "No decorators"
+      ]
+    },
+    {
+      "correctAnswer": "Component",
+      "question": "What is the name of the base interface/class in the Decorator pattern?",
+      "answers": [
+        "Decorator",
+        "Component",
+        "Wrapper",
+        "ConcreteComponent"
+      ]
+    },
+    {
+      "correctAnswer": "Transparent",
+      "question": "How should decorators appear to clients using the decorated object?",
+      "answers": [
+        "Opaque",
+        "Transparent",
+        "Visible",
+        "Hidden"
+      ]
+    },
+    {
+      "correctAnswer": "Order matters",
+      "question": "What is true about the order in which decorators are applied?",
+      "answers": [
+        "Order doesn't matter",
+        "Order matters",
+        "Reverse order matters",
+        "Only alphabetical order matters"
+      ]
+    },
+    {
+      "correctAnswer": "Flexibility",
+      "question": "What is a key advantage of the Decorator pattern over inheritance?",
+      "answers": [
+        "Performance",
+        "Flexibility",
+        "Simplicity",
+        "Type safety"
+      ]
+    },
+    {
+      "correctAnswer": "Increased number of objects",
+      "question": "What is a potential drawback of the Decorator pattern?",
+      "answers": [
+        "Increased number of objects",
+        "Reduced type safety",
+        "Slower compilation",
+        "Harder to debug"
+      ]
+    },
+    {
+      "correctAnswer": "Ice cream toppings",
+      "question": "What is a classic example used to explain the Decorator pattern?",
+      "answers": [
+        "Coffee additives",
+        "Ice cream toppings",
+        "Pizza ingredients",
+        "Sandwich layers"
+      ]
+    },
+    {
+      "correctAnswer": "Decorator pattern",
+      "question": "Which design pattern is demonstrated by this code?",
+      "code": "public interface Coffee {\n    double getCost();\n    String getDescription();\n}\n\npublic class SimpleCoffee implements Coffee {\n    public double getCost() { return 1.0; }\n    public String getDescription() { return \"Simple coffee\"; }\n}\n\npublic abstract class CoffeeDecorator implements Coffee {\n    protected Coffee decoratedCoffee;\n    public CoffeeDecorator(Coffee coffee) { this.decoratedCoffee = coffee; }\n    public double getCost() { return decoratedCoffee.getCost(); }\n    public String getDescription() { return decoratedCoffee.getDescription(); }\n}",
+      "answers": [
+        "Strategy pattern",
+        "Decorator pattern",
+        "Adapter pattern",
+        "Proxy pattern"
+      ]
+    },
+    {
+      "correctAnswer": "Decorator pattern",
+      "question": "Which pattern is shown in this implementation?",
+      "code": "public class MilkDecorator extends CoffeeDecorator {\n    public MilkDecorator(Coffee coffee) { super(coffee); }\n    public double getCost() { return super.getCost() + 0.5; }\n    public String getDescription() { return super.getDescription() + \", milk\"; }\n}",
+      "answers": [
+        "Factory Method",
+        "Decorator pattern",
+        "Composite",
+        "Bridge"
+      ]
+    },
+    {
+      "correctAnswer": "Decorator pattern",
+      "question": "Which pattern does this code example represent?",
+      "code": "public class WhipDecorator extends CoffeeDecorator {\n    public WhipDecorator(Coffee coffee) { super(coffee); }\n    public double getCost() { return super.getCost() + 0.7; }\n    public String getDescription() { return super.getDescription() + \", whip\"; }\n}",
+      "answers": [
+        "Observer",
+        "Decorator pattern",
+        "Visitor",
+        "Template Method"
+      ]
+    },
+    {
+      "correctAnswer": "Decorator pattern",
+      "question": "Which pattern is illustrated by this code?",
+      "code": "Coffee myCoffee = new SimpleCoffee();\nmyCoffee = new MilkDecorator(myCoffee);\nmyCoffee = new WhipDecorator(myCoffee);",
+      "answers": [
+        "Chain of Responsibility",
+        "Decorator pattern",
+        "Flyweight",
+        "Memento"
+      ]
+    },
+    {
+      "correctAnswer": "Decorator pattern",
+      "question": "Which pattern is being used in this example?",
+      "code": "public class VanillaDecorator extends CoffeeDecorator {\n    public VanillaDecorator(Coffee coffee) { super(coffee); }\n    public double getCost() { return super.getCost() + 0.3; }\n    public String getDescription() { return super.getDescription() + \", vanilla\"; }\n}",
+      "answers": [
+        "Singleton",
+        "Decorator pattern",
+        "Prototype",
+        "Builder"
+      ]
+    },
+    {
+      "correctAnswer": "Observer pattern",
+      "question": "Which design pattern is demonstrated by this code?",
+      "code": "public interface Subject {\n    void registerObserver(Observer o);\n    void removeObserver(Observer o);\n    void notifyObservers();\n}\n\npublic interface Observer {\n    void update(float temp, float humidity, float pressure);\n}",
+      "answers": [
+        "Mediator pattern",
+        "Observer pattern",
+        "Command pattern",
+        "State pattern"
+      ]
+    },
+    {
+      "correctAnswer": "Observer pattern",
+      "question": "Which pattern is shown in this implementation?",
+      "code": "public class WeatherData implements Subject {\n    private List<Observer> observers;\n    private float temperature;\n    private float humidity;\n    private float pressure;\n    \n    public void registerObserver(Observer o) { observers.add(o); }\n    public void removeObserver(Observer o) { observers.remove(o); }\n    public void notifyObservers() {\n        for (Observer o : observers) {\n            o.update(temperature, humidity, pressure);\n        }\n    }\n}",
+      "answers": [
+        "Visitor pattern",
+        "Observer pattern",
+        "Strategy pattern",
+        "Proxy pattern"
+      ]
+    },
+    {
+      "correctAnswer": "Observer pattern",
+      "question": "Which pattern does this code example represent?",
+      "code": "public class CurrentConditionsDisplay implements Observer {\n    private float temperature;\n    private float humidity;\n    private Subject weatherData;\n    \n    public CurrentConditionsDisplay(Subject weatherData) {\n        this.weatherData = weatherData;\n        weatherData.registerObserver(this);\n    }\n    \n    public void update(float temp, float humidity, float pressure) {\n        this.temperature = temp;\n        this.humidity = humidity;\n        display();\n    }\n}",
+      "answers": [
+        "Decorator pattern",
+        "Observer pattern",
+        "Adapter pattern",
+        "Facade pattern"
+      ]
+    },
+    {
+      "correctAnswer": "Observer pattern",
+      "question": "Which pattern is illustrated by this code?",
+      "code": "WeatherData weatherData = new WeatherData();\nCurrentConditionsDisplay currentDisplay = new CurrentConditionsDisplay(weatherData);\nStatisticsDisplay statsDisplay = new StatisticsDisplay(weatherData);\nweatherData.setMeasurements(80, 65, 30.4f);",
+      "answers": [
+        "Chain of Responsibility",
+        "Observer pattern",
+        "Composite",
+        "Bridge"
+      ]
+    },
+    {
+      "correctAnswer": "Observer pattern",
+      "question": "Which pattern is being used in this example?",
+      "code": "public class WeatherStation {\n    public static void main(String[] args) {\n        WeatherData weatherData = new WeatherData();\n        \n        CurrentConditionsDisplay currentDisplay = \n            new CurrentConditionsDisplay(weatherData);\n        \n        weatherData.setMeasurements(78, 90, 29.2f);\n    }\n}",
+      "answers": [
+        "Singleton",
+        "Observer pattern",
+        "Prototype",
+        "Builder"
+      ]
+    },
+    {
+      "correctAnswer": "General repeatable solution to common problems",
+      "question": "What is a design pattern in software engineering?",
+      "answers": [
+        "Specific algorithm implementation",
+        "General repeatable solution to common problems",
+        "Programming language syntax",
+        "Debugging technique"
+      ]
+    },
+    {
+      "correctAnswer": "Gang of Four (GoF)",
+      "question": "Which book popularized the concept of design patterns in software?",
+      "answers": [
+        "Clean Code",
+        "Gang of Four (GoF)",
+        "The Pragmatic Programmer",
+        "Design Patterns Explained"
+      ]
+    },
+    {
+      "correctAnswer": "Problem, Solution, Consequences",
+      "question": "What are the three essential elements of a design pattern description?",
+      "answers": [
+        "Class, Method, Interface",
+        "Problem, Solution, Consequences",
+        "Input, Process, Output",
+        "Syntax, Semantics, Pragmatics"
+      ]
+    },
+    {
+      "correctAnswer": "Replace conditional logic with polymorphism",
+      "question": "What is the primary solution offered by the Strategy pattern?",
+      "answers": [
+        "Create singleton instances",
+        "Replace conditional logic with polymorphism",
+        "Implement multiple inheritance",
+        "Encapsulate object creation"
+      ]
+    },
+    {
+      "correctAnswer": "Program to an interface, not an implementation",
+      "question": "Which fundamental principle does the Strategy pattern demonstrate?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Program to an interface, not an implementation",
+        "Don't Repeat Yourself",
+        "Keep It Simple Stupid"
+      ]
+    },
+    {
+      "correctAnswer": "Improve maintainability",
+      "question": "What is the primary goal of using design patterns in software development?",
+      "answers": [
+        "Improve runtime performance",
+        "Reduce code size",
+        "Improve maintainability",
+        "Increase compilation speed"
+      ]
+    },
+    {
+      "correctAnswer": "Template for solving problems in different situations",
+      "question": "How should design patterns be viewed according to their definition?",
+      "answers": [
+        "Complete code solutions",
+        "Language-specific features",
+        "Template for solving problems in different situations",
+        "Debugging checklists"
+      ]
+    },
+    {
+      "correctAnswer": "Name, Intent, Motivation",
+      "question": "Which of these is part of the standard GoF pattern template?",
+      "answers": [
+        "Name, Intent, Motivation",
+        "Variables, Functions, Classes",
+        "Inputs, Outputs, Side-effects",
+        "Syntax, Examples, Exceptions"
+      ]
+    },
+    {
+      "correctAnswer": "When you need to vary algorithms independently from clients",
+      "question": "When is the Strategy pattern most applicable?",
+      "answers": [
+        "When creating database connections",
+        "When implementing inheritance hierarchies",
+        "When you need to vary algorithms independently from clients",
+        "When optimizing for memory usage"
+      ]
+    },
+    {
+      "correctAnswer": "It provides a common vocabulary for designers",
+      "question": "Why is giving patterns names important?",
+      "answers": [
+        "It makes code compile faster",
+        "It provides a common vocabulary for designers",
+        "It reduces memory usage",
+        "It automatically generates documentation"
+      ]
+    },
+    {
+      "correctAnswer": "They can introduce structural complexity",
+      "question": "What is a potential drawback of using design patterns?",
+      "answers": [
+        "They slow down program execution",
+        "They can introduce structural complexity",
+        "They require specific programming languages",
+        "They prevent code reuse"
+      ]
+    },
+    {
+      "correctAnswer": "Description of behavior with interaction diagrams",
+      "question": "What does the 'Collaborations' section in a pattern template describe?",
+      "answers": [
+        "Compiler optimization techniques",
+        "Description of behavior with interaction diagrams",
+        "Version control strategies",
+        "Memory allocation patterns"
+      ]
+    },
+    {
+      "correctAnswer": "Patterns are often combined to solve bigger problems",
+      "question": "Why are 'Related Patterns' included in pattern descriptions?",
+      "answers": [
+        "To list competing alternatives",
+        "Patterns are often combined to solve bigger problems",
+        "To show historical evolution",
+        "To demonstrate language portability"
+      ]
+    },
+    {
+      "correctAnswer": "Design",
+      "question": "In the software development process, which phase translates requirements into a plan for implementation?",
+      "answers": [
+        "Requirements",
+        "Design",
+        "Implementation",
+        "Maintenance"
+      ]
+    },
+    {
+      "correctAnswer": "Waterfall model",
+      "question": "Which software development model follows a linear sequence without refinement loops?",
+      "answers": [
+        "Agile model",
+        "Waterfall model",
+        "Spiral model",
+        "Iterative model"
+      ]
+    },
+    {
+      "correctAnswer": "Functional requirements",
+      "question": "What type of requirements specify system behavior for given inputs?",
+      "answers": [
+        "Functional requirements",
+        "Non-functional requirements",
+        "Design constraints",
+        "User stories"
+      ]
+    },
+    {
+      "correctAnswer": "Non-functional requirements",
+      "question": "Which requirements define system qualities like speed and security?",
+      "answers": [
+        "Functional requirements",
+        "Non-functional requirements",
+        "Domain requirements",
+        "Technical specifications"
+      ]
+    },
+    {
+      "correctAnswer": "Maintainability",
+      "question": "Which design quality ensures a system can adapt to future changes?",
+      "answers": [
+        "Efficiency",
+        "Maintainability",
+        "Testability",
+        "Scalability"
+      ]
+    },
+    {
+      "correctAnswer": "Testability",
+      "question": "What design characteristic enables systematic verification of correctness?",
+      "answers": [
+        "Modularity",
+        "Testability",
+        "Performance",
+        "Abstraction"
+      ]
+    },
+    {
+      "correctAnswer": "Object-oriented design",
+      "question": "Which design approach emphasizes organizing code into classes and objects?",
+      "answers": [
+        "Procedural programming",
+        "Object-oriented design",
+        "Functional programming",
+        "Structured programming"
+      ]
+    },
+    {
+      "correctAnswer": "Domain classes",
+      "question": "Which classes directly represent real-world entities in the problem space?",
+      "answers": [
+        "Utility classes",
+        "Domain classes",
+        "Framework classes",
+        "GUI classes"
+      ]
+    },
+    {
+      "correctAnswer": "Nouns in requirements",
+      "question": "What is the primary linguistic clue for identifying domain classes?",
+      "answers": [
+        "Verbs in requirements",
+        "Nouns in requirements",
+        "Adjectives in requirements",
+        "User stories"
+      ]
+    },
+    {
+      "correctAnswer": "Verbs in requirements",
+      "question": "What linguistic elements typically suggest methods in class design?",
+      "answers": [
+        "Nouns",
+        "Verbs in requirements",
+        "Adverbs",
+        "Prepositions"
+      ]
+    },
+    {
+      "correctAnswer": "Efficiency",
+      "question": "Which design goal focuses on optimizing computational resources?",
+      "answers": [
+        "Maintainability",
+        "Efficiency",
+        "Testability",
+        "Readability"
+      ]
+    },
+    {
+      "correctAnswer": "Implementation",
+      "question": "In the waterfall model, which phase directly follows the design phase?",
+      "answers": [
+        "Requirements",
+        "Design",
+        "Implementation",
+        "Verification"
+      ]
+    },
+    {
+      "correctAnswer": "Requirements",
+      "question": "Which phase of software development defines what the system should do?",
+      "answers": [
+        "Requirements",
+        "Design",
+        "Implementation",
+        "Maintenance"
+      ]
+    },
+    {
+      "correctAnswer": "Maintenance",
+      "question": "Which phase involves modifying software after its initial release?",
+      "answers": [
+        "Design",
+        "Implementation",
+        "Verification",
+        "Maintenance"
+      ]
+    },
+    {
+      "correctAnswer": "Solution classes",
+      "question": "Which type of classes are introduced to address technical rather than domain concerns?",
+      "answers": [
+        "Domain classes",
+        "Solution classes",
+        "Entity classes",
+        "Business classes"
+      ]
+    },
+    {
+      "correctAnswer": "Dependency Inversion Principle",
+      "question": "Which principle states that high-level modules should depend on abstractions rather than concrete implementations?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Dependency Inversion Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Interface Segregation Principle",
+      "question": "Which principle recommends breaking large interfaces into smaller, more specific ones?",
+      "answers": [
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle",
+        "Open/Closed Principle",
+        "Single Responsibility Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Abstractions",
+      "question": "According to DIP, what should both high-level and low-level modules depend on?",
+      "answers": [
+        "Concrete classes",
+        "Abstractions",
+        "Utility methods",
+        "Global variables"
+      ]
+    },
+    {
+      "correctAnswer": "Reduced dependencies",
+      "question": "What is a key benefit of following the Interface Segregation Principle?",
+      "answers": [
+        "Faster compilation",
+        "Reduced dependencies",
+        "Smaller executable size",
+        "Lower memory usage"
+      ]
+    },
+    {
+      "correctAnswer": "Both should depend on abstractions",
+      "question": "In the Dependency Inversion Principle, how should high-level and low-level modules relate to each other?",
+      "answers": [
+        "High-level depends on low-level",
+        "Low-level depends on high-level",
+        "Both should depend on abstractions",
+        "They should be independent"
+      ]
+    },
+    {
+      "correctAnswer": "Client-specific interfaces",
+      "question": "What does ISP recommend creating instead of general-purpose interfaces?",
+      "answers": [
+        "Client-specific interfaces",
+        "Abstract base classes",
+        "Friend classes",
+        "Templated interfaces"
+      ]
+    },
+    {
+      "correctAnswer": "Business logic",
+      "question": "What do high-level modules typically contain in an application?",
+      "answers": [
+        "Database connections",
+        "Business logic",
+        "UI components",
+        "Network protocols"
+      ]
+    },
+    {
+      "correctAnswer": "Implementation details",
+      "question": "What do low-level modules typically handle in an application?",
+      "answers": [
+        "User requirements",
+        "Implementation details",
+        "System architecture",
+        "Business rules"
+      ]
+    },
+    {
+      "correctAnswer": "Violates ISP",
+      "question": "What principle is violated when a class must implement methods it doesn't need?",
+      "answers": [
+        "Follows LSP",
+        "Violates ISP",
+        "Adheres to DIP",
+        "Supports SRP"
+      ]
+    },
+    {
+      "correctAnswer": "Dependency injection",
+      "question": "Which technique helps implement the Dependency Inversion Principle?",
+      "answers": [
+        "Method overloading",
+        "Dependency injection",
+        "Multiple inheritance",
+        "Operator overloading"
+      ]
+    },
+    {
+      "correctAnswer": "Decouples modules",
+      "question": "How does DIP improve software design?",
+      "answers": [
+        "Increases performance",
+        "Decouples modules",
+        "Reduces code size",
+        "Simplifies debugging"
+      ]
+    },
+    {
+      "correctAnswer": "Multiple small interfaces",
+      "question": "According to ISP, what is better than one large interface?",
+      "answers": [
+        "Multiple small interfaces",
+        "A single abstract class",
+        "Friend functions",
+        "Global methods"
+      ]
+    },
+    {
+      "correctAnswer": "Changes propagate through layers",
+      "question": "What problem does DIP help avoid in layered architectures?",
+      "answers": [
+        "Too many classes",
+        "Changes propagate through layers",
+        "Slow compilation",
+        "Memory leaks"
+      ]
+    },
+    {
+      "correctAnswer": "Client should not depend on unused methods",
+      "question": "What is the core idea behind the Interface Segregation Principle?",
+      "answers": [
+        "Interfaces should be large",
+        "Client should not depend on unused methods",
+        "All methods should be abstract",
+        "Interfaces should inherit from classes"
+      ]
+    },
+    {
+      "correctAnswer": "Abstract classes or interfaces",
+      "question": "What should modules depend on according to DIP?",
+      "answers": [
+        "Concrete implementations",
+        "Abstract classes or interfaces",
+        "Global functions",
+        "Static methods"
+      ]
+    },
+    {
+      "correctAnswer": "Dependency Inversion Principle",
+      "question": "Which principle does this code demonstrate?",
+      "code": "class OrderService {\n    private PaymentProcessor processor;\n    public OrderService(PaymentProcessor p) {\n        this.processor = p;\n    }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Dependency Inversion Principle",
+        "Liskov Substitution Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Interface Segregation Principle",
+      "question": "Which principle is violated in this example?",
+      "code": "interface Worker {\n    void work();\n    void eat();\n}\nclass Robot implements Worker {\n    void work() { /*...*/ }\n    void eat() { /* Not needed */ }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Interface Segregation Principle",
+        "Open/Closed Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Dependency Inversion Principle",
+      "question": "Which principle is correctly applied here?",
+      "code": "interface DataAccess {\n    void save(Object data);\n}\nclass CustomerService {\n    private DataAccess dao;\n    public CustomerService(DataAccess d) {\n        this.dao = d;\n    }\n}",
+      "answers": [
+        "Interface Segregation Principle",
+        "Dependency Inversion Principle",
+        "Liskov Substitution Principle",
+        "Single Responsibility Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Interface Segregation Principle",
+      "question": "Which principle is followed in this refactored code?",
+      "code": "interface Workable {\n    void work();\n}\ninterface Eatable {\n    void eat();\n}\nclass Robot implements Workable {\n    void work() { /*...*/ }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Interface Segregation Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Dependency Inversion Principle",
+      "question": "Which principle is violated in this example?",
+      "code": "class ReportGenerator {\n    private MySQLDatabase db;\n    public ReportGenerator() {\n        this.db = new MySQLDatabase();\n    }\n}",
+      "answers": [
+        "Liskov Substitution Principle",
+        "Dependency Inversion Principle",
+        "Interface Segregation Principle",
+        "Single Responsibility Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Interface Segregation Principle",
+      "question": "Which principle suggests this interface design is better?",
+      "code": "interface Printer {\n    void print();\n}\ninterface Scanner {\n    void scan();\n}\nclass AllInOneMachine implements Printer, Scanner {\n    void print() { /*...*/ }\n    void scan() { /*...*/ }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Interface Segregation Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Law of Demeter",
+      "question": "Which principle states that a method should only call methods of its own class, its parameters, or objects it creates?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Law of Demeter",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Reduces coupling between classes",
+      "question": "What is the primary benefit of following the Law of Demeter?",
+      "answers": [
+        "Improves performance",
+        "Reduces coupling between classes",
+        "Increases code reuse",
+        "Simplifies inheritance"
+      ]
+    },
+    {
+      "correctAnswer": "Train wreck",
+      "question": "What is the term for a chain of method calls that violates the Law of Demeter?",
+      "answers": [
+        "Method chaining",
+        "Train wreck",
+        "Call stack",
+        "Dependency chain"
+      ]
+    },
+    {
+      "correctAnswer": "Only direct friends",
+      "question": "According to the Law of Demeter, which objects can a method directly access?",
+      "answers": [
+        "Any object in the system",
+        "Only static objects",
+        "Only direct friends",
+        "Only superclass objects"
+      ]
+    },
+    {
+      "correctAnswer": "Delegation",
+      "question": "What technique helps comply with the Law of Demeter by having intermediate objects handle requests?",
+      "answers": [
+        "Inheritance",
+        "Polymorphism",
+        "Delegation",
+        "Encapsulation"
+      ]
+    },
+    {
+      "correctAnswer": "Maintainability",
+      "question": "Which software quality is most improved by following the Law of Demeter?",
+      "answers": [
+        "Performance",
+        "Maintainability",
+        "Memory efficiency",
+        "Thread safety"
+      ]
+    },
+    {
+      "correctAnswer": "Violates Law of Demeter",
+      "question": "What's special about this code?",
+      "code": "class ReportGenerator {\n  void generate() {\n    String data = database.getConnection().getQuery().execute();\n  }\n}",
+      "answers": [
+        "Follows Law of Demeter",
+        "Violates Law of Demeter",
+        "Demonstrates Dependency Injection",
+        "Shows High Cohesion"
+      ]
+    },
+    {
+      "correctAnswer": "Follows Law of Demeter",
+      "question": "What's special about this code?",
+      "code": "class ReportGenerator {\n  void generate() {\n    String data = database.executeQuery();\n  }\n}",
+      "answers": [
+        "Violates Law of Demeter",
+        "Follows Law of Demeter",
+        "Shows Tight Coupling",
+        "Breaks Single Responsibility"
+      ]
+    },
+    {
+      "correctAnswer": "Violates Law of Demeter",
+      "question": "What's special about this code?",
+      "code": "class Car {\n  Engine getEngine() { /*...*/ }\n}\nclass Mechanic {\n  void checkOil(Car car) {\n    int level = car.getEngine().getOil().getLevel();\n  }\n}",
+      "answers": [
+        "Follows Law of Demeter",
+        "Violates Law of Demeter",
+        "Demonstrates High Cohesion",
+        "Shows Loose Coupling"
+      ]
+    },
+    {
+      "correctAnswer": "Architectural",
+      "question": "MVC is primarily what type of pattern?",
+      "answers": [
+        "Creational",
+        "Structural",
+        "Behavioral",
+        "Architectural"
+      ]
+    },
+    {
+      "correctAnswer": "Model",
+      "question": "Which MVC component contains the application data and business logic?",
+      "answers": [
+        "Model",
+        "View",
+        "Controller",
+        "Presenter"
+      ]
+    },
+    {
+      "correctAnswer": "View",
+      "question": "Which MVC component is responsible for displaying data to the user?",
+      "answers": [
+        "Model",
+        "View",
+        "Controller",
+        "Adapter"
+      ]
+    },
+    {
+      "correctAnswer": "Controller",
+      "question": "Which MVC component handles user input and updates the model?",
+      "answers": [
+        "Model",
+        "View",
+        "Controller",
+        "Decorator"
+      ]
+    },
+    {
+      "correctAnswer": "Separation of concerns",
+      "question": "What is the primary benefit of using MVC?",
+      "answers": [
+        "Faster execution",
+        "Separation of concerns",
+        "Smaller code size",
+        "Better type safety"
+      ]
+    },
+    {
+      "correctAnswer": "Observer",
+      "question": "Which design pattern is commonly used between Model and View in MVC?",
+      "answers": [
+        "Singleton",
+        "Observer",
+        "Decorator",
+        "Factory"
+      ]
+    },
+    {
+      "correctAnswer": "Multiple views",
+      "question": "What can a single model have in MVC?",
+      "answers": [
+        "Only one view",
+        "Multiple views",
+        "No views",
+        "Exactly two views"
+      ]
+    },
+    {
+      "correctAnswer": "Web applications",
+      "question": "Where is MVC particularly popular?",
+      "answers": [
+        "Device drivers",
+        "Web applications",
+        "Mathematical libraries",
+        "Operating systems"
+      ]
+    },
+    {
+      "correctAnswer": "User mental model",
+      "question": "What does the Model in MVC ideally represent?",
+      "answers": [
+        "Database schema",
+        "User mental model",
+        "Network protocol",
+        "File system structure"
+      ]
+    },
+    {
+      "correctAnswer": "1970s",
+      "question": "When was MVC first introduced?",
+      "answers": [
+        "1950s",
+        "1970s",
+        "1990s",
+        "2000s"
+      ]
+    },
+    {
+      "correctAnswer": "Smalltalk",
+      "question": "In which programming environment was MVC originally developed?",
+      "answers": [
+        "Java",
+        "Smalltalk",
+        "C++",
+        "Lisp"
+      ]
+    },
+    {
+      "correctAnswer": "Composite",
+      "question": "Which pattern is used for nested views in MVC?",
+      "answers": [
+        "Decorator",
+        "Composite",
+        "Adapter",
+        "Bridge"
+      ]
+    },
+    {
+      "correctAnswer": "Business rules",
+      "question": "What does the Controller typically contain besides input handling?",
+      "answers": [
+        "Database connections",
+        "Business rules",
+        "UI elements",
+        "Network protocols"
+      ]
+    },
+    {
+      "correctAnswer": "Maintainability",
+      "question": "What quality does MVC particularly improve in applications?",
+      "answers": [
+        "Performance",
+        "Maintainability",
+        "Memory usage",
+        "Compilation speed"
+      ]
+    },
+    {
+      "correctAnswer": "Novice programmers",
+      "question": "Who might find MVC confusing according to the slides?",
+      "answers": [
+        "Novice programmers",
+        "Database administrators",
+        "System architects",
+        "QA testers"
+      ]
+    },
+    {
+      "correctAnswer": "Subscribe/notify",
+      "question": "What protocol does MVC establish between Model and View?",
+      "answers": [
+        "Request/response",
+        "Subscribe/notify",
+        "Publish/subscribe",
+        "Command/query"
+      ]
+    },
+    {
+      "correctAnswer": "Game development",
+      "question": "Where was MVC used in the course examples?",
+      "answers": [
+        "Game development",
+        "Web servers",
+        "Mobile apps",
+        "Data analysis"
+      ]
+    },
+    {
+      "correctAnswer": "Sky class",
+      "question": "Which class in the lab example mixed model and view concerns?",
+      "answers": [
+        "Crab class",
+        "Sky class",
+        "BeachController",
+        "IslandObject"
+      ]
+    },
+    {
+      "correctAnswer": "Decorator",
+      "question": "What pattern was suggested to fix the view mixing in the lab example?",
+      "answers": [
+        "Observer",
+        "Decorator",
+        "Strategy",
+        "Singleton"
+      ]
+    },
+    {
+      "correctAnswer": "Undo/redo",
+      "question": "What functionality demonstrates the importance of separating model and view?",
+      "answers": [
+        "Database access",
+        "Undo/redo",
+        "File saving",
+        "Network communication"
+      ]
+    },
+    {
+      "correctAnswer": "Behavioral",
+      "question": "The Observer pattern belongs to which category of design patterns?",
+      "answers": [
+        "Creational",
+        "Structural",
+        "Behavioral",
+        "Concurrency"
+      ]
+    },
+    {
+      "correctAnswer": "One-to-many dependency",
+      "question": "What relationship does the Observer pattern establish between objects?",
+      "answers": [
+        "One-to-one dependency",
+        "One-to-many dependency",
+        "Many-to-many dependency",
+        "No dependency"
+      ]
+    },
+    {
+      "correctAnswer": "Subject",
+      "question": "What is the name of the object being observed in the Observer pattern?",
+      "answers": [
+        "Observer",
+        "Subject",
+        "Publisher",
+        "Notifier"
+      ]
+    },
+    {
+      "correctAnswer": "Update",
+      "question": "What is the key method in the Observer interface?",
+      "answers": [
+        "Notify",
+        "Update",
+        "Observe",
+        "Watch"
+      ]
+    },
+    {
+      "correctAnswer": "Loose coupling",
+      "question": "What is the primary benefit of using the Observer pattern?",
+      "answers": [
+        "Improved performance",
+        "Loose coupling",
+        "Reduced memory usage",
+        "Faster compilation"
+      ]
+    },
+    {
+      "correctAnswer": "Push and pull",
+      "question": "What are the two models for data transfer in the Observer pattern?",
+      "answers": [
+        "Send and receive",
+        "Push and pull",
+        "Request and response",
+        "Publish and subscribe"
+      ]
+    },
+    {
+      "correctAnswer": "Event handling systems",
+      "question": "Where is the Observer pattern commonly used?",
+      "answers": [
+        "Database systems",
+        "Event handling systems",
+        "Mathematical computations",
+        "File operations"
+      ]
+    },
+    {
+      "correctAnswer": "Deprecated",
+      "question": "What is the status of Java's built-in Observer/Observable classes?",
+      "answers": [
+        "Recommended",
+        "Deprecated",
+        "Experimental",
+        "Internal use only"
+      ]
+    },
+    {
+      "correctAnswer": "Multiple observers",
+      "question": "How many observers can a subject typically have in this pattern?",
+      "answers": [
+        "Only one",
+        "Exactly two",
+        "Multiple observers",
+        "None"
+      ]
+    },
+    {
+      "correctAnswer": "State change",
+      "question": "When does the subject notify its observers?",
+      "answers": [
+        "Periodically",
+        "State change",
+        "On request",
+        "Randomly"
+      ]
+    },
+    {
+      "correctAnswer": "Cascading updates",
+      "question": "What is a potential drawback of the Observer pattern?",
+      "answers": [
+        "Cascading updates",
+        "Memory leaks",
+        "Thread deadlocks",
+        "Compiler errors"
+      ]
+    },
+    {
+      "correctAnswer": "Weather station",
+      "question": "What is a classic example used to explain the Observer pattern?",
+      "answers": [
+        "Bank account",
+        "Weather station",
+        "Shopping cart",
+        "File system"
+      ]
+    },
+    {
+      "correctAnswer": "Mediator",
+      "question": "Which pattern is closely related to Observer but focuses on centralized communication?",
+      "answers": [
+        "Decorator",
+        "Mediator",
+        "Facade",
+        "Proxy"
+      ]
+    },
+    {
+      "correctAnswer": "Strategic Programming",
+      "question": "Which programming approach focuses on long-term code maintainability and design quality?",
+      "answers": [
+        "Tactical Programming",
+        "Strategic Programming",
+        "Agile Programming",
+        "Waterfall Programming"
+      ]
+    },
+    {
+      "correctAnswer": "Complexity",
+      "question": "What term describes anything in a software system's structure that makes it hard to understand and modify?",
+      "answers": [
+        "Simplicity",
+        "Complexity",
+        "Coupling",
+        "Cohesion"
+      ]
+    },
+    {
+      "correctAnswer": "Maintainability",
+      "question": "Which characteristic of good software ensures it can be easily updated or modified over time?",
+      "answers": [
+        "Reliability",
+        "Efficiency",
+        "Maintainability",
+        "Portability"
+      ]
+    },
+    {
+      "correctAnswer": "KISS (Keep it Simple, Stupid)",
+      "question": "Which design principle advocates for simplicity and avoiding unnecessary complexity?",
+      "answers": [
+        "DRY (Don't Repeat Yourself)",
+        "KISS (Keep it Simple, Stupid)",
+        "SOLID",
+        "YAGNI (You Aren't Gonna Need It)"
+      ]
+    },
+    {
+      "correctAnswer": "Loose Coupling",
+      "question": "What term describes components in a system that are minimally dependent on each other?",
+      "answers": [
+        "Tight Coupling",
+        "Loose Coupling",
+        "High Cohesion",
+        "Low Cohesion"
+      ]
+    },
+    {
+      "correctAnswer": "High Cohesion",
+      "question": "Which term describes a module where all elements are strongly related and focused on a single task?",
+      "answers": [
+        "Low Cohesion",
+        "High Cohesion",
+        "Tight Coupling",
+        "Loose Coupling"
+      ]
+    },
+    {
+      "correctAnswer": "Tight Coupling",
+      "question": "What is the term for a situation where components are highly interdependent, making changes difficult?",
+      "answers": [
+        "Loose Coupling",
+        "Tight Coupling",
+        "High Cohesion",
+        "Low Cohesion"
+      ]
+    },
+    {
+      "correctAnswer": "Low Cohesion",
+      "question": "Which term describes a module performing many unrelated tasks with weakly related elements?",
+      "answers": [
+        "High Cohesion",
+        "Low Cohesion",
+        "Tight Coupling",
+        "Loose Coupling"
+      ]
+    },
+    {
+      "correctAnswer": "Testability",
+      "question": "Which software characteristic ensures that the system can be easily verified for correctness?",
+      "answers": [
+        "Scalability",
+        "Testability",
+        "Flexibility",
+        "Interoperability"
+      ]
+    },
+    {
+      "correctAnswer": "Reliability",
+      "question": "Which characteristic of good software ensures it performs correctly under specified conditions?",
+      "answers": [
+        "Reliability",
+        "Efficiency",
+        "Acceptability",
+        "Portability"
+      ]
+    },
+    {
+      "correctAnswer": "Dependency Inversion Principle",
+      "question": "Which principle does this code demonstrate?",
+      "code": "class OrderService {\n    private PaymentProcessor processor;\n    public OrderService(PaymentProcessor p) {\n        this.processor = p;\n    }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Dependency Inversion Principle",
+        "Liskov Substitution Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Interface Segregation Principle",
+      "question": "Which principle is violated in this example?",
+      "code": "interface Worker {\n    void work();\n    void eat();\n}\nclass Robot implements Worker {\n    void work() { /*...*/ }\n    void eat() { /* Not needed */ }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Interface Segregation Principle",
+        "Open/Closed Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Dependency Inversion Principle",
+      "question": "Which principle is correctly applied here?",
+      "code": "interface DataAccess {\n    void save(Object data);\n}\nclass CustomerService {\n    private DataAccess dao;\n    public CustomerService(DataAccess d) {\n        this.dao = d;\n    }\n}",
+      "answers": [
+        "Interface Segregation Principle",
+        "Dependency Inversion Principle",
+        "Liskov Substitution Principle",
+        "Single Responsibility Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Interface Segregation Principle",
+      "question": "Which principle is followed in this refactored code?",
+      "code": "interface Workable {\n    void work();\n}\ninterface Eatable {\n    void eat();\n}\nclass Robot implements Workable {\n    void work() { /*...*/ }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Interface Segregation Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Dependency Inversion Principle",
+      "question": "Which principle is violated in this example?",
+      "code": "class ReportGenerator {\n    private MySQLDatabase db;\n    public ReportGenerator() {\n        this.db = new MySQLDatabase();\n    }\n}",
+      "answers": [
+        "Liskov Substitution Principle",
+        "Dependency Inversion Principle",
+        "Interface Segregation Principle",
+        "Single Responsibility Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Interface Segregation Principle",
+      "question": "Which principle suggests this interface design is better?",
+      "code": "interface Printer {\n    void print();\n}\ninterface Scanner {\n    void scan();\n}\nclass AllInOneMachine implements Printer, Scanner {\n    void print() { /*...*/ }\n    void scan() { /*...*/ }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Interface Segregation Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Single Responsibility Principle",
+      "question": "Which principle does this class violate?",
+      "code": "class ReportHandler {\n    void generateReport(String data) { /*...*/ }\n    void saveToFile(String content) { /*...*/ }\n    void sendEmail(String recipient) { /*...*/ }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Open/Closed Principle",
+      "question": "Which principle is correctly applied in this shape hierarchy?",
+      "code": "interface Shape { void draw(); }\nclass Circle implements Shape { /*...*/ }\nclass Square implements Shape { /*...*/ }",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Single Responsibility Principle",
+      "question": "Which principle is correctly applied in this separation?",
+      "code": "class ReportGenerator { void generate() { /*...*/ } }\nclass FileSaver { void save() { /*...*/ } }",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Liskov Substitution Principle",
+      "question": "Which principle is followed in this sorter implementation?",
+      "code": "class Sorter { void sort(int[] arr) { /*...*/ } }\nclass QuickSorter extends Sorter { /* Same sorting logic */ }",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Single Responsibility Principle",
+      "question": "Which principle is violated when a class handles both data processing and user interface?",
+      "code": "class DataManager {\n    void processData() { /*...*/ }\n    void displayData() { /*...*/ }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Liskov Substitution Principle",
+      "question": "Which principle is violated when a subclass changes the expected behavior of a superclass method?",
+      "code": "class Rectangle {\n    int getArea() { return width * height; }\n}\nclass Square extends Rectangle {\n    @Override\n    int getArea() { return side * side; }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Open/Closed Principle",
+      "question": "Which principle is demonstrated by using inheritance to extend functionality without modifying existing code?",
+      "code": "class Animal {\n    void makeSound() { /*...*/ }\n}\nclass Dog extends Animal {\n    @Override\n    void makeSound() { /* Bark */ }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Violates Law of Demeter",
+      "question": "What's special about this code?",
+      "code": "class ReportGenerator {\n  void generate() {\n    String data = database.getConnection().getQuery().execute();\n  }\n}",
+      "answers": [
+        "Follows Law of Demeter",
+        "Violates Law of Demeter",
+        "Demonstrates Dependency Injection",
+        "Shows High Cohesion"
+      ]
+    },
+    {
+      "correctAnswer": "Follows Law of Demeter",
+      "question": "What's special about this code?",
+      "code": "class ReportGenerator {\n  void generate() {\n    String data = database.executeQuery();\n  }\n}",
+      "answers": [
+        "Violates Law of Demeter",
+        "Follows Law of Demeter",
+        "Shows Tight Coupling",
+        "Breaks Single Responsibility"
+      ]
+    },
+    {
+      "correctAnswer": "Violates Law of Demeter",
+      "question": "What's special about this code?",
+      "code": "class Car {\n  Engine getEngine() { /*...*/ }\n}\nclass Mechanic {\n  void checkOil(Car car) {\n    int level = car.getEngine().getOil().getLevel();\n  }\n}",
+      "answers": [
+        "Follows Law of Demeter",
+        "Violates Law of Demeter",
+        "Demonstrates High Cohesion",
+        "Shows Loose Coupling"
+      ]
+    },
+    {
+      "correctAnswer": "Dependency Inversion Principle",
+      "question": "Which principle states that high-level modules should depend on abstractions rather than concrete implementations?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Dependency Inversion Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Interface Segregation Principle",
+      "question": "Which principle recommends breaking large interfaces into smaller, more specific ones?",
+      "answers": [
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle",
+        "Open/Closed Principle",
+        "Single Responsibility Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Abstractions",
+      "question": "According to DIP, what should both high-level and low-level modules depend on?",
+      "answers": [
+        "Concrete classes",
+        "Abstractions",
+        "Utility methods",
+        "Global variables"
+      ]
+    },
+    {
+      "correctAnswer": "Reduced dependencies",
+      "question": "What is a key benefit of following the Interface Segregation Principle?",
+      "answers": [
+        "Faster compilation",
+        "Reduced dependencies",
+        "Smaller executable size",
+        "Lower memory usage"
+      ]
+    },
+    {
+      "correctAnswer": "Both should depend on abstractions",
+      "question": "In the Dependency Inversion Principle, how should high-level and low-level modules relate to each other?",
+      "answers": [
+        "High-level depends on low-level",
+        "Low-level depends on high-level",
+        "Both should depend on abstractions",
+        "They should be independent"
+      ]
+    },
+    {
+      "correctAnswer": "Client-specific interfaces",
+      "question": "What does ISP recommend creating instead of general-purpose interfaces?",
+      "answers": [
+        "Client-specific interfaces",
+        "Abstract base classes",
+        "Friend classes",
+        "Templated interfaces"
+      ]
+    },
+    {
+      "correctAnswer": "Business logic",
+      "question": "What do high-level modules typically contain in an application?",
+      "answers": [
+        "Database connections",
+        "Business logic",
+        "UI components",
+        "Network protocols"
+      ]
+    },
+    {
+      "correctAnswer": "Implementation details",
+      "question": "What do low-level modules typically handle in an application?",
+      "answers": [
+        "User requirements",
+        "Implementation details",
+        "System architecture",
+        "Business rules"
+      ]
+    },
+    {
+      "correctAnswer": "Violates ISP",
+      "question": "What principle is violated when a class must implement methods it doesn't need?",
+      "answers": [
+        "Follows LSP",
+        "Violates ISP",
+        "Adheres to DIP",
+        "Supports SRP"
+      ]
+    },
+    {
+      "correctAnswer": "Dependency injection",
+      "question": "Which technique helps implement the Dependency Inversion Principle?",
+      "answers": [
+        "Method overloading",
+        "Dependency injection",
+        "Multiple inheritance",
+        "Operator overloading"
+      ]
+    },
+    {
+      "correctAnswer": "Decouples modules",
+      "question": "How does DIP improve software design?",
+      "answers": [
+        "Increases performance",
+        "Decouples modules",
+        "Reduces code size",
+        "Simplifies debugging"
+      ]
+    },
+    {
+      "correctAnswer": "Multiple small interfaces",
+      "question": "According to ISP, what is better than one large interface?",
+      "answers": [
+        "Multiple small interfaces",
+        "A single abstract class",
+        "Friend functions",
+        "Global methods"
+      ]
+    },
+    {
+      "correctAnswer": "Changes propagate through layers",
+      "question": "What problem does DIP help avoid in layered architectures?",
+      "answers": [
+        "Too many classes",
+        "Changes propagate through layers",
+        "Slow compilation",
+        "Memory leaks"
+      ]
+    },
+    {
+      "correctAnswer": "Client should not depend on unused methods",
+      "question": "What is the core idea behind the Interface Segregation Principle?",
+      "answers": [
+        "Interfaces should be large",
+        "Client should not depend on unused methods",
+        "All methods should be abstract",
+        "Interfaces should inherit from classes"
+      ]
+    },
+    {
+      "correctAnswer": "Abstract classes or interfaces",
+      "question": "What should modules depend on according to DIP?",
+      "answers": [
+        "Concrete implementations",
+        "Abstract classes or interfaces",
+        "Global functions",
+        "Static methods"
+      ]
+    },
+    {
+      "correctAnswer": "Single Responsibility Principle",
+      "question": "Which SOLID principle states that a module should have only one reason to change?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Open/Closed Principle",
+      "question": "Which principle advocates that software should be open for extension but closed for modification?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Liskov Substitution Principle",
+      "question": "Which principle ensures that objects of a superclass can be replaced with objects of a subclass without affecting program correctness?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Interface Segregation Principle",
+      "question": "Which principle suggests that clients should not be forced to depend on interfaces they do not use?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Dependency Inversion Principle",
+      "question": "Which principle states that high-level modules should not depend on low-level modules, but both should depend on abstractions?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Single Responsibility Principle",
+      "question": "Which principle is violated when a class handles both report generation and email sending?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Open/Closed Principle",
+      "question": "Which principle is violated when modifying an existing class to add new functionality instead of extending it?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Liskov Substitution Principle",
+      "question": "Which principle is violated when a subclass throws an exception for a method that the superclass defines without exceptions?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "High Cohesion",
+      "question": "What term describes a module where all elements are strongly related and focused on a single task?",
+      "answers": [
+        "Low Cohesion",
+        "High Cohesion",
+        "Tight Coupling",
+        "Loose Coupling"
+      ]
+    },
+    {
+      "correctAnswer": "Loose Coupling",
+      "question": "What term describes components in a system that are minimally dependent on each other?",
+      "answers": [
+        "Tight Coupling",
+        "Loose Coupling",
+        "High Cohesion",
+        "Low Cohesion"
+      ]
+    },
+    {
+      "correctAnswer": "Single Responsibility Principle",
+      "question": "Which principle is demonstrated by splitting a Calculator class into AdditionCalculator, SubtractionCalculator, etc.?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Open/Closed Principle",
+      "question": "Which principle is demonstrated by using a ColoredShape decorator to add color functionality without modifying Shape classes?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Liskov Substitution Principle",
+      "question": "Which principle is violated when a RandomSorter subclass returns unsorted results while the Sorter superclass expects sorted results?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Interface Segregation Principle",
+      "question": "Which principle is violated when a class implements a large interface but only uses a few of its methods?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Law of Demeter",
+      "question": "Which principle states that a method should only call methods of its own class, its parameters, or objects it creates?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Law of Demeter",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Reduces coupling between classes",
+      "question": "What is the primary benefit of following the Law of Demeter?",
+      "answers": [
+        "Improves performance",
+        "Reduces coupling between classes",
+        "Increases code reuse",
+        "Simplifies inheritance"
+      ]
+    },
+    {
+      "correctAnswer": "Train wreck",
+      "question": "What is the term for a chain of method calls that violates the Law of Demeter?",
+      "answers": [
+        "Method chaining",
+        "Train wreck",
+        "Call stack",
+        "Dependency chain"
+      ]
+    },
+    {
+      "correctAnswer": "Only direct friends",
+      "question": "According to the Law of Demeter, which objects can a method directly access?",
+      "answers": [
+        "Any object in the system",
+        "Only static objects",
+        "Only direct friends",
+        "Only superclass objects"
+      ]
+    },
+    {
+      "correctAnswer": "Delegation",
+      "question": "What technique helps comply with the Law of Demeter by having intermediate objects handle requests?",
+      "answers": [
+        "Inheritance",
+        "Polymorphism",
+        "Delegation",
+        "Encapsulation"
+      ]
+    },
+    {
+      "correctAnswer": "Maintainability",
+      "question": "Which software quality is most improved by following the Law of Demeter?",
+      "answers": [
+        "Performance",
+        "Maintainability",
+        "Memory efficiency",
+        "Thread safety"
+      ]
+    },
+    {
+      "correctAnswer": "Dependency Inversion Principle",
+      "question": "Which principle is demonstrated by injecting NotificationService into Notifier instead of directly using EmailService?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Single Responsibility Principle",
+      "question": "Which principle is violated when a Report class handles both report generation and file saving?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Open/Closed Principle",
+      "question": "Which principle is violated when adding a new shape type requires modifying an existing draw() method with if-else conditions?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Liskov Substitution Principle",
+      "question": "Which principle is violated when an ElectricVehicle subclass throws an exception for startEngine() while Vehicle superclass defines it normally?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "High Cohesion",
+      "question": "Which design quality is achieved when a module's responsibilities are closely related and focused?",
+      "answers": [
+        "Low Cohesion",
+        "High Cohesion",
+        "Tight Coupling",
+        "Loose Coupling"
+      ]
+    },
+    {
+      "correctAnswer": "Loose Coupling",
+      "question": "Which design quality reduces the impact of changes in one component on other components?",
+      "answers": [
+        "Tight Coupling",
+        "Loose Coupling",
+        "High Cohesion",
+        "Low Cohesion"
+      ]
+    },
+    {
+      "correctAnswer": "Single Responsibility Principle",
+      "question": "Which SOLID principle states that a module should have only one reason to change?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Open/Closed Principle",
+      "question": "Which principle advocates that software should be open for extension but closed for modification?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Liskov Substitution Principle",
+      "question": "Which principle ensures that objects of a superclass can be replaced with objects of a subclass without affecting program correctness?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Interface Segregation Principle",
+      "question": "Which principle suggests that clients should not be forced to depend on interfaces they do not use?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Dependency Inversion Principle",
+      "question": "Which principle states that high-level modules should not depend on low-level modules, but both should depend on abstractions?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Single Responsibility Principle",
+      "question": "Which principle is violated when a class handles both report generation and email sending?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Open/Closed Principle",
+      "question": "Which principle is violated when modifying an existing class to add new functionality instead of extending it?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Liskov Substitution Principle",
+      "question": "Which principle is violated when a subclass throws an exception for a method that the superclass defines without exceptions?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "High Cohesion",
+      "question": "What term describes a module where all elements are strongly related and focused on a single task?",
+      "answers": [
+        "Low Cohesion",
+        "High Cohesion",
+        "Tight Coupling",
+        "Loose Coupling"
+      ]
+    },
+    {
+      "correctAnswer": "Loose Coupling",
+      "question": "What term describes components in a system that are minimally dependent on each other?",
+      "answers": [
+        "Tight Coupling",
+        "Loose Coupling",
+        "High Cohesion",
+        "Low Cohesion"
+      ]
+    },
+    {
+      "correctAnswer": "Single Responsibility Principle",
+      "question": "Which principle is demonstrated by splitting a Calculator class into AdditionCalculator, SubtractionCalculator, etc.?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Open/Closed Principle",
+      "question": "Which principle is demonstrated by using a ColoredShape decorator to add color functionality without modifying Shape classes?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Liskov Substitution Principle",
+      "question": "Which principle is violated when a RandomSorter subclass returns unsorted results while the Sorter superclass expects sorted results?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Interface Segregation Principle",
+      "question": "Which principle is violated when a class implements a large interface but only uses a few of its methods?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Dependency Inversion Principle",
+      "question": "Which principle is demonstrated by injecting NotificationService into Notifier instead of directly using EmailService?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Single Responsibility Principle",
+      "question": "Which principle is violated when a Report class handles both report generation and file saving?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Open/Closed Principle",
+      "question": "Which principle is violated when adding a new shape type requires modifying an existing draw() method with if-else conditions?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Liskov Substitution Principle",
+      "question": "Which principle is violated when an ElectricVehicle subclass throws an exception for startEngine() while Vehicle superclass defines it normally?",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "High Cohesion",
+      "question": "Which design quality is achieved when a module's responsibilities are closely related and focused?",
+      "answers": [
+        "Low Cohesion",
+        "High Cohesion",
+        "Tight Coupling",
+        "Loose Coupling"
+      ]
+    },
+    {
+      "correctAnswer": "Loose Coupling",
+      "question": "Which design quality reduces the impact of changes in one component on other components?",
+      "answers": [
+        "Tight Coupling",
+        "Loose Coupling",
+        "High Cohesion",
+        "Low Cohesion"
+      ]
+    },
+    {
+      "correctAnswer": "Single Responsibility Principle",
+      "question": "Which principle does this class violate?",
+      "code": "class ReportHandler {\n    void generateReport(String data) { /*...*/ }\n    void saveToFile(String content) { /*...*/ }\n    void sendEmail(String recipient) { /*...*/ }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Open/Closed Principle",
+      "question": "Which principle is correctly applied in this shape hierarchy?",
+      "code": "interface Shape { void draw(); }\nclass Circle implements Shape { /*...*/ }\nclass Square implements Shape { /*...*/ }",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Single Responsibility Principle",
+      "question": "Which principle is correctly applied in this separation?",
+      "code": "class ReportGenerator { void generate() { /*...*/ } }\nclass FileSaver { void save() { /*...*/ } }",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Liskov Substitution Principle",
+      "question": "Which principle is followed in this sorter implementation?",
+      "code": "class Sorter { void sort(int[] arr) { /*...*/ } }\nclass QuickSorter extends Sorter { /* Same sorting logic */ }",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Single Responsibility Principle",
+      "question": "Which principle is violated when a class handles both data processing and user interface?",
+      "code": "class DataManager {\n    void processData() { /*...*/ }\n    void displayData() { /*...*/ }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Liskov Substitution Principle",
+      "question": "Which principle is violated when a subclass changes the expected behavior of a superclass method?",
+      "code": "class Rectangle {\n    int getArea() { return width * height; }\n}\nclass Square extends Rectangle {\n    @Override\n    int getArea() { return side * side; }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Open/Closed Principle",
+      "question": "Which principle is demonstrated by using inheritance to extend functionality without modifying existing code?",
+      "code": "class Animal {\n    void makeSound() { /*...*/ }\n}\nclass Dog extends Animal {\n    @Override\n    void makeSound() { /* Bark */ }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Creational",
+      "question": "The Singleton pattern belongs to which category of design patterns?",
+      "answers": [
+        "Creational",
+        "Structural",
+        "Behavioral",
+        "Concurrency"
+      ]
+    },
+    {
+      "correctAnswer": "Ensure only one instance exists",
+      "question": "What is the primary purpose of the Singleton pattern?",
+      "answers": [
+        "Enable multiple instances",
+        "Ensure only one instance exists",
+        "Improve performance",
+        "Simplify inheritance"
+      ]
+    },
+    {
+      "correctAnswer": "Global access point",
+      "question": "What does the Singleton pattern provide for its single instance?",
+      "answers": [
+        "Thread safety by default",
+        "Global access point",
+        "Automatic serialization",
+        "Dynamic reloading"
+      ]
+    },
+    {
+      "correctAnswer": "Behavioral",
+      "question": "The Strategy pattern belongs to which category of design patterns?",
+      "answers": [
+        "Creational",
+        "Structural",
+        "Behavioral",
+        "Architectural"
+      ]
+    },
+    {
+      "correctAnswer": "Interchangeable algorithms",
+      "question": "What does the Strategy pattern enable for algorithms?",
+      "answers": [
+        "Automatic optimization",
+        "Interchangeable algorithms",
+        "Static binding",
+        "Global access"
+      ]
+    },
+    {
+      "correctAnswer": "Family of algorithms",
+      "question": "What does the Strategy pattern help organize into separate classes?",
+      "answers": [
+        "Database connections",
+        "User interfaces",
+        "Family of algorithms",
+        "Network protocols"
+      ]
+    },
+    {
+      "correctAnswer": "Structural",
+      "question": "The Facade pattern belongs to which category of design patterns?",
+      "answers": [
+        "Creational",
+        "Structural",
+        "Behavioral",
+        "Functional"
+      ]
+    },
+    {
+      "correctAnswer": "Simplified interface",
+      "question": "What does the Facade pattern provide for complex subsystems?",
+      "answers": [
+        "Simplified interface",
+        "Direct access",
+        "Automatic caching",
+        "Dynamic loading"
+      ]
+    },
+    {
+      "correctAnswer": "Subsystem complexity",
+      "question": "What does the Facade pattern primarily hide from clients?",
+      "answers": [
+        "Performance issues",
+        "Subsystem complexity",
+        "Memory usage",
+        "Thread safety"
+      ]
+    },
+    {
+      "correctAnswer": "Single entry point",
+      "question": "What architectural role does a Facade typically serve?",
+      "answers": [
+        "Single entry point",
+        "Multiple endpoints",
+        "Data storage",
+        "Network gateway"
+      ]
+    },
+    {
+      "correctAnswer": "Singleton pattern",
+      "question": "Which design pattern is demonstrated by this code?",
+      "code": "public class DatabaseConnection {\n  private static DatabaseConnection instance;\n  private DatabaseConnection() {}\n  public static DatabaseConnection getInstance() {\n    if (instance == null) {\n      instance = new DatabaseConnection();\n    }\n    return instance;\n  }\n}",
+      "answers": [
+        "Factory Method",
+        "Singleton pattern",
+        "Builder",
+        "Prototype"
+      ]
+    },
+    {
+      "correctAnswer": "Singleton pattern",
+      "question": "Which design pattern is shown in this implementation?",
+      "code": "public class Logger {\n  private static Logger logger;\n  private Logger() {}\n  public static synchronized Logger getLogger() {\n    if (logger == null) {\n      logger = new Logger();\n    }\n    return logger;\n  }\n}",
+      "answers": [
+        "Adapter",
+        "Singleton pattern",
+        "Decorator",
+        "Observer"
+      ]
+    },
+    {
+      "correctAnswer": "Singleton pattern",
+      "question": "Which design pattern does this code example represent?",
+      "code": "public class AppConfig {\n  private static AppConfig config = new AppConfig();\n  private AppConfig() {}\n  public static AppConfig getConfig() {\n    return config;\n  }\n}",
+      "answers": [
+        "Strategy",
+        "Facade",
+        "Singleton pattern",
+        "Composite"
+      ]
+    },
+    {
+      "correctAnswer": "Strategy pattern",
+      "question": "Which design pattern is illustrated by this code?",
+      "code": "interface CompressionStrategy {\n  void compress(String file);\n}\nclass ZipCompression implements CompressionStrategy {\n  public void compress(String file) { /*...*/ }\n}\nclass RarCompression implements CompressionStrategy {\n  public void compress(String file) { /*...*/ }\n}",
+      "answers": [
+        "Strategy pattern",
+        "Template Method",
+        "Visitor",
+        "Chain of Responsibility"
+      ]
+    },
+    {
+      "correctAnswer": "Strategy pattern",
+      "question": "Which design pattern is being used in this example?",
+      "code": "interface PaymentStrategy {\n  void pay(int amount);\n}\nclass CreditCardPayment implements PaymentStrategy {\n  public void pay(int amount) { /*...*/ }\n}\nclass PayPalPayment implements PaymentStrategy {\n  public void pay(int amount) { /*...*/ }\n}",
+      "answers": [
+        "Decorator",
+        "Strategy pattern",
+        "Proxy",
+        "Bridge"
+      ]
+    },
+    {
+      "correctAnswer": "Strategy pattern",
+      "question": "Which design pattern does this code demonstrate?",
+      "code": "interface SortAlgorithm {\n  void sort(int[] data);\n}\nclass QuickSort implements SortAlgorithm {\n  public void sort(int[] data) { /*...*/ }\n}\nclass MergeSort implements SortAlgorithm {\n  public void sort(int[] data) { /*...*/ }\n}",
+      "answers": [
+        "Observer",
+        "Strategy pattern",
+        "State",
+        "Command"
+      ]
+    },
+    {
+      "correctAnswer": "Facade pattern",
+      "question": "Which design pattern is shown in this implementation?",
+      "code": "class HomeTheaterFacade {\n  private Amplifier amp;\n  private DvdPlayer dvd;\n  public HomeTheaterFacade(Amplifier a, DvdPlayer d) {\n    this.amp = a;\n    this.dvd = d;\n  }\n  public void watchMovie() {\n    amp.on();\n    dvd.on();\n    dvd.play();\n  }\n}",
+      "answers": [
+        "Mediator",
+        "Proxy",
+        "Facade pattern",
+        "Flyweight"
+      ]
+    },
+    {
+      "correctAnswer": "Facade pattern",
+      "question": "Which design pattern does this code represent?",
+      "code": "class Computer {\n  private CPU cpu;\n  private Memory memory;\n  public Computer() {\n    this.cpu = new CPU();\n    this.memory = new Memory();\n  }\n  public void start() {\n    cpu.initialize();\n    memory.load();\n  }\n}",
+      "answers": [
+        "Composite",
+        "Facade pattern",
+        "Adapter",
+        "Bridge"
+      ]
+    },
+    {
+      "correctAnswer": "Facade pattern",
+      "question": "Which design pattern is demonstrated by this code?",
+      "code": "class BankAccountFacade {\n  private AccountNumberCheck acctChecker;\n  private SecurityCodeCheck codeChecker;\n  public BankAccountFacade() {\n    this.acctChecker = new AccountNumberCheck();\n    this.codeChecker = new SecurityCodeCheck();\n  }\n  public void withdrawCash(double amount) {\n    if (acctChecker.validate() && codeChecker.validate()) {\n      // Process withdrawal\n    }\n  }\n}",
+      "answers": [
+        "Decorator",
+        "Facade pattern",
+        "Chain of Responsibility",
+        "Visitor"
+      ]
+    },
+    {
+      "correctAnswer": "Facade pattern",
+      "question": "Which design pattern is being used in this example?",
+      "code": "class OrderProcessingFacade {\n  private InventorySystem inventory;\n  private PaymentSystem payment;\n  private ShippingSystem shipping;\n  public OrderProcessingFacade() {\n    this.inventory = new InventorySystem();\n    this.payment = new PaymentSystem();\n    this.shipping = new ShippingSystem();\n  }\n  public void placeOrder(Order order) {\n    inventory.checkStock();\n    payment.processPayment();\n    shipping.shipOrder();\n  }\n}",
+      "answers": [
+        "Observer",
+        "Strategy",
+        "Facade pattern",
+        "Proxy"
+      ]
+    }
+  ]
+}

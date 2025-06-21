@@ -1,0 +1,972 @@
+{
+  "questions": [
+    {
+      "correctAnswer": "The Blob",
+      "question": "Which anti-pattern is shown in this class?",
+      "code": "class MainController {\n  void processOrder() {...}\n  void generateReport() {...}\n  void validateData() {...}\n  void updateUI() {...}\n  // 50+ more methods\n}",
+      "answers": [
+        "The Blob",
+        "Spaghetti Code",
+        "Lava Flow",
+        "Golden Hammer"
+      ]
+    },
+    {
+      "correctAnswer": "Violates Law of Demeter",
+      "question": "What's special about this code?",
+      "code": "class ReportGenerator {\n  void generate() {\n    String data = database.getConnection().getQuery().execute();\n  }\n}",
+      "answers": [
+        "Follows Law of Demeter",
+        "Violates Law of Demeter",
+        "Demonstrates Dependency Injection",
+        "Shows High Cohesion"
+      ]
+    },
+    {
+      "correctAnswer": "Follows Law of Demeter",
+      "question": "What's special about this code?",
+      "code": "class ReportGenerator {\n  void generate() {\n    String data = database.executeQuery();\n  }\n}",
+      "answers": [
+        "Violates Law of Demeter",
+        "Follows Law of Demeter",
+        "Shows Tight Coupling",
+        "Breaks Single Responsibility"
+      ]
+    },
+    {
+      "correctAnswer": "Violates Law of Demeter",
+      "question": "What's special about this code?",
+      "code": "class Car {\n  Engine getEngine() { /*...*/ }\n}\nclass Mechanic {\n  void checkOil(Car car) {\n    int level = car.getEngine().getOil().getLevel();\n  }\n}",
+      "answers": [
+        "Follows Law of Demeter",
+        "Violates Law of Demeter",
+        "Demonstrates High Cohesion",
+        "Shows Loose Coupling"
+      ]
+    },
+    {
+      "correctAnswer": "Primitive Obsession",
+      "question": "Which code smell is shown here?",
+      "code": "void scheduleMeeting(int y, int m, int d, int hr, int min)",
+      "answers": [
+        "Primitive Obsession",
+        "Long Method",
+        "Data Clumps",
+        "Feature Envy"
+      ]
+    },
+    {
+      "correctAnswer": "Data Clumps",
+      "question": "Which code smell is present in these parameters?",
+      "code": "void registerUser(string firstName, string lastName, string street, string city, string zip)",
+      "answers": [
+        "Data Clumps",
+        "Primitive Obsession",
+        "Duplicate Code",
+        "Shotgun Surgery"
+      ]
+    },
+    {
+      "correctAnswer": "Switch Statements",
+      "question": "Which code smell is shown in this method?",
+      "code": "string getSound(Animal a) {\n  switch(a.getType()) {\n    case DOG: return \"Bark\";\n    case CAT: return \"Meow\";\n  }\n}",
+      "answers": [
+        "Switch Statements",
+        "Feature Envy",
+        "Message Chains",
+        "Middle Man"
+      ]
+    },
+    {
+      "correctAnswer": "Feature Envy",
+      "question": "Which smell exists in this Order class method?",
+      "code": "class Order {\n  decimal calculatePrice(Customer c) {\n    return c.getBasePrice() * c.getDiscount();\n  }\n}",
+      "answers": [
+        "Data Clumps",
+        "Feature Envy",
+        "Divergent Change",
+        "Inappropriate Intimacy"
+      ]
+    },
+    {
+      "correctAnswer": "Duplicate Code",
+      "question": "Which code smell exists between these methods?",
+      "code": "void printInvoice() { /* 20 lines */ }\nvoid printReceipt() { /* Same 20 lines with minor changes */ }",
+      "answers": [
+        "Long Method",
+        "Duplicate Code",
+        "Speculative Generality",
+        "Lazy Class"
+      ]
+    },
+    {
+      "correctAnswer": "Long Method",
+      "question": "Which code smell is shown here?",
+      "code": "void processOrder() {\n  // 150+ lines of code\n  // mixing validation, calculation,\n  // database access, and logging\n}",
+      "answers": [
+        "Long Method",
+        "Duplicate Code",
+        "Primitive Obsession",
+        "Data Clumps"
+      ]
+    },
+    {
+      "correctAnswer": "Speculative Generality",
+      "question": "Which anti-pattern is shown in this unused abstraction?",
+      "code": "interface FutureFeature {\n  void mightNeedThis();\n  void possiblyRequired();\n} // Never implemented",
+      "answers": [
+        "Speculative Generality",
+        "Lazy Class",
+        "Data Class",
+        "Middle Man"
+      ]
+    },
+    {
+      "correctAnswer": "Refused Bequest",
+      "question": "Which inheritance problem exists here?",
+      "code": "class Bird {\n  void fly() {...}\n}\nclass Penguin extends Bird {\n  void fly() { throw new UnsupportedOperation(); }\n}",
+      "answers": [
+        "Switch Statements",
+        "Refused Bequest",
+        "Feature Envy",
+        "Data Clumps"
+      ]
+    },
+    {
+      "correctAnswer": "Lazy Class",
+      "question": "Which code smell is shown in this trivial class?",
+      "code": "class ReportFormatter {\n  string format(Report r) {\n    return r.toString();\n  }\n}",
+      "answers": [
+        "Lazy Class",
+        "Middle Man",
+        "Data Class",
+        "Duplicate Code"
+      ]
+    },
+    {
+      "correctAnswer": "Middle Man",
+      "question": "Which code smell exists in this delegation?",
+      "code": "class Order {\n  Customer getCustomer() {\n    return customerManager.getCustomer();\n  }\n}",
+      "answers": [
+        "Feature Envy",
+        "Middle Man",
+        "Message Chains",
+        "Inappropriate Intimacy"
+      ]
+    },
+    {
+      "correctAnswer": "Comments",
+      "question": "Which code smell is indicated by this comment?",
+      "code": "// Check if employee is eligible for bonus\nif (employee.years > 2 && employee.rating > 3)",
+      "answers": [
+        "Comments",
+        "Duplicate Code",
+        "Long Method",
+        "Primitive Obsession"
+      ]
+    },
+    {
+      "correctAnswer": "Shotgun Surgery",
+      "question": "Which change problem is shown here?",
+      "code": "// Tax calculation spread across:\n// Order.java, Invoice.java, ReportGenerator.java",
+      "answers": [
+        "Divergent Change",
+        "Shotgun Surgery",
+        "Parallel Inheritance",
+        "Data Clumps"
+      ]
+    },
+    {
+      "correctAnswer": "Divergent Change",
+      "question": "Which maintenance issue exists here?",
+      "code": "class ReportGenerator {\n  // Changed for both formatting AND data source reasons\n}",
+      "answers": [
+        "Divergent Change",
+        "Shotgun Surgery",
+        "Feature Envy",
+        "Data Clumps"
+      ]
+    },
+    {
+      "correctAnswer": "A.1 - 'Get' more than accessor",
+      "question": "Which linguistic anti-pattern exists?",
+      "code": "List<Item> getCartItems() {\n  loadInventory();\n  applyDiscounts();\n  return items;\n}",
+      "answers": [
+        "A.1 - 'Get' more than accessor",
+        "B.3 - 'Get' doesn't return",
+        "C.1 - Name/type oppose",
+        "D.1 - Says one but many"
+      ]
+    },
+    {
+      "correctAnswer": "A.2 - 'Is' returns more than Boolean",
+      "question": "Which naming issue exists here?",
+      "code": "int isValid() { // Returns validation codes 0-4\n  return checkRules() ? 1 : 0;\n}",
+      "answers": [
+        "A.2 - 'Is' returns more than Boolean",
+        "B.4 - Not answered question",
+        "C.2 - Signature/comment oppose",
+        "E.1 - Says many but one"
+      ]
+    },
+    {
+      "correctAnswer": "A.3 - 'Set' method returns",
+      "question": "Which convention violation exists?",
+      "code": "Customer setName(string n) {\n  this.name = n;\n  return this;\n}",
+      "answers": [
+        "A.3 - 'Set' method returns",
+        "B.5 - Transform doesn't return",
+        "D.2 - Name suggests Boolean",
+        "F.1 - Name/type oppose"
+      ]
+    },
+    {
+      "correctAnswer": "B.3 - 'Get' method does not return",
+      "question": "Which implementation issue exists?",
+      "code": "void getConfiguration() {\n  loadConfig();\n  validateConfig();\n}",
+      "answers": [
+        "A.1 - 'Get' does more",
+        "B.3 - 'Get' method does not return",
+        "C.1 - Name/type oppose",
+        "E.1 - Says many but one"
+      ]
+    },
+    {
+      "correctAnswer": "B.4 - Not answered question",
+      "question": "Which boolean method issue exists?",
+      "code": "void isValid() {\n  return checks > 0;\n}",
+      "answers": [
+        "A.2 - 'Is' returns more",
+        "B.4 - Not answered question",
+        "D.2 - Name suggests Boolean",
+        "F.2 - Signature/comment oppose"
+      ]
+    },
+    {
+      "correctAnswer": "C.1 - Name and return type oppose",
+      "question": "Which contradiction exists here?",
+      "code": "EnabledState disable() {\n  return new EnabledState(false);\n}",
+      "answers": [
+        "B.5 - Transform doesn't return",
+        "C.1 - Name and return type oppose",
+        "E.1 - Says many but one",
+        "F.1 - Name/type oppose"
+      ]
+    },
+    {
+      "correctAnswer": "D.1 - Says one but contains many",
+      "question": "Which naming issue exists?",
+      "code": "List<Employee> employee = new ArrayList<>();",
+      "answers": [
+        "D.1 - Says one but contains many",
+        "E.1 - Says many but one",
+        "F.1 - Name/type oppose",
+        "F.2 - Signature/comment oppose"
+      ]
+    },
+    {
+      "correctAnswer": "D.2 - Name suggests Boolean but type does not",
+      "question": "Which type mismatch exists?",
+      "code": "int isActive = 0; // 0=false, 1=true",
+      "answers": [
+        "D.2 - Name suggests Boolean but type does not",
+        "E.1 - Says many but one",
+        "F.1 - Name/type oppose",
+        "F.2 - Signature/comment oppose"
+      ]
+    },
+    {
+      "correctAnswer": "E.1 - Says many but contains one",
+      "question": "Which naming issue exists?",
+      "code": "boolean statistics = false; // Toggle for stats",
+      "answers": [
+        "D.1 - Says one but many",
+        "E.1 - Says many but contains one",
+        "F.1 - Name/type oppose",
+        "F.2 - Signature/comment oppose"
+      ]
+    },
+    {
+      "correctAnswer": "F.1 - Attribute name and type oppose",
+      "question": "Which contradiction exists?",
+      "code": "Endpoint startPoint; // Actually stores connection",
+      "answers": [
+        "D.1 - Says one but many",
+        "E.1 - Says many but one",
+        "F.1 - Attribute name and type oppose",
+        "F.2 - Signature/comment oppose"
+      ]
+    },
+    {
+      "correctAnswer": "F.2 - Signature and comment oppose",
+      "question": "Which documentation issue exists?",
+      "code": "/* Excluded patterns */\nconst string INCLUDED_PATTERNS = ...",
+      "answers": [
+        "D.2 - Name suggests Boolean",
+        "E.1 - Says many but one",
+        "F.1 - Name/type oppose",
+        "F.2 - Signature and comment oppose"
+      ]
+    },
+    {
+      "correctAnswer": "Spaghetti Code",
+      "question": "Which anti-pattern is shown?",
+      "code": "void process() {\n  if (a) { x(); goto y; }\n  else if (b) { z(); goto x; }\n  // Many tangled gotos\n}",
+      "answers": [
+        "The Blob",
+        "Spaghetti Code",
+        "Input Kludge",
+        "Ambiguous Viewpoint"
+      ]
+    },
+    {
+      "correctAnswer": "Lava Flow",
+      "question": "Which anti-pattern is leftover code?",
+      "code": "// Old credit calc, don't know if safe to remove\nvoid LegacyCreditCalc() {...}",
+      "answers": [
+        "Dead End",
+        "Lava Flow",
+        "Poltergeists",
+        "Boat Anchor"
+      ]
+    },
+    {
+      "correctAnswer": "Golden Hammer",
+      "question": "Which anti-pattern overuses XML?",
+      "code": "// Using XML for everything\nclass Config, class Logger, class DataStore...",
+      "answers": [
+        "Golden Hammer",
+        "The Blob",
+        "Cut-and-Paste",
+        "Mushroom Management"
+      ]
+    },
+    {
+      "correctAnswer": "Dead End",
+      "question": "Which anti-pattern is unsupported?",
+      "code": "// Vendor SDK discontinued in 2020\nvoid UseOldSDK() {...}",
+      "answers": [
+        "Dead End",
+        "Lava Flow",
+        "Boat Anchor",
+        "Input Kludge"
+      ]
+    },
+    {
+      "correctAnswer": "Input Kludge",
+      "question": "Which anti-pattern ignores errors?",
+      "code": "void ProcessInput() {\n  try {...} catch { /* ignore */ }\n}",
+      "answers": [
+        "Input Kludge",
+        "Ambiguous Viewpoint",
+        "Walking through Minefield",
+        "Functional Decomposition"
+      ]
+    },
+    {
+      "correctAnswer": "Ambiguous Viewpoint",
+      "question": "Which anti-pattern mixes concerns?",
+      "code": "class Report {\n  // Mixes UI, business logic, and DB code\n}",
+      "answers": [
+        "Ambiguous Viewpoint",
+        "The Blob",
+        "Cut-and-Paste",
+        "Poltergeists"
+      ]
+    },
+    {
+      "correctAnswer": "Functional Decomposition",
+      "question": "Which anti-pattern is procedural in OO?",
+      "code": "class Order {\n  void Step1() {...}\n  void Step2() {...}\n  // No real objects\n}",
+      "answers": [
+        "Functional Decomposition",
+        "The Blob",
+        "Spaghetti Code",
+        "Golden Hammer"
+      ]
+    },
+    {
+      "correctAnswer": "Cut-and-Paste Programming",
+      "question": "Which anti-pattern duplicates code?",
+      "code": "// Same validation copied in 10 places\nbool Validate() {...}",
+      "answers": [
+        "Cut-and-Paste Programming",
+        "Spaghetti Code",
+        "Lava Flow",
+        "Boat Anchor"
+      ]
+    },
+    {
+      "correctAnswer": "Poltergeists",
+      "question": "Which anti-pattern has trivial classes?",
+      "code": "class ManagerFactoryCreator {...} // Just instantiates",
+      "answers": [
+        "Poltergeists",
+        "The Blob",
+        "Lazy Class",
+        "Middle Man"
+      ]
+    },
+    {
+      "correctAnswer": "Boat Anchor",
+      "question": "Which anti-pattern retains unneeded code?",
+      "code": "// JPEG support from 1990s\nclass JpegHandler {...} // Never used",
+      "answers": [
+        "Boat Anchor",
+        "Lava Flow",
+        "Dead End",
+        "Golden Hammer"
+      ]
+    },
+    {
+      "correctAnswer": "Mushroom Management",
+      "question": "Which anti-pattern keeps devs uninformed?",
+      "code": "// No specs, just fix bugs as they come in",
+      "answers": [
+        "Mushroom Management",
+        "Golden Hammer",
+        "Input Kludge",
+        "Ambiguous Viewpoint"
+      ]
+    },
+    {
+      "correctAnswer": "Decorator pattern",
+      "question": "Which design pattern is demonstrated by this code?",
+      "code": "public interface Coffee {\n    double getCost();\n    String getDescription();\n}\n\npublic class SimpleCoffee implements Coffee {\n    public double getCost() { return 1.0; }\n    public String getDescription() { return \"Simple coffee\"; }\n}\n\npublic abstract class CoffeeDecorator implements Coffee {\n    protected Coffee decoratedCoffee;\n    public CoffeeDecorator(Coffee coffee) { this.decoratedCoffee = coffee; }\n    public double getCost() { return decoratedCoffee.getCost(); }\n    public String getDescription() { return decoratedCoffee.getDescription(); }\n}",
+      "answers": [
+        "Strategy pattern",
+        "Decorator pattern",
+        "Adapter pattern",
+        "Proxy pattern"
+      ]
+    },
+    {
+      "correctAnswer": "Decorator pattern",
+      "question": "Which pattern is shown in this implementation?",
+      "code": "public class MilkDecorator extends CoffeeDecorator {\n    public MilkDecorator(Coffee coffee) { super(coffee); }\n    public double getCost() { return super.getCost() + 0.5; }\n    public String getDescription() { return super.getDescription() + \", milk\"; }\n}",
+      "answers": [
+        "Factory Method",
+        "Decorator pattern",
+        "Composite",
+        "Bridge"
+      ]
+    },
+    {
+      "correctAnswer": "Decorator pattern",
+      "question": "Which pattern does this code example represent?",
+      "code": "public class WhipDecorator extends CoffeeDecorator {\n    public WhipDecorator(Coffee coffee) { super(coffee); }\n    public double getCost() { return super.getCost() + 0.7; }\n    public String getDescription() { return super.getDescription() + \", whip\"; }\n}",
+      "answers": [
+        "Observer",
+        "Decorator pattern",
+        "Visitor",
+        "Template Method"
+      ]
+    },
+    {
+      "correctAnswer": "Decorator pattern",
+      "question": "Which pattern is illustrated by this code?",
+      "code": "Coffee myCoffee = new SimpleCoffee();\nmyCoffee = new MilkDecorator(myCoffee);\nmyCoffee = new WhipDecorator(myCoffee);",
+      "answers": [
+        "Chain of Responsibility",
+        "Decorator pattern",
+        "Flyweight",
+        "Memento"
+      ]
+    },
+    {
+      "correctAnswer": "Decorator pattern",
+      "question": "Which pattern is being used in this example?",
+      "code": "public class VanillaDecorator extends CoffeeDecorator {\n    public VanillaDecorator(Coffee coffee) { super(coffee); }\n    public double getCost() { return super.getCost() + 0.3; }\n    public String getDescription() { return super.getDescription() + \", vanilla\"; }\n}",
+      "answers": [
+        "Singleton",
+        "Decorator pattern",
+        "Prototype",
+        "Builder"
+      ]
+    },
+    {
+      "correctAnswer": "Observer pattern",
+      "question": "Which design pattern is demonstrated by this code?",
+      "code": "public interface Subject {\n    void registerObserver(Observer o);\n    void removeObserver(Observer o);\n    void notifyObservers();\n}\n\npublic interface Observer {\n    void update(float temp, float humidity, float pressure);\n}",
+      "answers": [
+        "Mediator pattern",
+        "Observer pattern",
+        "Command pattern",
+        "State pattern"
+      ]
+    },
+    {
+      "correctAnswer": "Observer pattern",
+      "question": "Which pattern is shown in this implementation?",
+      "code": "public class WeatherData implements Subject {\n    private List<Observer> observers;\n    private float temperature;\n    private float humidity;\n    private float pressure;\n    \n    public void registerObserver(Observer o) { observers.add(o); }\n    public void removeObserver(Observer o) { observers.remove(o); }\n    public void notifyObservers() {\n        for (Observer o : observers) {\n            o.update(temperature, humidity, pressure);\n        }\n    }\n}",
+      "answers": [
+        "Visitor pattern",
+        "Observer pattern",
+        "Strategy pattern",
+        "Proxy pattern"
+      ]
+    },
+    {
+      "correctAnswer": "Observer pattern",
+      "question": "Which pattern does this code example represent?",
+      "code": "public class CurrentConditionsDisplay implements Observer {\n    private float temperature;\n    private float humidity;\n    private Subject weatherData;\n    \n    public CurrentConditionsDisplay(Subject weatherData) {\n        this.weatherData = weatherData;\n        weatherData.registerObserver(this);\n    }\n    \n    public void update(float temp, float humidity, float pressure) {\n        this.temperature = temp;\n        this.humidity = humidity;\n        display();\n    }\n}",
+      "answers": [
+        "Decorator pattern",
+        "Observer pattern",
+        "Adapter pattern",
+        "Facade pattern"
+      ]
+    },
+    {
+      "correctAnswer": "Observer pattern",
+      "question": "Which pattern is illustrated by this code?",
+      "code": "WeatherData weatherData = new WeatherData();\nCurrentConditionsDisplay currentDisplay = new CurrentConditionsDisplay(weatherData);\nStatisticsDisplay statsDisplay = new StatisticsDisplay(weatherData);\nweatherData.setMeasurements(80, 65, 30.4f);",
+      "answers": [
+        "Chain of Responsibility",
+        "Observer pattern",
+        "Composite",
+        "Bridge"
+      ]
+    },
+    {
+      "correctAnswer": "Observer pattern",
+      "question": "Which pattern is being used in this example?",
+      "code": "public class WeatherStation {\n    public static void main(String[] args) {\n        WeatherData weatherData = new WeatherData();\n        \n        CurrentConditionsDisplay currentDisplay = \n            new CurrentConditionsDisplay(weatherData);\n        \n        weatherData.setMeasurements(78, 90, 29.2f);\n    }\n}",
+      "answers": [
+        "Singleton",
+        "Observer pattern",
+        "Prototype",
+        "Builder"
+      ]
+    },
+    {
+      "correctAnswer": "Dependency Inversion Principle",
+      "question": "Which principle does this code demonstrate?",
+      "code": "class OrderService {\n    private PaymentProcessor processor;\n    public OrderService(PaymentProcessor p) {\n        this.processor = p;\n    }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Dependency Inversion Principle",
+        "Liskov Substitution Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Interface Segregation Principle",
+      "question": "Which principle is violated in this example?",
+      "code": "interface Worker {\n    void work();\n    void eat();\n}\nclass Robot implements Worker {\n    void work() { /*...*/ }\n    void eat() { /* Not needed */ }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Interface Segregation Principle",
+        "Open/Closed Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Dependency Inversion Principle",
+      "question": "Which principle is correctly applied here?",
+      "code": "interface DataAccess {\n    void save(Object data);\n}\nclass CustomerService {\n    private DataAccess dao;\n    public CustomerService(DataAccess d) {\n        this.dao = d;\n    }\n}",
+      "answers": [
+        "Interface Segregation Principle",
+        "Dependency Inversion Principle",
+        "Liskov Substitution Principle",
+        "Single Responsibility Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Interface Segregation Principle",
+      "question": "Which principle is followed in this refactored code?",
+      "code": "interface Workable {\n    void work();\n}\ninterface Eatable {\n    void eat();\n}\nclass Robot implements Workable {\n    void work() { /*...*/ }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Interface Segregation Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Dependency Inversion Principle",
+      "question": "Which principle is violated in this example?",
+      "code": "class ReportGenerator {\n    private MySQLDatabase db;\n    public ReportGenerator() {\n        this.db = new MySQLDatabase();\n    }\n}",
+      "answers": [
+        "Liskov Substitution Principle",
+        "Dependency Inversion Principle",
+        "Interface Segregation Principle",
+        "Single Responsibility Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Interface Segregation Principle",
+      "question": "Which principle suggests this interface design is better?",
+      "code": "interface Printer {\n    void print();\n}\ninterface Scanner {\n    void scan();\n}\nclass AllInOneMachine implements Printer, Scanner {\n    void print() { /*...*/ }\n    void scan() { /*...*/ }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Interface Segregation Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Dependency Inversion Principle",
+      "question": "Which principle does this code demonstrate?",
+      "code": "class OrderService {\n    private PaymentProcessor processor;\n    public OrderService(PaymentProcessor p) {\n        this.processor = p;\n    }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Dependency Inversion Principle",
+        "Liskov Substitution Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Interface Segregation Principle",
+      "question": "Which principle is violated in this example?",
+      "code": "interface Worker {\n    void work();\n    void eat();\n}\nclass Robot implements Worker {\n    void work() { /*...*/ }\n    void eat() { /* Not needed */ }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Interface Segregation Principle",
+        "Open/Closed Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Dependency Inversion Principle",
+      "question": "Which principle is correctly applied here?",
+      "code": "interface DataAccess {\n    void save(Object data);\n}\nclass CustomerService {\n    private DataAccess dao;\n    public CustomerService(DataAccess d) {\n        this.dao = d;\n    }\n}",
+      "answers": [
+        "Interface Segregation Principle",
+        "Dependency Inversion Principle",
+        "Liskov Substitution Principle",
+        "Single Responsibility Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Interface Segregation Principle",
+      "question": "Which principle is followed in this refactored code?",
+      "code": "interface Workable {\n    void work();\n}\ninterface Eatable {\n    void eat();\n}\nclass Robot implements Workable {\n    void work() { /*...*/ }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Interface Segregation Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Dependency Inversion Principle",
+      "question": "Which principle is violated in this example?",
+      "code": "class ReportGenerator {\n    private MySQLDatabase db;\n    public ReportGenerator() {\n        this.db = new MySQLDatabase();\n    }\n}",
+      "answers": [
+        "Liskov Substitution Principle",
+        "Dependency Inversion Principle",
+        "Interface Segregation Principle",
+        "Single Responsibility Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Interface Segregation Principle",
+      "question": "Which principle suggests this interface design is better?",
+      "code": "interface Printer {\n    void print();\n}\ninterface Scanner {\n    void scan();\n}\nclass AllInOneMachine implements Printer, Scanner {\n    void print() { /*...*/ }\n    void scan() { /*...*/ }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Interface Segregation Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Single Responsibility Principle",
+      "question": "Which principle does this class violate?",
+      "code": "class ReportHandler {\n    void generateReport(String data) { /*...*/ }\n    void saveToFile(String content) { /*...*/ }\n    void sendEmail(String recipient) { /*...*/ }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Open/Closed Principle",
+      "question": "Which principle is correctly applied in this shape hierarchy?",
+      "code": "interface Shape { void draw(); }\nclass Circle implements Shape { /*...*/ }\nclass Square implements Shape { /*...*/ }",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Single Responsibility Principle",
+      "question": "Which principle is correctly applied in this separation?",
+      "code": "class ReportGenerator { void generate() { /*...*/ } }\nclass FileSaver { void save() { /*...*/ } }",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Liskov Substitution Principle",
+      "question": "Which principle is followed in this sorter implementation?",
+      "code": "class Sorter { void sort(int[] arr) { /*...*/ } }\nclass QuickSorter extends Sorter { /* Same sorting logic */ }",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Single Responsibility Principle",
+      "question": "Which principle is violated when a class handles both data processing and user interface?",
+      "code": "class DataManager {\n    void processData() { /*...*/ }\n    void displayData() { /*...*/ }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Liskov Substitution Principle",
+      "question": "Which principle is violated when a subclass changes the expected behavior of a superclass method?",
+      "code": "class Rectangle {\n    int getArea() { return width * height; }\n}\nclass Square extends Rectangle {\n    @Override\n    int getArea() { return side * side; }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Open/Closed Principle",
+      "question": "Which principle is demonstrated by using inheritance to extend functionality without modifying existing code?",
+      "code": "class Animal {\n    void makeSound() { /*...*/ }\n}\nclass Dog extends Animal {\n    @Override\n    void makeSound() { /* Bark */ }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Violates Law of Demeter",
+      "question": "What's special about this code?",
+      "code": "class ReportGenerator {\n  void generate() {\n    String data = database.getConnection().getQuery().execute();\n  }\n}",
+      "answers": [
+        "Follows Law of Demeter",
+        "Violates Law of Demeter",
+        "Demonstrates Dependency Injection",
+        "Shows High Cohesion"
+      ]
+    },
+    {
+      "correctAnswer": "Follows Law of Demeter",
+      "question": "What's special about this code?",
+      "code": "class ReportGenerator {\n  void generate() {\n    String data = database.executeQuery();\n  }\n}",
+      "answers": [
+        "Violates Law of Demeter",
+        "Follows Law of Demeter",
+        "Shows Tight Coupling",
+        "Breaks Single Responsibility"
+      ]
+    },
+    {
+      "correctAnswer": "Violates Law of Demeter",
+      "question": "What's special about this code?",
+      "code": "class Car {\n  Engine getEngine() { /*...*/ }\n}\nclass Mechanic {\n  void checkOil(Car car) {\n    int level = car.getEngine().getOil().getLevel();\n  }\n}",
+      "answers": [
+        "Follows Law of Demeter",
+        "Violates Law of Demeter",
+        "Demonstrates High Cohesion",
+        "Shows Loose Coupling"
+      ]
+    },
+    {
+      "correctAnswer": "Single Responsibility Principle",
+      "question": "Which principle does this class violate?",
+      "code": "class ReportHandler {\n    void generateReport(String data) { /*...*/ }\n    void saveToFile(String content) { /*...*/ }\n    void sendEmail(String recipient) { /*...*/ }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Open/Closed Principle",
+      "question": "Which principle is correctly applied in this shape hierarchy?",
+      "code": "interface Shape { void draw(); }\nclass Circle implements Shape { /*...*/ }\nclass Square implements Shape { /*...*/ }",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Single Responsibility Principle",
+      "question": "Which principle is correctly applied in this separation?",
+      "code": "class ReportGenerator { void generate() { /*...*/ } }\nclass FileSaver { void save() { /*...*/ } }",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Liskov Substitution Principle",
+      "question": "Which principle is followed in this sorter implementation?",
+      "code": "class Sorter { void sort(int[] arr) { /*...*/ } }\nclass QuickSorter extends Sorter { /* Same sorting logic */ }",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Single Responsibility Principle",
+      "question": "Which principle is violated when a class handles both data processing and user interface?",
+      "code": "class DataManager {\n    void processData() { /*...*/ }\n    void displayData() { /*...*/ }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Liskov Substitution Principle",
+      "question": "Which principle is violated when a subclass changes the expected behavior of a superclass method?",
+      "code": "class Rectangle {\n    int getArea() { return width * height; }\n}\nclass Square extends Rectangle {\n    @Override\n    int getArea() { return side * side; }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Open/Closed Principle",
+      "question": "Which principle is demonstrated by using inheritance to extend functionality without modifying existing code?",
+      "code": "class Animal {\n    void makeSound() { /*...*/ }\n}\nclass Dog extends Animal {\n    @Override\n    void makeSound() { /* Bark */ }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Singleton pattern",
+      "question": "Which design pattern is demonstrated by this code?",
+      "code": "public class DatabaseConnection {\n  private static DatabaseConnection instance;\n  private DatabaseConnection() {}\n  public static DatabaseConnection getInstance() {\n    if (instance == null) {\n      instance = new DatabaseConnection();\n    }\n    return instance;\n  }\n}",
+      "answers": [
+        "Factory Method",
+        "Singleton pattern",
+        "Builder",
+        "Prototype"
+      ]
+    },
+    {
+      "correctAnswer": "Singleton pattern",
+      "question": "Which design pattern is shown in this implementation?",
+      "code": "public class Logger {\n  private static Logger logger;\n  private Logger() {}\n  public static synchronized Logger getLogger() {\n    if (logger == null) {\n      logger = new Logger();\n    }\n    return logger;\n  }\n}",
+      "answers": [
+        "Adapter",
+        "Singleton pattern",
+        "Decorator",
+        "Observer"
+      ]
+    },
+    {
+      "correctAnswer": "Singleton pattern",
+      "question": "Which design pattern does this code example represent?",
+      "code": "public class AppConfig {\n  private static AppConfig config = new AppConfig();\n  private AppConfig() {}\n  public static AppConfig getConfig() {\n    return config;\n  }\n}",
+      "answers": [
+        "Strategy",
+        "Facade",
+        "Singleton pattern",
+        "Composite"
+      ]
+    },
+    {
+      "correctAnswer": "Strategy pattern",
+      "question": "Which design pattern is illustrated by this code?",
+      "code": "interface CompressionStrategy {\n  void compress(String file);\n}\nclass ZipCompression implements CompressionStrategy {\n  public void compress(String file) { /*...*/ }\n}\nclass RarCompression implements CompressionStrategy {\n  public void compress(String file) { /*...*/ }\n}",
+      "answers": [
+        "Strategy pattern",
+        "Template Method",
+        "Visitor",
+        "Chain of Responsibility"
+      ]
+    },
+    {
+      "correctAnswer": "Strategy pattern",
+      "question": "Which design pattern is being used in this example?",
+      "code": "interface PaymentStrategy {\n  void pay(int amount);\n}\nclass CreditCardPayment implements PaymentStrategy {\n  public void pay(int amount) { /*...*/ }\n}\nclass PayPalPayment implements PaymentStrategy {\n  public void pay(int amount) { /*...*/ }\n}",
+      "answers": [
+        "Decorator",
+        "Strategy pattern",
+        "Proxy",
+        "Bridge"
+      ]
+    },
+    {
+      "correctAnswer": "Strategy pattern",
+      "question": "Which design pattern does this code demonstrate?",
+      "code": "interface SortAlgorithm {\n  void sort(int[] data);\n}\nclass QuickSort implements SortAlgorithm {\n  public void sort(int[] data) { /*...*/ }\n}\nclass MergeSort implements SortAlgorithm {\n  public void sort(int[] data) { /*...*/ }\n}",
+      "answers": [
+        "Observer",
+        "Strategy pattern",
+        "State",
+        "Command"
+      ]
+    },
+    {
+      "correctAnswer": "Facade pattern",
+      "question": "Which design pattern is shown in this implementation?",
+      "code": "class HomeTheaterFacade {\n  private Amplifier amp;\n  private DvdPlayer dvd;\n  public HomeTheaterFacade(Amplifier a, DvdPlayer d) {\n    this.amp = a;\n    this.dvd = d;\n  }\n  public void watchMovie() {\n    amp.on();\n    dvd.on();\n    dvd.play();\n  }\n}",
+      "answers": [
+        "Mediator",
+        "Proxy",
+        "Facade pattern",
+        "Flyweight"
+      ]
+    },
+    {
+      "correctAnswer": "Facade pattern",
+      "question": "Which design pattern does this code represent?",
+      "code": "class Computer {\n  private CPU cpu;\n  private Memory memory;\n  public Computer() {\n    this.cpu = new CPU();\n    this.memory = new Memory();\n  }\n  public void start() {\n    cpu.initialize();\n    memory.load();\n  }\n}",
+      "answers": [
+        "Composite",
+        "Facade pattern",
+        "Adapter",
+        "Bridge"
+      ]
+    },
+    {
+      "correctAnswer": "Facade pattern",
+      "question": "Which design pattern is demonstrated by this code?",
+      "code": "class BankAccountFacade {\n  private AccountNumberCheck acctChecker;\n  private SecurityCodeCheck codeChecker;\n  public BankAccountFacade() {\n    this.acctChecker = new AccountNumberCheck();\n    this.codeChecker = new SecurityCodeCheck();\n  }\n  public void withdrawCash(double amount) {\n    if (acctChecker.validate() && codeChecker.validate()) {\n      // Process withdrawal\n    }\n  }\n}",
+      "answers": [
+        "Decorator",
+        "Facade pattern",
+        "Chain of Responsibility",
+        "Visitor"
+      ]
+    },
+    {
+      "correctAnswer": "Facade pattern",
+      "question": "Which design pattern is being used in this example?",
+      "code": "class OrderProcessingFacade {\n  private InventorySystem inventory;\n  private PaymentSystem payment;\n  private ShippingSystem shipping;\n  public OrderProcessingFacade() {\n    this.inventory = new InventorySystem();\n    this.payment = new PaymentSystem();\n    this.shipping = new ShippingSystem();\n  }\n  public void placeOrder(Order order) {\n    inventory.checkStock();\n    payment.processPayment();\n    shipping.shipOrder();\n  }\n}",
+      "answers": [
+        "Observer",
+        "Strategy",
+        "Facade pattern",
+        "Proxy"
+      ]
+    }
+  ]
+}
