@@ -1,0 +1,27 @@
+{
+  "questions": [
+    {"correctAnswer": "Creational Patterns", "question": "Abstract Factory belongs to which pattern classification?", "answers": ["Structural Patterns", "Creational Patterns", "Behavioural Patterns"]},
+    {"correctAnswer": "Creational Patterns", "question": "Builder belongs to which pattern classification?", "answers": ["Structural Patterns", "Creational Patterns", "Behavioural Patterns"]},
+    {"correctAnswer": "Creational Patterns", "question": "Factory Method belongs to which pattern classification?", "answers": ["Structural Patterns", "Creational Patterns", "Behavioural Patterns"]},
+    {"correctAnswer": "Creational Patterns", "question": "Prototype belongs to which pattern classification?", "answers": ["Structural Patterns", "Creational Patterns", "Behavioural Patterns"]},
+    {"correctAnswer": "Creational Patterns", "question": "Singleton belongs to which pattern classification?", "answers": ["Structural Patterns", "Creational Patterns", "Behavioural Patterns"]},
+    {"correctAnswer": "Structural Patterns", "question": "Adapter belongs to which pattern classification?", "answers": ["Structural Patterns", "Creational Patterns", "Behavioural Patterns"]},
+    {"correctAnswer": "Structural Patterns", "question": "Bridge belongs to which pattern classification?", "answers": ["Structural Patterns", "Creational Patterns", "Behavioural Patterns"]},
+    {"correctAnswer": "Structural Patterns", "question": "Composite belongs to which pattern classification?", "answers": ["Structural Patterns", "Creational Patterns", "Behavioural Patterns"]},
+    {"correctAnswer": "Structural Patterns", "question": "Decorator belongs to which pattern classification?", "answers": ["Structural Patterns", "Creational Patterns", "Behavioural Patterns"]},
+    {"correctAnswer": "Structural Patterns", "question": "Facade belongs to which pattern classification?", "answers": ["Structural Patterns", "Creational Patterns", "Behavioural Patterns"]},
+    {"correctAnswer": "Structural Patterns", "question": "Flyweight belongs to which pattern classification?", "answers": ["Structural Patterns", "Creational Patterns", "Behavioural Patterns"]},
+    {"correctAnswer": "Structural Patterns", "question": "Proxy belongs to which pattern classification?", "answers": ["Structural Patterns", "Creational Patterns", "Behavioural Patterns"]},
+    {"correctAnswer": "Behavioural Patterns", "question": "Chain of Responsibility belongs to which pattern classification?", "answers": ["Structural Patterns", "Creational Patterns", "Behavioural Patterns"]},
+    {"correctAnswer": "Behavioural Patterns", "question": "Command belongs to which pattern classification?", "answers": ["Structural Patterns", "Creational Patterns", "Behavioural Patterns"]},
+    {"correctAnswer": "Behavioural Patterns", "question": "Interpreter belongs to which pattern classification?", "answers": ["Structural Patterns", "Creational Patterns", "Behavioural Patterns"]},
+    {"correctAnswer": "Behavioural Patterns", "question": "Iterator belongs to which pattern classification?", "answers": ["Structural Patterns", "Creational Patterns", "Behavioural Patterns"]},
+    {"correctAnswer": "Behavioural Patterns", "question": "Mediator belongs to which pattern classification?", "answers": ["Structural Patterns", "Creational Patterns", "Behavioural Patterns"]},
+    {"correctAnswer": "Behavioural Patterns", "question": "Memento belongs to which pattern classification?", "answers": ["Structural Patterns", "Creational Patterns", "Behavioural Patterns"]},
+    {"correctAnswer": "Behavioural Patterns", "question": "Observer belongs to which pattern classification?", "answers": ["Structural Patterns", "Creational Patterns", "Behavioural Patterns"]},
+    {"correctAnswer": "Behavioural Patterns", "question": "State belongs to which pattern classification?", "answers": ["Structural Patterns", "Creational Patterns", "Behavioural Patterns"]},
+    {"correctAnswer": "Behavioural Patterns", "question": "Strategy belongs to which pattern classification?", "answers": ["Structural Patterns", "Creational Patterns", "Behavioural Patterns"]},
+    {"correctAnswer": "Behavioural Patterns", "question": "Template Method belongs to which pattern classification?", "answers": ["Structural Patterns", "Creational Patterns", "Behavioural Patterns"]},
+    {"correctAnswer": "Behavioural Patterns", "question": "Visitor belongs to which pattern classification?", "answers": ["Structural Patterns", "Creational Patterns", "Behavioural Patterns"]}
+  ]
+}
