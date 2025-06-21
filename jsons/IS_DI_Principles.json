@@ -1,0 +1,19 @@
+{
+  "questions": [
+    {"correctAnswer": "Dependency Inversion Principle", "question": "Which principle states that high-level modules should depend on abstractions rather than concrete implementations?", "answers": ["Single Responsibility Principle", "Open/Closed Principle", "Dependency Inversion Principle", "Interface Segregation Principle"]},
+    {"correctAnswer": "Interface Segregation Principle", "question": "Which principle recommends breaking large interfaces into smaller, more specific ones?", "answers": ["Liskov Substitution Principle", "Interface Segregation Principle", "Open/Closed Principle", "Single Responsibility Principle"]},
+    {"correctAnswer": "Abstractions", "question": "According to DIP, what should both high-level and low-level modules depend on?", "answers": ["Concrete classes", "Abstractions", "Utility methods", "Global variables"]},
+    {"correctAnswer": "Reduced dependencies", "question": "What is a key benefit of following the Interface Segregation Principle?", "answers": ["Faster compilation", "Reduced dependencies", "Smaller executable size", "Lower memory usage"]},
+    {"correctAnswer": "Both should depend on abstractions", "question": "In the Dependency Inversion Principle, how should high-level and low-level modules relate to each other?", "answers": ["High-level depends on low-level", "Low-level depends on high-level", "Both should depend on abstractions", "They should be independent"]},
+    {"correctAnswer": "Client-specific interfaces", "question": "What does ISP recommend creating instead of general-purpose interfaces?", "answers": ["Client-specific interfaces", "Abstract base classes", "Friend classes", "Templated interfaces"]},
+    {"correctAnswer": "Business logic", "question": "What do high-level modules typically contain in an application?", "answers": ["Database connections", "Business logic", "UI components", "Network protocols"]},
+    {"correctAnswer": "Implementation details", "question": "What do low-level modules typically handle in an application?", "answers": ["User requirements", "Implementation details", "System architecture", "Business rules"]},
+    {"correctAnswer": "Violates ISP", "question": "What principle is violated when a class must implement methods it doesn't need?", "answers": ["Follows LSP", "Violates ISP", "Adheres to DIP", "Supports SRP"]},
+    {"correctAnswer": "Dependency injection", "question": "Which technique helps implement the Dependency Inversion Principle?", "answers": ["Method overloading", "Dependency injection", "Multiple inheritance", "Operator overloading"]},
+    {"correctAnswer": "Decouples modules", "question": "How does DIP improve software design?", "answers": ["Increases performance", "Decouples modules", "Reduces code size", "Simplifies debugging"]},
+    {"correctAnswer": "Multiple small interfaces", "question": "According to ISP, what is better than one large interface?", "answers": ["Multiple small interfaces", "A single abstract class", "Friend functions", "Global methods"]},
+    {"correctAnswer": "Changes propagate through layers", "question": "What problem does DIP help avoid in layered architectures?", "answers": ["Too many classes", "Changes propagate through layers", "Slow compilation", "Memory leaks"]},
+    {"correctAnswer": "Client should not depend on unused methods", "question": "What is the core idea behind the Interface Segregation Principle?", "answers": ["Interfaces should be large", "Client should not depend on unused methods", "All methods should be abstract", "Interfaces should inherit from classes"]},
+    {"correctAnswer": "Abstract classes or interfaces", "question": "What should modules depend on according to DIP?", "answers": ["Concrete implementations", "Abstract classes or interfaces", "Global functions", "Static methods"]}
+  ]
+}

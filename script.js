@@ -115,6 +115,7 @@ function next() {
         hideButton('next');
     }
     setRadios();
+    renderCodeBlock();
     answer = undefined;
     document.title = `Question ${index + 1}`;
 }
@@ -140,6 +141,7 @@ function previous() {
     document.querySelectorAll('.custom-radio').forEach((radio) => (radio.checked = false));
     answer = undefined;
     setRadios();
+    renderCodeBlock();
     document.title = `Question ${index + 1}`;
 }
 
@@ -192,6 +194,7 @@ function toggleShuffle() {
     setRadios();
     document.getElementById('question').textContent = questions[index].question;
     document.getElementById('question-num').textContent = `Question ${index + 1}`;
+    renderCodeBlock();
     updateShuffleButtonText(); // Update button text
 }
 
@@ -201,6 +204,32 @@ function updateShuffleButtonText() {
     if (shuffleButton) {
         shuffleButton.textContent = isShuffled ? 'Unshuffle questions' : 'Shuffle questions';
     }
+}
+
+function renderCodeBlock() {
+    const codeBlock = document.getElementById('code-block');
+    const code = questions[index].code;
+    if (code) {
+        codeBlock.style.display = '';
+        codeBlock.innerHTML = `<pre><code class='language-java'>${escapeHtml(code)}</code></pre>`;
+        if (window.Prism) {
+            Prism.highlightAll();
+        }
+    } else {
+        codeBlock.style.display = 'none';
+        codeBlock.innerHTML = '';
+    }
+}
+
+// Helper to escape HTML special characters
+function escapeHtml(text) {
+    if (!text) return '';
+    return text
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
 }
 
 window.onload = function () {
@@ -227,6 +256,7 @@ window.onload = function () {
             question = document.getElementById('question');
             question.textContent = questions[index].question;
             setRadios();
+            renderCodeBlock();
 
             // Add shuffle button dynamically
             const shuffleButton = document.createElement('button');

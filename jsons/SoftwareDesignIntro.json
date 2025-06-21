@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {"correctAnswer": "Strategic Programming", "question": "Which programming approach focuses on long-term code maintainability and design quality?", "answers": ["Tactical Programming", "Strategic Programming", "Agile Programming", "Waterfall Programming"]},
+    {"correctAnswer": "Complexity", "question": "What term describes anything in a software system's structure that makes it hard to understand and modify?", "answers": ["Simplicity", "Complexity", "Coupling", "Cohesion"]},
+    {"correctAnswer": "Maintainability", "question": "Which characteristic of good software ensures it can be easily updated or modified over time?", "answers": ["Reliability", "Efficiency", "Maintainability", "Portability"]},
+    {"correctAnswer": "KISS (Keep it Simple, Stupid)", "question": "Which design principle advocates for simplicity and avoiding unnecessary complexity?", "answers": ["DRY (Don't Repeat Yourself)", "KISS (Keep it Simple, Stupid)", "SOLID", "YAGNI (You Aren't Gonna Need It)"]},
+    {"correctAnswer": "Loose Coupling", "question": "What term describes components in a system that are minimally dependent on each other?", "answers": ["Tight Coupling", "Loose Coupling", "High Cohesion", "Low Cohesion"]},
+    {"correctAnswer": "High Cohesion", "question": "Which term describes a module where all elements are strongly related and focused on a single task?", "answers": ["Low Cohesion", "High Cohesion", "Tight Coupling", "Loose Coupling"]},
+    {"correctAnswer": "Tight Coupling", "question": "What is the term for a situation where components are highly interdependent, making changes difficult?", "answers": ["Loose Coupling", "Tight Coupling", "High Cohesion", "Low Cohesion"]},
+    {"correctAnswer": "Low Cohesion", "question": "Which term describes a module performing many unrelated tasks with weakly related elements?", "answers": ["High Cohesion", "Low Cohesion", "Tight Coupling", "Loose Coupling"]},
+    {"correctAnswer": "Testability", "question": "Which software characteristic ensures that the system can be easily verified for correctness?", "answers": ["Scalability", "Testability", "Flexibility", "Interoperability"]},
+    {"correctAnswer": "Reliability", "question": "Which characteristic of good software ensures it performs correctly under specified conditions?", "answers": ["Reliability", "Efficiency", "Acceptability", "Portability"]}
+  ]
+}

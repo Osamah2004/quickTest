@@ -1,0 +1,19 @@
+{
+  "questions": [
+    {"correctAnswer": "Design", "question": "In the software development process, which phase translates requirements into a plan for implementation?", "answers": ["Requirements", "Design", "Implementation", "Maintenance"]},
+    {"correctAnswer": "Waterfall model", "question": "Which software development model follows a linear sequence without refinement loops?", "answers": ["Agile model", "Waterfall model", "Spiral model", "Iterative model"]},
+    {"correctAnswer": "Functional requirements", "question": "What type of requirements specify system behavior for given inputs?", "answers": ["Functional requirements", "Non-functional requirements", "Design constraints", "User stories"]},
+    {"correctAnswer": "Non-functional requirements", "question": "Which requirements define system qualities like speed and security?", "answers": ["Functional requirements", "Non-functional requirements", "Domain requirements", "Technical specifications"]},
+    {"correctAnswer": "Maintainability", "question": "Which design quality ensures a system can adapt to future changes?", "answers": ["Efficiency", "Maintainability", "Testability", "Scalability"]},
+    {"correctAnswer": "Testability", "question": "What design characteristic enables systematic verification of correctness?", "answers": ["Modularity", "Testability", "Performance", "Abstraction"]},
+    {"correctAnswer": "Object-oriented design", "question": "Which design approach emphasizes organizing code into classes and objects?", "answers": ["Procedural programming", "Object-oriented design", "Functional programming", "Structured programming"]},
+    {"correctAnswer": "Domain classes", "question": "Which classes directly represent real-world entities in the problem space?", "answers": ["Utility classes", "Domain classes", "Framework classes", "GUI classes"]},
+    {"correctAnswer": "Nouns in requirements", "question": "What is the primary linguistic clue for identifying domain classes?", "answers": ["Verbs in requirements", "Nouns in requirements", "Adjectives in requirements", "User stories"]},
+    {"correctAnswer": "Verbs in requirements", "question": "What linguistic elements typically suggest methods in class design?", "answers": ["Nouns", "Verbs in requirements", "Adverbs", "Prepositions"]},
+    {"correctAnswer": "Efficiency", "question": "Which design goal focuses on optimizing computational resources?", "answers": ["Maintainability", "Efficiency", "Testability", "Readability"]},
+    {"correctAnswer": "Implementation", "question": "In the waterfall model, which phase directly follows the design phase?", "answers": ["Requirements", "Design", "Implementation", "Verification"]},
+    {"correctAnswer": "Requirements", "question": "Which phase of software development defines what the system should do?", "answers": ["Requirements", "Design", "Implementation", "Maintenance"]},
+    {"correctAnswer": "Maintenance", "question": "Which phase involves modifying software after its initial release?", "answers": ["Design", "Implementation", "Verification", "Maintenance"]},
+    {"correctAnswer": "Solution classes", "question": "Which type of classes are introduced to address technical rather than domain concerns?", "answers": ["Domain classes", "Solution classes", "Entity classes", "Business classes"]}
+  ]
+}

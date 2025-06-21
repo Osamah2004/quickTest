@@ -1,0 +1,81 @@
+{
+  "questions": [
+    {
+      "correctAnswer": "Single Responsibility Principle",
+      "question": "Which principle does this class violate?",
+      "code": "class ReportHandler {\n    void generateReport(String data) { /*...*/ }\n    void saveToFile(String content) { /*...*/ }\n    void sendEmail(String recipient) { /*...*/ }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Open/Closed Principle",
+      "question": "Which principle is correctly applied in this shape hierarchy?",
+      "code": "interface Shape { void draw(); }\nclass Circle implements Shape { /*...*/ }\nclass Square implements Shape { /*...*/ }",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Single Responsibility Principle",
+      "question": "Which principle is correctly applied in this separation?",
+      "code": "class ReportGenerator { void generate() { /*...*/ } }\nclass FileSaver { void save() { /*...*/ } }",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Liskov Substitution Principle",
+      "question": "Which principle is followed in this sorter implementation?",
+      "code": "class Sorter { void sort(int[] arr) { /*...*/ } }\nclass QuickSorter extends Sorter { /* Same sorting logic */ }",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Single Responsibility Principle",
+      "question": "Which principle is violated when a class handles both data processing and user interface?",
+      "code": "class DataManager {\n    void processData() { /*...*/ }\n    void displayData() { /*...*/ }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Liskov Substitution Principle",
+      "question": "Which principle is violated when a subclass changes the expected behavior of a superclass method?",
+      "code": "class Rectangle {\n    int getArea() { return width * height; }\n}\nclass Square extends Rectangle {\n    @Override\n    int getArea() { return side * side; }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Dependency Inversion Principle"
+      ]
+    },
+    {
+      "correctAnswer": "Open/Closed Principle",
+      "question": "Which principle is demonstrated by using inheritance to extend functionality without modifying existing code?",
+      "code": "class Animal {\n    void makeSound() { /*...*/ }\n}\nclass Dog extends Animal {\n    @Override\n    void makeSound() { /* Bark */ }\n}",
+      "answers": [
+        "Single Responsibility Principle",
+        "Open/Closed Principle",
+        "Liskov Substitution Principle",
+        "Interface Segregation Principle"
+      ]
+    }
+  ]
+}
