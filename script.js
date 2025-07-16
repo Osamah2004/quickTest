@@ -10,6 +10,8 @@ let blacklist = [];
 let isShuffled = false; // Track if questions are shuffled
 let originalQuestions; // Store the original order of questions
 
+console.log("hello world")
+
 function setAnswer(num) {
     radioId = num;
     num--;
