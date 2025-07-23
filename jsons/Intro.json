@@ -1,6 +1,6 @@
 {
   "questions": [
-    {"correctAnswer": "Design", "question": "In the software development process, which phase translates requirements into a plan for implementation?", "answers": ["Requirements", "Design", "Implementation", "Maintenance"]},
+    {"correctAnswer": "Design", "question": "In the software development process , which phase translates requirements into a plan for implementation?", "answers": ["Requirements", "Design", "Implementation", "Maintenance"]},
     {"correctAnswer": "Waterfall model", "question": "Which software development model follows a linear sequence without refinement loops?", "answers": ["Agile model", "Waterfall model", "Spiral model", "Iterative model"]},
     {"correctAnswer": "Functional requirements", "question": "What type of requirements specify system behavior for given inputs?", "answers": ["Functional requirements", "Non-functional requirements", "Design constraints", "User stories"]},
     {"correctAnswer": "Non-functional requirements", "question": "Which requirements define system qualities like speed and security?", "answers": ["Functional requirements", "Non-functional requirements", "Domain requirements", "Technical specifications"]},
